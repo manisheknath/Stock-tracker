@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-07-21",
+  "source": "manual-seed-20",
+  "note": "Hand-seeded 20-ticker subset for pipeline steps 1-2. Full ~900-ticker universe scraped weekly from Wikipedia constituents lands in build step 10.",
+  "tickers": [
+    { "ticker": "AAPL.us",   "name": "Apple Inc.",              "market": "US", "index": "NASDAQ100",  "yahooSymbol": "AAPL" },
+    { "ticker": "MSFT.us",   "name": "Microsoft Corp.",         "market": "US", "index": "NASDAQ100",  "yahooSymbol": "MSFT" },
+    { "ticker": "AMZN.us",   "name": "Amazon.com Inc.",         "market": "US", "index": "SP500",      "yahooSymbol": "AMZN" },
+    { "ticker": "GOOGL.us",  "name": "Alphabet Inc. Class A",   "market": "US", "index": "NASDAQ100",  "yahooSymbol": "GOOGL" },
+    { "ticker": "NVDA.us",   "name": "NVIDIA Corp.",            "market": "US", "index": "NASDAQ100",  "yahooSymbol": "NVDA" },
+
+    { "ticker": "BP.uk",     "name": "BP plc",                  "market": "UK", "index": "FTSE100",    "yahooSymbol": "BP.L" },
+    { "ticker": "HSBA.uk",   "name": "HSBC Holdings plc",       "market": "UK", "index": "FTSE100",    "yahooSymbol": "HSBA.L" },
+    { "ticker": "AZN.uk",    "name": "AstraZeneca plc",         "market": "UK", "index": "FTSE100",    "yahooSymbol": "AZN.L" },
+
+    { "ticker": "MC.fr",     "name": "LVMH",                    "market": "FR", "index": "CAC40",      "yahooSymbol": "MC.PA" },
+    { "ticker": "OR.fr",     "name": "L'Oreal S.A.",            "market": "FR", "index": "CAC40",      "yahooSymbol": "OR.PA" },
+
+    { "ticker": "SAP.de",    "name": "SAP SE",                  "market": "DE", "index": "DAX40",      "yahooSymbol": "SAP.DE" },
+    { "ticker": "SIE.de",    "name": "Siemens AG",              "market": "DE", "index": "DAX40",      "yahooSymbol": "SIE.DE" },
+    { "ticker": "ALV.de",    "name": "Allianz SE",              "market": "DE", "index": "DAX40",      "yahooSymbol": "ALV.DE" },
+
+    { "ticker": "ASML.nl",   "name": "ASML Holding N.V.",       "market": "NL", "index": "AEX",        "yahooSymbol": "ASML.AS" },
+    { "ticker": "UNA.nl",    "name": "Unilever N.V.",           "market": "NL", "index": "AEX",        "yahooSymbol": "UNA.AS" },
+
+    { "ticker": "SAN.es",    "name": "Banco Santander S.A.",    "market": "ES", "index": "IBEX35",     "yahooSymbol": "SAN.MC" },
+    { "ticker": "ITX.es",    "name": "Inditex S.A.",            "market": "ES", "index": "IBEX35",     "yahooSymbol": "ITX.MC" },
+
+    { "ticker": "RELIANCE.in", "name": "Reliance Industries Ltd.", "market": "IN", "index": "NIFTY50",     "yahooSymbol": "RELIANCE.NS" },
+    { "ticker": "TCS.in",      "name": "Tata Consultancy Services", "market": "IN", "index": "NIFTY50",     "yahooSymbol": "TCS.NS" },
+    { "ticker": "HDFCBANK.in", "name": "HDFC Bank Ltd.",           "market": "IN", "index": "NIFTY50",     "yahooSymbol": "HDFCBANK.NS" }
+  ]
+}
