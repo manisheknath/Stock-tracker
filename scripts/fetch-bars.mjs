@@ -11,7 +11,31 @@ const BARS_DIR = path.join(ROOT, 'data', 'bars');
 const LOG_PATH = path.join(ROOT, 'data', 'fetch-log.json');
 
 const REQUEST_DELAY_MS = 300;
+const OVERLAP_DAYS = 5; // re-fetch a small trailing window in case Yahoo revises recent prints
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// Nightly runs default to incremental (only ~1 week of new data per ticker,
+// merged into the existing history) since refetching 5.5 years for 856
+// tickers every night is wasteful. FULL_REFETCH=true (the weekly run) goes
+// back to 2020-01-01 for every ticker -- catches any historical corrections
+// and re-validates corporate actions across the whole series. Either way,
+// commit only ever overwrites the file with the complete merged result,
+// never appends to it.
+const FULL_REFETCH = process.env.FULL_REFETCH === 'true';
+
+async function loadExisting(ticker) {
+  try {
+    return JSON.parse(await fs.readFile(path.join(BARS_DIR, `${ticker}.json`), 'utf-8'));
+  } catch {
+    return null;
+  }
+}
+
+function mergeByDate(oldItems, newItems, dateKey = 'date') {
+  const byDate = new Map(oldItems.map((item) => [item[dateKey], item]));
+  for (const item of newItems) byDate.set(item[dateKey], item); // new data wins on overlap
+  return [...byDate.values()].sort((a, b) => a[dateKey].localeCompare(b[dateKey]));
+}
 
 async function main() {
   const universe = JSON.parse(await fs.readFile(UNIVERSE_PATH, 'utf-8'));
@@ -19,14 +43,33 @@ async function main() {
 
   const log = [];
   const today = new Date().toISOString().slice(0, 10);
+  console.log(`Mode: ${FULL_REFETCH ? 'FULL refetch (weekly)' : 'incremental (nightly)'}\n`);
 
   for (const entry of universe.tickers) {
     const { ticker, name, market, yahooSymbol } = entry;
     process.stdout.write(`Fetching ${ticker} (${yahooSymbol})... `);
 
     try {
-      const raw = await fetchYahooDaily(yahooSymbol);
-      const result = adjustAndValidate(ticker, raw);
+      const existing = FULL_REFETCH ? null : await loadExisting(ticker);
+      const fetchOpts = {};
+      if (existing?.bars?.length) {
+        const lastDate = existing.bars.at(-1).date;
+        fetchOpts.startDate = new Date(Date.parse(lastDate) - OVERLAP_DAYS * 86400000).toISOString();
+      }
+
+      const raw = await fetchYahooDaily(yahooSymbol, fetchOpts);
+      const merged = existing?.bars?.length
+        ? {
+          ...raw,
+          bars: mergeByDate(existing.bars, raw.bars),
+          corporateActions: {
+            splits: mergeByDate(existing.corporateActions.splits, raw.corporateActions.splits),
+            dividends: mergeByDate(existing.corporateActions.dividends, raw.corporateActions.dividends),
+          },
+        }
+        : raw;
+
+      const result = adjustAndValidate(ticker, merged);
 
       if (result.excluded) {
         console.log(`EXCLUDED - ${result.reason}`);

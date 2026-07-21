@@ -1,33 +1,5998 @@
 {
   "generatedAt": "2026-07-21",
-  "source": "manual-seed-20",
-  "note": "Hand-seeded 20-ticker subset for pipeline steps 1-2. Full ~900-ticker universe scraped weekly from Wikipedia constituents lands in build step 10.",
+  "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
-    { "ticker": "AAPL.us",   "name": "Apple Inc.",              "market": "US", "index": "NASDAQ100",  "yahooSymbol": "AAPL" },
-    { "ticker": "MSFT.us",   "name": "Microsoft Corp.",         "market": "US", "index": "NASDAQ100",  "yahooSymbol": "MSFT" },
-    { "ticker": "AMZN.us",   "name": "Amazon.com Inc.",         "market": "US", "index": "SP500",      "yahooSymbol": "AMZN" },
-    { "ticker": "GOOGL.us",  "name": "Alphabet Inc. Class A",   "market": "US", "index": "NASDAQ100",  "yahooSymbol": "GOOGL" },
-    { "ticker": "NVDA.us",   "name": "NVIDIA Corp.",            "market": "US", "index": "NASDAQ100",  "yahooSymbol": "NVDA" },
-
-    { "ticker": "BP.uk",     "name": "BP plc",                  "market": "UK", "index": "FTSE100",    "yahooSymbol": "BP.L" },
-    { "ticker": "HSBA.uk",   "name": "HSBC Holdings plc",       "market": "UK", "index": "FTSE100",    "yahooSymbol": "HSBA.L" },
-    { "ticker": "AZN.uk",    "name": "AstraZeneca plc",         "market": "UK", "index": "FTSE100",    "yahooSymbol": "AZN.L" },
-
-    { "ticker": "MC.fr",     "name": "LVMH",                    "market": "FR", "index": "CAC40",      "yahooSymbol": "MC.PA" },
-    { "ticker": "OR.fr",     "name": "L'Oreal S.A.",            "market": "FR", "index": "CAC40",      "yahooSymbol": "OR.PA" },
-
-    { "ticker": "SAP.de",    "name": "SAP SE",                  "market": "DE", "index": "DAX40",      "yahooSymbol": "SAP.DE" },
-    { "ticker": "SIE.de",    "name": "Siemens AG",              "market": "DE", "index": "DAX40",      "yahooSymbol": "SIE.DE" },
-    { "ticker": "ALV.de",    "name": "Allianz SE",              "market": "DE", "index": "DAX40",      "yahooSymbol": "ALV.DE" },
-
-    { "ticker": "ASML.nl",   "name": "ASML Holding N.V.",       "market": "NL", "index": "AEX",        "yahooSymbol": "ASML.AS" },
-    { "ticker": "UNA.nl",    "name": "Unilever N.V.",           "market": "NL", "index": "AEX",        "yahooSymbol": "UNA.AS" },
-
-    { "ticker": "SAN.es",    "name": "Banco Santander S.A.",    "market": "ES", "index": "IBEX35",     "yahooSymbol": "SAN.MC" },
-    { "ticker": "ITX.es",    "name": "Inditex S.A.",            "market": "ES", "index": "IBEX35",     "yahooSymbol": "ITX.MC" },
-
-    { "ticker": "RELIANCE.in", "name": "Reliance Industries Ltd.", "market": "IN", "index": "NIFTY50",     "yahooSymbol": "RELIANCE.NS" },
-    { "ticker": "TCS.in",      "name": "Tata Consultancy Services", "market": "IN", "index": "NIFTY50",     "yahooSymbol": "TCS.NS" },
-    { "ticker": "HDFCBANK.in", "name": "HDFC Bank Ltd.",           "market": "IN", "index": "NIFTY50",     "yahooSymbol": "HDFCBANK.NS" }
+    {
+      "ticker": "A.us",
+      "name": "Agilent Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "A"
+    },
+    {
+      "ticker": "AAF.uk",
+      "name": "Airtel Africa",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "AAF.L"
+    },
+    {
+      "ticker": "AAL.uk",
+      "name": "Anglo American plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "AAL.L"
+    },
+    {
+      "ticker": "AAPL.us",
+      "name": "Apple Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AAPL"
+    },
+    {
+      "ticker": "ABB.in",
+      "name": "ABB India",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "ABB.NS"
+    },
+    {
+      "ticker": "ABBV.us",
+      "name": "AbbVie",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ABBV"
+    },
+    {
+      "ticker": "ABDN.uk",
+      "name": "Aberdeen Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ABDN.L"
+    },
+    {
+      "ticker": "ABF.uk",
+      "name": "Associated British Foods",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ABF.L"
+    },
+    {
+      "ticker": "ABN.nl",
+      "name": "ABN AMRO",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "ABN.AS"
+    },
+    {
+      "ticker": "ABNB.us",
+      "name": "Airbnb",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ABNB"
+    },
+    {
+      "ticker": "ABT.us",
+      "name": "Abbott Laboratories",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ABT"
+    },
+    {
+      "ticker": "AC.fr",
+      "name": "Accor",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "AC.PA"
+    },
+    {
+      "ticker": "ACA.fr",
+      "name": "Crédit Agricole",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "ACA.PA"
+    },
+    {
+      "ticker": "ACGL.us",
+      "name": "Arch Capital Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ACGL"
+    },
+    {
+      "ticker": "ACN.us",
+      "name": "Accenture",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ACN"
+    },
+    {
+      "ticker": "ACS.es",
+      "name": "ACS",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ACS.MC"
+    },
+    {
+      "ticker": "ACX.es",
+      "name": "Acerinox",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ACX.MC"
+    },
+    {
+      "ticker": "AD.nl",
+      "name": "Ahold Delhaize",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "AD.AS"
+    },
+    {
+      "ticker": "ADANIENSOL.in",
+      "name": "Adani Energy Solutions",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "ADANIENSOL.NS"
+    },
+    {
+      "ticker": "ADANIENT.in",
+      "name": "Adani Enterprises",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ADANIENT.NS"
+    },
+    {
+      "ticker": "ADANIGREEN.in",
+      "name": "Adani Green Energy",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "ADANIGREEN.NS"
+    },
+    {
+      "ticker": "ADANIPORTS.in",
+      "name": "Adani Ports & SEZ",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ADANIPORTS.NS"
+    },
+    {
+      "ticker": "ADANIPOWER.in",
+      "name": "Adani Power",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "ADANIPOWER.NS"
+    },
+    {
+      "ticker": "ADBE.us",
+      "name": "Adobe Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ADBE"
+    },
+    {
+      "ticker": "ADI.us",
+      "name": "Analog Devices",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ADI"
+    },
+    {
+      "ticker": "ADM.uk",
+      "name": "Admiral Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ADM.L"
+    },
+    {
+      "ticker": "ADM.us",
+      "name": "Archer Daniels Midland",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ADM"
+    },
+    {
+      "ticker": "ADP.us",
+      "name": "Automatic Data Processing",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ADP"
+    },
+    {
+      "ticker": "ADS.de",
+      "name": "Adidas",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "ADS.DE"
+    },
+    {
+      "ticker": "ADSK.us",
+      "name": "Autodesk",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ADSK"
+    },
+    {
+      "ticker": "ADYEN.nl",
+      "name": "Adyen",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "ADYEN.AS"
+    },
+    {
+      "ticker": "AEE.us",
+      "name": "Ameren",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AEE"
+    },
+    {
+      "ticker": "AENA.es",
+      "name": "AENA",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "AENA.MC"
+    },
+    {
+      "ticker": "AEP.us",
+      "name": "American Electric Power",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AEP"
+    },
+    {
+      "ticker": "AES.us",
+      "name": "AES Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AES"
+    },
+    {
+      "ticker": "AFL.us",
+      "name": "Aflac",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AFL"
+    },
+    {
+      "ticker": "AGN.nl",
+      "name": "Aegon",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "AGN.AS"
+    },
+    {
+      "ticker": "AI.fr",
+      "name": "Air Liquide",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "AI.PA"
+    },
+    {
+      "ticker": "AIG.us",
+      "name": "American International Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AIG"
+    },
+    {
+      "ticker": "AIR.fr",
+      "name": "Airbus",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "AIR.PA"
+    },
+    {
+      "ticker": "AIZ.us",
+      "name": "Assurant",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AIZ"
+    },
+    {
+      "ticker": "AJG.us",
+      "name": "Arthur J. Gallagher & Co.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AJG"
+    },
+    {
+      "ticker": "AKAM.us",
+      "name": "Akamai Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AKAM"
+    },
+    {
+      "ticker": "AKZA.nl",
+      "name": "AkzoNobel",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "AKZA.AS"
+    },
+    {
+      "ticker": "ALAB.us",
+      "name": "Astera Labs, Inc.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "ALAB"
+    },
+    {
+      "ticker": "ALB.us",
+      "name": "Albemarle Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ALB"
+    },
+    {
+      "ticker": "ALGN.us",
+      "name": "Align Technology",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ALGN"
+    },
+    {
+      "ticker": "ALL.us",
+      "name": "Allstate",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ALL"
+    },
+    {
+      "ticker": "ALLE.us",
+      "name": "Allegion",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ALLE"
+    },
+    {
+      "ticker": "ALNY.us",
+      "name": "Alnylam Pharmaceuticals, Inc.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "ALNY"
+    },
+    {
+      "ticker": "ALV.de",
+      "name": "Allianz",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "ALV.DE"
+    },
+    {
+      "ticker": "ALW.uk",
+      "name": "Alliance Witan",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ALW.L"
+    },
+    {
+      "ticker": "AMAT.us",
+      "name": "Applied Materials",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMAT"
+    },
+    {
+      "ticker": "AMBUJACEM.in",
+      "name": "Ambuja Cements",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "AMBUJACEM.NS"
+    },
+    {
+      "ticker": "AMCR.us",
+      "name": "Amcor",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMCR"
+    },
+    {
+      "ticker": "AMD.us",
+      "name": "Advanced Micro Devices",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMD"
+    },
+    {
+      "ticker": "AME.us",
+      "name": "Ametek",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AME"
+    },
+    {
+      "ticker": "AMGN.us",
+      "name": "Amgen",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMGN"
+    },
+    {
+      "ticker": "AMP.us",
+      "name": "Ameriprise Financial",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMP"
+    },
+    {
+      "ticker": "AMS.es",
+      "name": "Amadeus IT Group",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "AMS.MC"
+    },
+    {
+      "ticker": "AMT.us",
+      "name": "American Tower",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMT"
+    },
+    {
+      "ticker": "AMZN.us",
+      "name": "Amazon",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AMZN"
+    },
+    {
+      "ticker": "ANA.es",
+      "name": "Acciona",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ANA.MC"
+    },
+    {
+      "ticker": "ANE.es",
+      "name": "Acciona Energía",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ANE.MC"
+    },
+    {
+      "ticker": "ANET.us",
+      "name": "Arista Networks",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ANET"
+    },
+    {
+      "ticker": "ANTO.uk",
+      "name": "Antofagasta plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ANTO.L"
+    },
+    {
+      "ticker": "AON.us",
+      "name": "Aon plc",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AON"
+    },
+    {
+      "ticker": "AOS.us",
+      "name": "A. O. Smith",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AOS"
+    },
+    {
+      "ticker": "APA.us",
+      "name": "APA Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "APA"
+    },
+    {
+      "ticker": "APD.us",
+      "name": "Air Products",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "APD"
+    },
+    {
+      "ticker": "APH.us",
+      "name": "Amphenol",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "APH"
+    },
+    {
+      "ticker": "APO.us",
+      "name": "Apollo Global Management",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "APO"
+    },
+    {
+      "ticker": "APOLLOHOSP.in",
+      "name": "Apollo Hospitals",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "APOLLOHOSP.NS"
+    },
+    {
+      "ticker": "APP.us",
+      "name": "AppLovin",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "APP"
+    },
+    {
+      "ticker": "APTV.us",
+      "name": "Aptiv",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "APTV"
+    },
+    {
+      "ticker": "ARE.us",
+      "name": "Alexandria Real Estate Equities",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ARE"
+    },
+    {
+      "ticker": "ARES.us",
+      "name": "Ares Management",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ARES"
+    },
+    {
+      "ticker": "ARM.us",
+      "name": "Arm Holdings plc",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "ARM"
+    },
+    {
+      "ticker": "ASIANPAINT.in",
+      "name": "Asian Paints",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ASIANPAINT.NS"
+    },
+    {
+      "ticker": "ASM.nl",
+      "name": "ASM International",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "ASM.AS"
+    },
+    {
+      "ticker": "ASML.nl",
+      "name": "ASML Holding",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "ASML.AS"
+    },
+    {
+      "ticker": "ASML.us",
+      "name": "ASML Holding N.V.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "ASML"
+    },
+    {
+      "ticker": "ASRNL.nl",
+      "name": "ASR Nederland",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "ASRNL.AS"
+    },
+    {
+      "ticker": "ATO.us",
+      "name": "Atmos Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ATO"
+    },
+    {
+      "ticker": "AUTO.uk",
+      "name": "Autotrader Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "AUTO.L"
+    },
+    {
+      "ticker": "AV.uk",
+      "name": "Aviva",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "AV.L"
+    },
+    {
+      "ticker": "AVB.us",
+      "name": "AvalonBay Communities",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AVB"
+    },
+    {
+      "ticker": "AVGO.us",
+      "name": "Broadcom",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AVGO"
+    },
+    {
+      "ticker": "AVY.us",
+      "name": "Avery Dennison",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AVY"
+    },
+    {
+      "ticker": "AWK.us",
+      "name": "American Water Works",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AWK"
+    },
+    {
+      "ticker": "AXISBANK.in",
+      "name": "Axis Bank",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "AXISBANK.NS"
+    },
+    {
+      "ticker": "AXON.us",
+      "name": "Axon Enterprise",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AXON"
+    },
+    {
+      "ticker": "AXP.us",
+      "name": "American Express",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AXP"
+    },
+    {
+      "ticker": "AZN.uk",
+      "name": "AstraZeneca",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "AZN.L"
+    },
+    {
+      "ticker": "AZO.us",
+      "name": "AutoZone",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "AZO"
+    },
+    {
+      "ticker": "BA.uk",
+      "name": "BAE Systems",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BA.L"
+    },
+    {
+      "ticker": "BA.us",
+      "name": "Boeing",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BA"
+    },
+    {
+      "ticker": "BAB.uk",
+      "name": "Babcock International",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BAB.L"
+    },
+    {
+      "ticker": "BAC.us",
+      "name": "Bank of America",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BAC"
+    },
+    {
+      "ticker": "BAJAJ-AUTO.in",
+      "name": "Bajaj Auto",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "BAJAJ-AUTO.NS"
+    },
+    {
+      "ticker": "BAJAJFINSV.in",
+      "name": "Bajaj Finserv",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "BAJAJFINSV.NS"
+    },
+    {
+      "ticker": "BAJAJHLDNG.in",
+      "name": "Bajaj Holdings",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "BAJAJHLDNG.NS"
+    },
+    {
+      "ticker": "BAJFINANCE.in",
+      "name": "Bajaj Finance",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "BAJFINANCE.NS"
+    },
+    {
+      "ticker": "BALL.us",
+      "name": "Ball Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BALL"
+    },
+    {
+      "ticker": "BANKBARODA.in",
+      "name": "Bank of Baroda",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "BANKBARODA.NS"
+    },
+    {
+      "ticker": "BARC.uk",
+      "name": "Barclays",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BARC.L"
+    },
+    {
+      "ticker": "BAS.de",
+      "name": "BASF",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "BAS.DE"
+    },
+    {
+      "ticker": "BATS.uk",
+      "name": "British American Tobacco",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BATS.L"
+    },
+    {
+      "ticker": "BAX.us",
+      "name": "Baxter International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BAX"
+    },
+    {
+      "ticker": "BAYN.de",
+      "name": "Bayer",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "BAYN.DE"
+    },
+    {
+      "ticker": "BBOX.uk",
+      "name": "Tritax Big Box REIT",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BBOX.L"
+    },
+    {
+      "ticker": "BBVA.es",
+      "name": "BBVA",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "BBVA.MC"
+    },
+    {
+      "ticker": "BBY.us",
+      "name": "Best Buy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BBY"
+    },
+    {
+      "ticker": "BDX.us",
+      "name": "Becton Dickinson",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BDX"
+    },
+    {
+      "ticker": "BEI.de",
+      "name": "Beiersdorf",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "BEI.DE"
+    },
+    {
+      "ticker": "BEL.in",
+      "name": "Bharat Electronics",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "BEL.NS"
+    },
+    {
+      "ticker": "BEN.us",
+      "name": "Franklin Resources",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BEN"
+    },
+    {
+      "ticker": "BESI.nl",
+      "name": "BE Semiconductors",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "BESI.AS"
+    },
+    {
+      "ticker": "BEZ.uk",
+      "name": "Beazley",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BEZ.L"
+    },
+    {
+      "ticker": "BF-B.us",
+      "name": "Brown–Forman",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BF-B"
+    },
+    {
+      "ticker": "BG.us",
+      "name": "Bunge Global",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BG"
+    },
+    {
+      "ticker": "BGEO.uk",
+      "name": "Lion Finance Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BGEO.L"
+    },
+    {
+      "ticker": "BHARTIARTL.in",
+      "name": "Bharti Airtel",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "BHARTIARTL.NS"
+    },
+    {
+      "ticker": "BIIB.us",
+      "name": "Biogen",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BIIB"
+    },
+    {
+      "ticker": "BKNG.us",
+      "name": "Booking Holdings",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BKNG"
+    },
+    {
+      "ticker": "BKR.us",
+      "name": "Baker Hughes",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BKR"
+    },
+    {
+      "ticker": "BKT.es",
+      "name": "Bankinter",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "BKT.MC"
+    },
+    {
+      "ticker": "BLDR.us",
+      "name": "Builders FirstSource",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BLDR"
+    },
+    {
+      "ticker": "BLK.us",
+      "name": "BlackRock",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BLK"
+    },
+    {
+      "ticker": "BLND.uk",
+      "name": "British Land",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BLND.L"
+    },
+    {
+      "ticker": "BMW.de",
+      "name": "BMW",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "BMW.DE"
+    },
+    {
+      "ticker": "BMY.us",
+      "name": "Bristol Myers Squibb",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BMY"
+    },
+    {
+      "ticker": "BN.fr",
+      "name": "Danone",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "BN.PA"
+    },
+    {
+      "ticker": "BNP.fr",
+      "name": "BNP Paribas",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "BNP.PA"
+    },
+    {
+      "ticker": "BNR.de",
+      "name": "Brenntag",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "BNR.DE"
+    },
+    {
+      "ticker": "BNY.us",
+      "name": "BNY Mellon",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BNY"
+    },
+    {
+      "ticker": "BNZL.uk",
+      "name": "Bunzl",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BNZL.L"
+    },
+    {
+      "ticker": "BOSCHLTD.in",
+      "name": "Bosch",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "BOSCHLTD.NS"
+    },
+    {
+      "ticker": "BP.uk",
+      "name": "BP",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BP.L"
+    },
+    {
+      "ticker": "BPCL.in",
+      "name": "Bharat Petroleum",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "BPCL.NS"
+    },
+    {
+      "ticker": "BR.us",
+      "name": "Broadridge Financial Solutions",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BR"
+    },
+    {
+      "ticker": "BRBY.uk",
+      "name": "Burberry Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BRBY.L"
+    },
+    {
+      "ticker": "BRITANNIA.in",
+      "name": "Britannia Industries",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "BRITANNIA.NS"
+    },
+    {
+      "ticker": "BRK-B.us",
+      "name": "Berkshire Hathaway",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BRK-B"
+    },
+    {
+      "ticker": "BRO.us",
+      "name": "Brown & Brown",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BRO"
+    },
+    {
+      "ticker": "BSX.us",
+      "name": "Boston Scientific",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BSX"
+    },
+    {
+      "ticker": "BT-A.uk",
+      "name": "BT Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BT-A.L"
+    },
+    {
+      "ticker": "BTRW.uk",
+      "name": "Barratt Redrow",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BTRW.L"
+    },
+    {
+      "ticker": "BVI.fr",
+      "name": "Bureau Veritas",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "BVI.PA"
+    },
+    {
+      "ticker": "BX.us",
+      "name": "Blackstone Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BX"
+    },
+    {
+      "ticker": "BXP.us",
+      "name": "BXP, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BXP"
+    },
+    {
+      "ticker": "C.us",
+      "name": "Citigroup",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "C"
+    },
+    {
+      "ticker": "CA.fr",
+      "name": "Carrefour",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "CA.PA"
+    },
+    {
+      "ticker": "CABK.es",
+      "name": "CaixaBank",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "CABK.MC"
+    },
+    {
+      "ticker": "CAH.us",
+      "name": "Cardinal Health",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CAH"
+    },
+    {
+      "ticker": "CANBK.in",
+      "name": "Canara Bank",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "CANBK.NS"
+    },
+    {
+      "ticker": "CAP.fr",
+      "name": "Capgemini",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "CAP.PA"
+    },
+    {
+      "ticker": "CARR.us",
+      "name": "Carrier Global",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CARR"
+    },
+    {
+      "ticker": "CASY.us",
+      "name": "Casey's",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CASY"
+    },
+    {
+      "ticker": "CAT.us",
+      "name": "Caterpillar Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CAT"
+    },
+    {
+      "ticker": "CB.us",
+      "name": "Chubb Limited",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CB"
+    },
+    {
+      "ticker": "CBK.de",
+      "name": "Commerzbank",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "CBK.DE"
+    },
+    {
+      "ticker": "CBOE.us",
+      "name": "Cboe Global Markets",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CBOE"
+    },
+    {
+      "ticker": "CBRE.us",
+      "name": "CBRE Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CBRE"
+    },
+    {
+      "ticker": "CCC.uk",
+      "name": "Computacenter",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CCC.L"
+    },
+    {
+      "ticker": "CCEP.uk",
+      "name": "Coca-Cola Europacific Partners",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CCEP.L"
+    },
+    {
+      "ticker": "CCEP.us",
+      "name": "Coca-Cola Europacific Partners PLC",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "CCEP"
+    },
+    {
+      "ticker": "CCH.uk",
+      "name": "Coca-Cola HBC",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CCH.L"
+    },
+    {
+      "ticker": "CCI.us",
+      "name": "Crown Castle",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CCI"
+    },
+    {
+      "ticker": "CCL.us",
+      "name": "Carnival Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CCL"
+    },
+    {
+      "ticker": "CDNS.us",
+      "name": "Cadence Design Systems",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CDNS"
+    },
+    {
+      "ticker": "CDW.us",
+      "name": "CDW Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CDW"
+    },
+    {
+      "ticker": "CEG.us",
+      "name": "Constellation Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CEG"
+    },
+    {
+      "ticker": "CF.us",
+      "name": "CF Industries",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CF"
+    },
+    {
+      "ticker": "CFG.us",
+      "name": "Citizens Financial Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CFG"
+    },
+    {
+      "ticker": "CGPOWER.in",
+      "name": "CG Power and Industrial Solutions",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "CGPOWER.NS"
+    },
+    {
+      "ticker": "CHD.us",
+      "name": "Church & Dwight",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CHD"
+    },
+    {
+      "ticker": "CHOLAFIN.in",
+      "name": "Cholamandalam",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "CHOLAFIN.NS"
+    },
+    {
+      "ticker": "CHRW.us",
+      "name": "C.H. Robinson",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CHRW"
+    },
+    {
+      "ticker": "CHTR.us",
+      "name": "Charter Communications",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CHTR"
+    },
+    {
+      "ticker": "CI.us",
+      "name": "Cigna",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CI"
+    },
+    {
+      "ticker": "CIEN.us",
+      "name": "Ciena",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CIEN"
+    },
+    {
+      "ticker": "CINF.us",
+      "name": "Cincinnati Financial",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CINF"
+    },
+    {
+      "ticker": "CIPLA.in",
+      "name": "Cipla",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "CIPLA.NS"
+    },
+    {
+      "ticker": "CL.us",
+      "name": "Colgate-Palmolive",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CL"
+    },
+    {
+      "ticker": "CLNX.es",
+      "name": "Cellnex Telecom",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "CLNX.MC"
+    },
+    {
+      "ticker": "CLX.us",
+      "name": "Clorox",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CLX"
+    },
+    {
+      "ticker": "CMCSA.us",
+      "name": "Comcast",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CMCSA"
+    },
+    {
+      "ticker": "CME.us",
+      "name": "CME Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CME"
+    },
+    {
+      "ticker": "CMG.us",
+      "name": "Chipotle Mexican Grill",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CMG"
+    },
+    {
+      "ticker": "CMI.us",
+      "name": "Cummins",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CMI"
+    },
+    {
+      "ticker": "CMS.us",
+      "name": "CMS Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CMS"
+    },
+    {
+      "ticker": "CNA.uk",
+      "name": "Centrica",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CNA.L"
+    },
+    {
+      "ticker": "CNC.us",
+      "name": "Centene Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CNC"
+    },
+    {
+      "ticker": "CNP.us",
+      "name": "CenterPoint Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CNP"
+    },
+    {
+      "ticker": "COALINDIA.in",
+      "name": "Coal India",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "COALINDIA.NS"
+    },
+    {
+      "ticker": "COF.us",
+      "name": "Capital One",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COF"
+    },
+    {
+      "ticker": "COHR.us",
+      "name": "Coherent Corp.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COHR"
+    },
+    {
+      "ticker": "COIN.us",
+      "name": "Coinbase",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COIN"
+    },
+    {
+      "ticker": "COL.es",
+      "name": "Inmobiliaria Colonial",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "COL.MC"
+    },
+    {
+      "ticker": "CON.de",
+      "name": "Continental",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "CON.DE"
+    },
+    {
+      "ticker": "COO.us",
+      "name": "Cooper Companies (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COO"
+    },
+    {
+      "ticker": "COP.us",
+      "name": "ConocoPhillips",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COP"
+    },
+    {
+      "ticker": "COR.us",
+      "name": "Cencora",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COR"
+    },
+    {
+      "ticker": "COST.us",
+      "name": "Costco",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "COST"
+    },
+    {
+      "ticker": "CPAY.us",
+      "name": "Corpay",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CPAY"
+    },
+    {
+      "ticker": "CPG.uk",
+      "name": "Compass Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CPG.L"
+    },
+    {
+      "ticker": "CPRT.us",
+      "name": "Copart",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CPRT"
+    },
+    {
+      "ticker": "CPT.us",
+      "name": "Camden Property Trust",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CPT"
+    },
+    {
+      "ticker": "CRDA.uk",
+      "name": "Croda International",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CRDA.L"
+    },
+    {
+      "ticker": "CRH.us",
+      "name": "CRH plc",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CRH"
+    },
+    {
+      "ticker": "CRL.us",
+      "name": "Charles River Laboratories",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CRL"
+    },
+    {
+      "ticker": "CRM.us",
+      "name": "Salesforce",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CRM"
+    },
+    {
+      "ticker": "CRWD.us",
+      "name": "CrowdStrike",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CRWD"
+    },
+    {
+      "ticker": "CRWV.us",
+      "name": "CoreWeave, Inc.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "CRWV"
+    },
+    {
+      "ticker": "CS.fr",
+      "name": "Axa",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "CS.PA"
+    },
+    {
+      "ticker": "CSCO.us",
+      "name": "Cisco",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CSCO"
+    },
+    {
+      "ticker": "CSGP.us",
+      "name": "CoStar Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CSGP"
+    },
+    {
+      "ticker": "CSX.us",
+      "name": "CSX Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CSX"
+    },
+    {
+      "ticker": "CTAS.us",
+      "name": "Cintas",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CTAS"
+    },
+    {
+      "ticker": "CTEC.uk",
+      "name": "Convatec",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "CTEC.L"
+    },
+    {
+      "ticker": "CTSH.us",
+      "name": "Cognizant",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CTSH"
+    },
+    {
+      "ticker": "CTVA.us",
+      "name": "Corteva",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CTVA"
+    },
+    {
+      "ticker": "CUMMINSIND.in",
+      "name": "Cummins India",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "CUMMINSIND.NS"
+    },
+    {
+      "ticker": "CVNA.us",
+      "name": "Carvana",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CVNA"
+    },
+    {
+      "ticker": "CVS.us",
+      "name": "CVS Health",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CVS"
+    },
+    {
+      "ticker": "CVX.us",
+      "name": "Chevron Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "CVX"
+    },
+    {
+      "ticker": "D.us",
+      "name": "Dominion Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "D"
+    },
+    {
+      "ticker": "DAL.us",
+      "name": "Delta Air Lines",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DAL"
+    },
+    {
+      "ticker": "DASH.us",
+      "name": "DoorDash",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DASH"
+    },
+    {
+      "ticker": "DB1.de",
+      "name": "Deutsche Börse",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "DB1.DE"
+    },
+    {
+      "ticker": "DBK.de",
+      "name": "Deutsche Bank",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "DBK.DE"
+    },
+    {
+      "ticker": "DCC.uk",
+      "name": "DCC Energy",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "DCC.L"
+    },
+    {
+      "ticker": "DD.us",
+      "name": "DuPont",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DD"
+    },
+    {
+      "ticker": "DDOG.us",
+      "name": "Datadog",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DDOG"
+    },
+    {
+      "ticker": "DE.us",
+      "name": "Deere & Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DE"
+    },
+    {
+      "ticker": "DECK.us",
+      "name": "Deckers Brands",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DECK"
+    },
+    {
+      "ticker": "DELL.us",
+      "name": "Dell Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DELL"
+    },
+    {
+      "ticker": "DG.fr",
+      "name": "Vinci",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "DG.PA"
+    },
+    {
+      "ticker": "DG.us",
+      "name": "Dollar General",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DG"
+    },
+    {
+      "ticker": "DGE.uk",
+      "name": "Diageo",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "DGE.L"
+    },
+    {
+      "ticker": "DGX.us",
+      "name": "Quest Diagnostics",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DGX"
+    },
+    {
+      "ticker": "DHI.us",
+      "name": "D. R. Horton",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DHI"
+    },
+    {
+      "ticker": "DHL.de",
+      "name": "Deutsche Post",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "DHL.DE"
+    },
+    {
+      "ticker": "DHR.us",
+      "name": "Danaher Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DHR"
+    },
+    {
+      "ticker": "DIS.us",
+      "name": "Walt Disney Company (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DIS"
+    },
+    {
+      "ticker": "DIVISLAB.in",
+      "name": "Divi's Laboratories",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "DIVISLAB.NS"
+    },
+    {
+      "ticker": "DLF.in",
+      "name": "DLF",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "DLF.NS"
+    },
+    {
+      "ticker": "DLR.us",
+      "name": "Digital Realty",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DLR"
+    },
+    {
+      "ticker": "DLTR.us",
+      "name": "Dollar Tree",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DLTR"
+    },
+    {
+      "ticker": "DMART.in",
+      "name": "DMart",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "DMART.NS"
+    },
+    {
+      "ticker": "DOC.us",
+      "name": "Healthpeak Properties",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DOC"
+    },
+    {
+      "ticker": "DOV.us",
+      "name": "Dover Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DOV"
+    },
+    {
+      "ticker": "DOW.us",
+      "name": "Dow Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DOW"
+    },
+    {
+      "ticker": "DPLM.uk",
+      "name": "Diploma",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "DPLM.L"
+    },
+    {
+      "ticker": "DPZ.us",
+      "name": "Domino's",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DPZ"
+    },
+    {
+      "ticker": "DRI.us",
+      "name": "Darden Restaurants",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DRI"
+    },
+    {
+      "ticker": "DRREDDY.in",
+      "name": "Dr. Reddy's Laboratories",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "DRREDDY.NS"
+    },
+    {
+      "ticker": "DSFIR.nl",
+      "name": "DSM Firmenich AG",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "DSFIR.AS"
+    },
+    {
+      "ticker": "DSY.fr",
+      "name": "Dassault Systèmes",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "DSY.PA"
+    },
+    {
+      "ticker": "DTE.de",
+      "name": "Deutsche Telekom",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "DTE.DE"
+    },
+    {
+      "ticker": "DTE.us",
+      "name": "DTE Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DTE"
+    },
+    {
+      "ticker": "DTG.de",
+      "name": "Daimler Truck",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "DTG.DE"
+    },
+    {
+      "ticker": "DUK.us",
+      "name": "Duke Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DUK"
+    },
+    {
+      "ticker": "DVA.us",
+      "name": "DaVita",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DVA"
+    },
+    {
+      "ticker": "DVN.us",
+      "name": "Devon Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DVN"
+    },
+    {
+      "ticker": "DXCM.us",
+      "name": "Dexcom",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "DXCM"
+    },
+    {
+      "ticker": "EA.us",
+      "name": "Electronic Arts",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EA"
+    },
+    {
+      "ticker": "EBAY.us",
+      "name": "eBay Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EBAY"
+    },
+    {
+      "ticker": "ECHO.us",
+      "name": "EchoStar",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ECHO"
+    },
+    {
+      "ticker": "ECL.us",
+      "name": "Ecolab",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ECL"
+    },
+    {
+      "ticker": "ED.us",
+      "name": "Consolidated Edison",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ED"
+    },
+    {
+      "ticker": "EDEN.fr",
+      "name": "Edenred",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "EDEN.PA"
+    },
+    {
+      "ticker": "EDV.uk",
+      "name": "Endeavour Mining",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "EDV.L"
+    },
+    {
+      "ticker": "EFX.us",
+      "name": "Equifax",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EFX"
+    },
+    {
+      "ticker": "EG.us",
+      "name": "Everest Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EG"
+    },
+    {
+      "ticker": "EICHERMOT.in",
+      "name": "Eicher Motors",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "EICHERMOT.NS"
+    },
+    {
+      "ticker": "EIX.us",
+      "name": "Edison International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EIX"
+    },
+    {
+      "ticker": "EL.fr",
+      "name": "EssilorLuxottica",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "EL.PA"
+    },
+    {
+      "ticker": "EL.us",
+      "name": "Estée Lauder Companies (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EL"
+    },
+    {
+      "ticker": "ELE.es",
+      "name": "Endesa",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ELE.MC"
+    },
+    {
+      "ticker": "ELV.us",
+      "name": "Elevance Health",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ELV"
+    },
+    {
+      "ticker": "EME.us",
+      "name": "Emcor",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EME"
+    },
+    {
+      "ticker": "EMR.us",
+      "name": "Emerson Electric",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EMR"
+    },
+    {
+      "ticker": "EN.fr",
+      "name": "Bouygues",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "EN.PA"
+    },
+    {
+      "ticker": "ENG.es",
+      "name": "Enagás",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ENG.MC"
+    },
+    {
+      "ticker": "ENGI.fr",
+      "name": "Engie",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "ENGI.PA"
+    },
+    {
+      "ticker": "ENR.de",
+      "name": "Siemens Energy",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "ENR.DE"
+    },
+    {
+      "ticker": "ENRIN.in",
+      "name": "Siemens Energy",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "ENRIN.NS"
+    },
+    {
+      "ticker": "ENT.uk",
+      "name": "Entain",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ENT.L"
+    },
+    {
+      "ticker": "EOAN.de",
+      "name": "E.ON",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "EOAN.DE"
+    },
+    {
+      "ticker": "EOG.us",
+      "name": "EOG Resources",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EOG"
+    },
+    {
+      "ticker": "EQIX.us",
+      "name": "Equinix",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EQIX"
+    },
+    {
+      "ticker": "EQR.us",
+      "name": "Equity Residential",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EQR"
+    },
+    {
+      "ticker": "EQT.us",
+      "name": "EQT Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EQT"
+    },
+    {
+      "ticker": "ERF.fr",
+      "name": "Eurofins Scientific",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "ERF.PA"
+    },
+    {
+      "ticker": "ERIE.us",
+      "name": "Erie Indemnity",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ERIE"
+    },
+    {
+      "ticker": "ES.us",
+      "name": "Eversource Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ES"
+    },
+    {
+      "ticker": "ESS.us",
+      "name": "Essex Property Trust",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ESS"
+    },
+    {
+      "ticker": "ETERNAL.in",
+      "name": "Eternal",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ETERNAL.NS"
+    },
+    {
+      "ticker": "ETN.us",
+      "name": "Eaton Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ETN"
+    },
+    {
+      "ticker": "ETR.us",
+      "name": "Entergy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ETR"
+    },
+    {
+      "ticker": "EVRG.us",
+      "name": "Evergy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EVRG"
+    },
+    {
+      "ticker": "EW.us",
+      "name": "Edwards Lifesciences",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EW"
+    },
+    {
+      "ticker": "EXC.us",
+      "name": "Exelon",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EXC"
+    },
+    {
+      "ticker": "EXE.us",
+      "name": "Expand Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EXE"
+    },
+    {
+      "ticker": "EXO.nl",
+      "name": "Exor",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "EXO.AS"
+    },
+    {
+      "ticker": "EXPD.us",
+      "name": "Expeditors International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EXPD"
+    },
+    {
+      "ticker": "EXPE.us",
+      "name": "Expedia Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EXPE"
+    },
+    {
+      "ticker": "EXPN.uk",
+      "name": "Experian",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "EXPN.L"
+    },
+    {
+      "ticker": "EXR.us",
+      "name": "Extra Space Storage",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "EXR"
+    },
+    {
+      "ticker": "F.us",
+      "name": "Ford Motor Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "F"
+    },
+    {
+      "ticker": "FANG.us",
+      "name": "Diamondback Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FANG"
+    },
+    {
+      "ticker": "FAST.us",
+      "name": "Fastenal",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FAST"
+    },
+    {
+      "ticker": "FCIT.uk",
+      "name": "F & C Investment Trust",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "FCIT.L"
+    },
+    {
+      "ticker": "FCX.us",
+      "name": "Freeport-McMoRan",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FCX"
+    },
+    {
+      "ticker": "FDR.es",
+      "name": "Fluidra",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "FDR.MC"
+    },
+    {
+      "ticker": "FDS.us",
+      "name": "FactSet",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FDS"
+    },
+    {
+      "ticker": "FDX.us",
+      "name": "FedEx",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FDX"
+    },
+    {
+      "ticker": "FDXF.us",
+      "name": "FedEx Freight",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FDXF"
+    },
+    {
+      "ticker": "FE.us",
+      "name": "FirstEnergy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FE"
+    },
+    {
+      "ticker": "FER.es",
+      "name": "Ferrovial",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "FER.MC"
+    },
+    {
+      "ticker": "FER.us",
+      "name": "Ferrovial N.V.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "FER"
+    },
+    {
+      "ticker": "FFIV.us",
+      "name": "F5, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FFIV"
+    },
+    {
+      "ticker": "FICO.us",
+      "name": "Fair Isaac",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FICO"
+    },
+    {
+      "ticker": "FIS.us",
+      "name": "Fidelity National Information Services",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FIS"
+    },
+    {
+      "ticker": "FISV.us",
+      "name": "Fiserv",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FISV"
+    },
+    {
+      "ticker": "FITB.us",
+      "name": "Fifth Third Bancorp",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FITB"
+    },
+    {
+      "ticker": "FIX.us",
+      "name": "Comfort Systems USA",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FIX"
+    },
+    {
+      "ticker": "FLEX.us",
+      "name": "Flex Ltd.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FLEX"
+    },
+    {
+      "ticker": "FME.de",
+      "name": "Fresenius Medical Care",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "FME.DE"
+    },
+    {
+      "ticker": "FOX.us",
+      "name": "Fox Corporation (Class B)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FOX"
+    },
+    {
+      "ticker": "FOXA.us",
+      "name": "Fox Corporation (Class A)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FOXA"
+    },
+    {
+      "ticker": "FRE.de",
+      "name": "Fresenius",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "FRE.DE"
+    },
+    {
+      "ticker": "FRES.uk",
+      "name": "Fresnillo plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "FRES.L"
+    },
+    {
+      "ticker": "FRT.us",
+      "name": "Federal Realty Investment Trust",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FRT"
+    },
+    {
+      "ticker": "FSLR.us",
+      "name": "First Solar",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FSLR"
+    },
+    {
+      "ticker": "FTNT.us",
+      "name": "Fortinet",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FTNT"
+    },
+    {
+      "ticker": "FTV.us",
+      "name": "Fortive",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FTV"
+    },
+    {
+      "ticker": "G1A.de",
+      "name": "GEA Group",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "G1A.DE"
+    },
+    {
+      "ticker": "G24.de",
+      "name": "Scout24",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "G24.DE"
+    },
+    {
+      "ticker": "GAIL.in",
+      "name": "GAIL",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "GAIL.NS"
+    },
+    {
+      "ticker": "GAW.uk",
+      "name": "Games Workshop",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "GAW.L"
+    },
+    {
+      "ticker": "GD.us",
+      "name": "General Dynamics",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GD"
+    },
+    {
+      "ticker": "GDDY.us",
+      "name": "GoDaddy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GDDY"
+    },
+    {
+      "ticker": "GE.us",
+      "name": "GE Aerospace",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GE"
+    },
+    {
+      "ticker": "GEHC.us",
+      "name": "GE HealthCare",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GEHC"
+    },
+    {
+      "ticker": "GEN.us",
+      "name": "Gen Digital",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GEN"
+    },
+    {
+      "ticker": "GEV.us",
+      "name": "GE Vernova",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GEV"
+    },
+    {
+      "ticker": "GILD.us",
+      "name": "Gilead Sciences",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GILD"
+    },
+    {
+      "ticker": "GIS.us",
+      "name": "General Mills",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GIS"
+    },
+    {
+      "ticker": "GL.us",
+      "name": "Globe Life",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GL"
+    },
+    {
+      "ticker": "GLE.fr",
+      "name": "Société Générale",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "GLE.PA"
+    },
+    {
+      "ticker": "GLEN.uk",
+      "name": "Glencore",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "GLEN.L"
+    },
+    {
+      "ticker": "GLW.us",
+      "name": "Corning Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GLW"
+    },
+    {
+      "ticker": "GM.us",
+      "name": "General Motors",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GM"
+    },
+    {
+      "ticker": "GNRC.us",
+      "name": "Generac",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GNRC"
+    },
+    {
+      "ticker": "GODREJCP.in",
+      "name": "Godrej Consumer Products",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "GODREJCP.NS"
+    },
+    {
+      "ticker": "GOOG.us",
+      "name": "Alphabet Inc. (Class C)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GOOG"
+    },
+    {
+      "ticker": "GOOGL.us",
+      "name": "Alphabet Inc. (Class A)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GOOGL"
+    },
+    {
+      "ticker": "GPC.us",
+      "name": "Genuine Parts Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GPC"
+    },
+    {
+      "ticker": "GPN.us",
+      "name": "Global Payments",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GPN"
+    },
+    {
+      "ticker": "GRASIM.in",
+      "name": "Grasim Industries",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "GRASIM.NS"
+    },
+    {
+      "ticker": "GRF.es",
+      "name": "Grifols",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "GRF.MC"
+    },
+    {
+      "ticker": "GRMN.us",
+      "name": "Garmin",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GRMN"
+    },
+    {
+      "ticker": "GS.us",
+      "name": "Goldman Sachs",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GS"
+    },
+    {
+      "ticker": "GSK.uk",
+      "name": "GSK plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "GSK.L"
+    },
+    {
+      "ticker": "GWW.us",
+      "name": "W. W. Grainger",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "GWW"
+    },
+    {
+      "ticker": "HAL.in",
+      "name": "Hindustan Aeronautics",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "HAL.NS"
+    },
+    {
+      "ticker": "HAL.us",
+      "name": "Halliburton",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HAL"
+    },
+    {
+      "ticker": "HAS.us",
+      "name": "Hasbro",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HAS"
+    },
+    {
+      "ticker": "HBAN.us",
+      "name": "Huntington Bancshares",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HBAN"
+    },
+    {
+      "ticker": "HCA.us",
+      "name": "HCA Healthcare",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HCA"
+    },
+    {
+      "ticker": "HCLTECH.in",
+      "name": "HCLTech",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "HCLTECH.NS"
+    },
+    {
+      "ticker": "HD.us",
+      "name": "Home Depot (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HD"
+    },
+    {
+      "ticker": "HDFCAMC.in",
+      "name": "HDFC Asset Management",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "HDFCAMC.NS"
+    },
+    {
+      "ticker": "HDFCBANK.in",
+      "name": "HDFC Bank",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "HDFCBANK.NS"
+    },
+    {
+      "ticker": "HDFCLIFE.in",
+      "name": "HDFC Life",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "HDFCLIFE.NS"
+    },
+    {
+      "ticker": "HEI.de",
+      "name": "Heidelberg Materials",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "HEI.DE"
+    },
+    {
+      "ticker": "HEIA.nl",
+      "name": "Heineken",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "HEIA.AS"
+    },
+    {
+      "ticker": "HEN3.de",
+      "name": "Henkel",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "HEN3.DE"
+    },
+    {
+      "ticker": "HIG.us",
+      "name": "Hartford (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HIG"
+    },
+    {
+      "ticker": "HII.us",
+      "name": "Huntington Ingalls Industries",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HII"
+    },
+    {
+      "ticker": "HINDALCO.in",
+      "name": "Hindalco Industries",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "HINDALCO.NS"
+    },
+    {
+      "ticker": "HINDUNILVR.in",
+      "name": "Hindustan Unilever",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "HINDUNILVR.NS"
+    },
+    {
+      "ticker": "HINDZINC.in",
+      "name": "Hindustan Zinc",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "HINDZINC.NS"
+    },
+    {
+      "ticker": "HLMA.uk",
+      "name": "Halma plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "HLMA.L"
+    },
+    {
+      "ticker": "HLN.uk",
+      "name": "Haleon",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "HLN.L"
+    },
+    {
+      "ticker": "HLT.us",
+      "name": "Hilton Worldwide",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HLT"
+    },
+    {
+      "ticker": "HNR1.de",
+      "name": "Hannover Re",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "HNR1.DE"
+    },
+    {
+      "ticker": "HO.fr",
+      "name": "Thales",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "HO.PA"
+    },
+    {
+      "ticker": "HON.us",
+      "name": "Honeywell Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HON"
+    },
+    {
+      "ticker": "HONA.us",
+      "name": "Honeywell Aerospace",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HONA"
+    },
+    {
+      "ticker": "HOOD.us",
+      "name": "Robinhood Markets",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HOOD"
+    },
+    {
+      "ticker": "HPE.us",
+      "name": "Hewlett Packard Enterprise",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HPE"
+    },
+    {
+      "ticker": "HPQ.us",
+      "name": "HP Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HPQ"
+    },
+    {
+      "ticker": "HRL.us",
+      "name": "Hormel Foods",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HRL"
+    },
+    {
+      "ticker": "HSBA.uk",
+      "name": "HSBC",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "HSBA.L"
+    },
+    {
+      "ticker": "HSIC.us",
+      "name": "Henry Schein",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HSIC"
+    },
+    {
+      "ticker": "HST.us",
+      "name": "Host Hotels & Resorts",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HST"
+    },
+    {
+      "ticker": "HSX.uk",
+      "name": "Hiscox",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "HSX.L"
+    },
+    {
+      "ticker": "HSY.us",
+      "name": "Hershey Company (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HSY"
+    },
+    {
+      "ticker": "HUBB.us",
+      "name": "Hubbell Incorporated",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HUBB"
+    },
+    {
+      "ticker": "HUM.us",
+      "name": "Humana",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HUM"
+    },
+    {
+      "ticker": "HWDN.uk",
+      "name": "Howdens Joinery",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "HWDN.L"
+    },
+    {
+      "ticker": "HWM.us",
+      "name": "Howmet Aerospace",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "HWM"
+    },
+    {
+      "ticker": "HYUNDAI.in",
+      "name": "Hyundai Motor India",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "HYUNDAI.NS"
+    },
+    {
+      "ticker": "IAG.es",
+      "name": "International Airlines Group",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "IAG.MC"
+    },
+    {
+      "ticker": "IAG.uk",
+      "name": "International Airlines Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "IAG.L"
+    },
+    {
+      "ticker": "IBE.es",
+      "name": "Iberdrola",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "IBE.MC"
+    },
+    {
+      "ticker": "IBKR.us",
+      "name": "Interactive Brokers",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IBKR"
+    },
+    {
+      "ticker": "IBM.us",
+      "name": "IBM",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IBM"
+    },
+    {
+      "ticker": "ICE.us",
+      "name": "Intercontinental Exchange",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ICE"
+    },
+    {
+      "ticker": "ICG.uk",
+      "name": "ICG",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ICG.L"
+    },
+    {
+      "ticker": "ICICIBANK.in",
+      "name": "ICICI Bank",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ICICIBANK.NS"
+    },
+    {
+      "ticker": "IDR.es",
+      "name": "Indra",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "IDR.MC"
+    },
+    {
+      "ticker": "IDXX.us",
+      "name": "Idexx Laboratories",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IDXX"
+    },
+    {
+      "ticker": "IEX.us",
+      "name": "IDEX Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IEX"
+    },
+    {
+      "ticker": "IFF.us",
+      "name": "International Flavors & Fragrances",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IFF"
+    },
+    {
+      "ticker": "IFX.de",
+      "name": "Infineon Technologies",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "IFX.DE"
+    },
+    {
+      "ticker": "IGG.uk",
+      "name": "IG Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "IGG.L"
+    },
+    {
+      "ticker": "IHG.uk",
+      "name": "IHG Hotels & Resorts",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "IHG.L"
+    },
+    {
+      "ticker": "III.uk",
+      "name": "3i",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "III.L"
+    },
+    {
+      "ticker": "IMB.uk",
+      "name": "Imperial Brands",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "IMB.L"
+    },
+    {
+      "ticker": "IMCD.nl",
+      "name": "IMCD",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "IMCD.AS"
+    },
+    {
+      "ticker": "IMI.uk",
+      "name": "IMI",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "IMI.L"
+    },
+    {
+      "ticker": "INCY.us",
+      "name": "Incyte",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "INCY"
+    },
+    {
+      "ticker": "INDHOTEL.in",
+      "name": "Indian Hotels Company",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "INDHOTEL.NS"
+    },
+    {
+      "ticker": "INDIGO.in",
+      "name": "IndiGo",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "INDIGO.NS"
+    },
+    {
+      "ticker": "INF.uk",
+      "name": "Informa",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "INF.L"
+    },
+    {
+      "ticker": "INFY.in",
+      "name": "Infosys",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "INFY.NS"
+    },
+    {
+      "ticker": "INGA.nl",
+      "name": "ING Group",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "INGA.AS"
+    },
+    {
+      "ticker": "INTC.us",
+      "name": "Intel",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "INTC"
+    },
+    {
+      "ticker": "INTU.us",
+      "name": "Intuit",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "INTU"
+    },
+    {
+      "ticker": "INVH.us",
+      "name": "Invitation Homes",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "INVH"
+    },
+    {
+      "ticker": "INVP.uk",
+      "name": "Investec",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "INVP.L"
+    },
+    {
+      "ticker": "IOC.in",
+      "name": "Indian Oil Corporation",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "IOC.NS"
+    },
+    {
+      "ticker": "IP.us",
+      "name": "International Paper",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IP"
+    },
+    {
+      "ticker": "IQV.us",
+      "name": "IQVIA",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IQV"
+    },
+    {
+      "ticker": "IR.us",
+      "name": "Ingersoll Rand",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IR"
+    },
+    {
+      "ticker": "IRFC.in",
+      "name": "IRFC",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "IRFC.NS"
+    },
+    {
+      "ticker": "IRM.us",
+      "name": "Iron Mountain",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IRM"
+    },
+    {
+      "ticker": "ISRG.us",
+      "name": "Intuitive Surgical",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ISRG"
+    },
+    {
+      "ticker": "IT.us",
+      "name": "Gartner",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IT"
+    },
+    {
+      "ticker": "ITC.in",
+      "name": "ITC",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ITC.NS"
+    },
+    {
+      "ticker": "ITRK.uk",
+      "name": "Intertek",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ITRK.L"
+    },
+    {
+      "ticker": "ITW.us",
+      "name": "Illinois Tool Works",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ITW"
+    },
+    {
+      "ticker": "ITX.es",
+      "name": "Inditex",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ITX.MC"
+    },
+    {
+      "ticker": "IVZ.us",
+      "name": "Invesco",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "IVZ"
+    },
+    {
+      "ticker": "J.us",
+      "name": "Jacobs Solutions",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "J"
+    },
+    {
+      "ticker": "JBHT.us",
+      "name": "J.B. Hunt",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "JBHT"
+    },
+    {
+      "ticker": "JBL.us",
+      "name": "Jabil",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "JBL"
+    },
+    {
+      "ticker": "JCI.us",
+      "name": "Johnson Controls",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "JCI"
+    },
+    {
+      "ticker": "JD.uk",
+      "name": "JD Sports",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "JD.L"
+    },
+    {
+      "ticker": "JINDALSTEL.in",
+      "name": "Jindal Steel",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "JINDALSTEL.NS"
+    },
+    {
+      "ticker": "JIOFIN.in",
+      "name": "Jio Financial Services",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "JIOFIN.NS"
+    },
+    {
+      "ticker": "JKHY.us",
+      "name": "Jack Henry & Associates",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "JKHY"
+    },
+    {
+      "ticker": "JNJ.us",
+      "name": "Johnson & Johnson",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "JNJ"
+    },
+    {
+      "ticker": "JPM.us",
+      "name": "JPMorgan Chase",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "JPM"
+    },
+    {
+      "ticker": "JSWSTEEL.in",
+      "name": "JSW Steel",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "JSWSTEEL.NS"
+    },
+    {
+      "ticker": "KDP.us",
+      "name": "Keurig Dr Pepper",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KDP"
+    },
+    {
+      "ticker": "KER.fr",
+      "name": "Kering",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "KER.PA"
+    },
+    {
+      "ticker": "KEY.us",
+      "name": "KeyCorp",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KEY"
+    },
+    {
+      "ticker": "KEYS.us",
+      "name": "Keysight Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KEYS"
+    },
+    {
+      "ticker": "KGF.uk",
+      "name": "Kingfisher plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "KGF.L"
+    },
+    {
+      "ticker": "KHC.us",
+      "name": "Kraft Heinz",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KHC"
+    },
+    {
+      "ticker": "KIM.us",
+      "name": "Kimco Realty",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KIM"
+    },
+    {
+      "ticker": "KKR.us",
+      "name": "KKR & Co.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KKR"
+    },
+    {
+      "ticker": "KLAC.us",
+      "name": "KLA Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KLAC"
+    },
+    {
+      "ticker": "KMB.us",
+      "name": "Kimberly-Clark",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KMB"
+    },
+    {
+      "ticker": "KMI.us",
+      "name": "Kinder Morgan",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KMI"
+    },
+    {
+      "ticker": "KO.us",
+      "name": "Coca-Cola Company (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KO"
+    },
+    {
+      "ticker": "KOTAKBANK.in",
+      "name": "Kotak Mahindra Bank",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "KOTAKBANK.NS"
+    },
+    {
+      "ticker": "KPN.nl",
+      "name": "KPN",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "KPN.AS"
+    },
+    {
+      "ticker": "KR.us",
+      "name": "Kroger",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KR"
+    },
+    {
+      "ticker": "KVUE.us",
+      "name": "Kenvue",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "KVUE"
+    },
+    {
+      "ticker": "L.us",
+      "name": "Loews Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "L"
+    },
+    {
+      "ticker": "LAND.uk",
+      "name": "Land Securities",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "LAND.L"
+    },
+    {
+      "ticker": "LDOS.us",
+      "name": "Leidos",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LDOS"
+    },
+    {
+      "ticker": "LEN.us",
+      "name": "Lennar",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LEN"
+    },
+    {
+      "ticker": "LGEN.uk",
+      "name": "Legal & General",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "LGEN.L"
+    },
+    {
+      "ticker": "LH.us",
+      "name": "Labcorp",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LH"
+    },
+    {
+      "ticker": "LHX.us",
+      "name": "L3Harris",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LHX"
+    },
+    {
+      "ticker": "LII.us",
+      "name": "Lennox International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LII"
+    },
+    {
+      "ticker": "LIN.us",
+      "name": "Linde plc",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LIN"
+    },
+    {
+      "ticker": "LITE.us",
+      "name": "Lumentum",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LITE"
+    },
+    {
+      "ticker": "LLOY.uk",
+      "name": "Lloyds Banking Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "LLOY.L"
+    },
+    {
+      "ticker": "LLY.us",
+      "name": "Lilly (Eli)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LLY"
+    },
+    {
+      "ticker": "LMP.uk",
+      "name": "LondonMetric Property",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "LMP.L"
+    },
+    {
+      "ticker": "LMT.us",
+      "name": "Lockheed Martin",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LMT"
+    },
+    {
+      "ticker": "LNT.us",
+      "name": "Alliant Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LNT"
+    },
+    {
+      "ticker": "LODHA.in",
+      "name": "Lodha",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "LODHA.NS"
+    },
+    {
+      "ticker": "LOG.es",
+      "name": "Logista",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "LOG.MC"
+    },
+    {
+      "ticker": "LOW.us",
+      "name": "Lowe's",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LOW"
+    },
+    {
+      "ticker": "LR.fr",
+      "name": "Legrand",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "LR.PA"
+    },
+    {
+      "ticker": "LRCX.us",
+      "name": "Lam Research",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LRCX"
+    },
+    {
+      "ticker": "LSEG.uk",
+      "name": "London Stock Exchange Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "LSEG.L"
+    },
+    {
+      "ticker": "LT.in",
+      "name": "Larsen & Toubro",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "LT.NS"
+    },
+    {
+      "ticker": "LTM.in",
+      "name": "LTM",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "LTM.NS"
+    },
+    {
+      "ticker": "LULU.us",
+      "name": "Lululemon Athletica",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LULU"
+    },
+    {
+      "ticker": "LUV.us",
+      "name": "Southwest Airlines",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LUV"
+    },
+    {
+      "ticker": "LVS.us",
+      "name": "Las Vegas Sands",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LVS"
+    },
+    {
+      "ticker": "LYB.us",
+      "name": "LyondellBasell",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LYB"
+    },
+    {
+      "ticker": "LYV.us",
+      "name": "Live Nation Entertainment",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "LYV"
+    },
+    {
+      "ticker": "M&M.in",
+      "name": "Mahindra & Mahindra",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "M&M.NS"
+    },
+    {
+      "ticker": "MA.us",
+      "name": "Mastercard",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MA"
+    },
+    {
+      "ticker": "MAA.us",
+      "name": "Mid-America Apartment Communities",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MAA"
+    },
+    {
+      "ticker": "MAP.es",
+      "name": "Mapfre",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "MAP.MC"
+    },
+    {
+      "ticker": "MAR.us",
+      "name": "Marriott International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MAR"
+    },
+    {
+      "ticker": "MARUTI.in",
+      "name": "Maruti Suzuki",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "MARUTI.NS"
+    },
+    {
+      "ticker": "MAS.us",
+      "name": "Masco",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MAS"
+    },
+    {
+      "ticker": "MAXHEALTH.in",
+      "name": "Max Healthcare",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "MAXHEALTH.NS"
+    },
+    {
+      "ticker": "MAZDOCK.in",
+      "name": "Mazagon Dock Shipbuilders",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "MAZDOCK.NS"
+    },
+    {
+      "ticker": "MBG.de",
+      "name": "Mercedes-Benz Group",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "MBG.DE"
+    },
+    {
+      "ticker": "MC.fr",
+      "name": "LVMH",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "MC.PA"
+    },
+    {
+      "ticker": "MCD.us",
+      "name": "McDonald's",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MCD"
+    },
+    {
+      "ticker": "MCHP.us",
+      "name": "Microchip Technology",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MCHP"
+    },
+    {
+      "ticker": "MCK.us",
+      "name": "McKesson Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MCK"
+    },
+    {
+      "ticker": "MCO.us",
+      "name": "Moody's Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MCO"
+    },
+    {
+      "ticker": "MDLZ.us",
+      "name": "Mondelez International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MDLZ"
+    },
+    {
+      "ticker": "MDT.us",
+      "name": "Medtronic",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MDT"
+    },
+    {
+      "ticker": "MELI.us",
+      "name": "MercadoLibre, Inc.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "MELI"
+    },
+    {
+      "ticker": "MET.us",
+      "name": "MetLife",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MET"
+    },
+    {
+      "ticker": "META.us",
+      "name": "Meta Platforms",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "META"
+    },
+    {
+      "ticker": "MGM.us",
+      "name": "MGM Resorts",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MGM"
+    },
+    {
+      "ticker": "MKC.us",
+      "name": "McCormick & Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MKC"
+    },
+    {
+      "ticker": "MKS.uk",
+      "name": "Marks & Spencer",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "MKS.L"
+    },
+    {
+      "ticker": "ML.fr",
+      "name": "Michelin",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "ML.PA"
+    },
+    {
+      "ticker": "MLM.us",
+      "name": "Martin Marietta Materials",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MLM"
+    },
+    {
+      "ticker": "MMM.us",
+      "name": "3M",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MMM"
+    },
+    {
+      "ticker": "MNG.uk",
+      "name": "M&G",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "MNG.L"
+    },
+    {
+      "ticker": "MNST.us",
+      "name": "Monster Beverage",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MNST"
+    },
+    {
+      "ticker": "MO.us",
+      "name": "Altria",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MO"
+    },
+    {
+      "ticker": "MOS.us",
+      "name": "Mosaic Company (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MOS"
+    },
+    {
+      "ticker": "MOTHERSON.in",
+      "name": "Samvardhana Motherson",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "MOTHERSON.NS"
+    },
+    {
+      "ticker": "MPC.us",
+      "name": "Marathon Petroleum",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MPC"
+    },
+    {
+      "ticker": "MPWR.us",
+      "name": "Monolithic Power Systems",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MPWR"
+    },
+    {
+      "ticker": "MRK.de",
+      "name": "Merck",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "MRK.DE"
+    },
+    {
+      "ticker": "MRK.us",
+      "name": "Merck & Co.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MRK"
+    },
+    {
+      "ticker": "MRL.es",
+      "name": "Merlin Properties",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "MRL.MC"
+    },
+    {
+      "ticker": "MRNA.us",
+      "name": "Moderna",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MRNA"
+    },
+    {
+      "ticker": "MRO.uk",
+      "name": "Melrose Industries",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "MRO.L"
+    },
+    {
+      "ticker": "MRSH.us",
+      "name": "Marsh McLennan",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MRSH"
+    },
+    {
+      "ticker": "MRVL.us",
+      "name": "Marvell Technology",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MRVL"
+    },
+    {
+      "ticker": "MS.us",
+      "name": "Morgan Stanley",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MS"
+    },
+    {
+      "ticker": "MSCI.us",
+      "name": "MSCI Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MSCI"
+    },
+    {
+      "ticker": "MSFT.us",
+      "name": "Microsoft",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MSFT"
+    },
+    {
+      "ticker": "MSI.us",
+      "name": "Motorola Solutions",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MSI"
+    },
+    {
+      "ticker": "MSTR.us",
+      "name": "Strategy Inc",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "MSTR"
+    },
+    {
+      "ticker": "MT.fr",
+      "name": "ArcelorMittal",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "MT.AS"
+    },
+    {
+      "ticker": "MTB.us",
+      "name": "M&T Bank",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MTB"
+    },
+    {
+      "ticker": "MTD.us",
+      "name": "Mettler Toledo",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MTD"
+    },
+    {
+      "ticker": "MTLN.uk",
+      "name": "Metlen Energy & Metals",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "MTLN.L"
+    },
+    {
+      "ticker": "MTS.es",
+      "name": "ArcelorMittal",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "MTS.MC"
+    },
+    {
+      "ticker": "MTX.de",
+      "name": "MTU Aero Engines",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "MTX.DE"
+    },
+    {
+      "ticker": "MU.us",
+      "name": "Micron Technology",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "MU"
+    },
+    {
+      "ticker": "MUTHOOTFIN.in",
+      "name": "Muthoot Finance",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "MUTHOOTFIN.NS"
+    },
+    {
+      "ticker": "MUV2.de",
+      "name": "Munich Re",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "MUV2.DE"
+    },
+    {
+      "ticker": "NBIS.us",
+      "name": "Nebius Group N.V.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "NBIS"
+    },
+    {
+      "ticker": "NCLH.us",
+      "name": "Norwegian Cruise Line Holdings",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NCLH"
+    },
+    {
+      "ticker": "NDAQ.us",
+      "name": "Nasdaq, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NDAQ"
+    },
+    {
+      "ticker": "NDSN.us",
+      "name": "Nordson Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NDSN"
+    },
+    {
+      "ticker": "NEE.us",
+      "name": "NextEra Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NEE"
+    },
+    {
+      "ticker": "NEM.us",
+      "name": "Newmont",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NEM"
+    },
+    {
+      "ticker": "NESTLEIND.in",
+      "name": "Nestlé India",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "NESTLEIND.NS"
+    },
+    {
+      "ticker": "NFLX.us",
+      "name": "Netflix",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NFLX"
+    },
+    {
+      "ticker": "NG.uk",
+      "name": "National Grid plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "NG.L"
+    },
+    {
+      "ticker": "NI.us",
+      "name": "NiSource",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NI"
+    },
+    {
+      "ticker": "NKE.us",
+      "name": "Nike, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NKE"
+    },
+    {
+      "ticker": "NN.nl",
+      "name": "NN Group",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "NN.AS"
+    },
+    {
+      "ticker": "NOC.us",
+      "name": "Northrop Grumman",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NOC"
+    },
+    {
+      "ticker": "NOW.us",
+      "name": "ServiceNow",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NOW"
+    },
+    {
+      "ticker": "NRG.us",
+      "name": "NRG Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NRG"
+    },
+    {
+      "ticker": "NSC.us",
+      "name": "Norfolk Southern",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NSC"
+    },
+    {
+      "ticker": "NTAP.us",
+      "name": "NetApp",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NTAP"
+    },
+    {
+      "ticker": "NTGY.es",
+      "name": "Naturgy",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "NTGY.MC"
+    },
+    {
+      "ticker": "NTPC.in",
+      "name": "NTPC",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "NTPC.NS"
+    },
+    {
+      "ticker": "NTRS.us",
+      "name": "Northern Trust",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NTRS"
+    },
+    {
+      "ticker": "NUE.us",
+      "name": "Nucor",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NUE"
+    },
+    {
+      "ticker": "NVDA.us",
+      "name": "Nvidia",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NVDA"
+    },
+    {
+      "ticker": "NVR.us",
+      "name": "NVR, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NVR"
+    },
+    {
+      "ticker": "NWG.uk",
+      "name": "NatWest Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "NWG.L"
+    },
+    {
+      "ticker": "NWS.us",
+      "name": "News Corp (Class B)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NWS"
+    },
+    {
+      "ticker": "NWSA.us",
+      "name": "News Corp (Class A)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NWSA"
+    },
+    {
+      "ticker": "NXPI.us",
+      "name": "NXP Semiconductors",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "NXPI"
+    },
+    {
+      "ticker": "NXT.uk",
+      "name": "Next plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "NXT.L"
+    },
+    {
+      "ticker": "O.us",
+      "name": "Realty Income",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "O"
+    },
+    {
+      "ticker": "ODFL.us",
+      "name": "Old Dominion",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ODFL"
+    },
+    {
+      "ticker": "OKE.us",
+      "name": "Oneok",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "OKE"
+    },
+    {
+      "ticker": "OMC.us",
+      "name": "Omnicom Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "OMC"
+    },
+    {
+      "ticker": "ON.us",
+      "name": "ON Semiconductor",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ON"
+    },
+    {
+      "ticker": "ONGC.in",
+      "name": "Oil and Natural Gas Corporation",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ONGC.NS"
+    },
+    {
+      "ticker": "OR.fr",
+      "name": "L'Oréal",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "OR.PA"
+    },
+    {
+      "ticker": "ORA.fr",
+      "name": "Orange",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "ORA.PA"
+    },
+    {
+      "ticker": "ORCL.us",
+      "name": "Oracle Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ORCL"
+    },
+    {
+      "ticker": "ORLY.us",
+      "name": "O’Reilly Automotive",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ORLY"
+    },
+    {
+      "ticker": "OTIS.us",
+      "name": "Otis Worldwide",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "OTIS"
+    },
+    {
+      "ticker": "OXY.us",
+      "name": "Occidental Petroleum",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "OXY"
+    },
+    {
+      "ticker": "PAH3.de",
+      "name": "Porsche SE",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "PAH3.DE"
+    },
+    {
+      "ticker": "PANW.us",
+      "name": "Palo Alto Networks",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PANW"
+    },
+    {
+      "ticker": "PAYX.us",
+      "name": "Paychex",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PAYX"
+    },
+    {
+      "ticker": "PCAR.us",
+      "name": "Paccar",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PCAR"
+    },
+    {
+      "ticker": "PCG.us",
+      "name": "PG&E Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PCG"
+    },
+    {
+      "ticker": "PCT.uk",
+      "name": "Polar Capital Technology Trust",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "PCT.L"
+    },
+    {
+      "ticker": "PDD.us",
+      "name": "PDD Holdings Inc.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "PDD"
+    },
+    {
+      "ticker": "PEG.us",
+      "name": "Public Service Enterprise Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PEG"
+    },
+    {
+      "ticker": "PEP.us",
+      "name": "PepsiCo",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PEP"
+    },
+    {
+      "ticker": "PFC.in",
+      "name": "Power Finance Corporation",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "PFC.NS"
+    },
+    {
+      "ticker": "PFE.us",
+      "name": "Pfizer",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PFE"
+    },
+    {
+      "ticker": "PFG.us",
+      "name": "Principal Financial Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PFG"
+    },
+    {
+      "ticker": "PG.us",
+      "name": "Procter & Gamble",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PG"
+    },
+    {
+      "ticker": "PGR.us",
+      "name": "Progressive Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PGR"
+    },
+    {
+      "ticker": "PH.us",
+      "name": "Parker Hannifin",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PH"
+    },
+    {
+      "ticker": "PHIA.nl",
+      "name": "Philips",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "PHIA.AS"
+    },
+    {
+      "ticker": "PHM.us",
+      "name": "PulteGroup",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PHM"
+    },
+    {
+      "ticker": "PIDILITIND.in",
+      "name": "Pidilite Industries",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "PIDILITIND.NS"
+    },
+    {
+      "ticker": "PKG.us",
+      "name": "Packaging Corporation of America",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PKG"
+    },
+    {
+      "ticker": "PLD.us",
+      "name": "Prologis",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PLD"
+    },
+    {
+      "ticker": "PLTR.us",
+      "name": "Palantir Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PLTR"
+    },
+    {
+      "ticker": "PM.us",
+      "name": "Philip Morris International",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PM"
+    },
+    {
+      "ticker": "PNB.in",
+      "name": "Punjab National Bank",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "PNB.NS"
+    },
+    {
+      "ticker": "PNC.us",
+      "name": "PNC Financial Services",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PNC"
+    },
+    {
+      "ticker": "PNR.us",
+      "name": "Pentair",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PNR"
+    },
+    {
+      "ticker": "PNW.us",
+      "name": "Pinnacle West Capital",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PNW"
+    },
+    {
+      "ticker": "PODD.us",
+      "name": "Insulet Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PODD"
+    },
+    {
+      "ticker": "POWERGRID.in",
+      "name": "Power Grid",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "POWERGRID.NS"
+    },
+    {
+      "ticker": "PPG.us",
+      "name": "PPG Industries",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PPG"
+    },
+    {
+      "ticker": "PPL.us",
+      "name": "PPL Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PPL"
+    },
+    {
+      "ticker": "PRU.uk",
+      "name": "Prudential plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "PRU.L"
+    },
+    {
+      "ticker": "PRU.us",
+      "name": "Prudential Financial",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PRU"
+    },
+    {
+      "ticker": "PRX.nl",
+      "name": "Prosus",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "PRX.AS"
+    },
+    {
+      "ticker": "PSA.us",
+      "name": "Public Storage",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PSA"
+    },
+    {
+      "ticker": "PSH.uk",
+      "name": "Pershing Square Holdings",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "PSH.L"
+    },
+    {
+      "ticker": "PSKY.us",
+      "name": "Paramount Skydance Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PSKY"
+    },
+    {
+      "ticker": "PSN.uk",
+      "name": "Persimmon",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "PSN.L"
+    },
+    {
+      "ticker": "PSON.uk",
+      "name": "Pearson plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "PSON.L"
+    },
+    {
+      "ticker": "PSX.us",
+      "name": "Phillips 66",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PSX"
+    },
+    {
+      "ticker": "PTC.us",
+      "name": "PTC Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PTC"
+    },
+    {
+      "ticker": "PUB.fr",
+      "name": "Publicis",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "PUB.PA"
+    },
+    {
+      "ticker": "PUIG.es",
+      "name": "Puig",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "PUIG.MC"
+    },
+    {
+      "ticker": "PWR.us",
+      "name": "Quanta Services",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PWR"
+    },
+    {
+      "ticker": "PYPL.us",
+      "name": "PayPal",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "PYPL"
+    },
+    {
+      "ticker": "Q.us",
+      "name": "Qnity Electronics",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "Q"
+    },
+    {
+      "ticker": "QCOM.us",
+      "name": "Qualcomm",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "QCOM"
+    },
+    {
+      "ticker": "QIA.de",
+      "name": "Qiagen",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "QIA.DE"
+    },
+    {
+      "ticker": "RAND.nl",
+      "name": "Randstad",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "RAND.AS"
+    },
+    {
+      "ticker": "RCL.us",
+      "name": "Royal Caribbean Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RCL"
+    },
+    {
+      "ticker": "RECLTD.in",
+      "name": "REC",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "RECLTD.NS"
+    },
+    {
+      "ticker": "RED.es",
+      "name": "Redeia Corporación",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "RED.MC"
+    },
+    {
+      "ticker": "REG.us",
+      "name": "Regency Centers",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "REG"
+    },
+    {
+      "ticker": "REGN.us",
+      "name": "Regeneron Pharmaceuticals",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "REGN"
+    },
+    {
+      "ticker": "REL.uk",
+      "name": "RELX",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "REL.L"
+    },
+    {
+      "ticker": "RELIANCE.in",
+      "name": "Reliance Industries",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "RELIANCE.NS"
+    },
+    {
+      "ticker": "REN.nl",
+      "name": "RELX",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "REN.AS"
+    },
+    {
+      "ticker": "REP.es",
+      "name": "Repsol",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "REP.MC"
+    },
+    {
+      "ticker": "RF.us",
+      "name": "Regions Financial Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RF"
+    },
+    {
+      "ticker": "RHM.de",
+      "name": "Rheinmetall",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "RHM.DE"
+    },
+    {
+      "ticker": "RI.fr",
+      "name": "Pernod Ricard",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "RI.PA"
+    },
+    {
+      "ticker": "RIO.uk",
+      "name": "Rio Tinto",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "RIO.L"
+    },
+    {
+      "ticker": "RJF.us",
+      "name": "Raymond James Financial",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RJF"
+    },
+    {
+      "ticker": "RKLB.us",
+      "name": "Rocket Lab Corporation",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "RKLB"
+    },
+    {
+      "ticker": "RKT.uk",
+      "name": "Reckitt",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "RKT.L"
+    },
+    {
+      "ticker": "RL.us",
+      "name": "Ralph Lauren Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RL"
+    },
+    {
+      "ticker": "RMD.us",
+      "name": "ResMed",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RMD"
+    },
+    {
+      "ticker": "RMS.fr",
+      "name": "Hermès",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "RMS.PA"
+    },
+    {
+      "ticker": "RNO.fr",
+      "name": "Renault",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "RNO.PA"
+    },
+    {
+      "ticker": "ROK.us",
+      "name": "Rockwell Automation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ROK"
+    },
+    {
+      "ticker": "ROL.us",
+      "name": "Rollins, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ROL"
+    },
+    {
+      "ticker": "ROP.us",
+      "name": "Roper Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ROP"
+    },
+    {
+      "ticker": "ROST.us",
+      "name": "Ross Stores",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ROST"
+    },
+    {
+      "ticker": "ROVI.es",
+      "name": "Laboratorios Rovi",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "ROVI.MC"
+    },
+    {
+      "ticker": "RR.uk",
+      "name": "Rolls-Royce Holdings",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "RR.L"
+    },
+    {
+      "ticker": "RSG.us",
+      "name": "Republic Services",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RSG"
+    },
+    {
+      "ticker": "RTO.uk",
+      "name": "Rentokil Initial",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "RTO.L"
+    },
+    {
+      "ticker": "RTX.us",
+      "name": "RTX Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RTX"
+    },
+    {
+      "ticker": "RVTY.us",
+      "name": "Revvity",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RVTY"
+    },
+    {
+      "ticker": "RWE.de",
+      "name": "RWE",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "RWE.DE"
+    },
+    {
+      "ticker": "SAB.es",
+      "name": "Banco Sabadell",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "SAB.MC"
+    },
+    {
+      "ticker": "SAF.fr",
+      "name": "Safran",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "SAF.PA"
+    },
+    {
+      "ticker": "SAN.es",
+      "name": "Santander",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "SAN.MC"
+    },
+    {
+      "ticker": "SAN.fr",
+      "name": "Sanofi",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "SAN.PA"
+    },
+    {
+      "ticker": "SAP.de",
+      "name": "SAP",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "SAP.DE"
+    },
+    {
+      "ticker": "SBAC.us",
+      "name": "SBA Communications",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SBAC"
+    },
+    {
+      "ticker": "SBILIFE.in",
+      "name": "SBI Life Insurance Company",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "SBILIFE.NS"
+    },
+    {
+      "ticker": "SBIN.in",
+      "name": "State Bank of India",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "SBIN.NS"
+    },
+    {
+      "ticker": "SBRY.uk",
+      "name": "Sainsbury's",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SBRY.L"
+    },
+    {
+      "ticker": "SBUX.us",
+      "name": "Starbucks",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SBUX"
+    },
+    {
+      "ticker": "SCHW.us",
+      "name": "Charles Schwab Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SCHW"
+    },
+    {
+      "ticker": "SCYR.es",
+      "name": "Sacyr",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "SCYR.MC"
+    },
+    {
+      "ticker": "SDLF.uk",
+      "name": "Standard Life",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SDLF.L"
+    },
+    {
+      "ticker": "SDR.uk",
+      "name": "Schroders",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SDR.L"
+    },
+    {
+      "ticker": "SGE.uk",
+      "name": "Sage Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SGE.L"
+    },
+    {
+      "ticker": "SGO.fr",
+      "name": "Saint-Gobain",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "SGO.PA"
+    },
+    {
+      "ticker": "SGRO.uk",
+      "name": "Segro",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SGRO.L"
+    },
+    {
+      "ticker": "SHEL.uk",
+      "name": "Shell plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SHEL.L"
+    },
+    {
+      "ticker": "SHELL.nl",
+      "name": "Shell plc",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "SHELL.AS"
+    },
+    {
+      "ticker": "SHL.de",
+      "name": "Siemens Healthineers",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "SHL.DE"
+    },
+    {
+      "ticker": "SHOP.us",
+      "name": "Shopify Inc.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "SHOP"
+    },
+    {
+      "ticker": "SHREECEM.in",
+      "name": "Shree Cement",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "SHREECEM.NS"
+    },
+    {
+      "ticker": "SHRIRAMFIN.in",
+      "name": "Shriram Finance",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "SHRIRAMFIN.NS"
+    },
+    {
+      "ticker": "SHW.us",
+      "name": "Sherwin-Williams",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SHW"
+    },
+    {
+      "ticker": "SIE.de",
+      "name": "Siemens",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "SIE.DE"
+    },
+    {
+      "ticker": "SIEMENS.in",
+      "name": "Siemens",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "SIEMENS.NS"
+    },
+    {
+      "ticker": "SJM.us",
+      "name": "J.M. Smucker Company (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SJM"
+    },
+    {
+      "ticker": "SLB.us",
+      "name": "Schlumberger",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SLB"
+    },
+    {
+      "ticker": "SLR.es",
+      "name": "Solaria",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "SLR.MC"
+    },
+    {
+      "ticker": "SMCI.us",
+      "name": "Supermicro",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SMCI"
+    },
+    {
+      "ticker": "SMIN.uk",
+      "name": "Smiths Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SMIN.L"
+    },
+    {
+      "ticker": "SMT.uk",
+      "name": "Scottish Mortgage Investment Trust",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SMT.L"
+    },
+    {
+      "ticker": "SN.uk",
+      "name": "Smith & Nephew",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SN.L"
+    },
+    {
+      "ticker": "SNA.us",
+      "name": "Snap-on",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SNA"
+    },
+    {
+      "ticker": "SNDK.us",
+      "name": "Sandisk",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SNDK"
+    },
+    {
+      "ticker": "SNPS.us",
+      "name": "Synopsys",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SNPS"
+    },
+    {
+      "ticker": "SO.us",
+      "name": "Southern Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SO"
+    },
+    {
+      "ticker": "SOLARINDS.in",
+      "name": "Solar Industries",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "SOLARINDS.NS"
+    },
+    {
+      "ticker": "SOLV.us",
+      "name": "Solventum",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SOLV"
+    },
+    {
+      "ticker": "SPCX.us",
+      "name": "Space Exploration Technologies Corp.",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "SPCX"
+    },
+    {
+      "ticker": "SPG.us",
+      "name": "Simon Property Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SPG"
+    },
+    {
+      "ticker": "SPGI.us",
+      "name": "S&P Global",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SPGI"
+    },
+    {
+      "ticker": "SPX.uk",
+      "name": "Spirax Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SPX.L"
+    },
+    {
+      "ticker": "SRE.us",
+      "name": "Sempra",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SRE"
+    },
+    {
+      "ticker": "SSE.uk",
+      "name": "SSE plc",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SSE.L"
+    },
+    {
+      "ticker": "STAN.uk",
+      "name": "Standard Chartered",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "STAN.L"
+    },
+    {
+      "ticker": "STE.us",
+      "name": "Steris",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "STE"
+    },
+    {
+      "ticker": "STJ.uk",
+      "name": "St. James's Place",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "STJ.L"
+    },
+    {
+      "ticker": "STLAP.fr",
+      "name": "Stellantis",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "STLAP.PA"
+    },
+    {
+      "ticker": "STLD.us",
+      "name": "Steel Dynamics",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "STLD"
+    },
+    {
+      "ticker": "STMPA.fr",
+      "name": "STMicroelectronics",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "STMPA.PA"
+    },
+    {
+      "ticker": "STT.us",
+      "name": "State Street Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "STT"
+    },
+    {
+      "ticker": "STX.us",
+      "name": "Seagate Technology",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "STX"
+    },
+    {
+      "ticker": "STZ.us",
+      "name": "Constellation Brands",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "STZ"
+    },
+    {
+      "ticker": "SU.fr",
+      "name": "Schneider Electric",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "SU.PA"
+    },
+    {
+      "ticker": "SUNPHARMA.in",
+      "name": "Sun Pharma",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "SUNPHARMA.NS"
+    },
+    {
+      "ticker": "SVT.uk",
+      "name": "Severn Trent",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "SVT.L"
+    },
+    {
+      "ticker": "SW.us",
+      "name": "Smurfit Westrock",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SW"
+    },
+    {
+      "ticker": "SWK.us",
+      "name": "Stanley Black & Decker",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SWK"
+    },
+    {
+      "ticker": "SWKS.us",
+      "name": "Skyworks Solutions",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SWKS"
+    },
+    {
+      "ticker": "SY1.de",
+      "name": "Symrise",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "SY1.DE"
+    },
+    {
+      "ticker": "SYF.us",
+      "name": "Synchrony Financial",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SYF"
+    },
+    {
+      "ticker": "SYK.us",
+      "name": "Stryker Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SYK"
+    },
+    {
+      "ticker": "SYY.us",
+      "name": "Sysco",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SYY"
+    },
+    {
+      "ticker": "T.us",
+      "name": "AT&T",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "T"
+    },
+    {
+      "ticker": "TAP.us",
+      "name": "Molson Coors Beverage Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TAP"
+    },
+    {
+      "ticker": "TATACAP.in",
+      "name": "Tata Capital",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "TATACAP.NS"
+    },
+    {
+      "ticker": "TATACONSUM.in",
+      "name": "Tata Consumer Products",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TATACONSUM.NS"
+    },
+    {
+      "ticker": "TATAPOWER.in",
+      "name": "Tata Power",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "TATAPOWER.NS"
+    },
+    {
+      "ticker": "TATASTEEL.in",
+      "name": "Tata Steel",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TATASTEEL.NS"
+    },
+    {
+      "ticker": "TCS.in",
+      "name": "Tata Consultancy Services",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TCS.NS"
+    },
+    {
+      "ticker": "TDG.us",
+      "name": "TransDigm Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TDG"
+    },
+    {
+      "ticker": "TDY.us",
+      "name": "Teledyne Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TDY"
+    },
+    {
+      "ticker": "TECH.us",
+      "name": "Bio-Techne",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TECH"
+    },
+    {
+      "ticker": "TECHM.in",
+      "name": "Tech Mahindra",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TECHM.NS"
+    },
+    {
+      "ticker": "TEF.es",
+      "name": "Telefónica",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "TEF.MC"
+    },
+    {
+      "ticker": "TEL.us",
+      "name": "TE Connectivity",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TEL"
+    },
+    {
+      "ticker": "TEP.fr",
+      "name": "Teleperformance",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "TEP.PA"
+    },
+    {
+      "ticker": "TER.us",
+      "name": "Teradyne",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TER"
+    },
+    {
+      "ticker": "TFC.us",
+      "name": "Truist Financial",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TFC"
+    },
+    {
+      "ticker": "TGT.us",
+      "name": "Target Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TGT"
+    },
+    {
+      "ticker": "TITAN.in",
+      "name": "Titan Company",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TITAN.NS"
+    },
+    {
+      "ticker": "TJX.us",
+      "name": "TJX Companies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TJX"
+    },
+    {
+      "ticker": "TKO.us",
+      "name": "TKO Group Holdings",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TKO"
+    },
+    {
+      "ticker": "TMCV.in",
+      "name": "Tata Motors",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "TMCV.NS"
+    },
+    {
+      "ticker": "TMO.us",
+      "name": "Thermo Fisher Scientific",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TMO"
+    },
+    {
+      "ticker": "TMPV.in",
+      "name": "Tata Motors Passenger Vehicles",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TMPV.NS"
+    },
+    {
+      "ticker": "TMUS.us",
+      "name": "T-Mobile US",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TMUS"
+    },
+    {
+      "ticker": "TORNTPHARM.in",
+      "name": "Torrent Pharmaceuticals",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "TORNTPHARM.NS"
+    },
+    {
+      "ticker": "TPL.us",
+      "name": "Texas Pacific Land Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TPL"
+    },
+    {
+      "ticker": "TPR.us",
+      "name": "Tapestry, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TPR"
+    },
+    {
+      "ticker": "TRENT.in",
+      "name": "Trent",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "TRENT.NS"
+    },
+    {
+      "ticker": "TRGP.us",
+      "name": "Targa Resources",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TRGP"
+    },
+    {
+      "ticker": "TRI.us",
+      "name": "Thomson Reuters Corporation",
+      "market": "US",
+      "index": "NASDAQ100",
+      "yahooSymbol": "TRI"
+    },
+    {
+      "ticker": "TRMB.us",
+      "name": "Trimble Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TRMB"
+    },
+    {
+      "ticker": "TROW.us",
+      "name": "T. Rowe Price",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TROW"
+    },
+    {
+      "ticker": "TRV.us",
+      "name": "Travelers Companies (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TRV"
+    },
+    {
+      "ticker": "TSCO.uk",
+      "name": "Tesco",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "TSCO.L"
+    },
+    {
+      "ticker": "TSCO.us",
+      "name": "Tractor Supply",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TSCO"
+    },
+    {
+      "ticker": "TSLA.us",
+      "name": "Tesla, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TSLA"
+    },
+    {
+      "ticker": "TSN.us",
+      "name": "Tyson Foods",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TSN"
+    },
+    {
+      "ticker": "TT.us",
+      "name": "Trane Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TT"
+    },
+    {
+      "ticker": "TTD.us",
+      "name": "Trade Desk (The)",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TTD"
+    },
+    {
+      "ticker": "TTE.fr",
+      "name": "TotalEnergies",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "TTE.PA"
+    },
+    {
+      "ticker": "TTWO.us",
+      "name": "Take-Two Interactive",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TTWO"
+    },
+    {
+      "ticker": "TVSMOTOR.in",
+      "name": "TVS Motor Company",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "TVSMOTOR.NS"
+    },
+    {
+      "ticker": "TXN.us",
+      "name": "Texas Instruments",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TXN"
+    },
+    {
+      "ticker": "TXT.us",
+      "name": "Textron",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TXT"
+    },
+    {
+      "ticker": "TYL.us",
+      "name": "Tyler Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TYL"
+    },
+    {
+      "ticker": "UAL.us",
+      "name": "United Airlines Holdings",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UAL"
+    },
+    {
+      "ticker": "UBER.us",
+      "name": "Uber",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UBER"
+    },
+    {
+      "ticker": "UDR.us",
+      "name": "UDR, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UDR"
+    },
+    {
+      "ticker": "UHS.us",
+      "name": "Universal Health Services",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UHS"
+    },
+    {
+      "ticker": "ULTA.us",
+      "name": "Ulta Beauty",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ULTA"
+    },
+    {
+      "ticker": "ULTRACEMCO.in",
+      "name": "UltraTech Cement",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "ULTRACEMCO.NS"
+    },
+    {
+      "ticker": "ULVR.uk",
+      "name": "Unilever",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ULVR.L"
+    },
+    {
+      "ticker": "UMG.nl",
+      "name": "Universal Music Group",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "UMG.AS"
+    },
+    {
+      "ticker": "UNA.nl",
+      "name": "Unilever",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "UNA.AS"
+    },
+    {
+      "ticker": "UNH.us",
+      "name": "UnitedHealth Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UNH"
+    },
+    {
+      "ticker": "UNI.es",
+      "name": "Unicaja",
+      "market": "ES",
+      "index": "IBEX35",
+      "yahooSymbol": "UNI.MC"
+    },
+    {
+      "ticker": "UNIONBANK.in",
+      "name": "Union Bank of India",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "UNIONBANK.NS"
+    },
+    {
+      "ticker": "UNITDSPR.in",
+      "name": "United Spirits",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "UNITDSPR.NS"
+    },
+    {
+      "ticker": "UNP.us",
+      "name": "Union Pacific Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UNP"
+    },
+    {
+      "ticker": "UPS.us",
+      "name": "United Parcel Service",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "UPS"
+    },
+    {
+      "ticker": "URI.us",
+      "name": "United Rentals",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "URI"
+    },
+    {
+      "ticker": "URW.fr",
+      "name": "Unibail-Rodamco-Westfield",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "URW.PA"
+    },
+    {
+      "ticker": "USB.us",
+      "name": "U.S. Bancorp",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "USB"
+    },
+    {
+      "ticker": "UU.uk",
+      "name": "United Utilities",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "UU.L"
+    },
+    {
+      "ticker": "V.us",
+      "name": "Visa Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "V"
+    },
+    {
+      "ticker": "VBL.in",
+      "name": "Varun Beverages",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "VBL.NS"
+    },
+    {
+      "ticker": "VEDL.in",
+      "name": "Vedanta",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "VEDL.NS"
+    },
+    {
+      "ticker": "VEEV.us",
+      "name": "Veeva Systems",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VEEV"
+    },
+    {
+      "ticker": "VICI.us",
+      "name": "Vici Properties",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VICI"
+    },
+    {
+      "ticker": "VIE.fr",
+      "name": "Veolia",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "VIE.PA"
+    },
+    {
+      "ticker": "VLO.us",
+      "name": "Valero Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VLO"
+    },
+    {
+      "ticker": "VLTO.us",
+      "name": "Veralto",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VLTO"
+    },
+    {
+      "ticker": "VMC.us",
+      "name": "Vulcan Materials Company",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VMC"
+    },
+    {
+      "ticker": "VNA.de",
+      "name": "Vonovia",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "VNA.DE"
+    },
+    {
+      "ticker": "VOD.uk",
+      "name": "Vodafone Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "VOD.L"
+    },
+    {
+      "ticker": "VOW3.de",
+      "name": "Volkswagen Group",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "VOW3.DE"
+    },
+    {
+      "ticker": "VRSK.us",
+      "name": "Verisk Analytics",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VRSK"
+    },
+    {
+      "ticker": "VRSN.us",
+      "name": "Verisign",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VRSN"
+    },
+    {
+      "ticker": "VRT.us",
+      "name": "Vertiv",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VRT"
+    },
+    {
+      "ticker": "VRTX.us",
+      "name": "Vertex Pharmaceuticals",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VRTX"
+    },
+    {
+      "ticker": "VST.us",
+      "name": "Vistra Corp .",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VST"
+    },
+    {
+      "ticker": "VTR.us",
+      "name": "Ventas",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VTR"
+    },
+    {
+      "ticker": "VTRS.us",
+      "name": "Viatris",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VTRS"
+    },
+    {
+      "ticker": "VZ.us",
+      "name": "Verizon",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VZ"
+    },
+    {
+      "ticker": "WAB.us",
+      "name": "Wabtec",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WAB"
+    },
+    {
+      "ticker": "WAT.us",
+      "name": "Waters Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WAT"
+    },
+    {
+      "ticker": "WBD.us",
+      "name": "Warner Bros. Discovery",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WBD"
+    },
+    {
+      "ticker": "WDAY.us",
+      "name": "Workday, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WDAY"
+    },
+    {
+      "ticker": "WDC.us",
+      "name": "Western Digital",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WDC"
+    },
+    {
+      "ticker": "WEC.us",
+      "name": "WEC Energy Group",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WEC"
+    },
+    {
+      "ticker": "WEIR.uk",
+      "name": "Weir Group",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "WEIR.L"
+    },
+    {
+      "ticker": "WELL.us",
+      "name": "Welltower",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WELL"
+    },
+    {
+      "ticker": "WFC.us",
+      "name": "Wells Fargo",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WFC"
+    },
+    {
+      "ticker": "WIPRO.in",
+      "name": "Wipro",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "WIPRO.NS"
+    },
+    {
+      "ticker": "WKL.nl",
+      "name": "Wolters Kluwer",
+      "market": "NL",
+      "index": "AEX",
+      "yahooSymbol": "WKL.AS"
+    },
+    {
+      "ticker": "WM.us",
+      "name": "Waste Management",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WM"
+    },
+    {
+      "ticker": "WMB.us",
+      "name": "Williams Companies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WMB"
+    },
+    {
+      "ticker": "WMT.us",
+      "name": "Walmart",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WMT"
+    },
+    {
+      "ticker": "WRB.us",
+      "name": "W. R. Berkley Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WRB"
+    },
+    {
+      "ticker": "WSM.us",
+      "name": "Williams-Sonoma, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WSM"
+    },
+    {
+      "ticker": "WST.us",
+      "name": "West Pharmaceutical Services",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WST"
+    },
+    {
+      "ticker": "WTB.uk",
+      "name": "Whitbread",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "WTB.L"
+    },
+    {
+      "ticker": "WTW.us",
+      "name": "Willis Towers Watson",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WTW"
+    },
+    {
+      "ticker": "WY.us",
+      "name": "Weyerhaeuser",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WY"
+    },
+    {
+      "ticker": "WYNN.us",
+      "name": "Wynn Resorts",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "WYNN"
+    },
+    {
+      "ticker": "XEL.us",
+      "name": "Xcel Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "XEL"
+    },
+    {
+      "ticker": "XOM.us",
+      "name": "ExxonMobil",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "XOM"
+    },
+    {
+      "ticker": "XYL.us",
+      "name": "Xylem Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "XYL"
+    },
+    {
+      "ticker": "XYZ.us",
+      "name": "Block, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "XYZ"
+    },
+    {
+      "ticker": "YUM.us",
+      "name": "Yum! Brands",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "YUM"
+    },
+    {
+      "ticker": "ZAL.de",
+      "name": "Zalando",
+      "market": "DE",
+      "index": "DAX40",
+      "yahooSymbol": "ZAL.DE"
+    },
+    {
+      "ticker": "ZBH.us",
+      "name": "Zimmer Biomet",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ZBH"
+    },
+    {
+      "ticker": "ZBRA.us",
+      "name": "Zebra Technologies",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ZBRA"
+    },
+    {
+      "ticker": "ZTS.us",
+      "name": "Zoetis",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ZTS"
+    },
+    {
+      "ticker": "ZYDUSLIFE.in",
+      "name": "Zydus Lifesciences",
+      "market": "IN",
+      "index": "NIFTYNEXT50",
+      "yahooSymbol": "ZYDUSLIFE.NS"
+    }
   ]
 }

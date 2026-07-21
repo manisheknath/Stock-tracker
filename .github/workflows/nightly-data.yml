@@ -3,7 +3,12 @@ name: Nightly data pipeline
 on:
   schedule:
     - cron: '0 22 * * *'
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      full_refetch:
+        description: 'Force a full run: universe refresh + full bar history refetch + fundamentals refresh'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -11,6 +16,7 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -20,16 +26,49 @@ jobs:
         with:
           node-version: '20'
 
-      # Pipeline stages run sequentially. Only fetch-bars exists so far (build step 2);
-      # later stages (indicators, patterns, fundamentals, regime, backtest, score-and-rank)
-      # get appended here as each is built -- do not skip ahead.
-      - name: Fetch bars (stage 2)
+      # Sundays (or a manual full_refetch dispatch) run the expensive stages:
+      # universe refresh (weekly per the spec) and a full 2020-01-01 bar
+      # refetch (catches historical corrections, re-validates corporate
+      # actions across the whole series). Fundamentals change quarterly at
+      # most, so they're refreshed on this same weekly cadence, not nightly.
+      # Every other night just fetches the last ~week of bars per ticker
+      # (fetch-bars.mjs's incremental mode) and recomputes backtest + signals
+      # -- refetching 5.5 years of history for ~900 tickers every night would
+      # be pure waste.
+      - name: Determine run mode
+        id: mode
+        run: |
+          if [ "${{ github.event.inputs.full_refetch }}" = "true" ] || [ "$(date -u +%u)" = "7" ]; then
+            echo "weekly=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "weekly=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Refresh universe (weekly)
+        if: steps.mode.outputs.weekly == 'true'
+        run: node scripts/refresh-universe.mjs
+
+      - name: Fetch bars
         run: node scripts/fetch-bars.mjs
+        env:
+          FULL_REFETCH: ${{ steps.mode.outputs.weekly }}
+
+      - name: Fetch fundamentals (weekly)
+        if: steps.mode.outputs.weekly == 'true'
+        run: node scripts/fetch-fundamentals.mjs
+
+      - name: Run backtest
+        run: node scripts/run-backtest.mjs
+
+      - name: Score and rank
+        run: node scripts/score-and-rank.mjs
 
       - name: Commit data changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          git diff --cached --quiet || git commit -m "chore: nightly data update $(date -u +%Y-%m-%d)"
+          MODE_LABEL="nightly"
+          if [ "${{ steps.mode.outputs.weekly }}" = "true" ]; then MODE_LABEL="weekly full"; fi
+          git diff --cached --quiet || git commit -m "chore: $MODE_LABEL data update $(date -u +%Y-%m-%d)"
           git push
