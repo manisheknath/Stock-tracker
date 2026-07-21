@@ -1,0 +1,35 @@
+name: Nightly data pipeline
+
+on:
+  schedule:
+    - cron: '0 22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Pipeline stages run sequentially. Only fetch-bars exists so far (build step 2);
+      # later stages (indicators, patterns, fundamentals, regime, backtest, score-and-rank)
+      # get appended here as each is built -- do not skip ahead.
+      - name: Fetch bars (stage 2)
+        run: node scripts/fetch-bars.mjs
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "chore: nightly data update $(date -u +%Y-%m-%d)"
+          git push
