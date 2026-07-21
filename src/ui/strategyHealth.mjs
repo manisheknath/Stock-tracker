@@ -34,6 +34,9 @@ function buildStrategyRow(name, strategyData) {
       eligible
         ? el('span', { className: 'ml-2 text-xs text-emerald-400' }, ['live-eligible'])
         : el('span', { className: 'ml-2 text-xs text-slate-500' }, ['not test-profitable']),
+      ...(strategyData?.caveat
+        ? [el('span', { className: 'ml-2 text-xs text-amber-400 cursor-help', title: strategyData.caveat }, ['⚠ backtest caveat'])]
+        : []),
     ]),
     ...WINDOWS.flatMap((w) => metricCells(strategyData?.[w])),
   ]);

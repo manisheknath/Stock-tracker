@@ -4,6 +4,7 @@ import * as rsi2MeanReversion from './rsi2MeanReversion.mjs';
 import * as macdSupertrendConfluence from './macdSupertrendConfluence.mjs';
 import * as bollingerSqueeze from './bollingerSqueeze.mjs';
 import * as patternBreakout from './patternBreakout.mjs';
+import * as valueMomentum from './valueMomentum.mjs';
 
 export const STRATEGIES = [
   goldenDeathCross,
@@ -12,11 +13,11 @@ export const STRATEGIES = [
   macdSupertrendConfluence,
   bollingerSqueeze,
   patternBreakout,
+  valueMomentum,
 ];
 
-// "Value + 12m Momentum" needs fundamentals (P/E vs sector median, etc.) that
-// don't exist until build step 7 (SEC EDGAR fundamentals). Listed here so the
-// strategy health page can show it as pending rather than silently missing.
-export const PENDING_STRATEGIES = [
-  { name: 'Value + 12m Momentum', status: 'pending', reason: 'requires fundamentals data (build step 7)' },
-];
+// Nothing pending currently -- all 7 spec'd strategies are active. Kept as
+// an exported list (rather than removed) so the strategy health page has a
+// stable place to show any future strategy that's built but not yet
+// backtestable.
+export const PENDING_STRATEGIES = [];

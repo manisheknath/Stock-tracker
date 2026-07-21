@@ -19,6 +19,7 @@ const STRATEGY_HORIZON = {
   'MACD + Supertrend confluence': 'MEDIUM_TERM',
   'Bollinger Squeeze release': 'MEDIUM_TERM',
   'Golden/Death Cross (50/200)': 'LONG_TERM',
+  'Value + 12m Momentum': 'LONG_TERM',
 };
 const HORIZON_RANK = { SHORT_TERM: 0, MEDIUM_TERM: 1, LONG_TERM: 2 };
 
@@ -51,10 +52,10 @@ function computeRisk(bars, direction) {
   };
 }
 
-export function computeConviction({ bars, fundamentals, regime, marketStrategyHealth }) {
+export function computeConviction({ bars, fundamentals, regime, marketStrategyHealth, marketMedianPe }) {
   const technical = computeTechnicalScore(bars);
   const pattern = computePatternScore(bars, technical.direction);
-  const strategy = computeStrategyScore(bars, technical.direction, marketStrategyHealth);
+  const strategy = computeStrategyScore(bars, technical.direction, marketStrategyHealth, { fundamentals, marketMedianPe });
   const fundamental = computeFundamentalScore(fundamentals, technical.direction);
 
   const rawConviction = WEIGHTS.technical * technical.score

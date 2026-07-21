@@ -9,6 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const UNIVERSE_PATH = path.join(ROOT, 'data', 'universe.json');
 const BARS_DIR = path.join(ROOT, 'data', 'bars');
+const FUNDAMENTALS_DIR = path.join(ROOT, 'data', 'fundamentals');
 const OUT_PATH = path.join(ROOT, 'data', 'strategy-health.json');
 
 const pct = (v) => `${(v * 100).toFixed(2)}%`;
@@ -18,7 +19,13 @@ async function loadMarketBars(tickers) {
   for (const t of tickers) {
     try {
       const raw = JSON.parse(await fs.readFile(path.join(BARS_DIR, `${t.ticker}.json`), 'utf-8'));
-      out.push({ ticker: t.ticker, bars: raw.bars });
+      let fundamentals = null;
+      try {
+        fundamentals = JSON.parse(await fs.readFile(path.join(FUNDAMENTALS_DIR, `${t.ticker}.json`), 'utf-8'));
+      } catch {
+        // fundamentals not fetched yet for this ticker -- strategies handle null gracefully
+      }
+      out.push({ ticker: t.ticker, bars: raw.bars, fundamentals });
     } catch {
       // ticker has no fetched bars yet -- skip rather than fail the whole market
     }
@@ -53,7 +60,11 @@ async function main() {
       }
 
       const testEligible = windowResults.test.tradeCount > 0 && windowResults.test.cagr > 0;
-      report.markets[market][strategy.name] = { ...windowResults, liveEligible: testEligible };
+      report.markets[market][strategy.name] = {
+        ...windowResults,
+        liveEligible: testEligible,
+        ...(strategy.caveat ? { caveat: strategy.caveat } : {}),
+      };
 
       console.log(`\n${strategy.name}${testEligible ? '' : '  [GREYED -- not test-profitable]'}`);
       for (const [windowName, m] of Object.entries(windowResults)) {

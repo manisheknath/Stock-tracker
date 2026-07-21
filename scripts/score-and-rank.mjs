@@ -20,25 +20,41 @@ async function readJsonIfExists(filePath) {
   }
 }
 
+function median(values) {
+  if (values.length === 0) return null;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+}
+
 async function main() {
   const universe = JSON.parse(await fs.readFile(UNIVERSE_PATH, 'utf-8'));
   const strategyHealth = await readJsonIfExists(STRATEGY_HEALTH_PATH);
   const today = new Date().toISOString().slice(0, 10);
 
   const barsByTicker = new Map();
+  const fundamentalsByTicker = new Map();
   for (const t of universe.tickers) {
     const raw = await readJsonIfExists(path.join(BARS_DIR, `${t.ticker}.json`));
     if (raw) barsByTicker.set(t.ticker, raw);
+    const fundamentals = await readJsonIfExists(path.join(FUNDAMENTALS_DIR, `${t.ticker}.json`));
+    if (fundamentals) fundamentalsByTicker.set(t.ticker, fundamentals);
   }
 
   const markets = [...new Set(universe.tickers.map((t) => t.market))];
   const regimeByMarket = new Map();
+  const marketMedianPeByMarket = new Map();
   for (const market of markets) {
-    const tickersData = universe.tickers
-      .filter((t) => t.market === market)
+    const marketTickers = universe.tickers.filter((t) => t.market === market);
+    const tickersData = marketTickers
       .map((t) => ({ ticker: t.ticker, bars: barsByTicker.get(t.ticker)?.bars }))
       .filter((t) => t.bars);
     regimeByMarket.set(market, computeRegime(market, tickersData));
+
+    const pes = marketTickers
+      .map((t) => fundamentalsByTicker.get(t.ticker)?.valuation?.pe)
+      .filter((pe) => typeof pe === 'number' && pe > 0);
+    marketMedianPeByMarket.set(market, median(pes));
   }
 
   const signals = [];
@@ -50,12 +66,13 @@ async function main() {
       continue;
     }
 
-    const fundamentals = await readJsonIfExists(path.join(FUNDAMENTALS_DIR, `${ticker}.json`));
+    const fundamentals = fundamentalsByTicker.get(ticker) ?? null;
     const regime = regimeByMarket.get(market);
     const marketStrategyHealth = strategyHealth?.markets?.[market] ?? null;
+    const marketMedianPe = marketMedianPeByMarket.get(market) ?? null;
 
     try {
-      const result = computeConviction({ bars: barsData.bars, fundamentals, regime, marketStrategyHealth });
+      const result = computeConviction({ bars: barsData.bars, fundamentals, regime, marketStrategyHealth, marketMedianPe });
       signals.push({
         ticker, name, market,
         asOf: today,

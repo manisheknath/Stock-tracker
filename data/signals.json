@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T19:00:08.471Z",
+  "generatedAt": "2026-07-21T19:43:47.349Z",
   "asOf": "2026-07-21",
   "weights": {
     "technical": 0.4,
@@ -20,17 +20,11 @@
       "pctAbove200dma": 67,
       "advDecline": "positive"
     },
-    "FR": {
-      "market": "FR",
-      "state": "NEUTRAL",
-      "pctAbove200dma": 50,
+    "IN": {
+      "market": "IN",
+      "state": "RISK_OFF",
+      "pctAbove200dma": 0,
       "advDecline": "negative"
-    },
-    "DE": {
-      "market": "DE",
-      "state": "RISK_ON",
-      "pctAbove200dma": 67,
-      "advDecline": "neutral"
     },
     "NL": {
       "market": "NL",
@@ -38,23 +32,29 @@
       "pctAbove200dma": 50,
       "advDecline": "neutral"
     },
+    "FR": {
+      "market": "FR",
+      "state": "NEUTRAL",
+      "pctAbove200dma": 50,
+      "advDecline": "negative"
+    },
     "ES": {
       "market": "ES",
       "state": "RISK_ON",
       "pctAbove200dma": 100,
       "advDecline": "positive"
     },
-    "IN": {
-      "market": "IN",
-      "state": "RISK_OFF",
-      "pctAbove200dma": 0,
-      "advDecline": "negative"
+    "DE": {
+      "market": "DE",
+      "state": "RISK_ON",
+      "pctAbove200dma": 67,
+      "advDecline": "neutral"
     }
   },
   "signals": [
     {
       "ticker": "BP.uk",
-      "name": "BP plc",
+      "name": "BP",
       "market": "UK",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -258,7 +258,7 @@
     },
     {
       "ticker": "AMZN.us",
-      "name": "Amazon.com Inc.",
+      "name": "Amazon",
       "market": "US",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -449,7 +449,7 @@
     },
     {
       "ticker": "NVDA.us",
-      "name": "NVIDIA Corp.",
+      "name": "Nvidia",
       "market": "US",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -880,7 +880,7 @@
     },
     {
       "ticker": "ALV.de",
-      "name": "Allianz SE",
+      "name": "Allianz",
       "market": "DE",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -1097,7 +1097,7 @@
     },
     {
       "ticker": "ASML.nl",
-      "name": "ASML Holding N.V.",
+      "name": "ASML Holding",
       "market": "NL",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -1313,7 +1313,7 @@
     },
     {
       "ticker": "HSBA.uk",
-      "name": "HSBC Holdings plc",
+      "name": "HSBC",
       "market": "UK",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -1530,7 +1530,7 @@
     },
     {
       "ticker": "MSFT.us",
-      "name": "Microsoft Corp.",
+      "name": "Microsoft",
       "market": "US",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -1745,7 +1745,7 @@
     },
     {
       "ticker": "SAN.es",
-      "name": "Banco Santander S.A.",
+      "name": "Santander",
       "market": "ES",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -1949,8 +1949,224 @@
       }
     },
     {
+      "ticker": "ITX.es",
+      "name": "Inditex",
+      "market": "ES",
+      "asOf": "2026-07-21",
+      "lastBarDate": "2026-07-21",
+      "close": 54.099998474121094,
+      "signal": "HOLD",
+      "conviction": 50,
+      "horizon": "MEDIUM_TERM",
+      "evidence": {
+        "technical": {
+          "score": 49,
+          "indicators": [
+            {
+              "name": "Price vs SMA(9)",
+              "value": "-0.3%",
+              "signal": "sell"
+            },
+            {
+              "name": "Price vs SMA(20)",
+              "value": "-2.0%",
+              "signal": "sell"
+            },
+            {
+              "name": "Price vs SMA(50)",
+              "value": "+0.1%",
+              "signal": "buy"
+            },
+            {
+              "name": "Price vs SMA(200)",
+              "value": "+2.3%",
+              "signal": "buy"
+            },
+            {
+              "name": "Price vs EMA(9)",
+              "value": "-0.3%",
+              "signal": "sell"
+            },
+            {
+              "name": "Price vs EMA(20)",
+              "value": "-1.1%",
+              "signal": "sell"
+            },
+            {
+              "name": "Price vs EMA(50)",
+              "value": "-0.4%",
+              "signal": "sell"
+            },
+            {
+              "name": "Price vs EMA(200)",
+              "value": "+3.2%",
+              "signal": "buy"
+            },
+            {
+              "name": "MACD",
+              "value": "-0.23",
+              "signal": "sell"
+            },
+            {
+              "name": "ADX(14)",
+              "value": "20.5",
+              "signal": "sell",
+              "note": "trend weakening"
+            },
+            {
+              "name": "Supertrend",
+              "value": "up",
+              "signal": "buy"
+            },
+            {
+              "name": "Ichimoku",
+              "value": "tenkan 54.35 / kijun 55.31",
+              "signal": "neutral"
+            },
+            {
+              "name": "RSI(14)",
+              "value": 46.47,
+              "signal": "neutral"
+            },
+            {
+              "name": "Stochastic",
+              "value": "17.8",
+              "signal": "buy"
+            },
+            {
+              "name": "CCI(20)",
+              "value": -99.96,
+              "signal": "neutral"
+            },
+            {
+              "name": "ROC(12)",
+              "value": -5.42,
+              "signal": "sell"
+            },
+            {
+              "name": "Williams %R",
+              "value": -75.1,
+              "signal": "neutral"
+            },
+            {
+              "name": "Bollinger",
+              "value": "25% of band",
+              "signal": "neutral"
+            },
+            {
+              "name": "ATR(14)",
+              "value": 1.19,
+              "signal": "neutral"
+            },
+            {
+              "name": "Keltner",
+              "value": "37% of band",
+              "signal": "neutral"
+            },
+            {
+              "name": "OBV",
+              "value": 340966235,
+              "signal": "sell"
+            },
+            {
+              "name": "VWAP",
+              "value": 55.1,
+              "signal": "sell"
+            },
+            {
+              "name": "MFI(14)",
+              "value": 38.04,
+              "signal": "neutral"
+            },
+            {
+              "name": "52-week range position",
+              "value": "76%",
+              "signal": "neutral"
+            }
+          ]
+        },
+        "patterns": [
+          {
+            "pattern": "Hammer",
+            "direction": "bullish",
+            "confidence": 63,
+            "keyLevels": {
+              "open": 54.060001373291016,
+              "close": 54.279998779296875,
+              "high": 54.279998779296875,
+              "low": 53.36000061035156
+            },
+            "description": "Small body near the top of the range with a long lower shadow (3.2x body) after a 2.4% pullback -- rejection of lower prices."
+          },
+          {
+            "pattern": "Bullish Engulfing",
+            "direction": "bullish",
+            "confidence": 85,
+            "keyLevels": {
+              "priorOpen": 53.959999084472656,
+              "priorClose": 53.720001220703125,
+              "open": 53.599998474121094,
+              "close": 54.08000183105469
+            },
+            "description": "Bullish body (2.0x prior) fully engulfs the prior bearish candle after a -2.9% pullback."
+          },
+          {
+            "pattern": "Hammer",
+            "direction": "bullish",
+            "confidence": 66,
+            "keyLevels": {
+              "open": 53.959999084472656,
+              "close": 53.720001220703125,
+              "high": 53.959999084472656,
+              "low": 52.959999084472656
+            },
+            "description": "Small body near the top of the range with a long lower shadow (3.2x body) after a 2.9% pullback -- rejection of lower prices."
+          }
+        ],
+        "strategies": [],
+        "fundamental": {
+          "score": 50,
+          "valuation": {
+            "pe": 26.915422,
+            "sectorMedianPe": null,
+            "verdict": "n/a (no sector benchmark)"
+          },
+          "quality": {
+            "roe": 0.33955002,
+            "debtEquity": 31.815,
+            "piotroski": null
+          },
+          "growth": {
+            "revCagr3y": 0.058,
+            "epsCagr3y": 0.053
+          },
+          "coverage": "partial",
+          "note": "growth figures are trailing YoY (Yahoo quoteSummary), not a true 3-year CAGR like the US/SEC path"
+        },
+        "regime": {
+          "market": "ES",
+          "state": "RISK_ON",
+          "pctAbove200dma": 100,
+          "advDecline": "positive",
+          "note": "signal weight unmodified"
+        }
+      },
+      "risk": {
+        "atr14": 1.189415356146994,
+        "suggestedStop": 51.721167761827104,
+        "distanceToStopPct": 4.397099407372278,
+        "avgVolume20d": 1417320.2,
+        "liquidityOk": true
+      },
+      "dataQuality": {
+        "barsAvailable": 1676,
+        "gaps": 33,
+        "fundamentalSource": "yahoo_partial"
+      }
+    },
+    {
       "ticker": "OR.fr",
-      "name": "L'Oreal S.A.",
+      "name": "L'Oréal",
       "market": "FR",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -2154,7 +2370,7 @@
     },
     {
       "ticker": "SIE.de",
-      "name": "Siemens AG",
+      "name": "Siemens",
       "market": "DE",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -2370,224 +2586,8 @@
       }
     },
     {
-      "ticker": "ITX.es",
-      "name": "Inditex S.A.",
-      "market": "ES",
-      "asOf": "2026-07-21",
-      "lastBarDate": "2026-07-21",
-      "close": 54.099998474121094,
-      "signal": "HOLD",
-      "conviction": 50,
-      "horizon": "MEDIUM_TERM",
-      "evidence": {
-        "technical": {
-          "score": 49,
-          "indicators": [
-            {
-              "name": "Price vs SMA(9)",
-              "value": "-0.3%",
-              "signal": "sell"
-            },
-            {
-              "name": "Price vs SMA(20)",
-              "value": "-2.0%",
-              "signal": "sell"
-            },
-            {
-              "name": "Price vs SMA(50)",
-              "value": "+0.1%",
-              "signal": "buy"
-            },
-            {
-              "name": "Price vs SMA(200)",
-              "value": "+2.3%",
-              "signal": "buy"
-            },
-            {
-              "name": "Price vs EMA(9)",
-              "value": "-0.3%",
-              "signal": "sell"
-            },
-            {
-              "name": "Price vs EMA(20)",
-              "value": "-1.1%",
-              "signal": "sell"
-            },
-            {
-              "name": "Price vs EMA(50)",
-              "value": "-0.4%",
-              "signal": "sell"
-            },
-            {
-              "name": "Price vs EMA(200)",
-              "value": "+3.2%",
-              "signal": "buy"
-            },
-            {
-              "name": "MACD",
-              "value": "-0.23",
-              "signal": "sell"
-            },
-            {
-              "name": "ADX(14)",
-              "value": "20.5",
-              "signal": "sell",
-              "note": "trend weakening"
-            },
-            {
-              "name": "Supertrend",
-              "value": "up",
-              "signal": "buy"
-            },
-            {
-              "name": "Ichimoku",
-              "value": "tenkan 54.35 / kijun 55.31",
-              "signal": "neutral"
-            },
-            {
-              "name": "RSI(14)",
-              "value": 46.47,
-              "signal": "neutral"
-            },
-            {
-              "name": "Stochastic",
-              "value": "17.8",
-              "signal": "buy"
-            },
-            {
-              "name": "CCI(20)",
-              "value": -99.96,
-              "signal": "neutral"
-            },
-            {
-              "name": "ROC(12)",
-              "value": -5.42,
-              "signal": "sell"
-            },
-            {
-              "name": "Williams %R",
-              "value": -75.1,
-              "signal": "neutral"
-            },
-            {
-              "name": "Bollinger",
-              "value": "25% of band",
-              "signal": "neutral"
-            },
-            {
-              "name": "ATR(14)",
-              "value": 1.19,
-              "signal": "neutral"
-            },
-            {
-              "name": "Keltner",
-              "value": "37% of band",
-              "signal": "neutral"
-            },
-            {
-              "name": "OBV",
-              "value": 340966235,
-              "signal": "sell"
-            },
-            {
-              "name": "VWAP",
-              "value": 55.1,
-              "signal": "sell"
-            },
-            {
-              "name": "MFI(14)",
-              "value": 38.04,
-              "signal": "neutral"
-            },
-            {
-              "name": "52-week range position",
-              "value": "76%",
-              "signal": "neutral"
-            }
-          ]
-        },
-        "patterns": [
-          {
-            "pattern": "Hammer",
-            "direction": "bullish",
-            "confidence": 63,
-            "keyLevels": {
-              "open": 54.060001373291016,
-              "close": 54.279998779296875,
-              "high": 54.279998779296875,
-              "low": 53.36000061035156
-            },
-            "description": "Small body near the top of the range with a long lower shadow (3.2x body) after a 2.4% pullback -- rejection of lower prices."
-          },
-          {
-            "pattern": "Bullish Engulfing",
-            "direction": "bullish",
-            "confidence": 85,
-            "keyLevels": {
-              "priorOpen": 53.959999084472656,
-              "priorClose": 53.720001220703125,
-              "open": 53.599998474121094,
-              "close": 54.08000183105469
-            },
-            "description": "Bullish body (2.0x prior) fully engulfs the prior bearish candle after a -2.9% pullback."
-          },
-          {
-            "pattern": "Hammer",
-            "direction": "bullish",
-            "confidence": 66,
-            "keyLevels": {
-              "open": 53.959999084472656,
-              "close": 53.720001220703125,
-              "high": 53.959999084472656,
-              "low": 52.959999084472656
-            },
-            "description": "Small body near the top of the range with a long lower shadow (3.2x body) after a 2.9% pullback -- rejection of lower prices."
-          }
-        ],
-        "strategies": [],
-        "fundamental": {
-          "score": 50,
-          "valuation": {
-            "pe": 26.915422,
-            "sectorMedianPe": null,
-            "verdict": "n/a (no sector benchmark)"
-          },
-          "quality": {
-            "roe": 0.33955002,
-            "debtEquity": 31.815,
-            "piotroski": null
-          },
-          "growth": {
-            "revCagr3y": 0.058,
-            "epsCagr3y": 0.053
-          },
-          "coverage": "partial",
-          "note": "growth figures are trailing YoY (Yahoo quoteSummary), not a true 3-year CAGR like the US/SEC path"
-        },
-        "regime": {
-          "market": "ES",
-          "state": "RISK_ON",
-          "pctAbove200dma": 100,
-          "advDecline": "positive",
-          "note": "signal weight unmodified"
-        }
-      },
-      "risk": {
-        "atr14": 1.189415356146994,
-        "suggestedStop": 51.721167761827104,
-        "distanceToStopPct": 4.397099407372278,
-        "avgVolume20d": 1417320.2,
-        "liquidityOk": true
-      },
-      "dataQuality": {
-        "barsAvailable": 1676,
-        "gaps": 33,
-        "fundamentalSource": "yahoo_partial"
-      }
-    },
-    {
       "ticker": "RELIANCE.in",
-      "name": "Reliance Industries Ltd.",
+      "name": "Reliance Industries",
       "market": "IN",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-20",
@@ -3235,7 +3235,7 @@
     },
     {
       "ticker": "UNA.nl",
-      "name": "Unilever N.V.",
+      "name": "Unilever",
       "market": "NL",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -3452,7 +3452,7 @@
     },
     {
       "ticker": "HDFCBANK.in",
-      "name": "HDFC Bank Ltd.",
+      "name": "HDFC Bank",
       "market": "IN",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-20",
@@ -3669,7 +3669,7 @@
     },
     {
       "ticker": "GOOGL.us",
-      "name": "Alphabet Inc. Class A",
+      "name": "Alphabet Inc. (Class A)",
       "market": "US",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -3885,7 +3885,7 @@
     },
     {
       "ticker": "AZN.uk",
-      "name": "AstraZeneca plc",
+      "name": "AstraZeneca",
       "market": "UK",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",
@@ -4102,7 +4102,7 @@
     },
     {
       "ticker": "SAP.de",
-      "name": "SAP SE",
+      "name": "SAP",
       "market": "DE",
       "asOf": "2026-07-21",
       "lastBarDate": "2026-07-21",

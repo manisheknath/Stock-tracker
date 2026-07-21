@@ -141,16 +141,31 @@ function buildEquityCurve(pricedTrades, window, initialCapital) {
   return curve;
 }
 
+function median(values) {
+  if (values.length === 0) return null;
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 === 0 ? (sorted[mid - 1] + sorted[mid]) / 2 : sorted[mid];
+}
+
 // Full pipeline for one strategy, one market, one walk-forward window:
 // per-ticker candidate trades -> portfolio admission under the concurrency
 // cap -> ATR-sized/costed fills -> equity curve -> metrics.
 export function runPortfolioBacktest({ tickersData, strategy, window, ...overrides }) {
   const opts = { ...DEFAULTS, ...overrides };
 
+  // Market-wide median P/E, computed once, as a fallback value-benchmark for
+  // strategies (e.g. Value + 12m Momentum) on tickers without a sector
+  // median (most non-US coverage). tickersData entries carry `fundamentals`
+  // optionally; strategies that don't need it just ignore the 2nd argument.
+  const marketMedianPe = median(
+    tickersData.map((t) => t.fundamentals?.valuation?.pe).filter((pe) => typeof pe === 'number' && pe > 0),
+  );
+
   const allCandidates = [];
-  for (const { ticker, bars } of tickersData) {
+  for (const { ticker, bars, fundamentals } of tickersData) {
     const atrSeries = wilderRMA(trueRange(bars), 14);
-    const signals = strategy.generateSignals(bars);
+    const signals = strategy.generateSignals(bars, { fundamentals, marketMedianPe });
     allCandidates.push(...generateTickerTrades(ticker, bars, signals, atrSeries, window, opts.atrStopMultiple));
   }
 
