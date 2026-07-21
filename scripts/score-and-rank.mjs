@@ -59,6 +59,7 @@ async function main() {
       signals.push({
         ticker, name, market,
         asOf: today,
+        lastBarDate: barsData.bars.at(-1).date,
         close: barsData.bars.at(-1).close,
         signal: result.signal,
         conviction: result.conviction,
