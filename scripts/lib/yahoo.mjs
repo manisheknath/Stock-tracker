@@ -18,12 +18,20 @@ function toISODate(unixSeconds) {
   return new Date(unixSeconds * 1000).toISOString().slice(0, 10);
 }
 
+const DEFAULT_START = '2020-01-01T00:00:00Z';
+
 /**
- * Fetches 5y daily bars for a Yahoo chart symbol, plus split/dividend events.
+ * Fetches daily bars for a Yahoo chart symbol from `startDate` to now, plus
+ * split/dividend events. Defaults to 2020-01-01 so the walk-forward backtest
+ * windows (train 2020-2022 / validate 2023 / test 2024-2025) are always
+ * covered regardless of a rolling "N years back from today" fetch would
+ * drift past 2020 as calendar time advances.
  * Throws on network/HTTP failure or malformed payload; callers decide how to record that.
  */
-export async function fetchYahooDaily(yahooSymbol, { rangeYears = 5 } = {}) {
-  const url = `${BASE}${encodeURIComponent(yahooSymbol)}?range=${rangeYears}y&interval=1d&events=div,splits`;
+export async function fetchYahooDaily(yahooSymbol, { startDate = DEFAULT_START } = {}) {
+  const period1 = Math.floor(new Date(startDate).getTime() / 1000);
+  const period2 = Math.floor(Date.now() / 1000);
+  const url = `${BASE}${encodeURIComponent(yahooSymbol)}?period1=${period1}&period2=${period2}&interval=1d&events=div,splits`;
   const { status, body } = await httpGet(url);
   if (status !== 200) {
     throw new Error(`HTTP ${status} for ${yahooSymbol}`);
