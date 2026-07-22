@@ -3,6 +3,7 @@ import { marketFlag, SIGNAL_STYLES, formatPct, formatNumber, formatPrice } from 
 import { computeRSI } from '../lib/indicators/rsi.mjs';
 import { computeMACD } from '../lib/indicators/macd.mjs';
 import { computeADX } from '../lib/indicators/adx.mjs';
+import { tickerFilename } from '../lib/tickerFile.mjs';
 
 const OVERLAY_COLORS = {
   target: '#34d399', invalidation: '#fb7185', neckline: '#fbbf24',
@@ -125,7 +126,7 @@ export async function openDrawer({ signal, drawerEl, backdropEl, strategyHealth 
   backdropEl.classList.remove('hidden');
   drawerEl.classList.remove('translate-x-full');
 
-  const res = await fetch(`./data/bars/${signal.ticker}.json`);
+  const res = await fetch(`./data/bars/${tickerFilename(signal.ticker)}`);
   const barsData = await res.json();
   const bars = barsData.bars;
 

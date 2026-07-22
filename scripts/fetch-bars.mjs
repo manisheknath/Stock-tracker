@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchYahooDaily } from './lib/yahoo.mjs';
 import { adjustAndValidate } from './lib/adjust.mjs';
+import { tickerFilename } from '../src/lib/tickerFile.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -25,7 +26,7 @@ const FULL_REFETCH = process.env.FULL_REFETCH === 'true';
 
 async function loadExisting(ticker) {
   try {
-    return JSON.parse(await fs.readFile(path.join(BARS_DIR, `${ticker}.json`), 'utf-8'));
+    return JSON.parse(await fs.readFile(path.join(BARS_DIR, tickerFilename(ticker)), 'utf-8'));
   } catch {
     return null;
   }
@@ -75,7 +76,7 @@ async function main() {
         console.log(`EXCLUDED - ${result.reason}`);
         log.push({ ticker, market, status: 'excluded', reason: result.reason, flags: result.flags });
       } else {
-        const outPath = path.join(BARS_DIR, `${ticker}.json`);
+        const outPath = path.join(BARS_DIR, tickerFilename(ticker));
         const output = {
           ticker,
           name,

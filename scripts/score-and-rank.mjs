@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { computeRegime } from '../src/lib/scoring/regime.mjs';
 import { computeConviction } from '../src/lib/scoring/conviction.mjs';
+import { tickerFilename } from '../src/lib/tickerFile.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -35,9 +36,9 @@ async function main() {
   const barsByTicker = new Map();
   const fundamentalsByTicker = new Map();
   for (const t of universe.tickers) {
-    const raw = await readJsonIfExists(path.join(BARS_DIR, `${t.ticker}.json`));
+    const raw = await readJsonIfExists(path.join(BARS_DIR, tickerFilename(t.ticker)));
     if (raw) barsByTicker.set(t.ticker, raw);
-    const fundamentals = await readJsonIfExists(path.join(FUNDAMENTALS_DIR, `${t.ticker}.json`));
+    const fundamentals = await readJsonIfExists(path.join(FUNDAMENTALS_DIR, tickerFilename(t.ticker)));
     if (fundamentals) fundamentalsByTicker.set(t.ticker, fundamentals);
   }
 

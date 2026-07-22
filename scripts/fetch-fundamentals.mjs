@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchTickerCikMap, computeUSFundamentals } from './lib/secEdgar.mjs';
 import { computeYahooFundamentals } from './lib/yahooFundamentals.mjs';
+import { tickerFilename } from '../src/lib/tickerFile.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -15,7 +16,7 @@ const REQUEST_DELAY_MS = 200;
 
 async function latestClose(ticker) {
   try {
-    const raw = JSON.parse(await fs.readFile(path.join(BARS_DIR, `${ticker}.json`), 'utf-8'));
+    const raw = JSON.parse(await fs.readFile(path.join(BARS_DIR, tickerFilename(ticker)), 'utf-8'));
     return raw.bars.at(-1)?.close ?? null;
   } catch {
     return null;
@@ -80,7 +81,7 @@ async function main() {
       r.fundamentals.valuation.sectorMedianPe = median(peers);
       r.fundamentals.valuation.sectorMedianBasis = `n=${peers.length} US ticker(s) sharing SIC ${r.fundamentals.sic} in the current ${universe.tickers.length}-ticker seed universe (full sector classification arrives with the ~900-ticker universe, build step 10)`;
     }
-    await fs.writeFile(path.join(OUT_DIR, `${r.ticker}.json`), JSON.stringify(r.fundamentals, null, 2));
+    await fs.writeFile(path.join(OUT_DIR, tickerFilename(r.ticker)), JSON.stringify(r.fundamentals, null, 2));
   }
 
   const ok = results.filter((r) => r.fundamentals.dataAvailable).length;

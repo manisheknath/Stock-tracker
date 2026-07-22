@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { runPortfolioBacktest } from '../src/lib/backtest/engine.mjs';
 import { WALK_FORWARD_WINDOWS } from '../src/lib/backtest/windows.mjs';
 import { STRATEGIES, PENDING_STRATEGIES } from '../src/lib/backtest/strategies/index.mjs';
+import { tickerFilename } from '../src/lib/tickerFile.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
@@ -18,10 +19,10 @@ async function loadMarketBars(tickers) {
   const out = [];
   for (const t of tickers) {
     try {
-      const raw = JSON.parse(await fs.readFile(path.join(BARS_DIR, `${t.ticker}.json`), 'utf-8'));
+      const raw = JSON.parse(await fs.readFile(path.join(BARS_DIR, tickerFilename(t.ticker)), 'utf-8'));
       let fundamentals = null;
       try {
-        fundamentals = JSON.parse(await fs.readFile(path.join(FUNDAMENTALS_DIR, `${t.ticker}.json`), 'utf-8'));
+        fundamentals = JSON.parse(await fs.readFile(path.join(FUNDAMENTALS_DIR, tickerFilename(t.ticker)), 'utf-8'));
       } catch {
         // fundamentals not fetched yet for this ticker -- strategies handle null gracefully
       }
