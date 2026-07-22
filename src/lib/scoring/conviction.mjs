@@ -8,6 +8,7 @@ import { regimeModulation } from './regime.mjs';
 const WEIGHTS = { technical: 0.40, pattern: 0.25, strategy: 0.20, fundamental: 0.15 };
 const SIGNAL_THRESHOLD = 60;
 const MIN_LIQUIDITY_NOTIONAL = 100000; // avg 20d dollar/local-currency volume floor
+const TARGET_REWARD_RISK = 2; // when no pattern target exists, target = 2x the stop distance
 
 // Maps a triggering strategy to how long its edge typically plays out.
 // Priority order matters when multiple strategies fire the same night --
@@ -22,15 +23,38 @@ const STRATEGY_HORIZON = {
   'Value + 12m Momentum': 'LONG_TERM',
 };
 const HORIZON_RANK = { SHORT_TERM: 0, MEDIUM_TERM: 1, LONG_TERM: 2 };
+const ADX_TREND_THRESHOLD = 25;
 
-function deriveHorizon(triggeredStrategies) {
-  if (triggeredStrategies.length === 0) return 'MEDIUM_TERM';
-  return triggeredStrategies
-    .map((s) => STRATEGY_HORIZON[s.name] ?? 'MEDIUM_TERM')
-    .sort((a, b) => HORIZON_RANK[a] - HORIZON_RANK[b])[0];
+// A triggering strategy is the strongest evidence and wins outright. Absent
+// that (the common case -- strategy triggers are a narrow, same-night
+// condition), horizon falls back to what's actually driving the technical
+// picture: a recent supporting pattern implies a tactical, short-lived setup;
+// a strong ADX-confirmed trend aligned with the 200DMA implies a durable,
+// long-running one; otherwise it's a medium-term swing call. Without this
+// fallback, nearly every signal defaulted to MEDIUM_TERM regardless of what
+// was actually going on, since strategy triggers are rare.
+function deriveHorizon(triggeredStrategies, { patterns, indicators, anchorDirection }) {
+  if (triggeredStrategies.length > 0) {
+    return triggeredStrategies
+      .map((s) => STRATEGY_HORIZON[s.name] ?? 'MEDIUM_TERM')
+      .sort((a, b) => HORIZON_RANK[a] - HORIZON_RANK[b])[0];
+  }
+
+  if (anchorDirection !== 'neutral') {
+    const wantDirection = anchorDirection === 'buy' ? 'bullish' : 'bearish';
+    if (patterns.some((p) => p.direction === wantDirection)) return 'SHORT_TERM';
+
+    const sma200 = indicators.find((i) => i.name === 'Price vs SMA(200)');
+    const adx = indicators.find((i) => i.name === 'ADX(14)');
+    const adxValue = typeof adx?.value === 'string' ? parseFloat(adx.value) : adx?.value;
+    const trendAligned = sma200?.signal === anchorDirection;
+    if (trendAligned && Number.isFinite(adxValue) && adxValue >= ADX_TREND_THRESHOLD) return 'LONG_TERM';
+  }
+
+  return 'MEDIUM_TERM';
 }
 
-function computeRisk(bars, direction) {
+function computeRisk(bars, direction, patterns) {
   const close = closes(bars);
   const volume = volumes(bars);
   const price = close.at(-1);
@@ -43,9 +67,32 @@ function computeRisk(bars, direction) {
   const suggestedStop = atr14 == null ? null : direction === 'sell' ? price + 2 * atr14 : price - 2 * atr14;
   const distanceToStopPct = suggestedStop == null ? null : (Math.abs(price - suggestedStop) / price) * 100;
 
+  // Suggested entry is the last close -- this system executes at the *next*
+  // session's open (no lookahead), so the close is the most recent honest
+  // reference point, not a promise of the actual fill price.
+  const suggestedEntry = direction === 'neutral' ? null : price;
+
+  // Target prefers a real pattern's own price target (if one matches this
+  // direction); otherwise falls back to a 2:1 reward:risk projection off the
+  // same ATR stop distance, so every directional signal has one, not just
+  // the minority with an active chart/candlestick pattern.
+  let target = null;
+  if (direction !== 'neutral') {
+    const wantDirection = direction === 'buy' ? 'bullish' : 'bearish';
+    const patternTarget = patterns.find((p) => p.direction === wantDirection && typeof p.keyLevels?.target === 'number')?.keyLevels?.target;
+    if (patternTarget != null) {
+      target = patternTarget;
+    } else if (suggestedStop != null) {
+      const stopDistance = Math.abs(price - suggestedStop);
+      target = direction === 'buy' ? price + TARGET_REWARD_RISK * stopDistance : price - TARGET_REWARD_RISK * stopDistance;
+    }
+  }
+
   return {
     atr14: atr14 ?? null,
+    suggestedEntry,
     suggestedStop,
+    target,
     distanceToStopPct,
     avgVolume20d,
     liquidityOk: notional != null ? notional >= MIN_LIQUIDITY_NOTIONAL : false,
@@ -73,7 +120,7 @@ export function computeConviction({ bars, fundamentals, regime, marketStrategyHe
   return {
     conviction,
     signal,
-    horizon: deriveHorizon(strategy.strategies),
+    horizon: deriveHorizon(strategy.strategies, { patterns: pattern.patterns, indicators: technical.indicators, anchorDirection: technical.direction }),
     evidence: {
       technical: { score: technical.score, indicators: technical.indicators },
       patterns: pattern.patterns,
@@ -81,6 +128,6 @@ export function computeConviction({ bars, fundamentals, regime, marketStrategyHe
       fundamental,
       regime: { market: regime.market, state: regime.state, pctAbove200dma: regime.pctAbove200dma, advDecline: regime.advDecline, note: modulation.note },
     },
-    risk: computeRisk(bars, technical.direction),
+    risk: computeRisk(bars, technical.direction, pattern.patterns),
   };
 }

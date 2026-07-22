@@ -30,6 +30,14 @@ export function formatNumber(value, digits = 2) {
   return value.toFixed(digits);
 }
 
+// Prices carry their exchange's native currency and are never converted to a
+// common one, so the label is essential -- GBp (LSE pence, so 529.30 = £5.29)
+// looks like a wildly different magnitude from USD/EUR without it.
+export function formatPrice(value, currency, digits = 2) {
+  if (value === null || value === undefined || Number.isNaN(value)) return 'n/a';
+  return currency ? `${value.toFixed(digits)} ${currency}` : value.toFixed(digits);
+}
+
 export function formatDate(dateStr) {
   if (!dateStr) return 'n/a';
   return dateStr;

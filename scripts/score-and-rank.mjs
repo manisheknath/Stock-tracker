@@ -77,6 +77,7 @@ async function main() {
         ticker, name, market,
         asOf: today,
         lastBarDate: barsData.bars.at(-1).date,
+        currency: barsData.currency,
         close: barsData.bars.at(-1).close,
         signal: result.signal,
         conviction: result.conviction,

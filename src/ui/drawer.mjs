@@ -1,5 +1,5 @@
 import { el } from './dom.mjs';
-import { marketFlag, SIGNAL_STYLES, formatPct, formatNumber } from './format.mjs';
+import { marketFlag, SIGNAL_STYLES, formatPct, formatNumber, formatPrice } from './format.mjs';
 import { computeRSI } from '../lib/indicators/rsi.mjs';
 import { computeMACD } from '../lib/indicators/macd.mjs';
 import { computeADX } from '../lib/indicators/adx.mjs';
@@ -13,7 +13,7 @@ function toChartTime(dateStr) {
   return dateStr; // 'YYYY-MM-DD' -- Lightweight Charts accepts business-day strings directly
 }
 
-function renderCandlestickChart(container, bars, pattern) {
+function renderCandlestickChart(container, bars, pattern, risk) {
   const chart = window.LightweightCharts.createChart(container, {
     width: container.clientWidth, height: 320,
     layout: { background: { color: 'transparent' }, textColor: '#94a3b8' },
@@ -38,6 +38,22 @@ function renderCandlestickChart(container, bars, pattern) {
         axisLabelVisible: true,
         title: key,
       });
+    }
+  }
+
+  // Trade levels as solid overlay lines. When a pattern already drew its own
+  // target, this still adds entry + stop; when there's no pattern at all,
+  // these are the only overlays -- so every directional signal shows its
+  // actionable levels on the chart, not just the minority with a pattern.
+  if (risk) {
+    const levels = [
+      { price: risk.suggestedEntry, color: '#94a3b8', title: 'entry' },
+      { price: risk.suggestedStop, color: '#fb7185', title: 'stop' },
+      { price: risk.target, color: '#34d399', title: 'target' },
+    ];
+    for (const { price, color, title } of levels) {
+      if (typeof price !== 'number') continue;
+      series.createPriceLine({ price, color, lineWidth: 1, lineStyle: 0, axisLabelVisible: true, title });
     }
   }
 
@@ -122,7 +138,7 @@ export async function openDrawer({ signal, drawerEl, backdropEl, strategyHealth 
         el('h2', { className: 'text-xl font-semibold' }, [signal.ticker]),
         el('span', { className: `inline-flex items-center px-2 py-0.5 rounded border text-xs font-medium ${style.classes}` }, [style.label]),
       ]),
-      el('p', { className: 'text-sm text-slate-400 mt-0.5' }, [`${signal.name} · ${marketFlag(signal.market)} ${signal.market} · close ${formatNumber(signal.close)} · conviction ${signal.conviction}`]),
+      el('p', { className: 'text-sm text-slate-400 mt-0.5' }, [`${signal.name} · ${marketFlag(signal.market)} ${signal.market} · close ${formatPrice(signal.close, signal.currency)} · conviction ${signal.conviction}`]),
     ]),
     el('button', { className: 'text-slate-400 hover:text-slate-100 text-xl leading-none px-2', onclick: () => closeDrawer(drawerEl, backdropEl) }, ['×']),
   ]);
@@ -131,6 +147,25 @@ export async function openDrawer({ signal, drawerEl, backdropEl, strategyHealth 
     el('h3', { className: 'text-sm font-medium text-slate-300 mb-2' }, ['Price']),
     el('div', { className: 'chart-candles' }),
     ...(primaryPattern ? [el('p', { className: 'text-xs text-slate-400 mt-2' }, [`${primaryPattern.pattern} (${primaryPattern.direction}, confidence ${primaryPattern.confidence}): ${primaryPattern.description}`])] : []),
+  ]);
+
+  const risk = signal.risk ?? {};
+  const tradeLevelRow = (label, value, colorClass) => el('div', { className: 'flex justify-between py-1 text-sm border-b border-slate-800/60' }, [
+    el('span', { className: `${colorClass}` }, [label]),
+    el('span', { className: 'tabular-nums' }, [value != null ? formatPrice(value, signal.currency) : 'n/a']),
+  ]);
+  const tradeLevelsSection = el('section', { className: 'p-5 border-t border-slate-800' }, [
+    el('h3', { className: 'text-sm font-medium text-slate-300 mb-2' }, ['Trade levels']),
+    signal.signal === 'HOLD'
+      ? el('p', { className: 'text-xs text-slate-500' }, ['No directional signal — entry/stop/target apply to BUY/SELL signals only.'])
+      : el('div', {}, [
+        tradeLevelRow('Suggested entry (next open)', risk.suggestedEntry, 'text-slate-400'),
+        tradeLevelRow('Suggested stop (2× ATR)', risk.suggestedStop, 'text-rose-400'),
+        tradeLevelRow('Target', risk.target, 'text-emerald-400'),
+        el('p', { className: 'text-xs text-slate-500 mt-2' }, [
+          `ATR(14) ${formatPrice(risk.atr14, signal.currency)} · ${risk.distanceToStopPct != null ? formatPct(risk.distanceToStopPct) : 'n/a'} to stop · ${risk.liquidityOk ? 'liquidity OK' : 'thin liquidity'}`,
+        ]),
+      ]),
   ]);
 
   const rsiValues = computeRSI(bars, 14).values;
@@ -159,9 +194,9 @@ export async function openDrawer({ signal, drawerEl, backdropEl, strategyHealth 
       : el('p', { className: 'text-xs text-slate-500' }, ['No live-eligible strategy is currently triggered on this ticker.']),
   ]);
 
-  drawerEl.replaceChildren(header, chartSection, indicatorSection, fundamentalSection, strategySection);
+  drawerEl.replaceChildren(header, chartSection, tradeLevelsSection, indicatorSection, fundamentalSection, strategySection);
 
-  renderCandlestickChart(drawerEl.querySelector('.chart-candles'), bars, primaryPattern);
+  renderCandlestickChart(drawerEl.querySelector('.chart-candles'), bars, primaryPattern, signal.risk);
   renderLineSubpane(drawerEl.querySelector('.chart-rsi'), 'RSI', seriesFromValues(bars, rsiValues));
   renderLineSubpane(drawerEl.querySelector('.chart-macd'), 'MACD', seriesFromValues(bars, macdValues, (v) => v.histogram));
   renderLineSubpane(drawerEl.querySelector('.chart-adx'), 'ADX', seriesFromValues(bars, adxValues));

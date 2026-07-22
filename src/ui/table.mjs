@@ -1,4 +1,4 @@
-import { marketFlag, SIGNAL_STYLES, convictionBarColor, formatPct, formatNumber } from './format.mjs';
+import { marketFlag, SIGNAL_STYLES, convictionBarColor, formatPct, formatNumber, formatPrice } from './format.mjs';
 import { el } from './dom.mjs';
 
 const SORT_ACCESSORS = {
@@ -8,6 +8,8 @@ const SORT_ACCESSORS = {
   conviction: (s) => s.conviction,
   horizon: (s) => s.horizon,
   close: (s) => s.close,
+  entry: (s) => s.risk?.suggestedEntry ?? -Infinity,
+  target: (s) => s.risk?.target ?? -Infinity,
   distanceToStop: (s) => s.risk?.distanceToStopPct ?? -Infinity,
 };
 
@@ -18,6 +20,8 @@ const COLUMNS = [
   { key: 'conviction', label: 'Conviction' },
   { key: 'horizon', label: 'Horizon' },
   { key: 'close', label: 'Close' },
+  { key: 'entry', label: 'Entry' },
+  { key: 'target', label: 'Target' },
   { key: 'distanceToStop', label: '% from stop' },
   { key: 'strategy', label: 'Triggering strategy' },
 ];
@@ -113,7 +117,9 @@ export function mountSignalsView(container, allSignals, onRowClick) {
       el('td', { className: 'px-3 py-2' }, [badge]),
       el('td', { className: 'px-3 py-2' }, [convictionCell]),
       el('td', { className: 'px-3 py-2 text-slate-300' }, [s.horizon.replace('_', ' ')]),
-      el('td', { className: 'px-3 py-2 tabular-nums' }, [formatNumber(s.close)]),
+      el('td', { className: 'px-3 py-2 tabular-nums' }, [formatPrice(s.close, s.currency)]),
+      el('td', { className: 'px-3 py-2 tabular-nums' }, [s.risk?.suggestedEntry != null ? formatPrice(s.risk.suggestedEntry, s.currency) : '—']),
+      el('td', { className: 'px-3 py-2 tabular-nums' }, [s.risk?.target != null ? formatPrice(s.risk.target, s.currency) : '—']),
       el('td', { className: 'px-3 py-2 tabular-nums' }, [stopPct != null ? formatPct(stopPct) : 'n/a']),
       el('td', { className: 'px-3 py-2 text-slate-400 text-sm' }, [triggeringStrategy]),
     ]);

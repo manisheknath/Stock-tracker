@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-21T19:43:47.349Z",
-  "asOf": "2026-07-21",
+  "generatedAt": "2026-07-22T10:40:46.867Z",
+  "asOf": "2026-07-22",
   "weights": {
     "technical": 0.4,
     "pattern": 0.25,
@@ -56,8 +56,9 @@
       "ticker": "BP.uk",
       "name": "BP",
       "market": "UK",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "GBp",
       "close": 529.2999877929688,
       "signal": "BUY",
       "conviction": 68,
@@ -245,7 +246,9 @@
       },
       "risk": {
         "atr14": 13.463872340840439,
+        "suggestedEntry": 529.2999877929688,
         "suggestedStop": 502.37224311128784,
+        "target": 583.1554771563306,
         "distanceToStopPct": 5.087425902645867,
         "avgVolume20d": 39449320.6,
         "liquidityOk": true
@@ -260,12 +263,13 @@
       "ticker": "AMZN.us",
       "name": "Amazon",
       "market": "US",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "USD",
       "close": 247.9499969482422,
       "signal": "BUY",
       "conviction": 64,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 58,
@@ -436,7 +440,9 @@
       },
       "risk": {
         "atr14": 7.155078822724076,
+        "suggestedEntry": 247.9499969482422,
         "suggestedStop": 233.63983930279403,
+        "target": 276.5703122391385,
         "distanceToStopPct": 5.771388514449267,
         "avgVolume20d": 56435224.4,
         "liquidityOk": true
@@ -451,12 +457,13 @@
       "ticker": "NVDA.us",
       "name": "Nvidia",
       "market": "US",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "USD",
       "close": 206.39010620117188,
       "signal": "BUY",
       "conviction": 63,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 55,
@@ -652,7 +659,9 @@
       },
       "risk": {
         "atr14": 7.195311666634358,
+        "suggestedEntry": 206.39010620117188,
         "suggestedStop": 191.99948286790317,
+        "target": 235.1713528677093,
         "distanceToStopPct": 6.972535456346889,
         "avgVolume20d": 134708856.3,
         "liquidityOk": true
@@ -667,12 +676,13 @@
       "ticker": "AAPL.us",
       "name": "Apple Inc.",
       "market": "US",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "USD",
       "close": 327.3800048828125,
       "signal": "HOLD",
       "conviction": 56,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 67,
@@ -867,7 +877,9 @@
       },
       "risk": {
         "atr14": 8.205553662718525,
+        "suggestedEntry": 327.3800048828125,
         "suggestedStop": 310.96889755737544,
+        "target": 360.2022195336866,
         "distanceToStopPct": 5.01286183660224,
         "avgVolume20d": 64782138.4,
         "liquidityOk": true
@@ -882,12 +894,13 @@
       "ticker": "ALV.de",
       "name": "Allianz",
       "market": "DE",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 422.79998779296875,
       "signal": "HOLD",
       "conviction": 56,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 61,
@@ -1084,7 +1097,9 @@
       },
       "risk": {
         "atr14": 5.271750456951168,
+        "suggestedEntry": 422.79998779296875,
         "suggestedStop": 412.2564868790664,
+        "target": 443.8869896207734,
         "distanceToStopPct": 2.4937325492698785,
         "avgVolume20d": 480887.6,
         "liquidityOk": true
@@ -1099,12 +1114,13 @@
       "ticker": "ASML.nl",
       "name": "ASML Holding",
       "market": "NL",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 1593.4000244140625,
       "signal": "HOLD",
       "conviction": 56,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 59,
@@ -1300,7 +1316,9 @@
       },
       "risk": {
         "atr14": 74.30547640421743,
+        "suggestedEntry": 1593.4000244140625,
         "suggestedStop": 1444.7890716056277,
+        "target": 1890.6219300309322,
         "distanceToStopPct": 9.326656867793334,
         "avgVolume20d": 665239.4,
         "liquidityOk": true
@@ -1315,12 +1333,13 @@
       "ticker": "HSBA.uk",
       "name": "HSBC",
       "market": "UK",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "GBp",
       "close": 1509.4000244140625,
       "signal": "HOLD",
       "conviction": 54,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 61,
@@ -1517,7 +1536,9 @@
       },
       "risk": {
         "atr14": 39.41415346218577,
+        "suggestedEntry": 1509.4000244140625,
         "suggestedStop": 1430.5717174896909,
+        "target": 1667.0566382628058,
         "distanceToStopPct": 5.222492755356367,
         "avgVolume20d": 18887058.15,
         "liquidityOk": true
@@ -1532,12 +1553,13 @@
       "ticker": "MSFT.us",
       "name": "Microsoft",
       "market": "US",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "USD",
       "close": 398.6400146484375,
       "signal": "HOLD",
       "conviction": 51,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 53,
@@ -1732,7 +1754,9 @@
       },
       "risk": {
         "atr14": 11.758270338599107,
+        "suggestedEntry": 398.6400146484375,
         "suggestedStop": 375.12347397123926,
+        "target": 417.7900085449219,
         "distanceToStopPct": 5.899192206767698,
         "avgVolume20d": 43705190.9,
         "liquidityOk": true
@@ -1747,8 +1771,9 @@
       "ticker": "SAN.es",
       "name": "Santander",
       "market": "ES",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 11.906000137329102,
       "signal": "HOLD",
       "conviction": 51,
@@ -1937,7 +1962,9 @@
       },
       "risk": {
         "atr14": 0.24111403922753294,
+        "suggestedEntry": null,
         "suggestedStop": 11.423772058874036,
+        "target": null,
         "distanceToStopPct": 4.050294581663301,
         "avgVolume20d": 18861098.55,
         "liquidityOk": true
@@ -1952,8 +1979,9 @@
       "ticker": "ITX.es",
       "name": "Inditex",
       "market": "ES",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 54.099998474121094,
       "signal": "HOLD",
       "conviction": 50,
@@ -2153,7 +2181,9 @@
       },
       "risk": {
         "atr14": 1.189415356146994,
+        "suggestedEntry": null,
         "suggestedStop": 51.721167761827104,
+        "target": null,
         "distanceToStopPct": 4.397099407372278,
         "avgVolume20d": 1417320.2,
         "liquidityOk": true
@@ -2168,8 +2198,9 @@
       "ticker": "OR.fr",
       "name": "L'Oréal",
       "market": "FR",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 378.75,
       "signal": "HOLD",
       "conviction": 50,
@@ -2357,7 +2388,9 @@
       },
       "risk": {
         "atr14": 7.51187269782443,
+        "suggestedEntry": null,
         "suggestedStop": 363.72625460435114,
+        "target": null,
         "distanceToStopPct": 3.9666654509963983,
         "avgVolume20d": 328253,
         "liquidityOk": true
@@ -2372,12 +2405,13 @@
       "ticker": "SIE.de",
       "name": "Siemens",
       "market": "DE",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 270.45001220703125,
       "signal": "HOLD",
       "conviction": 50,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 54,
@@ -2574,7 +2608,9 @@
       },
       "risk": {
         "atr14": 7.17660674747609,
+        "suggestedEntry": 270.45001220703125,
         "suggestedStop": 256.0967987120791,
+        "target": 299.1564391969356,
         "distanceToStopPct": 5.307159492366631,
         "avgVolume20d": 931583.15,
         "liquidityOk": true
@@ -2589,8 +2625,9 @@
       "ticker": "RELIANCE.in",
       "name": "Reliance Industries",
       "market": "IN",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-20",
+      "currency": "INR",
       "close": 1323.0999755859375,
       "signal": "HOLD",
       "conviction": 49,
@@ -2791,7 +2828,9 @@
       },
       "risk": {
         "atr14": 23.520209291400267,
+        "suggestedEntry": null,
         "suggestedStop": 1276.059557003137,
+        "target": null,
         "distanceToStopPct": 3.5553185285162345,
         "avgVolume20d": 12350134.85,
         "liquidityOk": true
@@ -2806,12 +2845,13 @@
       "ticker": "MC.fr",
       "name": "LVMH",
       "market": "FR",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 478.54998779296875,
       "signal": "HOLD",
       "conviction": 48,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 46,
@@ -3008,7 +3048,9 @@
       },
       "risk": {
         "atr14": 13.215820252894858,
+        "suggestedEntry": 478.54998779296875,
         "suggestedStop": 504.98162829875844,
+        "target": 425.6867067813894,
         "distanceToStopPct": 5.523276811204224,
         "avgVolume20d": 415952.05,
         "liquidityOk": true
@@ -3023,12 +3065,13 @@
       "ticker": "TCS.in",
       "name": "Tata Consultancy Services",
       "market": "IN",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-20",
+      "currency": "INR",
       "close": 2251.10009765625,
       "signal": "HOLD",
       "conviction": 47,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 55,
@@ -3222,7 +3265,9 @@
       },
       "risk": {
         "atr14": 62.17313849341929,
+        "suggestedEntry": 2251.10009765625,
         "suggestedStop": 2126.7538206694117,
+        "target": 2352,
         "distanceToStopPct": 5.523800435009639,
         "avgVolume20d": 5137391.35,
         "liquidityOk": true
@@ -3237,12 +3282,13 @@
       "ticker": "UNA.nl",
       "name": "Unilever",
       "market": "NL",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 53.439998626708984,
       "signal": "HOLD",
       "conviction": 46,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 54,
@@ -3439,7 +3485,9 @@
       },
       "risk": {
         "atr14": 1.006430900978354,
+        "suggestedEntry": 53.439998626708984,
         "suggestedStop": 51.427136824752274,
+        "target": 57.465722230622404,
         "distanceToStopPct": 3.7665828100352794,
         "avgVolume20d": 1037342.95,
         "liquidityOk": true
@@ -3454,8 +3502,9 @@
       "ticker": "HDFCBANK.in",
       "name": "HDFC Bank",
       "market": "IN",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-20",
+      "currency": "INR",
       "close": 777.5999755859375,
       "signal": "HOLD",
       "conviction": 42,
@@ -3656,7 +3705,9 @@
       },
       "risk": {
         "atr14": 16.788982201271914,
+        "suggestedEntry": 777.5999755859375,
         "suggestedStop": 811.1779399884813,
+        "target": 710.4440467808499,
         "distanceToStopPct": 4.318153993927546,
         "avgVolume20d": 33617562.5,
         "liquidityOk": true
@@ -3671,12 +3722,13 @@
       "ticker": "GOOGL.us",
       "name": "Alphabet Inc. (Class A)",
       "market": "US",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "USD",
       "close": 348.739990234375,
       "signal": "HOLD",
       "conviction": 38,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "SHORT_TERM",
       "evidence": {
         "technical": {
           "score": 47,
@@ -3872,7 +3924,9 @@
       },
       "risk": {
         "atr14": 11.249738695589206,
+        "suggestedEntry": 348.739990234375,
         "suggestedStop": 371.2394676255534,
+        "target": 328.9999694824219,
         "distanceToStopPct": 6.451648225389166,
         "avgVolume20d": 32347192.95,
         "liquidityOk": true
@@ -3887,12 +3941,13 @@
       "ticker": "AZN.uk",
       "name": "AstraZeneca",
       "market": "UK",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "GBp",
       "close": 12492,
       "signal": "HOLD",
       "conviction": 37,
-      "horizon": "MEDIUM_TERM",
+      "horizon": "LONG_TERM",
       "evidence": {
         "technical": {
           "score": 32,
@@ -4089,7 +4144,9 @@
       },
       "risk": {
         "atr14": 769.2775854454462,
+        "suggestedEntry": 12492,
         "suggestedStop": 14030.555170890893,
+        "target": 9414.889658218213,
         "distanceToStopPct": 12.316323814368342,
         "avgVolume20d": 2532870.3,
         "liquidityOk": true
@@ -4104,8 +4161,9 @@
       "ticker": "SAP.de",
       "name": "SAP",
       "market": "DE",
-      "asOf": "2026-07-21",
+      "asOf": "2026-07-22",
       "lastBarDate": "2026-07-21",
+      "currency": "EUR",
       "close": 136.4199981689453,
       "signal": "HOLD",
       "conviction": 35,
@@ -4305,7 +4363,9 @@
       },
       "risk": {
         "atr14": 4.951511849119916,
+        "suggestedEntry": 136.4199981689453,
         "suggestedStop": 146.32302186718513,
+        "target": 116.61395077246567,
         "distanceToStopPct": 7.259216999824113,
         "avgVolume20d": 2303638.85,
         "liquidityOk": true
