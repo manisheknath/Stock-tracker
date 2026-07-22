@@ -3,7 +3,7 @@
   "name": "Southwest Airlines",
   "market": "US",
   "yahooSymbol": "LUV",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14806,11 +14806,20 @@
     {
       "date": "2026-07-21",
       "open": 48.970001220703125,
-      "high": 48.970001220703125,
-      "low": 47.90999984741211,
+      "high": 49,
+      "low": 47.880001068115234,
       "close": 48.689998626708984,
       "adjClose": 48.689998626708984,
-      "volume": 3210638
+      "volume": 4995700
+    },
+    {
+      "date": "2026-07-22",
+      "open": 47.630001068115234,
+      "high": 48.45000076293945,
+      "low": 47.22100067138672,
+      "close": 47.65999984741211,
+      "adjClose": 47.65999984741211,
+      "volume": 6042329
     }
   ],
   "corporateActions": {
@@ -14883,9 +14892,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

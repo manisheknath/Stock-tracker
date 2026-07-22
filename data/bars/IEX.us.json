@@ -3,7 +3,7 @@
   "name": "IDEX Corporation",
   "market": "US",
   "yahooSymbol": "IEX",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14807,10 +14807,19 @@
       "date": "2026-07-21",
       "open": 218.4600067138672,
       "high": 223.77999877929688,
-      "low": 219,
+      "low": 218.4600067138672,
       "close": 221.19000244140625,
       "adjClose": 221.19000244140625,
-      "volume": 403411
+      "volume": 537700
+    },
+    {
+      "date": "2026-07-22",
+      "open": 221.49000549316406,
+      "high": 223.72999572753906,
+      "low": 220.86000061035156,
+      "close": 223.16000366210938,
+      "adjClose": 223.16000366210938,
+      "volume": 837605
     }
   ],
   "corporateActions": {
@@ -14927,9 +14936,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Shriram Finance",
   "market": "IN",
   "yahooSymbol": "SHRIRAMFIN.NS",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14622,6 +14622,15 @@
       "close": 1035.4000244140625,
       "adjClose": 1035.4000244140625,
       "volume": 3238784
+    },
+    {
+      "date": "2026-07-21",
+      "open": 1036,
+      "high": 1067.4000244140625,
+      "low": 1031,
+      "close": 1061.5,
+      "adjClose": 1061.5,
+      "volume": 7633092
     }
   ],
   "corporateActions": {
@@ -14697,9 +14706,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1624,
+    "barsAvailable": 1625,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-20",
+    "lastDate": "2026-07-21",
     "gaps": 85
   }
 }

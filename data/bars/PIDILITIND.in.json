@@ -3,7 +3,7 @@
   "name": "Pidilite Industries",
   "market": "IN",
   "yahooSymbol": "PIDILITIND.NS",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14622,6 +14622,15 @@
       "close": 1565.800048828125,
       "adjClose": 1565.800048828125,
       "volume": 848188
+    },
+    {
+      "date": "2026-07-21",
+      "open": 1575,
+      "high": 1601,
+      "low": 1569.5,
+      "close": 1591.300048828125,
+      "adjClose": 1591.300048828125,
+      "volume": 1640055
     }
   ],
   "corporateActions": {
@@ -14657,13 +14666,17 @@
       {
         "date": "2025-07-23",
         "amount": 10
+      },
+      {
+        "date": "2026-07-23",
+        "amount": 11.5
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1624,
+    "barsAvailable": 1625,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-20",
+    "lastDate": "2026-07-21",
     "gaps": 85
   }
 }

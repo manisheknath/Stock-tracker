@@ -3,7 +3,7 @@
   "name": "McKesson Corporation",
   "market": "US",
   "yahooSymbol": "MCK",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14807,10 +14807,19 @@
       "date": "2026-07-21",
       "open": 824.5599975585938,
       "high": 830.9299926757812,
-      "low": 820.5015869140625,
+      "low": 820.5,
       "close": 828.8400268554688,
       "adjClose": 828.8400268554688,
-      "volume": 846476
+      "volume": 846500
+    },
+    {
+      "date": "2026-07-22",
+      "open": 834.1300048828125,
+      "high": 840,
+      "low": 808.6500244140625,
+      "close": 814.0399780273438,
+      "adjClose": 814.0399780273438,
+      "volume": 561722
     }
   ],
   "corporateActions": {
@@ -14923,9 +14932,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

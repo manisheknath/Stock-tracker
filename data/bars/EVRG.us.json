@@ -3,7 +3,7 @@
   "name": "Evergy",
   "market": "US",
   "yahooSymbol": "EVRG",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14810,7 +14810,16 @@
       "low": 84.45999908447266,
       "close": 84.91999816894531,
       "adjClose": 84.91999816894531,
-      "volume": 2819179
+      "volume": 2821600
+    },
+    {
+      "date": "2026-07-22",
+      "open": 85.63999938964844,
+      "high": 86.6500015258789,
+      "low": 85.18000030517578,
+      "close": 86.55999755859375,
+      "adjClose": 86.55999755859375,
+      "volume": 1551739
     }
   ],
   "corporateActions": {
@@ -14923,9 +14932,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Apollo Global Management",
   "market": "US",
   "yahooSymbol": "APO",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14806,11 +14806,20 @@
     {
       "date": "2026-07-21",
       "open": 119.37000274658203,
-      "high": 120.61000061035156,
-      "low": 117.99500274658203,
+      "high": 120.62999725341797,
+      "low": 118,
       "close": 118.4000015258789,
       "adjClose": 118.4000015258789,
-      "volume": 2108018
+      "volume": 2978200
+    },
+    {
+      "date": "2026-07-22",
+      "open": 118,
+      "high": 120.86000061035156,
+      "low": 118.30000305175781,
+      "close": 119.04000091552734,
+      "adjClose": 119.04000091552734,
+      "volume": 3392460
     }
   ],
   "corporateActions": {
@@ -14923,9 +14932,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Marathon Petroleum",
   "market": "US",
   "yahooSymbol": "MPC",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14806,11 +14806,20 @@
     {
       "date": "2026-07-21",
       "open": 319.260009765625,
-      "high": 320.8349914550781,
-      "low": 315.2340087890625,
+      "high": 321,
+      "low": 315.2300109863281,
       "close": 319.760009765625,
       "adjClose": 319.760009765625,
-      "volume": 2102779
+      "volume": 2121100
+    },
+    {
+      "date": "2026-07-22",
+      "open": 326.6700134277344,
+      "high": 326.9200134277344,
+      "low": 315.739990234375,
+      "close": 315.82000732421875,
+      "adjClose": 315.82000732421875,
+      "volume": 2576584
     }
   ],
   "corporateActions": {
@@ -14923,9 +14932,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

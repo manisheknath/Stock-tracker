@@ -3,7 +3,7 @@
   "name": "Federal Realty Investment Trust",
   "market": "US",
   "yahooSymbol": "FRT",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14806,11 +14806,20 @@
     {
       "date": "2026-07-21",
       "open": 126.04000091552734,
-      "high": 126.21499633789062,
-      "low": 125.010498046875,
+      "high": 126.25,
+      "low": 124.91000366210938,
       "close": 125.58999633789062,
       "adjClose": 125.58999633789062,
-      "volume": 616617
+      "volume": 762200
+    },
+    {
+      "date": "2026-07-22",
+      "open": 125.86000061035156,
+      "high": 126.36000061035156,
+      "low": 124.9000015258789,
+      "close": 125.05000305175781,
+      "adjClose": 125.05000305175781,
+      "volume": 531780
     }
   ],
   "corporateActions": {
@@ -14927,9 +14936,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

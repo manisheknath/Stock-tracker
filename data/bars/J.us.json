@@ -3,7 +3,7 @@
   "name": "Jacobs Solutions",
   "market": "US",
   "yahooSymbol": "J",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14806,11 +14806,20 @@
     {
       "date": "2026-07-21",
       "open": 128.36000061035156,
-      "high": 130.01499938964844,
+      "high": 130.02000427246094,
       "low": 128,
       "close": 129.63999938964844,
       "adjClose": 129.63999938964844,
-      "volume": 393134
+      "volume": 581900
+    },
+    {
+      "date": "2026-07-22",
+      "open": 130.36000061035156,
+      "high": 130.80499267578125,
+      "low": 129.61500549316406,
+      "close": 130.5,
+      "adjClose": 130.5,
+      "volume": 300444
     }
   ],
   "corporateActions": {
@@ -14936,9 +14945,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

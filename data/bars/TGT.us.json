@@ -3,7 +3,7 @@
   "name": "Target Corporation",
   "market": "US",
   "yahooSymbol": "TGT",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14806,11 +14806,20 @@
     {
       "date": "2026-07-21",
       "open": 138.97999572753906,
-      "high": 139.6300048828125,
-      "low": 137.67770385742188,
+      "high": 139.6999969482422,
+      "low": 137.67999267578125,
       "close": 138.47999572753906,
       "adjClose": 138.47999572753906,
-      "volume": 1619788
+      "volume": 2413200
+    },
+    {
+      "date": "2026-07-22",
+      "open": 139.22000122070312,
+      "high": 139.6300048828125,
+      "low": 137.17999267578125,
+      "close": 137.9199981689453,
+      "adjClose": 137.9199981689453,
+      "volume": 2283174
     }
   ],
   "corporateActions": {
@@ -14923,9 +14932,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }

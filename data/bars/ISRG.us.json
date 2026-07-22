@@ -3,7 +3,7 @@
   "name": "Intuitive Surgical",
   "market": "US",
   "yahooSymbol": "ISRG",
-  "asOf": "2026-07-21",
+  "asOf": "2026-07-22",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14805,12 +14805,21 @@
     },
     {
       "date": "2026-07-21",
-      "open": 347.4100036621094,
+      "open": 347.010009765625,
       "high": 362.8500061035156,
-      "low": 347.052001953125,
+      "low": 347,
       "close": 350.05999755859375,
       "adjClose": 350.05999755859375,
-      "volume": 4911374
+      "volume": 5161000
+    },
+    {
+      "date": "2026-07-22",
+      "open": 351.8599853515625,
+      "high": 355,
+      "low": 340.6099853515625,
+      "close": 340.69000244140625,
+      "adjClose": 340.69000244140625,
+      "volume": 4528358
     }
   ],
   "corporateActions": {
@@ -14825,9 +14834,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 64
   }
 }
