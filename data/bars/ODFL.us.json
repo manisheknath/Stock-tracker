@@ -3,7 +3,7 @@
   "name": "Old Dominion",
   "market": "US",
   "yahooSymbol": "ODFL",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14814,12 +14814,21 @@
     },
     {
       "date": "2026-07-22",
-      "open": 234.66000366210938,
-      "high": 235.75990295410156,
-      "low": 232.40789794921875,
+      "open": 234.6300048828125,
+      "high": 235.75999450683594,
+      "low": 232.41000366210938,
       "close": 232.8000030517578,
       "adjClose": 232.8000030517578,
-      "volume": 1384295
+      "volume": 1434700
+    },
+    {
+      "date": "2026-07-23",
+      "open": 235,
+      "high": 235,
+      "low": 227.22000122070312,
+      "close": 230.7100067138672,
+      "adjClose": 230.7100067138672,
+      "volume": 898029
     }
   ],
   "corporateActions": {
@@ -14945,9 +14954,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Trade Desk (The)",
   "market": "US",
   "yahooSymbol": "TTD",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NasdaqGM",
   "bars": [
@@ -14814,12 +14814,21 @@
     },
     {
       "date": "2026-07-22",
-      "open": 18.489999771118164,
+      "open": 18.459999084472656,
       "high": 18.5,
       "low": 17.43000030517578,
       "close": 17.579999923706055,
       "adjClose": 17.579999923706055,
-      "volume": 12381666
+      "volume": 12455400
+    },
+    {
+      "date": "2026-07-23",
+      "open": 17.579999923706055,
+      "high": 17.600000381469727,
+      "low": 16.700000762939453,
+      "close": 16.790000915527344,
+      "adjClose": 16.790000915527344,
+      "volume": 17232365
     }
   ],
   "corporateActions": {
@@ -14834,9 +14843,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

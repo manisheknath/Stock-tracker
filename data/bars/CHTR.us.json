@@ -3,7 +3,7 @@
   "name": "Charter Communications",
   "market": "US",
   "yahooSymbol": "CHTR",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14814,12 +14814,21 @@
     },
     {
       "date": "2026-07-22",
-      "open": 130.77999877929688,
-      "high": 130.8000030517578,
-      "low": 125.44499969482422,
+      "open": 130.75999450683594,
+      "high": 130.82000732421875,
+      "low": 125.44999694824219,
       "close": 129.22000122070312,
       "adjClose": 129.22000122070312,
-      "volume": 2993131
+      "volume": 2993600
+    },
+    {
+      "date": "2026-07-23",
+      "open": 128.49000549316406,
+      "high": 129.9199981689453,
+      "low": 123.16000366210938,
+      "close": 126.5,
+      "adjClose": 126.5,
+      "volume": 7061551
     }
   ],
   "corporateActions": {
@@ -14827,9 +14836,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

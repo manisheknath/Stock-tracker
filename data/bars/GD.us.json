@@ -3,7 +3,7 @@
   "name": "General Dynamics",
   "market": "US",
   "yahooSymbol": "GD",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14816,10 +14816,19 @@
       "date": "2026-07-22",
       "open": 371.1000061035156,
       "high": 375.2300109863281,
-      "low": 370.0050048828125,
+      "low": 370.010009765625,
       "close": 373.1600036621094,
       "adjClose": 373.1600036621094,
-      "volume": 482147
+      "volume": 955900
+    },
+    {
+      "date": "2026-07-23",
+      "open": 378.3699951171875,
+      "high": 387.69000244140625,
+      "low": 376.4700012207031,
+      "close": 381.7900085449219,
+      "adjClose": 381.7900085449219,
+      "volume": 1683086
     }
   ],
   "corporateActions": {
@@ -14936,9 +14945,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

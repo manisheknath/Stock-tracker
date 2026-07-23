@@ -3,7 +3,7 @@
   "name": "Johnson Controls",
   "market": "US",
   "yahooSymbol": "JCI",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14815,11 +14815,20 @@
     {
       "date": "2026-07-22",
       "open": 140.25,
-      "high": 143.4250030517578,
-      "low": 141.0399932861328,
+      "high": 143.42999267578125,
+      "low": 140.25,
       "close": 142.49000549316406,
       "adjClose": 142.49000549316406,
-      "volume": 1431110
+      "volume": 1916300
+    },
+    {
+      "date": "2026-07-23",
+      "open": 142.14999389648438,
+      "high": 145.27999877929688,
+      "low": 141.81500244140625,
+      "close": 143.2899932861328,
+      "adjClose": 143.2899932861328,
+      "volume": 2815656
     }
   ],
   "corporateActions": {
@@ -14924,9 +14933,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

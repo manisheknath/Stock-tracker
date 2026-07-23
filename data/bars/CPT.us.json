@@ -3,7 +3,7 @@
   "name": "Camden Property Trust",
   "market": "US",
   "yahooSymbol": "CPT",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14815,11 +14815,20 @@
     {
       "date": "2026-07-22",
       "open": 112.31999969482422,
-      "high": 112.49500274658203,
+      "high": 112.5,
       "low": 111.48999786376953,
       "close": 112.01000213623047,
       "adjClose": 112.01000213623047,
-      "volume": 535133
+      "volume": 730000
+    },
+    {
+      "date": "2026-07-23",
+      "open": 112.05999755859375,
+      "high": 113.79000091552734,
+      "low": 112.30000305175781,
+      "close": 112.83999633789062,
+      "adjClose": 112.83999633789062,
+      "volume": 713815
     }
   ],
   "corporateActions": {
@@ -14932,9 +14941,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

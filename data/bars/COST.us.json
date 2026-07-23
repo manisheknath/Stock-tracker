@@ -3,7 +3,7 @@
   "name": "Costco",
   "market": "US",
   "yahooSymbol": "COST",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14815,11 +14815,20 @@
     {
       "date": "2026-07-22",
       "open": 930.8800048828125,
-      "high": 932.989990234375,
-      "low": 920.9650268554688,
+      "high": 933.5999755859375,
+      "low": 920.969970703125,
       "close": 927.3099975585938,
       "adjClose": 927.3099975585938,
-      "volume": 1753246
+      "volume": 1762700
+    },
+    {
+      "date": "2026-07-23",
+      "open": 918.0599975585938,
+      "high": 926.530029296875,
+      "low": 916.760009765625,
+      "close": 926.0599975585938,
+      "adjClose": 926.0599975585938,
+      "volume": 1783395
     }
   ],
   "corporateActions": {
@@ -14940,9 +14949,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

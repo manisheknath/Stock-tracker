@@ -3,7 +3,7 @@
   "name": "Valero Energy",
   "market": "US",
   "yahooSymbol": "VLO",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14815,11 +14815,20 @@
     {
       "date": "2026-07-22",
       "open": 319.25,
-      "high": 320,
+      "high": 320.239990234375,
       "low": 308.260009765625,
       "close": 310.9200134277344,
       "adjClose": 310.9200134277344,
-      "volume": 2548389
+      "volume": 2551500
+    },
+    {
+      "date": "2026-07-23",
+      "open": 319.1400146484375,
+      "high": 319.25,
+      "low": 304.07000732421875,
+      "close": 305.260009765625,
+      "adjClose": 305.260009765625,
+      "volume": 2386684
     }
   ],
   "corporateActions": {
@@ -14932,9 +14941,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Labcorp",
   "market": "US",
   "yahooSymbol": "LH",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14815,11 +14815,20 @@
     {
       "date": "2026-07-22",
       "open": 280.2699890136719,
-      "high": 282.0899963378906,
+      "high": 282.1000061035156,
       "low": 277.6099853515625,
       "close": 281.4599914550781,
       "adjClose": 281.4599914550781,
-      "volume": 681562
+      "volume": 855000
+    },
+    {
+      "date": "2026-07-23",
+      "open": 290.29998779296875,
+      "high": 298.4549865722656,
+      "low": 286.5,
+      "close": 291.0199890136719,
+      "adjClose": 291.0199890136719,
+      "volume": 1495242
     }
   ],
   "corporateActions": {
@@ -14903,9 +14912,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

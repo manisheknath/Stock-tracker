@@ -3,7 +3,7 @@
   "name": "Parker Hannifin",
   "market": "US",
   "yahooSymbol": "PH",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14816,10 +14816,19 @@
       "date": "2026-07-22",
       "open": 967.989990234375,
       "high": 975,
-      "low": 963.4450073242188,
+      "low": 962.7999877929688,
       "close": 970.77001953125,
       "adjClose": 970.77001953125,
-      "volume": 220265
+      "volume": 330000
+    },
+    {
+      "date": "2026-07-23",
+      "open": 963.5999755859375,
+      "high": 986.2100219726562,
+      "low": 963.4349975585938,
+      "close": 985.47998046875,
+      "adjClose": 985.47998046875,
+      "volume": 636580
     }
   ],
   "corporateActions": {
@@ -14932,9 +14941,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "L3Harris",
   "market": "US",
   "yahooSymbol": "LHX",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14816,10 +14816,19 @@
       "date": "2026-07-22",
       "open": 282,
       "high": 285.8800048828125,
-      "low": 280.4200134277344,
+      "low": 279.510009765625,
       "close": 285.1600036621094,
       "adjClose": 285.1600036621094,
-      "volume": 907134
+      "volume": 1166900
+    },
+    {
+      "date": "2026-07-23",
+      "open": 289.5,
+      "high": 303.94000244140625,
+      "low": 290.739990234375,
+      "close": 299.6700134277344,
+      "adjClose": 299.6700134277344,
+      "volume": 2028958
     }
   ],
   "corporateActions": {
@@ -14932,9 +14941,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

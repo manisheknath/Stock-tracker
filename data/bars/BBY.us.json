@@ -3,7 +3,7 @@
   "name": "Best Buy",
   "market": "US",
   "yahooSymbol": "BBY",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14815,11 +14815,20 @@
     {
       "date": "2026-07-22",
       "open": 86,
-      "high": 87.2300033569336,
+      "high": 87.23999786376953,
       "low": 85.37000274658203,
       "close": 87.11000061035156,
       "adjClose": 87.11000061035156,
-      "volume": 2416123
+      "volume": 2416400
+    },
+    {
+      "date": "2026-07-23",
+      "open": 87.0199966430664,
+      "high": 86.8499984741211,
+      "low": 83.44830322265625,
+      "close": 84.43000030517578,
+      "adjClose": 84.43000030517578,
+      "volume": 3120784
     }
   ],
   "corporateActions": {
@@ -14932,9 +14941,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

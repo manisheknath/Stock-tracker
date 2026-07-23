@@ -3,7 +3,7 @@
   "name": "Divi's Laboratories",
   "market": "IN",
   "yahooSymbol": "DIVISLAB.NS",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14622,6 +14622,15 @@
       "close": 7330,
       "adjClose": 7330,
       "volume": 179558
+    },
+    {
+      "date": "2026-07-22",
+      "open": 7330,
+      "high": 7398,
+      "low": 7219.5,
+      "close": 7386.5,
+      "adjClose": 7386.5,
+      "volume": 371324
     }
   ],
   "corporateActions": {
@@ -14650,13 +14659,17 @@
       {
         "date": "2025-07-25",
         "amount": 30
+      },
+      {
+        "date": "2026-07-24",
+        "amount": 30
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1624,
+    "barsAvailable": 1625,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 86
   }
 }

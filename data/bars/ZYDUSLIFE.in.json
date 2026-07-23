@@ -3,7 +3,7 @@
   "name": "Zydus Lifesciences",
   "market": "IN",
   "yahooSymbol": "ZYDUSLIFE.NS",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14631,6 +14631,15 @@
       "close": 1143.0999755859375,
       "adjClose": 1143.0999755859375,
       "volume": 622323
+    },
+    {
+      "date": "2026-07-22",
+      "open": 1138,
+      "high": 1138.0999755859375,
+      "low": 1113,
+      "close": 1126.300048828125,
+      "adjClose": 1126.300048828125,
+      "volume": 1619112
     }
   ],
   "corporateActions": {
@@ -14659,13 +14668,17 @@
       {
         "date": "2025-07-25",
         "amount": 11
+      },
+      {
+        "date": "2026-07-24",
+        "amount": 1
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1625,
+    "barsAvailable": 1626,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 85
   }
 }

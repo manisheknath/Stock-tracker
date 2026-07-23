@@ -3,7 +3,7 @@
   "name": "Fortive",
   "market": "US",
   "yahooSymbol": "FTV",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14816,10 +14816,19 @@
       "date": "2026-07-22",
       "open": 60.66999816894531,
       "high": 60.97999954223633,
-      "low": 60.029998779296875,
+      "low": 60,
       "close": 60.25,
       "adjClose": 60.25,
-      "volume": 1634551
+      "volume": 2276100
+    },
+    {
+      "date": "2026-07-23",
+      "open": 59.459999084472656,
+      "high": 61.029998779296875,
+      "low": 59.29999923706055,
+      "close": 60.619998931884766,
+      "adjClose": 60.619998931884766,
+      "volume": 3649148
     }
   ],
   "corporateActions": {
@@ -14945,9 +14954,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1646,
+    "barsAvailable": 1647,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-22",
+    "lastDate": "2026-07-23",
     "gaps": 64
   }
 }

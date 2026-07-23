@@ -3,7 +3,7 @@
   "name": "Bharti Airtel",
   "market": "IN",
   "yahooSymbol": "BHARTIARTL.NS",
-  "asOf": "2026-07-22",
+  "asOf": "2026-07-23",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14631,6 +14631,15 @@
       "close": 1948.4000244140625,
       "adjClose": 1948.4000244140625,
       "volume": 5061312
+    },
+    {
+      "date": "2026-07-22",
+      "open": 1942.4000244140625,
+      "high": 1956,
+      "low": 1939.5,
+      "close": 1949,
+      "adjClose": 1949,
+      "volume": 6589708
     }
   ],
   "corporateActions": {
@@ -14655,13 +14664,17 @@
       {
         "date": "2025-07-18",
         "amount": 16
+      },
+      {
+        "date": "2026-07-24",
+        "amount": 24
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1625,
+    "barsAvailable": 1626,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-21",
+    "lastDate": "2026-07-22",
     "gaps": 85
   }
 }
