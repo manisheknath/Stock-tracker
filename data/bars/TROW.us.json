@@ -3,7 +3,7 @@
   "name": "T. Rowe Price",
   "market": "US",
   "yahooSymbol": "TROW",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14823,12 +14823,21 @@
     },
     {
       "date": "2026-07-23",
-      "open": 115.01000213623047,
+      "open": 115.23999786376953,
       "high": 115.55999755859375,
       "low": 113.87999725341797,
       "close": 114.94999694824219,
       "adjClose": 114.94999694824219,
-      "volume": 1045132
+      "volume": 1045200
+    },
+    {
+      "date": "2026-07-24",
+      "open": 115.5,
+      "high": 116.91000366210938,
+      "low": 114.95999908447266,
+      "close": 116.5,
+      "adjClose": 116.5,
+      "volume": 1264894
     }
   ],
   "corporateActions": {
@@ -14945,9 +14954,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

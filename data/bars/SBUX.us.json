@@ -3,7 +3,7 @@
   "name": "Starbucks",
   "market": "US",
   "yahooSymbol": "SBUX",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14823,12 +14823,21 @@
     },
     {
       "date": "2026-07-23",
-      "open": 103,
+      "open": 102.77999877929688,
       "high": 103.44000244140625,
       "low": 101.93000030517578,
       "close": 103.20999908447266,
       "adjClose": 103.20999908447266,
-      "volume": 6979780
+      "volume": 6981400
+    },
+    {
+      "date": "2026-07-24",
+      "open": 103.88999938964844,
+      "high": 105.16000366210938,
+      "low": 103.12000274658203,
+      "close": 103.25,
+      "adjClose": 103.25,
+      "volume": 6389123
     }
   ],
   "corporateActions": {
@@ -14941,9 +14950,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

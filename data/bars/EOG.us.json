@@ -3,7 +3,7 @@
   "name": "EOG Resources",
   "market": "US",
   "yahooSymbol": "EOG",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14825,10 +14825,19 @@
       "date": "2026-07-23",
       "open": 147.02000427246094,
       "high": 147.4499969482422,
-      "low": 145.30499267578125,
+      "low": 145.27999877929688,
       "close": 145.49000549316406,
       "adjClose": 145.49000549316406,
-      "volume": 3043086
+      "volume": 3138500
+    },
+    {
+      "date": "2026-07-24",
+      "open": 144,
+      "high": 148.2198944091797,
+      "low": 144,
+      "close": 146.38999938964844,
+      "adjClose": 146.38999938964844,
+      "volume": 1968788
     }
   ],
   "corporateActions": {
@@ -14973,9 +14982,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

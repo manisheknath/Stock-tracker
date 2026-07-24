@@ -3,7 +3,7 @@
   "name": "Corpay",
   "market": "US",
   "yahooSymbol": "CPAY",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14824,11 +14824,20 @@
     {
       "date": "2026-07-23",
       "open": 353.8900146484375,
-      "high": 365.20001220703125,
+      "high": 365.2099914550781,
       "low": 349.510009765625,
       "close": 364.79998779296875,
       "adjClose": 364.79998779296875,
-      "volume": 410890
+      "volume": 410900
+    },
+    {
+      "date": "2026-07-24",
+      "open": 368.1600036621094,
+      "high": 372.3999938964844,
+      "low": 364.8999938964844,
+      "close": 370.5799865722656,
+      "adjClose": 370.5799865722656,
+      "volume": 219272
     }
   ],
   "corporateActions": {
@@ -14836,9 +14845,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

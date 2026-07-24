@@ -3,7 +3,7 @@
   "name": "Danaher Corporation",
   "market": "US",
   "yahooSymbol": "DHR",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14824,11 +14824,20 @@
     {
       "date": "2026-07-23",
       "open": 185.1199951171875,
-      "high": 192.8699951171875,
-      "low": 184,
+      "high": 192.88999938964844,
+      "low": 183.8699951171875,
       "close": 192.5,
       "adjClose": 192.5,
-      "volume": 11551902
+      "volume": 11552800
+    },
+    {
+      "date": "2026-07-24",
+      "open": 193.0800018310547,
+      "high": 194.8000030517578,
+      "low": 190,
+      "close": 191.5,
+      "adjClose": 191.5,
+      "volume": 5964050
     }
   ],
   "corporateActions": {
@@ -14948,9 +14957,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

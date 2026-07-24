@@ -3,7 +3,7 @@
   "name": "Builders FirstSource",
   "market": "US",
   "yahooSymbol": "BLDR",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14824,11 +14824,20 @@
     {
       "date": "2026-07-23",
       "open": 69.55999755859375,
-      "high": 70.87000274658203,
-      "low": 68.99500274658203,
+      "high": 70.87999725341797,
+      "low": 69,
       "close": 70.55000305175781,
       "adjClose": 70.55000305175781,
-      "volume": 2044520
+      "volume": 2044500
+    },
+    {
+      "date": "2026-07-24",
+      "open": 70.93000030517578,
+      "high": 74.67500305175781,
+      "low": 70.69000244140625,
+      "close": 72.86000061035156,
+      "adjClose": 72.86000061035156,
+      "volume": 1545009
     }
   ],
   "corporateActions": {
@@ -14836,9 +14845,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

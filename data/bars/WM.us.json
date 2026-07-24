@@ -3,7 +3,7 @@
   "name": "Waste Management",
   "market": "US",
   "yahooSymbol": "WM",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14825,10 +14825,19 @@
       "date": "2026-07-23",
       "open": 236.66000366210938,
       "high": 239.49000549316406,
-      "low": 235.00010681152344,
+      "low": 235,
       "close": 237.27000427246094,
       "adjClose": 237.27000427246094,
-      "volume": 1436520
+      "volume": 1436900
+    },
+    {
+      "date": "2026-07-24",
+      "open": 237.52000427246094,
+      "high": 239.3000030517578,
+      "low": 236.625,
+      "close": 238.75,
+      "adjClose": 238.75,
+      "volume": 1301796
     }
   ],
   "corporateActions": {
@@ -14941,9 +14950,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

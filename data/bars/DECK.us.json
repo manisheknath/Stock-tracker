@@ -3,7 +3,7 @@
   "name": "Deckers Brands",
   "market": "US",
   "yahooSymbol": "DECK",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14824,11 +14824,20 @@
     {
       "date": "2026-07-23",
       "open": 100.80000305175781,
-      "high": 102.25399780273438,
+      "high": 102.25,
       "low": 94.72000122070312,
       "close": 96.2300033569336,
       "adjClose": 96.2300033569336,
-      "volume": 4604949
+      "volume": 4776200
+    },
+    {
+      "date": "2026-07-24",
+      "open": 94.00499725341797,
+      "high": 97.0999984741211,
+      "low": 91.80000305175781,
+      "close": 96.04000091552734,
+      "adjClose": 96.04000091552734,
+      "volume": 4431274
     }
   ],
   "corporateActions": {
@@ -14843,9 +14852,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }

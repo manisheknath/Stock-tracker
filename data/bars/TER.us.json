@@ -3,7 +3,7 @@
   "name": "Teradyne",
   "market": "US",
   "yahooSymbol": "TER",
-  "asOf": "2026-07-23",
+  "asOf": "2026-07-24",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14823,12 +14823,21 @@
     },
     {
       "date": "2026-07-23",
-      "open": 362.6700134277344,
-      "high": 378.4949951171875,
+      "open": 362.9700012207031,
+      "high": 378.5,
       "low": 362.6700134277344,
       "close": 373.75,
       "adjClose": 373.75,
-      "volume": 2086432
+      "volume": 2092400
+    },
+    {
+      "date": "2026-07-24",
+      "open": 365,
+      "high": 371.3599853515625,
+      "low": 345.4649963378906,
+      "close": 349.9200134277344,
+      "adjClose": 349.9200134277344,
+      "volume": 2906709
     }
   ],
   "corporateActions": {
@@ -14941,9 +14950,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1647,
+    "barsAvailable": 1648,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 64
   }
 }
