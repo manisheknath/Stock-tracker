@@ -3,7 +3,7 @@
   "name": "Siemens",
   "market": "DE",
   "yahooSymbol": "SIE.DE",
-  "asOf": "2026-07-24",
+  "asOf": "2026-07-25",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15036,6 +15036,15 @@
       "close": 268.20001220703125,
       "adjClose": 268.20001220703125,
       "volume": 952254
+    },
+    {
+      "date": "2026-07-24",
+      "open": 267.1499938964844,
+      "high": 272.54998779296875,
+      "low": 267.1499938964844,
+      "close": 272.25,
+      "adjClose": 272.25,
+      "volume": 700997
     }
   ],
   "corporateActions": {
@@ -15072,9 +15081,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-23",
+    "lastDate": "2026-07-24",
     "gaps": 41
   }
 }
