@@ -76,7 +76,13 @@ async function main() {
   }
 
   for (const r of results) {
-    if (r.market === 'US' && r.fundamentals.sic) {
+    // A US ticker with no parseable annual XBRL data comes back with a `sic`
+    // but no `valuation` object (see computeUSFundamentals' no-data return),
+    // and a ticker whose fetch threw has neither -- guard on valuation so the
+    // sector-median annotation never dereferences undefined. Missing this
+    // crashed the whole weekly fundamentals step at full scale, where recent
+    // IPOs / SPACs / certain filers legitimately have no annual facts yet.
+    if (r.market === 'US' && r.fundamentals.sic && r.fundamentals.valuation) {
       const peers = usBySic.get(r.fundamentals.sic) || [];
       r.fundamentals.valuation.sectorMedianPe = median(peers);
       r.fundamentals.valuation.sectorMedianBasis = `n=${peers.length} US ticker(s) sharing SIC ${r.fundamentals.sic} in the current ${universe.tickers.length}-ticker seed universe (full sector classification arrives with the ~900-ticker universe, build step 10)`;
