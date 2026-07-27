@@ -3,7 +3,7 @@
   "name": "Moody's Corporation",
   "market": "US",
   "yahooSymbol": "MCO",
-  "asOf": "2026-07-25",
+  "asOf": "2026-07-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14838,6 +14838,15 @@
       "close": 471.5,
       "adjClose": 471.5,
       "volume": 935329
+    },
+    {
+      "date": "2026-07-27",
+      "open": 478.9700012207031,
+      "high": 491.2200012207031,
+      "low": 478.2699890136719,
+      "close": 485.9599914550781,
+      "adjClose": 485.9599914550781,
+      "volume": 586722
     }
   ],
   "corporateActions": {
@@ -14950,9 +14959,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1648,
+    "barsAvailable": 1649,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-24",
+    "lastDate": "2026-07-27",
     "gaps": 64
   }
 }
