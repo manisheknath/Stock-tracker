@@ -3,7 +3,7 @@
   "name": "Equity Residential",
   "market": "US",
   "yahooSymbol": "EQR",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14843,10 +14843,19 @@
       "date": "2026-07-27",
       "open": 67.58000183105469,
       "high": 68.13999938964844,
-      "low": 67.2249984741211,
+      "low": 67.20999908447266,
       "close": 67.23999786376953,
       "adjClose": 67.23999786376953,
-      "volume": 3039336
+      "volume": 3352600
+    },
+    {
+      "date": "2026-07-28",
+      "open": 67.79000091552734,
+      "high": 68.62999725341797,
+      "low": 67.37000274658203,
+      "close": 68.08999633789062,
+      "adjClose": 68.08999633789062,
+      "volume": 2810525
     }
   ],
   "corporateActions": {
@@ -14963,9 +14972,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }

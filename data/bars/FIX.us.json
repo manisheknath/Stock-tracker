@@ -3,7 +3,7 @@
   "name": "Comfort Systems USA",
   "market": "US",
   "yahooSymbol": "FIX",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14842,11 +14842,20 @@
     {
       "date": "2026-07-27",
       "open": 1735.449951171875,
-      "high": 1801.9200439453125,
+      "high": 1802,
       "low": 1655.260009765625,
       "close": 1730.4200439453125,
       "adjClose": 1730.4200439453125,
-      "volume": 573908
+      "volume": 632500
+    },
+    {
+      "date": "2026-07-28",
+      "open": 1665.199951171875,
+      "high": 1674,
+      "low": 1533.4100341796875,
+      "close": 1626.3199462890625,
+      "adjClose": 1626.3199462890625,
+      "volume": 671302
     }
   ],
   "corporateActions": {
@@ -14959,9 +14968,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "DTE Energy",
   "market": "US",
   "yahooSymbol": "DTE",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14842,11 +14842,20 @@
     {
       "date": "2026-07-27",
       "open": 148.6999969482422,
-      "high": 149.74989318847656,
+      "high": 149.75,
       "low": 146.83999633789062,
       "close": 147.22999572753906,
       "adjClose": 147.22999572753906,
-      "volume": 1053405
+      "volume": 1580900
+    },
+    {
+      "date": "2026-07-28",
+      "open": 146.83999633789062,
+      "high": 150.55990600585938,
+      "low": 146.0800018310547,
+      "close": 146.0800018310547,
+      "adjClose": 146.0800018310547,
+      "volume": 1176141
     }
   ],
   "corporateActions": {
@@ -14966,9 +14975,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "IMCD",
   "market": "NL",
   "yahooSymbol": "IMCD.AS",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15135,6 +15135,15 @@
       "close": 88.22000122070312,
       "adjClose": 88.22000122070312,
       "volume": 124814
+    },
+    {
+      "date": "2026-07-27",
+      "open": 88.69999694824219,
+      "high": 88.9800033569336,
+      "low": 87.27999877929688,
+      "close": 87.87999725341797,
+      "adjClose": 87.87999725341797,
+      "volume": 169114
     }
   ],
   "corporateActions": {
@@ -15171,9 +15180,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1681,
+    "barsAvailable": 1682,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-24",
+    "lastDate": "2026-07-27",
     "gaps": 31
   }
 }

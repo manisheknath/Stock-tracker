@@ -3,7 +3,7 @@
   "name": "Engie",
   "market": "FR",
   "yahooSymbol": "ENGI.PA",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15135,6 +15135,15 @@
       "close": 27.790000915527344,
       "adjClose": 27.790000915527344,
       "volume": 2483064
+    },
+    {
+      "date": "2026-07-27",
+      "open": 27.90999984741211,
+      "high": 27.93000030517578,
+      "low": 26.950000762939453,
+      "close": 27,
+      "adjClose": 27,
+      "volume": 3819724
     }
   ],
   "corporateActions": {
@@ -15167,9 +15176,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1681,
+    "barsAvailable": 1682,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-24",
+    "lastDate": "2026-07-27",
     "gaps": 31
   }
 }

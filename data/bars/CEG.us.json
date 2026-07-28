@@ -3,7 +3,7 @@
   "name": "Constellation Energy",
   "market": "US",
   "yahooSymbol": "CEG",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -10193,16 +10193,25 @@
       "low": 272.739990234375,
       "close": 274.3500061035156,
       "adjClose": 274.3500061035156,
-      "volume": 2308031
+      "volume": 2670000
     },
     {
       "date": "2026-07-27",
-      "open": 276.1700134277344,
+      "open": 276,
       "high": 277.19000244140625,
       "low": 267.739990234375,
       "close": 270,
       "adjClose": 270,
-      "volume": 3077093
+      "volume": 3081700
+    },
+    {
+      "date": "2026-07-28",
+      "open": 263.3550109863281,
+      "high": 266.5849914550781,
+      "low": 257.6499938964844,
+      "close": 259.82000732421875,
+      "adjClose": 259.82000732421875,
+      "volume": 2851183
     }
   ],
   "corporateActions": {
@@ -10283,9 +10292,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1133,
+    "barsAvailable": 1134,
     "firstDate": "2022-01-19",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 46
   }
 }

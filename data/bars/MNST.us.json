@@ -3,7 +3,7 @@
   "name": "Monster Beverage",
   "market": "US",
   "yahooSymbol": "MNST",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14841,12 +14841,21 @@
     },
     {
       "date": "2026-07-27",
-      "open": 94,
+      "open": 94.20999908447266,
       "high": 95.61000061035156,
       "low": 94,
       "close": 95.33000183105469,
       "adjClose": 95.33000183105469,
-      "volume": 3666769
+      "volume": 3774300
+    },
+    {
+      "date": "2026-07-28",
+      "open": 97.25,
+      "high": 99.16999816894531,
+      "low": 97.0199966430664,
+      "close": 97.73999786376953,
+      "adjClose": 97.73999786376953,
+      "volume": 6076027
     }
   ],
   "corporateActions": {
@@ -14861,9 +14870,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }

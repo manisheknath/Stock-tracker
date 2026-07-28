@@ -3,7 +3,7 @@
   "name": "Crown Castle",
   "market": "US",
   "yahooSymbol": "CCI",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14842,11 +14842,20 @@
     {
       "date": "2026-07-27",
       "open": 74.73999786376953,
-      "high": 75.19499969482422,
-      "low": 73.53500366210938,
+      "high": 75.19999694824219,
+      "low": 73.5199966430664,
       "close": 74.12999725341797,
       "adjClose": 74.12999725341797,
-      "volume": 3978495
+      "volume": 4966700
+    },
+    {
+      "date": "2026-07-28",
+      "open": 75.04000091552734,
+      "high": 78.1449966430664,
+      "low": 74.7300033569336,
+      "close": 75.75,
+      "adjClose": 75.75,
+      "volume": 3624054
     }
   ],
   "corporateActions": {
@@ -14959,9 +14968,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }

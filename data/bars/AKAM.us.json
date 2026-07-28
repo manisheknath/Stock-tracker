@@ -3,7 +3,7 @@
   "name": "Akamai Technologies",
   "market": "US",
   "yahooSymbol": "AKAM",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14841,12 +14841,21 @@
     },
     {
       "date": "2026-07-27",
-      "open": 117.12999725341797,
-      "high": 117.81990051269531,
-      "low": 110.82389831542969,
+      "open": 117,
+      "high": 117.81999969482422,
+      "low": 110.81999969482422,
       "close": 112.8499984741211,
       "adjClose": 112.8499984741211,
-      "volume": 2883995
+      "volume": 2884800
+    },
+    {
+      "date": "2026-07-28",
+      "open": 111.80999755859375,
+      "high": 113.16999816894531,
+      "low": 107.91999816894531,
+      "close": 111.79000091552734,
+      "adjClose": 111.79000091552734,
+      "volume": 2780011
     }
   ],
   "corporateActions": {
@@ -14854,9 +14863,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }

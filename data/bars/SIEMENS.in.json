@@ -3,7 +3,7 @@
   "name": "Siemens",
   "market": "IN",
   "yahooSymbol": "SIEMENS.NS",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14649,6 +14649,15 @@
       "close": 3689.800048828125,
       "adjClose": 3689.800048828125,
       "volume": 232607
+    },
+    {
+      "date": "2026-07-27",
+      "open": 3721,
+      "high": 3745,
+      "low": 3690,
+      "close": 3718,
+      "adjClose": 3718,
+      "volume": 273869
     }
   ],
   "corporateActions": {
@@ -14677,13 +14686,17 @@
       {
         "date": "2025-01-30",
         "amount": 12
+      },
+      {
+        "date": "2026-07-29",
+        "amount": 18
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1627,
+    "barsAvailable": 1628,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-24",
+    "lastDate": "2026-07-27",
     "gaps": 86
   }
 }

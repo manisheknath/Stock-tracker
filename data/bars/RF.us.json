@@ -3,7 +3,7 @@
   "name": "Regions Financial Corporation",
   "market": "US",
   "yahooSymbol": "RF",
-  "asOf": "2026-07-27",
+  "asOf": "2026-07-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14842,11 +14842,20 @@
     {
       "date": "2026-07-27",
       "open": 31,
-      "high": 31.190000534057617,
+      "high": 31.200000762939453,
       "low": 30.56999969482422,
       "close": 30.739999771118164,
       "adjClose": 30.739999771118164,
-      "volume": 6843305
+      "volume": 8214500
+    },
+    {
+      "date": "2026-07-28",
+      "open": 30.899999618530273,
+      "high": 31.309999465942383,
+      "low": 30.84000015258789,
+      "close": 31.270000457763672,
+      "adjClose": 31.270000457763672,
+      "volume": 6701964
     }
   ],
   "corporateActions": {
@@ -14959,9 +14968,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1650,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-27",
+    "lastDate": "2026-07-28",
     "gaps": 64
   }
 }
