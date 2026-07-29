@@ -3,7 +3,7 @@
   "name": "Estée Lauder Companies (The)",
   "market": "US",
   "yahooSymbol": "EL",
-  "asOf": "2026-07-28",
+  "asOf": "2026-07-29",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14837,7 +14837,7 @@
       "low": 79.30000305175781,
       "close": 80.29000091552734,
       "adjClose": 80.29000091552734,
-      "volume": 1430343
+      "volume": 1430400
     },
     {
       "date": "2026-07-27",
@@ -14851,11 +14851,20 @@
     {
       "date": "2026-07-28",
       "open": 84.23999786376953,
-      "high": 85.36900329589844,
-      "low": 83.24500274658203,
+      "high": 85.37000274658203,
+      "low": 83.25,
       "close": 84.75,
       "adjClose": 84.75,
-      "volume": 2295228
+      "volume": 2295200
+    },
+    {
+      "date": "2026-07-29",
+      "open": 83.29000091552734,
+      "high": 86,
+      "low": 82.61000061035156,
+      "close": 84.12999725341797,
+      "adjClose": 84.12999725341797,
+      "volume": 2122933
     }
   ],
   "corporateActions": {
@@ -14964,9 +14973,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1650,
+    "barsAvailable": 1651,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-28",
+    "lastDate": "2026-07-29",
     "gaps": 64
   }
 }
