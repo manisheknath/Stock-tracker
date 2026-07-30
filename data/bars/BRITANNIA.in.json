@@ -3,7 +3,7 @@
   "name": "Britannia Industries",
   "market": "IN",
   "yahooSymbol": "BRITANNIA.NS",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14676,6 +14676,15 @@
       "close": 5478.5,
       "adjClose": 5478.5,
       "volume": 340199
+    },
+    {
+      "date": "2026-07-29",
+      "open": 5499.5,
+      "high": 5582,
+      "low": 5488.5,
+      "close": 5517.5,
+      "adjClose": 5517.5,
+      "volume": 356551
     }
   ],
   "corporateActions": {
@@ -14712,13 +14721,17 @@
       {
         "date": "2025-08-04",
         "amount": 75
+      },
+      {
+        "date": "2026-07-31",
+        "amount": 90.5
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1630,
+    "barsAvailable": 1631,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-28",
+    "lastDate": "2026-07-29",
     "gaps": 85
   }
 }

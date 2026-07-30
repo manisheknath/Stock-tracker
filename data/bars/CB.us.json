@@ -3,7 +3,7 @@
   "name": "Chubb Limited",
   "market": "US",
   "yahooSymbol": "CB",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14860,11 +14860,20 @@
     {
       "date": "2026-07-29",
       "open": 365,
-      "high": 365.8999938964844,
+      "high": 365.9100036621094,
       "low": 360.5899963378906,
       "close": 361.8999938964844,
       "adjClose": 361.8999938964844,
-      "volume": 1846463
+      "volume": 1858300
+    },
+    {
+      "date": "2026-07-30",
+      "open": 358.3599853515625,
+      "high": 359,
+      "low": 347.0000915527344,
+      "close": 350.1499938964844,
+      "adjClose": 350.1499938964844,
+      "volume": 1608697
     }
   ],
   "corporateActions": {
@@ -14969,9 +14978,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }

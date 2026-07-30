@@ -3,7 +3,7 @@
   "name": "Coal India",
   "market": "IN",
   "yahooSymbol": "COALINDIA.NS",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14676,6 +14676,15 @@
       "close": 410.1499938964844,
       "adjClose": 410.1499938964844,
       "volume": 14222229
+    },
+    {
+      "date": "2026-07-29",
+      "open": 413.04998779296875,
+      "high": 413.5,
+      "low": 406.25,
+      "close": 410.04998779296875,
+      "adjClose": 410.04998779296875,
+      "volume": 9914444
     }
   ],
   "corporateActions": {
@@ -14756,13 +14765,17 @@
       {
         "date": "2026-02-18",
         "amount": 5.5
+      },
+      {
+        "date": "2026-07-31",
+        "amount": 5.5
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1630,
+    "barsAvailable": 1631,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-28",
+    "lastDate": "2026-07-29",
     "gaps": 85
   }
 }

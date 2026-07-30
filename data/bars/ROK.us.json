@@ -3,7 +3,7 @@
   "name": "Rockwell Automation",
   "market": "US",
   "yahooSymbol": "ROK",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14861,10 +14861,19 @@
       "date": "2026-07-29",
       "open": 468.0899963378906,
       "high": 469.3299865722656,
-      "low": 450.3500061035156,
+      "low": 450.25,
       "close": 459.3900146484375,
       "adjClose": 459.3900146484375,
-      "volume": 676893
+      "volume": 791000
+    },
+    {
+      "date": "2026-07-30",
+      "open": 473,
+      "high": 475.9700012207031,
+      "low": 468.17999267578125,
+      "close": 471.010009765625,
+      "adjClose": 471.010009765625,
+      "volume": 523315
     }
   ],
   "corporateActions": {
@@ -14977,9 +14986,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Universal Health Services",
   "market": "US",
   "yahooSymbol": "UHS",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14860,11 +14860,20 @@
     {
       "date": "2026-07-29",
       "open": 165.58999633789062,
-      "high": 169.99000549316406,
+      "high": 170,
       "low": 163.6999969482422,
       "close": 168.16000366210938,
       "adjClose": 168.16000366210938,
-      "volume": 1153571
+      "volume": 1390800
+    },
+    {
+      "date": "2026-07-30",
+      "open": 165,
+      "high": 165.69000244140625,
+      "low": 160.9600067138672,
+      "close": 163.2899932861328,
+      "adjClose": 163.2899932861328,
+      "volume": 1160332
     }
   ],
   "corporateActions": {
@@ -14965,9 +14974,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }

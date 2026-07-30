@@ -3,7 +3,7 @@
   "name": "Power Finance Corporation",
   "market": "IN",
   "yahooSymbol": "PFC.NS",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14676,6 +14676,15 @@
       "close": 419.8999938964844,
       "adjClose": 419.8999938964844,
       "volume": 4699114
+    },
+    {
+      "date": "2026-07-29",
+      "open": 419.8999938964844,
+      "high": 431.3999938964844,
+      "low": 419.1000061035156,
+      "close": 427.1000061035156,
+      "adjClose": 427.1000061035156,
+      "volume": 6586258
     }
   ],
   "corporateActions": {
@@ -14783,13 +14792,17 @@
       {
         "date": "2026-03-23",
         "amount": 3.25
+      },
+      {
+        "date": "2026-07-31",
+        "amount": 3.95
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1630,
+    "barsAvailable": 1631,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-28",
+    "lastDate": "2026-07-29",
     "gaps": 85
   }
 }

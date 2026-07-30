@@ -3,7 +3,7 @@
   "name": "Varun Beverages",
   "market": "IN",
   "yahooSymbol": "VBL.NS",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14676,6 +14676,15 @@
       "close": 430,
       "adjClose": 430,
       "volume": 47975773
+    },
+    {
+      "date": "2026-07-29",
+      "open": 439.04998779296875,
+      "high": 448.79998779296875,
+      "low": 433.5,
+      "close": 447.20001220703125,
+      "adjClose": 447.20001220703125,
+      "volume": 13449496
     }
   ],
   "corporateActions": {
@@ -14753,13 +14762,17 @@
       {
         "date": "2026-04-30",
         "amount": 0.5
+      },
+      {
+        "date": "2026-07-31",
+        "amount": 0.5
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1630,
+    "barsAvailable": 1631,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-28",
+    "lastDate": "2026-07-29",
     "gaps": 85
   }
 }

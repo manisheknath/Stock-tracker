@@ -3,7 +3,7 @@
   "name": "Eicher Motors",
   "market": "IN",
   "yahooSymbol": "EICHERMOT.NS",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14676,6 +14676,15 @@
       "close": 7836,
       "adjClose": 7836,
       "volume": 449880
+    },
+    {
+      "date": "2026-07-29",
+      "open": 7891,
+      "high": 7915,
+      "low": 7751,
+      "close": 7779,
+      "adjClose": 7779,
+      "volume": 522935
     }
   ],
   "corporateActions": {
@@ -14711,13 +14720,17 @@
       {
         "date": "2025-08-01",
         "amount": 70
+      },
+      {
+        "date": "2026-07-31",
+        "amount": 82
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1630,
+    "barsAvailable": 1631,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-28",
+    "lastDate": "2026-07-29",
     "gaps": 85
   }
 }

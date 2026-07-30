@@ -3,7 +3,7 @@
   "name": "Lennar",
   "market": "US",
   "yahooSymbol": "LEN",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14860,11 +14860,20 @@
     {
       "date": "2026-07-29",
       "open": 86.69000244140625,
-      "high": 87.80000305175781,
-      "low": 84.19999694824219,
+      "high": 87.80999755859375,
+      "low": 84.19000244140625,
       "close": 84.55999755859375,
       "adjClose": 84.55999755859375,
-      "volume": 3618178
+      "volume": 4293900
+    },
+    {
+      "date": "2026-07-30",
+      "open": 84.9800033569336,
+      "high": 85.5,
+      "low": 82.94999694824219,
+      "close": 83.75,
+      "adjClose": 83.75,
+      "volume": 1995733
     }
   ],
   "corporateActions": {
@@ -14988,9 +14997,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }

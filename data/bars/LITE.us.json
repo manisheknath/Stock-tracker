@@ -3,7 +3,7 @@
   "name": "Lumentum",
   "market": "US",
   "yahooSymbol": "LITE",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14859,12 +14859,21 @@
     },
     {
       "date": "2026-07-29",
-      "open": 655,
+      "open": 655.2100219726562,
       "high": 655.2100219726562,
       "low": 594.8400268554688,
       "close": 602.3499755859375,
       "adjClose": 602.3499755859375,
-      "volume": 6144439
+      "volume": 6388600
+    },
+    {
+      "date": "2026-07-30",
+      "open": 660.7999877929688,
+      "high": 698.1788940429688,
+      "low": 650,
+      "close": 693.239990234375,
+      "adjClose": 693.239990234375,
+      "volume": 5478770
     }
   ],
   "corporateActions": {
@@ -14872,9 +14881,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }

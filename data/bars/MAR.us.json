@@ -3,7 +3,7 @@
   "name": "Marriott International",
   "market": "US",
   "yahooSymbol": "MAR",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14859,12 +14859,21 @@
     },
     {
       "date": "2026-07-29",
-      "open": 377.1650085449219,
+      "open": 377.25,
       "high": 383.260009765625,
       "low": 375.6199951171875,
       "close": 381.1199951171875,
       "adjClose": 381.1199951171875,
-      "volume": 1473296
+      "volume": 1542200
+    },
+    {
+      "date": "2026-07-30",
+      "open": 380,
+      "high": 380.6000061035156,
+      "low": 371.0899963378906,
+      "close": 375.4800109863281,
+      "adjClose": 375.4800109863281,
+      "volume": 1582551
     }
   ],
   "corporateActions": {
@@ -14945,9 +14954,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }

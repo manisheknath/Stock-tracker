@@ -3,7 +3,7 @@
   "name": "Coca-Cola Europacific Partners PLC",
   "market": "US",
   "yahooSymbol": "CCEP",
-  "asOf": "2026-07-29",
+  "asOf": "2026-07-30",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14859,12 +14859,21 @@
     },
     {
       "date": "2026-07-29",
-      "open": 110.91000366210938,
-      "high": 111.75499725341797,
+      "open": 110.75,
+      "high": 111.76000213623047,
       "low": 110.3499984741211,
       "close": 111.0999984741211,
       "adjClose": 111.0999984741211,
-      "volume": 3610903
+      "volume": 3641400
+    },
+    {
+      "date": "2026-07-30",
+      "open": 110.63999938964844,
+      "high": 111.8499984741211,
+      "low": 110.29000091552734,
+      "close": 111.70999908447266,
+      "adjClose": 111.70999908447266,
+      "volume": 2283416
     }
   ],
   "corporateActions": {
@@ -14917,9 +14926,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1651,
+    "barsAvailable": 1652,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 64
   }
 }
