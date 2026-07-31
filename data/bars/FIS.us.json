@@ -3,7 +3,7 @@
   "name": "Fidelity National Information Services",
   "market": "US",
   "yahooSymbol": "FIS",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14868,12 +14868,21 @@
     },
     {
       "date": "2026-07-30",
-      "open": 46.005001068115234,
+      "open": 46.0099983215332,
       "high": 46.310001373291016,
       "low": 45.31999969482422,
       "close": 46,
       "adjClose": 46,
-      "volume": 6065385
+      "volume": 8512600
+    },
+    {
+      "date": "2026-07-31",
+      "open": 45.349998474121094,
+      "high": 45.61000061035156,
+      "low": 44.529998779296875,
+      "close": 44.77000045776367,
+      "adjClose": 44.77000045776367,
+      "volume": 4815093
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Spirax Group",
   "market": "UK",
   "yahooSymbol": "SPX.L",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14946,6 +14946,15 @@
       "close": 6925,
       "adjClose": 6925,
       "volume": 150035
+    },
+    {
+      "date": "2026-07-30",
+      "open": 6900,
+      "high": 7065,
+      "low": 6895,
+      "close": 6990,
+      "adjClose": 6990,
+      "volume": 132052
     }
   ],
   "corporateActions": {
@@ -15006,9 +15015,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1660,
+    "barsAvailable": 1661,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 55
   }
 }

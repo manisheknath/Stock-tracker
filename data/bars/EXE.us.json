@@ -3,7 +3,7 @@
   "name": "Expand Energy",
   "market": "US",
   "yahooSymbol": "EXE",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -12362,7 +12362,16 @@
       "low": 90.58999633789062,
       "close": 92.41999816894531,
       "adjClose": 92.41999816894531,
-      "volume": 3071367
+      "volume": 3145000
+    },
+    {
+      "date": "2026-07-31",
+      "open": 92.5,
+      "high": 94.17500305175781,
+      "low": 92.05999755859375,
+      "close": 94.02999877929688,
+      "adjClose": 94.02999877929688,
+      "volume": 3038834
     }
   ],
   "corporateActions": {
@@ -12455,9 +12464,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1373,
+    "barsAvailable": 1374,
     "firstDate": "2021-02-10",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 54
   }
 }

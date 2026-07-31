@@ -3,7 +3,7 @@
   "name": "Air Products",
   "market": "US",
   "yahooSymbol": "APD",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 308.5799865722656,
-      "high": 310.9100036621094,
+      "high": 311.0799865722656,
       "low": 297.3500061035156,
       "close": 300.20001220703125,
       "adjClose": 300.20001220703125,
-      "volume": 1292357
+      "volume": 1614400
+    },
+    {
+      "date": "2026-07-31",
+      "open": 299.57000732421875,
+      "high": 301.75,
+      "low": 291.3753967285156,
+      "close": 294.8900146484375,
+      "adjClose": 294.8900146484375,
+      "volume": 989711
     }
   ],
   "corporateActions": {
@@ -14990,9 +14999,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

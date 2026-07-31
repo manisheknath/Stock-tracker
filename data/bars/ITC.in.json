@@ -3,7 +3,7 @@
   "name": "ITC",
   "market": "IN",
   "yahooSymbol": "ITC.NS",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14685,6 +14685,15 @@
       "close": 286.25,
       "adjClose": 286.25,
       "volume": 19030590
+    },
+    {
+      "date": "2026-07-30",
+      "open": 286.1000061035156,
+      "high": 288.3999938964844,
+      "low": 283.75,
+      "close": 285.04998779296875,
+      "adjClose": 285.04998779296875,
+      "volume": 18283697
     }
   ],
   "corporateActions": {
@@ -14745,9 +14754,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1631,
+    "barsAvailable": 1632,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 85
   }
 }

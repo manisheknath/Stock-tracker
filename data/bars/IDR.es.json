@@ -3,7 +3,7 @@
   "name": "Indra",
   "market": "ES",
   "yahooSymbol": "IDR.MC",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 55.959999084472656,
       "adjClose": 55.959999084472656,
       "volume": 1220309
+    },
+    {
+      "date": "2026-07-30",
+      "open": 55.5,
+      "high": 56.939998626708984,
+      "low": 54.599998474121094,
+      "close": 56.18000030517578,
+      "adjClose": 56.18000030517578,
+      "volume": 1092027
     }
   ],
   "corporateActions": {
@@ -15172,9 +15181,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 33
   }
 }

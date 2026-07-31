@@ -3,7 +3,7 @@
   "name": "Essex Property Trust",
   "market": "US",
   "yahooSymbol": "ESS",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 289.989990234375,
-      "high": 289.0899963378906,
+      "high": 289.989990234375,
       "low": 280.42999267578125,
       "close": 281.8599853515625,
       "adjClose": 281.8599853515625,
-      "volume": 556854
+      "volume": 794000
+    },
+    {
+      "date": "2026-07-31",
+      "open": 280.8399963378906,
+      "high": 286.2049865722656,
+      "low": 279.32000732421875,
+      "close": 284.1400146484375,
+      "adjClose": 284.1400146484375,
+      "volume": 412386
     }
   ],
   "corporateActions": {
@@ -14990,9 +14999,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

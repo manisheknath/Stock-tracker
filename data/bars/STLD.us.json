@@ -3,7 +3,7 @@
   "name": "Steel Dynamics",
   "market": "US",
   "yahooSymbol": "STLD",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14868,12 +14868,21 @@
     },
     {
       "date": "2026-07-30",
-      "open": 252.77999877929688,
+      "open": 255.0800018310547,
       "high": 255.30999755859375,
-      "low": 248.03250122070312,
+      "low": 248.02999877929688,
       "close": 252.5,
       "adjClose": 252.5,
-      "volume": 896953
+      "volume": 920000
+    },
+    {
+      "date": "2026-07-31",
+      "open": 255.22999572753906,
+      "high": 255.22999572753906,
+      "low": 250.4499969482422,
+      "close": 251.25999450683594,
+      "adjClose": 251.25999450683594,
+      "volume": 884946
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

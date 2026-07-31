@@ -3,7 +3,7 @@
   "name": "Franklin Resources",
   "market": "US",
   "yahooSymbol": "BEN",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14870,10 +14870,19 @@
       "date": "2026-07-30",
       "open": 32.540000915527344,
       "high": 33.310001373291016,
-      "low": 32.255001068115234,
+      "low": 32.2599983215332,
       "close": 33.16999816894531,
       "adjClose": 33.16999816894531,
-      "volume": 5808783
+      "volume": 6071900
+    },
+    {
+      "date": "2026-07-31",
+      "open": 33.47999954223633,
+      "high": 34.63999938964844,
+      "low": 32.83000183105469,
+      "close": 33.86000061035156,
+      "adjClose": 33.86000061035156,
+      "volume": 6804190
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

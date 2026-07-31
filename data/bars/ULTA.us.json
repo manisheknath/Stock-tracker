@@ -3,7 +3,7 @@
   "name": "Ulta Beauty",
   "market": "US",
   "yahooSymbol": "ULTA",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14868,12 +14868,21 @@
     },
     {
       "date": "2026-07-30",
-      "open": 507.0899963378906,
+      "open": 507.19000244140625,
       "high": 517.27001953125,
-      "low": 505.010009765625,
+      "low": 505,
       "close": 516.72998046875,
       "adjClose": 516.72998046875,
-      "volume": 535390
+      "volume": 535700
+    },
+    {
+      "date": "2026-07-31",
+      "open": 516.3699951171875,
+      "high": 516.3699951171875,
+      "low": 506.2099914550781,
+      "close": 512.8300170898438,
+      "adjClose": 512.8300170898438,
+      "volume": 496752
     }
   ],
   "corporateActions": {
@@ -14881,9 +14890,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

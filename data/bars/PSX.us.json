@@ -3,7 +3,7 @@
   "name": "Phillips 66",
   "market": "US",
   "yahooSymbol": "PSX",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14873,7 +14873,16 @@
       "low": 203.91000366210938,
       "close": 210.60000610351562,
       "adjClose": 210.60000610351562,
-      "volume": 1563041
+      "volume": 1982000
+    },
+    {
+      "date": "2026-07-31",
+      "open": 213.5,
+      "high": 213.99000549316406,
+      "low": 208.86000061035156,
+      "close": 211.67999267578125,
+      "adjClose": 211.67999267578125,
+      "volume": 2911191
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

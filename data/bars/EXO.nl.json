@@ -3,7 +3,7 @@
   "name": "Exor",
   "market": "NL",
   "yahooSymbol": "EXO.AS",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -9114,6 +9114,15 @@
       "close": 69.5,
       "adjClose": 69.5,
       "volume": 109330
+    },
+    {
+      "date": "2026-07-30",
+      "open": 69.25,
+      "high": 71.3499984741211,
+      "low": 68.80000305175781,
+      "close": 69.69999694824219,
+      "adjClose": 69.69999694824219,
+      "volume": 215473
     }
   ],
   "corporateActions": {
@@ -9138,9 +9147,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1012,
+    "barsAvailable": 1013,
     "firstDate": "2022-08-12",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 22
   }
 }

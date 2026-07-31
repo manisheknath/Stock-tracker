@@ -3,7 +3,7 @@
   "name": "Dell Technologies",
   "market": "US",
   "yahooSymbol": "DELL",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 384.8900146484375,
-      "high": 412.9800109863281,
-      "low": 383.54998779296875,
+      "high": 413,
+      "low": 383,
       "close": 404.80999755859375,
       "adjClose": 404.80999755859375,
-      "volume": 5074214
+      "volume": 6193700
+    },
+    {
+      "date": "2026-07-31",
+      "open": 419,
+      "high": 431.4296875,
+      "low": 400.252197265625,
+      "close": 405.3699951171875,
+      "adjClose": 405.3699951171875,
+      "volume": 4820919
     }
   ],
   "corporateActions": {
@@ -14961,9 +14970,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Incyte",
   "market": "US",
   "yahooSymbol": "INCY",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 123.98999786376953,
-      "high": 126.41000366210938,
+      "high": 126.5,
       "low": 121.62999725341797,
       "close": 122.98999786376953,
       "adjClose": 122.98999786376953,
-      "volume": 2506354
+      "volume": 2628100
+    },
+    {
+      "date": "2026-07-31",
+      "open": 122.19000244140625,
+      "high": 122.66999816894531,
+      "low": 118.44000244140625,
+      "close": 119.5199966430664,
+      "adjClose": 119.5199966430664,
+      "volume": 1823317
     }
   ],
   "corporateActions": {
@@ -14881,9 +14890,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

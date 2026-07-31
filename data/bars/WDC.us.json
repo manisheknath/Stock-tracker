@@ -3,7 +3,7 @@
   "name": "Western Digital",
   "market": "US",
   "yahooSymbol": "WDC",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 511.6499938964844,
-      "high": 547,
+      "high": 547.0700073242188,
       "low": 507,
       "close": 533.0399780273438,
       "adjClose": 533.0399780273438,
-      "volume": 8042458
+      "volume": 8408800
+    },
+    {
+      "date": "2026-07-31",
+      "open": 566.6400146484375,
+      "high": 580,
+      "low": 530.5501098632812,
+      "close": 544.8400268554688,
+      "adjClose": 544.8400268554688,
+      "volume": 9470623
     }
   ],
   "corporateActions": {
@@ -14917,9 +14926,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

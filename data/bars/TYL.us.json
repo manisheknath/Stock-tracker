@@ -3,7 +3,7 @@
   "name": "Tyler Technologies",
   "market": "US",
   "yahooSymbol": "TYL",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 322.1099853515625,
-      "high": 331.20001220703125,
-      "low": 314.0350036621094,
+      "high": 331.25,
+      "low": 314.0400085449219,
       "close": 323.30999755859375,
       "adjClose": 323.30999755859375,
-      "volume": 1610242
+      "volume": 1735500
+    },
+    {
+      "date": "2026-07-31",
+      "open": 318.4599914550781,
+      "high": 321.6199951171875,
+      "low": 307.635009765625,
+      "close": 309.6000061035156,
+      "adjClose": 309.6000061035156,
+      "volume": 1081448
     }
   ],
   "corporateActions": {
@@ -14881,9 +14890,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

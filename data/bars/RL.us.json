@@ -3,7 +3,7 @@
   "name": "Ralph Lauren Corporation",
   "market": "US",
   "yahooSymbol": "RL",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 378.1600036621094,
-      "high": 388.13018798828125,
-      "low": 376.0299987792969,
+      "high": 388.1300048828125,
+      "low": 376,
       "close": 385.9100036621094,
       "adjClose": 385.9100036621094,
-      "volume": 323631
+      "volume": 427500
+    },
+    {
+      "date": "2026-07-31",
+      "open": 386.7900085449219,
+      "high": 387.2850036621094,
+      "low": 380.1000061035156,
+      "close": 380.3399963378906,
+      "adjClose": 380.3399963378906,
+      "volume": 438766
     }
   ],
   "corporateActions": {
@@ -14970,9 +14979,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Casey's",
   "market": "US",
   "yahooSymbol": "CASY",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14868,12 +14868,21 @@
     },
     {
       "date": "2026-07-30",
-      "open": 862.4400024414062,
+      "open": 867.1900024414062,
       "high": 879,
       "low": 858.3499755859375,
       "close": 867.5,
       "adjClose": 867.5,
-      "volume": 233174
+      "volume": 236500
+    },
+    {
+      "date": "2026-07-31",
+      "open": 867.0599975585938,
+      "high": 879.6599731445312,
+      "low": 863.6688232421875,
+      "close": 871,
+      "adjClose": 871,
+      "volume": 218805
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

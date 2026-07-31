@@ -3,7 +3,7 @@
   "name": "Ciena",
   "market": "US",
   "yahooSymbol": "CIEN",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 359.2699890136719,
-      "high": 373,
-      "low": 355.1700134277344,
+      "high": 373.0899963378906,
+      "low": 355,
       "close": 372.07000732421875,
       "adjClose": 372.07000732421875,
-      "volume": 2157069
+      "volume": 2461500
+    },
+    {
+      "date": "2026-07-31",
+      "open": 393.9800109863281,
+      "high": 401,
+      "low": 374.3800048828125,
+      "close": 377.04998779296875,
+      "adjClose": 377.04998779296875,
+      "volume": 1678876
     }
   ],
   "corporateActions": {
@@ -14881,9 +14890,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

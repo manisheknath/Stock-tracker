@@ -3,7 +3,7 @@
   "name": "Aptiv",
   "market": "US",
   "yahooSymbol": "APTV",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 58.25,
-      "high": 58.71500015258789,
+      "high": 58.720001220703125,
       "low": 56.459999084472656,
       "close": 58.09000015258789,
       "adjClose": 58.09000015258789,
-      "volume": 1962071
+      "volume": 2384800
+    },
+    {
+      "date": "2026-07-31",
+      "open": 57.619998931884766,
+      "high": 57.78499984741211,
+      "low": 55.41999816894531,
+      "close": 56.470001220703125,
+      "adjClose": 56.470001220703125,
+      "volume": 3830671
     }
   ],
   "corporateActions": {
@@ -14886,9 +14895,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

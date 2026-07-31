@@ -3,7 +3,7 @@
   "name": "Airbus",
   "market": "FR",
   "yahooSymbol": "AIR.PA",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15162,6 +15162,15 @@
       "close": 209.89999389648438,
       "adjClose": 209.89999389648438,
       "volume": 853081
+    },
+    {
+      "date": "2026-07-30",
+      "open": 206.5500030517578,
+      "high": 207.89999389648438,
+      "low": 203.0500030517578,
+      "close": 204,
+      "adjClose": 204,
+      "volume": 1508027
     }
   ],
   "corporateActions": {
@@ -15190,9 +15199,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1684,
+    "barsAvailable": 1685,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 31
   }
 }

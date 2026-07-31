@@ -3,7 +3,7 @@
   "name": "Intuit",
   "market": "US",
   "yahooSymbol": "INTU",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14868,12 +14868,21 @@
     },
     {
       "date": "2026-07-30",
-      "open": 316.10198974609375,
+      "open": 317,
       "high": 318.989990234375,
-      "low": 303.8699951171875,
+      "low": 303.79998779296875,
       "close": 315.5,
       "adjClose": 315.5,
-      "volume": 4638270
+      "volume": 4683000
+    },
+    {
+      "date": "2026-07-31",
+      "open": 310.42498779296875,
+      "high": 317.5299987792969,
+      "low": 306.80999755859375,
+      "close": 316.07000732421875,
+      "adjClose": 316.07000732421875,
+      "volume": 3011897
     }
   ],
   "corporateActions": {
@@ -14990,9 +14999,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

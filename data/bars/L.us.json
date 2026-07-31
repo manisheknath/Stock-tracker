@@ -3,7 +3,7 @@
   "name": "Loews Corporation",
   "market": "US",
   "yahooSymbol": "L",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 117.63999938964844,
-      "high": 118.32499694824219,
+      "high": 118.33000183105469,
       "low": 115.52999877929688,
       "close": 116.37000274658203,
       "adjClose": 116.37000274658203,
-      "volume": 550063
+      "volume": 755300
+    },
+    {
+      "date": "2026-07-31",
+      "open": 115.68000030517578,
+      "high": 117.20500183105469,
+      "low": 115.01000213623047,
+      "close": 116.01000213623047,
+      "adjClose": 116.01000213623047,
+      "volume": 393544
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

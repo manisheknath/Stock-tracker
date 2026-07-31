@@ -3,7 +3,7 @@
   "name": "Emerson Electric",
   "market": "US",
   "yahooSymbol": "EMR",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14870,10 +14870,19 @@
       "date": "2026-07-30",
       "open": 149.2899932861328,
       "high": 149.61000061035156,
-      "low": 146.7899932861328,
+      "low": 146.75,
       "close": 148.63999938964844,
       "adjClose": 148.63999938964844,
-      "volume": 2849165
+      "volume": 2910900
+    },
+    {
+      "date": "2026-07-31",
+      "open": 149.72999572753906,
+      "high": 150.69000244140625,
+      "low": 147.9550018310547,
+      "close": 149.82000732421875,
+      "adjClose": 149.82000732421875,
+      "volume": 2123217
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

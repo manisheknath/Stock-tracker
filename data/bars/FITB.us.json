@@ -3,7 +3,7 @@
   "name": "Fifth Third Bancorp",
   "market": "US",
   "yahooSymbol": "FITB",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14870,10 +14870,19 @@
       "date": "2026-07-30",
       "open": 56.529998779296875,
       "high": 57.18000030517578,
-      "low": 56.084999084472656,
+      "low": 56.09000015258789,
       "close": 56.59000015258789,
       "adjClose": 56.59000015258789,
-      "volume": 7360594
+      "volume": 7360600
+    },
+    {
+      "date": "2026-07-31",
+      "open": 56.650001525878906,
+      "high": 56.83000183105469,
+      "low": 56.17499923706055,
+      "close": 56.5,
+      "adjClose": 56.5,
+      "volume": 3706039
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

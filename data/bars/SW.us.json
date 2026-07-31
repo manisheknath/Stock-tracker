@@ -3,7 +3,7 @@
   "name": "Smurfit Westrock",
   "market": "US",
   "yahooSymbol": "SW",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 48.369998931884766,
-      "high": 48.369998931884766,
-      "low": 46.849998474121094,
+      "high": 48.380001068115234,
+      "low": 46.84000015258789,
       "close": 47.52000045776367,
       "adjClose": 47.52000045776367,
-      "volume": 4702821
+      "volume": 4702800
+    },
+    {
+      "date": "2026-07-31",
+      "open": 47.5099983215332,
+      "high": 48.310001373291016,
+      "low": 45.290000915527344,
+      "close": 45.970001220703125,
+      "adjClose": 45.970001220703125,
+      "volume": 4877257
     }
   ],
   "corporateActions": {
@@ -14950,9 +14959,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

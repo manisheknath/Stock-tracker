@@ -3,7 +3,7 @@
   "name": "Michelin",
   "market": "FR",
   "yahooSymbol": "ML.PA",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15162,6 +15162,15 @@
       "close": 34.34000015258789,
       "adjClose": 34.34000015258789,
       "volume": 2021086
+    },
+    {
+      "date": "2026-07-30",
+      "open": 34.400001525878906,
+      "high": 34.9900016784668,
+      "low": 34.290000915527344,
+      "close": 34.5,
+      "adjClose": 34.5,
+      "volume": 1634721
     }
   ],
   "corporateActions": {
@@ -15205,9 +15214,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1684,
+    "barsAvailable": 1685,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 31
   }
 }

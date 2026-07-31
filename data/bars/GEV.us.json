@@ -3,7 +3,7 @@
   "name": "GE Vernova",
   "market": "US",
   "yahooSymbol": "GEV",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -5284,11 +5284,20 @@
     {
       "date": "2026-07-30",
       "open": 959,
-      "high": 985.9749755859375,
-      "low": 950.010009765625,
+      "high": 986,
+      "low": 950,
       "close": 981.97998046875,
       "adjClose": 981.97998046875,
-      "volume": 2767463
+      "volume": 3134700
+    },
+    {
+      "date": "2026-07-31",
+      "open": 1040.989990234375,
+      "high": 1042.8499755859375,
+      "low": 979.5999755859375,
+      "close": 990.2899780273438,
+      "adjClose": 990.2899780273438,
+      "volume": 2025134
     }
   ],
   "corporateActions": {
@@ -5325,9 +5334,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 587,
+    "barsAvailable": 588,
     "firstDate": "2024-03-27",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 25
   }
 }

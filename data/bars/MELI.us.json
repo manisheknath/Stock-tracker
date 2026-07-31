@@ -3,7 +3,7 @@
   "name": "MercadoLibre, Inc.",
   "market": "US",
   "yahooSymbol": "MELI",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14868,12 +14868,21 @@
     },
     {
       "date": "2026-07-30",
-      "open": 1850.5250244140625,
-      "high": 1887.9998779296875,
-      "low": 1829.300048828125,
+      "open": 1845.010009765625,
+      "high": 1888,
+      "low": 1828.8900146484375,
       "close": 1885.72998046875,
       "adjClose": 1885.72998046875,
-      "volume": 360170
+      "volume": 370100
+    },
+    {
+      "date": "2026-07-31",
+      "open": 1876.1300048828125,
+      "high": 1889.219970703125,
+      "low": 1851.7900390625,
+      "close": 1877.949951171875,
+      "adjClose": 1877.949951171875,
+      "volume": 318373
     }
   ],
   "corporateActions": {
@@ -14881,9 +14890,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

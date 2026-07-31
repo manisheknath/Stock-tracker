@@ -3,7 +3,7 @@
   "name": "Allianz",
   "market": "DE",
   "yahooSymbol": "ALV.DE",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15072,6 +15072,15 @@
       "close": 428.20001220703125,
       "adjClose": 428.20001220703125,
       "volume": 528634
+    },
+    {
+      "date": "2026-07-30",
+      "open": 426.29998779296875,
+      "high": 433.5,
+      "low": 426.29998779296875,
+      "close": 431.5,
+      "adjClose": 431.5,
+      "volume": 417857
     }
   ],
   "corporateActions": {
@@ -15108,9 +15117,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1674,
+    "barsAvailable": 1675,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-29",
+    "lastDate": "2026-07-30",
     "gaps": 41
   }
 }

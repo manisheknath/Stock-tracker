@@ -3,7 +3,7 @@
   "name": "Bank of America",
   "market": "US",
   "yahooSymbol": "BAC",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14870,10 +14870,19 @@
       "date": "2026-07-30",
       "open": 61.52000045776367,
       "high": 61.93000030517578,
-      "low": 61.03089904785156,
+      "low": 61.029998779296875,
       "close": 61.72999954223633,
       "adjClose": 61.72999954223633,
-      "volume": 18152003
+      "volume": 24844000
+    },
+    {
+      "date": "2026-07-31",
+      "open": 61.540000915527344,
+      "high": 62.2400016784668,
+      "low": 61.540000915527344,
+      "close": 61.95000076293945,
+      "adjClose": 61.95000076293945,
+      "volume": 15925369
     }
   ],
   "corporateActions": {
@@ -14986,9 +14995,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }

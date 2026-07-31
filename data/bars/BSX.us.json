@@ -3,7 +3,7 @@
   "name": "Boston Scientific",
   "market": "US",
   "yahooSymbol": "BSX",
-  "asOf": "2026-07-30",
+  "asOf": "2026-07-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14869,11 +14869,20 @@
     {
       "date": "2026-07-30",
       "open": 45.27000045776367,
-      "high": 46.19499969482422,
+      "high": 46.20000076293945,
       "low": 44.54999923706055,
       "close": 46,
       "adjClose": 46,
-      "volume": 25887192
+      "volume": 25889300
+    },
+    {
+      "date": "2026-07-31",
+      "open": 45.84000015258789,
+      "high": 46.79999923706055,
+      "low": 44.43000030517578,
+      "close": 46.72999954223633,
+      "adjClose": 46.72999954223633,
+      "volume": 18672329
     }
   ],
   "corporateActions": {
@@ -14881,9 +14890,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1652,
+    "barsAvailable": 1653,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 64
   }
 }
