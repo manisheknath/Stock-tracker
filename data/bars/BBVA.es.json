@@ -3,7 +3,7 @@
   "name": "BBVA",
   "market": "ES",
   "yahooSymbol": "BBVA.MC",
-  "asOf": "2026-07-31",
+  "asOf": "2026-08-01",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 23.959999084472656,
       "adjClose": 23.959999084472656,
       "volume": 13412823
+    },
+    {
+      "date": "2026-07-31",
+      "open": 23.959999084472656,
+      "high": 24.450000762939453,
+      "low": 23.84000015258789,
+      "close": 24.200000762939453,
+      "adjClose": 24.200000762939453,
+      "volume": 9982006
     }
   ],
   "corporateActions": {
@@ -15209,9 +15218,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 33
   }
 }

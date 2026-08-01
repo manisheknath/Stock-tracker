@@ -3,7 +3,7 @@
   "name": "LondonMetric Property",
   "market": "UK",
   "yahooSymbol": "LMP.L",
-  "asOf": "2026-07-31",
+  "asOf": "2026-08-01",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14955,6 +14955,15 @@
       "close": 198,
       "adjClose": 198,
       "volume": 5010983
+    },
+    {
+      "date": "2026-07-31",
+      "open": 199.3000030517578,
+      "high": 199.3000030517578,
+      "low": 195.8000030517578,
+      "close": 196.1999969482422,
+      "adjClose": 196.1999969482422,
+      "volume": 7050537
     }
   ],
   "corporateActions": {
@@ -15067,9 +15076,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1661,
+    "barsAvailable": 1662,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 55
   }
 }
