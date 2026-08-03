@@ -3,7 +3,7 @@
   "name": "Trent",
   "market": "IN",
   "yahooSymbol": "TRENT.NS",
-  "asOf": "2026-08-02",
+  "asOf": "2026-08-03",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14694,6 +14694,15 @@
       "close": 2999.199951171875,
       "adjClose": 2999.199951171875,
       "volume": 806910
+    },
+    {
+      "date": "2026-07-31",
+      "open": 3008,
+      "high": 3026.699951171875,
+      "low": 2990.89990234375,
+      "close": 3005.89990234375,
+      "adjClose": 3005.89990234375,
+      "volume": 605222
     }
   ],
   "corporateActions": {
@@ -14747,9 +14756,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1632,
+    "barsAvailable": 1633,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 85
   }
 }

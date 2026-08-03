@@ -3,7 +3,7 @@
   "name": "Siemens Energy",
   "market": "DE",
   "yahooSymbol": "ENR.DE",
-  "asOf": "2026-08-02",
+  "asOf": "2026-08-03",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -13380,6 +13380,15 @@
       "close": 146.16000366210938,
       "adjClose": 146.16000366210938,
       "volume": 3230738
+    },
+    {
+      "date": "2026-07-31",
+      "open": 152,
+      "high": 152.74000549316406,
+      "low": 146.74000549316406,
+      "close": 147.44000244140625,
+      "adjClose": 147.44000244140625,
+      "volume": 2420920
     }
   ],
   "corporateActions": {
@@ -13396,9 +13405,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1486,
+    "barsAvailable": 1487,
     "firstDate": "2020-09-29",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 37
   }
 }

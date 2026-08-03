@@ -3,7 +3,7 @@
   "name": "Entergy",
   "market": "US",
   "yahooSymbol": "ETR",
-  "asOf": "2026-08-02",
+  "asOf": "2026-08-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14883,6 +14883,15 @@
       "close": 107.62000274658203,
       "adjClose": 107.62000274658203,
       "volume": 2602800
+    },
+    {
+      "date": "2026-08-03",
+      "open": 107,
+      "high": 109.11000061035156,
+      "low": 106.58999633789062,
+      "close": 108.05999755859375,
+      "adjClose": 108.05999755859375,
+      "volume": 2111842
     }
   ],
   "corporateActions": {
@@ -15002,9 +15011,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1653,
+    "barsAvailable": 1654,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-31",
+    "lastDate": "2026-08-03",
     "gaps": 64
   }
 }

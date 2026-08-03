@@ -3,7 +3,7 @@
   "name": "Iberdrola",
   "market": "ES",
   "yahooSymbol": "IBE.MC",
-  "asOf": "2026-08-02",
+  "asOf": "2026-08-03",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 20.520000457763672,
       "adjClose": 20.520000457763672,
       "volume": 9570427
+    },
+    {
+      "date": "2026-07-31",
+      "open": 20.600000381469727,
+      "high": 20.899999618530273,
+      "low": 20.540000915527344,
+      "close": 20.649999618530273,
+      "adjClose": 20.649999618530273,
+      "volume": 9301645
     }
   ],
   "corporateActions": {
@@ -15244,9 +15253,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-07-30",
+    "lastDate": "2026-07-31",
     "gaps": 33
   }
 }
