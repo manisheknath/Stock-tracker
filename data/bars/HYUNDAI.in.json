@@ -3,7 +3,7 @@
   "name": "Hyundai Motor India",
   "market": "IN",
   "yahooSymbol": "HYUNDAI.NS",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -3993,6 +3993,15 @@
       "close": 2180.699951171875,
       "adjClose": 2180.699951171875,
       "volume": 5531547
+    },
+    {
+      "date": "2026-08-03",
+      "open": 2212.10009765625,
+      "high": 2247.60009765625,
+      "low": 2200,
+      "close": 2207,
+      "adjClose": 2207,
+      "volume": 1774484
     }
   ],
   "corporateActions": {
@@ -4001,13 +4010,17 @@
       {
         "date": "2025-08-05",
         "amount": 21
+      },
+      {
+        "date": "2026-08-05",
+        "amount": 21
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 443,
+    "barsAvailable": 444,
     "firstDate": "2024-10-22",
-    "lastDate": "2026-07-31",
+    "lastDate": "2026-08-03",
     "gaps": 21
   }
 }

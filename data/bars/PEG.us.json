@@ -3,7 +3,7 @@
   "name": "Public Service Enterprise Group",
   "market": "US",
   "yahooSymbol": "PEG",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14882,16 +14882,25 @@
       "low": 76.62000274658203,
       "close": 76.68000030517578,
       "adjClose": 76.68000030517578,
-      "volume": 3666800
+      "volume": 3667600
     },
     {
       "date": "2026-08-03",
       "open": 76.5,
       "high": 77.33999633789062,
-      "low": 76.00399780273438,
+      "low": 76,
       "close": 76.62000274658203,
       "adjClose": 76.62000274658203,
-      "volume": 3593545
+      "volume": 3593600
+    },
+    {
+      "date": "2026-08-04",
+      "open": 75.91999816894531,
+      "high": 76.98999786376953,
+      "low": 74.19999694824219,
+      "close": 76.2699966430664,
+      "adjClose": 76.2699966430664,
+      "volume": 4507939
     }
   ],
   "corporateActions": {
@@ -15004,9 +15013,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1654,
+    "barsAvailable": 1655,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "NetApp",
   "market": "US",
   "yahooSymbol": "NTAP",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14882,16 +14882,25 @@
       "low": 174.0399932861328,
       "close": 178.5,
       "adjClose": 178.5,
-      "volume": 1829200
+      "volume": 1829900
     },
     {
       "date": "2026-08-03",
-      "open": 179.39599609375,
-      "high": 184.375,
-      "low": 176.02049255371094,
+      "open": 179.05999755859375,
+      "high": 184.3800048828125,
+      "low": 176.02000427246094,
       "close": 182.9199981689453,
       "adjClose": 182.9199981689453,
-      "volume": 1952075
+      "volume": 1964500
+    },
+    {
+      "date": "2026-08-04",
+      "open": 185,
+      "high": 195.6999969482422,
+      "low": 184.69500732421875,
+      "close": 190.4600067138672,
+      "adjClose": 190.4600067138672,
+      "volume": 3276813
     }
   ],
   "corporateActions": {
@@ -15008,9 +15017,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1654,
+    "barsAvailable": 1655,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 64
   }
 }

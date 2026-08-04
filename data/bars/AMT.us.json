@@ -3,7 +3,7 @@
   "name": "American Tower",
   "market": "US",
   "yahooSymbol": "AMT",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14882,16 +14882,25 @@
       "low": 170.9600067138672,
       "close": 173.36000061035156,
       "adjClose": 173.36000061035156,
-      "volume": 4301500
+      "volume": 4302400
     },
     {
       "date": "2026-08-03",
       "open": 174.6699981689453,
-      "high": 175.15499877929688,
+      "high": 175.16000366210938,
       "low": 171.7899932861328,
       "close": 173,
       "adjClose": 173,
-      "volume": 1922220
+      "volume": 2505900
+    },
+    {
+      "date": "2026-08-04",
+      "open": 170.5,
+      "high": 175.54989624023438,
+      "low": 169.02740478515625,
+      "close": 175.25,
+      "adjClose": 175.25,
+      "volume": 1965175
     }
   ],
   "corporateActions": {
@@ -15004,9 +15013,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1654,
+    "barsAvailable": 1655,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 64
   }
 }

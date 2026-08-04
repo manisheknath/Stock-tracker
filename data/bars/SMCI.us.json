@@ -3,7 +3,7 @@
   "name": "Supermicro",
   "market": "US",
   "yahooSymbol": "SMCI",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14882,16 +14882,25 @@
       "low": 27.209999084472656,
       "close": 28.399999618530273,
       "adjClose": 28.399999618530273,
-      "volume": 34866400
+      "volume": 34956100
     },
     {
       "date": "2026-08-03",
-      "open": 28.014699935913086,
-      "high": 28.924999237060547,
+      "open": 28,
+      "high": 28.93000030517578,
       "low": 27.440000534057617,
       "close": 28.639999389648438,
       "adjClose": 28.639999389648438,
-      "volume": 23074388
+      "volume": 24010900
+    },
+    {
+      "date": "2026-08-04",
+      "open": 29.600000381469727,
+      "high": 31.84000015258789,
+      "low": 29.06999969482422,
+      "close": 31.690000534057617,
+      "adjClose": 31.690000534057617,
+      "volume": 52445555
     }
   ],
   "corporateActions": {
@@ -14906,9 +14915,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1654,
+    "barsAvailable": 1655,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 64
   }
 }

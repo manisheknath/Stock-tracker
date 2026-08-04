@@ -3,7 +3,7 @@
   "name": "AutoZone",
   "market": "US",
   "yahooSymbol": "AZO",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14887,11 +14887,20 @@
     {
       "date": "2026-08-03",
       "open": 3030.989990234375,
-      "high": 3060,
-      "low": 2985.840087890625,
+      "high": 3061.77001953125,
+      "low": 2985.830078125,
       "close": 2990.27001953125,
       "adjClose": 2990.27001953125,
-      "volume": 180855
+      "volume": 181000
+    },
+    {
+      "date": "2026-08-04",
+      "open": 2969,
+      "high": 3037.860107421875,
+      "low": 2945.3701171875,
+      "close": 3028.030029296875,
+      "adjClose": 3028.030029296875,
+      "volume": 109370
     }
   ],
   "corporateActions": {
@@ -14899,9 +14908,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1654,
+    "barsAvailable": 1655,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 64
   }
 }

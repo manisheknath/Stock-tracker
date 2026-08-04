@@ -3,7 +3,7 @@
   "name": "Verisign",
   "market": "US",
   "yahooSymbol": "VRSN",
-  "asOf": "2026-08-03",
+  "asOf": "2026-08-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14888,10 +14888,19 @@
       "date": "2026-08-03",
       "open": 292.20001220703125,
       "high": 303,
-      "low": 290,
+      "low": 289.510009765625,
       "close": 298.8900146484375,
       "adjClose": 298.8900146484375,
-      "volume": 841881
+      "volume": 861500
+    },
+    {
+      "date": "2026-08-04",
+      "open": 294.6499938964844,
+      "high": 300.6199951171875,
+      "low": 293.2850036621094,
+      "close": 299.20001220703125,
+      "adjClose": 299.20001220703125,
+      "volume": 756150
     }
   ],
   "corporateActions": {
@@ -14920,9 +14929,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1654,
+    "barsAvailable": 1655,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 64
   }
 }
