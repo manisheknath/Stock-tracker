@@ -3,7 +3,7 @@
   "name": "Zalando",
   "market": "DE",
   "yahooSymbol": "ZAL.DE",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15099,6 +15099,15 @@
       "close": 29.110000610351562,
       "adjClose": 29.110000610351562,
       "volume": 1646602
+    },
+    {
+      "date": "2026-08-04",
+      "open": 26,
+      "high": 26,
+      "low": 23.860000610351562,
+      "close": 25.219999313354492,
+      "adjClose": 25.219999313354492,
+      "volume": 7233445
     }
   ],
   "corporateActions": {
@@ -15106,9 +15115,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 41
   }
 }

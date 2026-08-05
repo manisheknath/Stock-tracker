@@ -3,7 +3,7 @@
   "name": "Progressive Corporation",
   "market": "US",
   "yahooSymbol": "PGR",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14896,11 +14896,20 @@
     {
       "date": "2026-08-04",
       "open": 207.27000427246094,
-      "high": 210.99899291992188,
-      "low": 206.06500244140625,
+      "high": 211,
+      "low": 205.89999389648438,
       "close": 210.75,
       "adjClose": 210.75,
-      "volume": 1364767
+      "volume": 2413600
+    },
+    {
+      "date": "2026-08-05",
+      "open": 212.4499969482422,
+      "high": 213.9499969482422,
+      "low": 210.97000122070312,
+      "close": 212.75999450683594,
+      "adjClose": 212.75999450683594,
+      "volume": 1339733
     }
   ],
   "corporateActions": {
@@ -15021,9 +15030,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1655,
+    "barsAvailable": 1656,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-05",
     "gaps": 64
   }
 }

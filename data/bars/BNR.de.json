@@ -3,7 +3,7 @@
   "name": "Brenntag",
   "market": "DE",
   "yahooSymbol": "BNR.DE",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15099,6 +15099,15 @@
       "close": 62.08000183105469,
       "adjClose": 62.08000183105469,
       "volume": 169275
+    },
+    {
+      "date": "2026-08-04",
+      "open": 62.31999969482422,
+      "high": 63.220001220703125,
+      "low": 61.959999084472656,
+      "close": 62.5,
+      "adjClose": 62.5,
+      "volume": 191264
     }
   ],
   "corporateActions": {
@@ -15135,9 +15144,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 41
   }
 }

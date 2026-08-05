@@ -3,7 +3,7 @@
   "name": "Kenvue",
   "market": "US",
   "yahooSymbol": "KVUE",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -7336,11 +7336,20 @@
     {
       "date": "2026-08-04",
       "open": 19,
-      "high": 19.604999542236328,
+      "high": 19.610000610351562,
       "low": 18.684999465942383,
       "close": 19.549999237060547,
       "adjClose": 19.549999237060547,
-      "volume": 15904585
+      "volume": 23595500
+    },
+    {
+      "date": "2026-08-05",
+      "open": 19.530000686645508,
+      "high": 19.670000076293945,
+      "low": 19.065000534057617,
+      "close": 19.670000076293945,
+      "adjClose": 19.670000076293945,
+      "volume": 22061098
     }
   ],
   "corporateActions": {
@@ -7397,9 +7406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 815,
+    "barsAvailable": 816,
     "firstDate": "2023-05-04",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-05",
     "gaps": 34
   }
 }

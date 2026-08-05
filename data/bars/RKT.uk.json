@@ -3,7 +3,7 @@
   "name": "Reckitt",
   "market": "UK",
   "yahooSymbol": "RKT.L",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14973,6 +14973,15 @@
       "close": 5280,
       "adjClose": 5280,
       "volume": 1799032
+    },
+    {
+      "date": "2026-08-04",
+      "open": 5278,
+      "high": 5306,
+      "low": 5244,
+      "close": 5272,
+      "adjClose": 5272,
+      "volume": 1194300
     }
   ],
   "corporateActions": {
@@ -15040,13 +15049,17 @@
       {
         "date": "2026-04-09",
         "amount": 127.8
+      },
+      {
+        "date": "2026-08-06",
+        "amount": 88.6
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1663,
+    "barsAvailable": 1664,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 55
   }
 }

@@ -3,7 +3,7 @@
   "name": "RELX",
   "market": "UK",
   "yahooSymbol": "REL.L",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14973,6 +14973,15 @@
       "close": 2649,
       "adjClose": 2649,
       "volume": 5663207
+    },
+    {
+      "date": "2026-08-04",
+      "open": 2664,
+      "high": 2713,
+      "low": 2651,
+      "close": 2700,
+      "adjClose": 2700,
+      "volume": 4625727
     }
   ],
   "corporateActions": {
@@ -15029,13 +15038,17 @@
       {
         "date": "2026-05-07",
         "amount": 48
+      },
+      {
+        "date": "2026-08-06",
+        "amount": 20.900002
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1663,
+    "barsAvailable": 1664,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 55
   }
 }

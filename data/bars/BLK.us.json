@@ -3,7 +3,7 @@
   "name": "BlackRock",
   "market": "US",
   "yahooSymbol": "BLK",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14896,11 +14896,20 @@
     {
       "date": "2026-08-04",
       "open": 1138.5,
-      "high": 1150.18994140625,
+      "high": 1150.300048828125,
       "low": 1130.8499755859375,
       "close": 1131.1300048828125,
       "adjClose": 1131.1300048828125,
-      "volume": 622101
+      "volume": 625000
+    },
+    {
+      "date": "2026-08-05",
+      "open": 1138.5,
+      "high": 1142.8900146484375,
+      "low": 1121.56005859375,
+      "close": 1133.5799560546875,
+      "adjClose": 1133.5799560546875,
+      "volume": 373836
     }
   ],
   "corporateActions": {
@@ -15013,9 +15022,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1655,
+    "barsAvailable": 1656,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-05",
     "gaps": 64
   }
 }

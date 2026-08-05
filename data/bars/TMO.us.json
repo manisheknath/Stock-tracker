@@ -3,7 +3,7 @@
   "name": "Thermo Fisher Scientific",
   "market": "US",
   "yahooSymbol": "TMO",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14896,11 +14896,20 @@
     {
       "date": "2026-08-04",
       "open": 578.760009765625,
-      "high": 582.3129272460938,
-      "low": 562.5001220703125,
+      "high": 582.3099975585938,
+      "low": 562.5,
       "close": 564.75,
       "adjClose": 564.75,
-      "volume": 1941807
+      "volume": 1941800
+    },
+    {
+      "date": "2026-08-05",
+      "open": 567.9299926757812,
+      "high": 578,
+      "low": 564.4019775390625,
+      "close": 577.8300170898438,
+      "adjClose": 577.8300170898438,
+      "volume": 1086289
     }
   ],
   "corporateActions": {
@@ -15013,9 +15022,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1655,
+    "barsAvailable": 1656,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-05",
     "gaps": 64
   }
 }

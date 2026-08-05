@@ -3,7 +3,7 @@
   "name": "Unilever",
   "market": "UK",
   "yahooSymbol": "ULVR.L",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14973,6 +14973,15 @@
       "close": 4770,
       "adjClose": 4770,
       "volume": 6577014
+    },
+    {
+      "date": "2026-08-04",
+      "open": 4746.5,
+      "high": 4750.5,
+      "low": 4710,
+      "close": 4748.5,
+      "adjClose": 4748.5,
+      "volume": 2762893
     }
   ],
   "corporateActions": {
@@ -15088,13 +15097,17 @@
       {
         "date": "2026-05-14",
         "amount": 40.46
+      },
+      {
+        "date": "2026-08-06",
+        "amount": 39.82
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1663,
+    "barsAvailable": 1664,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 55
   }
 }

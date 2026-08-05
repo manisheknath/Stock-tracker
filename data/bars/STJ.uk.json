@@ -3,7 +3,7 @@
   "name": "St. James's Place",
   "market": "UK",
   "yahooSymbol": "STJ.L",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14973,6 +14973,15 @@
       "close": 1086.5,
       "adjClose": 1086.5,
       "volume": 3643037
+    },
+    {
+      "date": "2026-08-04",
+      "open": 1088.5,
+      "high": 1116.5,
+      "low": 1068.5,
+      "close": 1104,
+      "adjClose": 1104,
+      "volume": 2496828
     }
   ],
   "corporateActions": {
@@ -15029,13 +15038,17 @@
       {
         "date": "2026-03-26",
         "amount": 12
+      },
+      {
+        "date": "2026-08-06",
+        "amount": 6
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1663,
+    "barsAvailable": 1664,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 55
   }
 }

@@ -3,7 +3,7 @@
   "name": "BT Group",
   "market": "UK",
   "yahooSymbol": "BT-A.L",
-  "asOf": "2026-08-04",
+  "asOf": "2026-08-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14973,6 +14973,15 @@
       "close": 203.10000610351562,
       "adjClose": 203.10000610351562,
       "volume": 10738401
+    },
+    {
+      "date": "2026-08-04",
+      "open": 202.6999969482422,
+      "high": 204.90199279785156,
+      "low": 201.8000030517578,
+      "close": 202.1999969482422,
+      "adjClose": 202.1999969482422,
+      "volume": 26502726
     }
   ],
   "corporateActions": {
@@ -15013,13 +15022,17 @@
       {
         "date": "2025-12-29",
         "amount": 2.45
+      },
+      {
+        "date": "2026-08-06",
+        "amount": 5.87
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1663,
+    "barsAvailable": 1664,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-03",
+    "lastDate": "2026-08-04",
     "gaps": 55
   }
 }
