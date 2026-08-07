@@ -3,7 +3,7 @@
   "name": "HDFC Bank",
   "market": "IN",
   "yahooSymbol": "HDFCBANK.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14721,6 +14721,24 @@
       "close": 742,
       "adjClose": 742,
       "volume": 31559802
+    },
+    {
+      "date": "2026-08-05",
+      "open": 733.7999877929688,
+      "high": 741.9500122070312,
+      "low": 732.5999755859375,
+      "close": 735,
+      "adjClose": 735,
+      "volume": 60050538
+    },
+    {
+      "date": "2026-08-06",
+      "open": 739,
+      "high": 740.5,
+      "low": 733.5499877929688,
+      "close": 734.2999877929688,
+      "adjClose": 734.2999877929688,
+      "volume": 44772122
     }
   ],
   "corporateActions": {
@@ -14764,9 +14782,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1635,
+    "barsAvailable": 1637,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-06",
     "gaps": 85
   }
 }

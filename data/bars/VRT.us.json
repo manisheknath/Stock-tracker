@@ -3,7 +3,7 @@
   "name": "Vertiv",
   "market": "US",
   "yahooSymbol": "VRT",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14906,10 +14906,19 @@
       "date": "2026-08-05",
       "open": 270.45001220703125,
       "high": 282.5,
-      "low": 270.0199890136719,
+      "low": 270,
       "close": 277.94000244140625,
       "adjClose": 277.94000244140625,
-      "volume": 5921650
+      "volume": 5933200
+    },
+    {
+      "date": "2026-08-06",
+      "open": 271.1300048828125,
+      "high": 286.3599853515625,
+      "low": 270.06298828125,
+      "close": 275.1700134277344,
+      "adjClose": 275.1700134277344,
+      "volume": 5052099
     }
   ],
   "corporateActions": {
@@ -14974,9 +14983,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1656,
+    "barsAvailable": 1657,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-05",
+    "lastDate": "2026-08-06",
     "gaps": 64
   }
 }

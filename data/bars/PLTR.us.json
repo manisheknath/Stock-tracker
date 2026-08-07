@@ -3,7 +3,7 @@
   "name": "Palantir Technologies",
   "market": "US",
   "yahooSymbol": "PLTR",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -13212,12 +13212,21 @@
     },
     {
       "date": "2026-08-05",
-      "open": 162.0500030517578,
-      "high": 166.05999755859375,
+      "open": 162,
+      "high": 166.0800018310547,
       "low": 158.25,
       "close": 158.42999267578125,
       "adjClose": 158.42999267578125,
-      "volume": 61261948
+      "volume": 63515900
+    },
+    {
+      "date": "2026-08-06",
+      "open": 155.80999755859375,
+      "high": 158,
+      "low": 152.6999969482422,
+      "close": 155.9199981689453,
+      "adjClose": 155.9199981689453,
+      "volume": 38397107
     }
   ],
   "corporateActions": {
@@ -13225,9 +13234,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1468,
+    "barsAvailable": 1469,
     "firstDate": "2020-09-30",
-    "lastDate": "2026-08-05",
+    "lastDate": "2026-08-06",
     "gaps": 58
   }
 }

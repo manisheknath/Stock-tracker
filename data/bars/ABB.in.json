@@ -3,7 +3,7 @@
   "name": "ABB India",
   "market": "IN",
   "yahooSymbol": "ABB.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14692,7 +14692,7 @@
       "high": 7332,
       "low": 7195,
       "close": 7291.5,
-      "adjClose": 7291.5,
+      "adjClose": 7206.66015625,
       "volume": 335960
     },
     {
@@ -14710,7 +14710,7 @@
       "high": 7657,
       "low": 7243,
       "close": 7601,
-      "adjClose": 7601,
+      "adjClose": 7512.55908203125,
       "volume": 1207164
     },
     {
@@ -14719,8 +14719,26 @@
       "high": 7894.5,
       "low": 7600.5,
       "close": 7700,
-      "adjClose": 7700,
+      "adjClose": 7610.4072265625,
       "volume": 718380
+    },
+    {
+      "date": "2026-08-05",
+      "open": 7748,
+      "high": 7833,
+      "low": 7675,
+      "close": 7690.5,
+      "adjClose": 7601.017578125,
+      "volume": 267379
+    },
+    {
+      "date": "2026-08-06",
+      "open": 7737,
+      "high": 7784.5,
+      "low": 7671,
+      "close": 7735,
+      "adjClose": 7645,
+      "volume": 159592
     }
   ],
   "corporateActions": {
@@ -14765,13 +14783,17 @@
       {
         "date": "2026-04-30",
         "amount": 29.59
+      },
+      {
+        "date": "2026-08-07",
+        "amount": 90
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1635,
+    "barsAvailable": 1637,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-06",
     "gaps": 85
   }
 }

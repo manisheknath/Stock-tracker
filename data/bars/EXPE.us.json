@@ -3,7 +3,7 @@
   "name": "Expedia Group",
   "market": "US",
   "yahooSymbol": "EXPE",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14904,12 +14904,21 @@
     },
     {
       "date": "2026-08-05",
-      "open": 321.9750061035156,
+      "open": 323,
       "high": 326.989990234375,
       "low": 313.4599914550781,
       "close": 319.6600036621094,
       "adjClose": 319.6600036621094,
-      "volume": 2952037
+      "volume": 3018200
+    },
+    {
+      "date": "2026-08-06",
+      "open": 325,
+      "high": 331.30999755859375,
+      "low": 305.9200134277344,
+      "close": 306.57000732421875,
+      "adjClose": 306.57000732421875,
+      "volume": 2270764
     }
   ],
   "corporateActions": {
@@ -14946,9 +14955,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1656,
+    "barsAvailable": 1657,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-05",
+    "lastDate": "2026-08-06",
     "gaps": 64
   }
 }

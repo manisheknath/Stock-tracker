@@ -3,7 +3,7 @@
   "name": "Fastenal",
   "market": "US",
   "yahooSymbol": "FAST",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14904,12 +14904,21 @@
     },
     {
       "date": "2026-08-05",
-      "open": 49.9900016784668,
+      "open": 50,
       "high": 50.54999923706055,
-      "low": 49.774600982666016,
+      "low": 49.77000045776367,
       "close": 49.9900016784668,
       "adjClose": 49.9900016784668,
-      "volume": 6849802
+      "volume": 6881500
+    },
+    {
+      "date": "2026-08-06",
+      "open": 50.459999084472656,
+      "high": 50.900001525878906,
+      "low": 50.32500076293945,
+      "close": 50.79999923706055,
+      "adjClose": 50.79999923706055,
+      "volume": 8311769
     }
   ],
   "corporateActions": {
@@ -15041,9 +15050,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1656,
+    "barsAvailable": 1657,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-05",
+    "lastDate": "2026-08-06",
     "gaps": 64
   }
 }

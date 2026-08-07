@@ -3,7 +3,7 @@
   "name": "ITC",
   "market": "IN",
   "yahooSymbol": "ITC.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14721,6 +14721,24 @@
       "close": 289,
       "adjClose": 289,
       "volume": 12689243
+    },
+    {
+      "date": "2026-08-05",
+      "open": 288.25,
+      "high": 288.5,
+      "low": 285,
+      "close": 286.95001220703125,
+      "adjClose": 286.95001220703125,
+      "volume": 11771241
+    },
+    {
+      "date": "2026-08-06",
+      "open": 285.45001220703125,
+      "high": 286.3500061035156,
+      "low": 283.70001220703125,
+      "close": 285.8999938964844,
+      "adjClose": 285.8999938964844,
+      "volume": 12447629
     }
   ],
   "corporateActions": {
@@ -14781,9 +14799,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1635,
+    "barsAvailable": 1637,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-06",
     "gaps": 85
   }
 }

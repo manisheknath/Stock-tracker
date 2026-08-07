@@ -3,7 +3,7 @@
   "name": "Standard Chartered",
   "market": "UK",
   "yahooSymbol": "STAN.L",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14953,7 +14953,7 @@
       "high": 2240,
       "low": 2139,
       "close": 2216,
-      "adjClose": 2216,
+      "adjClose": 2215.795654296875,
       "volume": 6243797
     },
     {
@@ -14962,7 +14962,7 @@
       "high": 2254,
       "low": 2177,
       "close": 2188,
-      "adjClose": 2188,
+      "adjClose": 2187.79833984375,
       "volume": 5037185
     },
     {
@@ -14971,7 +14971,7 @@
       "high": 2245,
       "low": 2198,
       "close": 2201,
-      "adjClose": 2201,
+      "adjClose": 2200.797119140625,
       "volume": 22569621
     },
     {
@@ -14980,8 +14980,17 @@
       "high": 2262,
       "low": 2208,
       "close": 2248,
-      "adjClose": 2248,
+      "adjClose": 2247.792724609375,
       "volume": 5973183
+    },
+    {
+      "date": "2026-08-05",
+      "open": 2247,
+      "high": 2260,
+      "low": 2090,
+      "close": 2212,
+      "adjClose": 2211.796142578125,
+      "volume": 6761669
     }
   ],
   "corporateActions": {
@@ -15033,14 +15042,14 @@
       },
       {
         "date": "2026-08-06",
-        "amount": 15.146591
+        "amount": 15.163728
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1664,
+    "barsAvailable": 1665,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-05",
     "gaps": 55
   }
 }

@@ -3,7 +3,7 @@
   "name": "Maruti Suzuki",
   "market": "IN",
   "yahooSymbol": "MARUTI.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14692,7 +14692,7 @@
       "high": 14250,
       "low": 13825,
       "close": 14188,
-      "adjClose": 14188,
+      "adjClose": 14046.92578125,
       "volume": 626000
     },
     {
@@ -14710,7 +14710,7 @@
       "high": 14440,
       "low": 13901,
       "close": 14150,
-      "adjClose": 14150,
+      "adjClose": 14009.3037109375,
       "volume": 961183
     },
     {
@@ -14719,8 +14719,26 @@
       "high": 14254,
       "low": 14015,
       "close": 14168,
-      "adjClose": 14168,
+      "adjClose": 14027.125,
       "volume": 619717
+    },
+    {
+      "date": "2026-08-05",
+      "open": 14240,
+      "high": 14249,
+      "low": 14089,
+      "close": 14190,
+      "adjClose": 14048.90625,
+      "volume": 312540
+    },
+    {
+      "date": "2026-08-06",
+      "open": 14181,
+      "high": 14181,
+      "low": 13985,
+      "close": 14080,
+      "adjClose": 13940,
+      "volume": 333510
     }
   ],
   "corporateActions": {
@@ -14749,13 +14767,17 @@
       {
         "date": "2025-08-01",
         "amount": 135
+      },
+      {
+        "date": "2026-08-07",
+        "amount": 140
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1635,
+    "barsAvailable": 1637,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-06",
     "gaps": 85
   }
 }

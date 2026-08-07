@@ -3,7 +3,7 @@
   "name": "Grasim Industries",
   "market": "IN",
   "yahooSymbol": "GRASIM.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14721,6 +14721,15 @@
       "close": 3138,
       "adjClose": 3138,
       "volume": 770936
+    },
+    {
+      "date": "2026-08-05",
+      "open": 3150,
+      "high": 3228.699951171875,
+      "low": 3135.800048828125,
+      "close": 3224,
+      "adjClose": 3224,
+      "volume": 692531
     }
   ],
   "corporateActions": {
@@ -14749,13 +14758,17 @@
       {
         "date": "2025-08-12",
         "amount": 10
+      },
+      {
+        "date": "2026-08-07",
+        "amount": 10
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1635,
+    "barsAvailable": 1636,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-05",
     "gaps": 85
   }
 }

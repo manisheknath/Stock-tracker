@@ -3,7 +3,7 @@
   "name": "Insulet Corporation",
   "market": "US",
   "yahooSymbol": "PODD",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14904,12 +14904,21 @@
     },
     {
       "date": "2026-08-05",
-      "open": 128.47000122070312,
+      "open": 128,
       "high": 138.41000366210938,
-      "low": 126.5,
+      "low": 126.4000015258789,
       "close": 133.25999450683594,
       "adjClose": 133.25999450683594,
-      "volume": 7118412
+      "volume": 7177700
+    },
+    {
+      "date": "2026-08-06",
+      "open": 130.89999389648438,
+      "high": 139.47999572753906,
+      "low": 130.11000061035156,
+      "close": 139.3000030517578,
+      "adjClose": 139.3000030517578,
+      "volume": 3248175
     }
   ],
   "corporateActions": {
@@ -14917,9 +14926,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1656,
+    "barsAvailable": 1657,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-05",
+    "lastDate": "2026-08-06",
     "gaps": 64
   }
 }

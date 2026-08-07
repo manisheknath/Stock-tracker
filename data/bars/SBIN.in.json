@@ -3,7 +3,7 @@
   "name": "State Bank of India",
   "market": "IN",
   "yahooSymbol": "SBIN.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14721,6 +14721,24 @@
       "close": 1042.699951171875,
       "adjClose": 1042.699951171875,
       "volume": 8544184
+    },
+    {
+      "date": "2026-08-05",
+      "open": 1043,
+      "high": 1055,
+      "low": 1040.300048828125,
+      "close": 1055,
+      "adjClose": 1055,
+      "volume": 8707119
+    },
+    {
+      "date": "2026-08-06",
+      "open": 1052.5,
+      "high": 1088.0999755859375,
+      "low": 1052.5,
+      "close": 1085,
+      "adjClose": 1085,
+      "volume": 13822265
     }
   ],
   "corporateActions": {
@@ -14753,9 +14771,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1635,
+    "barsAvailable": 1637,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-06",
     "gaps": 85
   }
 }

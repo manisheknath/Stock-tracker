@@ -3,7 +3,7 @@
   "name": "Jio Financial Services",
   "market": "IN",
   "yahooSymbol": "JIOFIN.NS",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -6594,6 +6594,24 @@
       "close": 265,
       "adjClose": 265,
       "volume": 24776731
+    },
+    {
+      "date": "2026-08-05",
+      "open": 266.6499938964844,
+      "high": 268.20001220703125,
+      "low": 260.70001220703125,
+      "close": 261.95001220703125,
+      "adjClose": 261.95001220703125,
+      "volume": 19828927
+    },
+    {
+      "date": "2026-08-06",
+      "open": 262.20001220703125,
+      "high": 266.3500061035156,
+      "low": 260.29998779296875,
+      "close": 263.1000061035156,
+      "adjClose": 263.1000061035156,
+      "volume": 15775224
     }
   ],
   "corporateActions": {
@@ -6606,9 +6624,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 732,
+    "barsAvailable": 734,
     "firstDate": "2023-08-21",
-    "lastDate": "2026-08-04",
+    "lastDate": "2026-08-06",
     "gaps": 40
   }
 }

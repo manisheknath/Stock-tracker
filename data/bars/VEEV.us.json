@@ -3,7 +3,7 @@
   "name": "Veeva Systems",
   "market": "US",
   "yahooSymbol": "VEEV",
-  "asOf": "2026-08-05",
+  "asOf": "2026-08-07",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14905,11 +14905,20 @@
     {
       "date": "2026-08-05",
       "open": 212.85000610351562,
-      "high": 214.2449951171875,
-      "low": 210.44009399414062,
+      "high": 214.25,
+      "low": 210.44000244140625,
       "close": 213.50999450683594,
       "adjClose": 213.50999450683594,
-      "volume": 1076610
+      "volume": 1548500
+    },
+    {
+      "date": "2026-08-06",
+      "open": 209,
+      "high": 217.9499969482422,
+      "low": 208.07000732421875,
+      "close": 217.8000030517578,
+      "adjClose": 217.8000030517578,
+      "volume": 2195233
     }
   ],
   "corporateActions": {
@@ -14917,9 +14926,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1656,
+    "barsAvailable": 1657,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-05",
+    "lastDate": "2026-08-06",
     "gaps": 64
   }
 }
