@@ -3,7 +3,7 @@
   "name": "Commerzbank",
   "market": "DE",
   "yahooSymbol": "CBK.DE",
-  "asOf": "2026-08-07",
+  "asOf": "2026-08-08",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15126,6 +15126,15 @@
       "close": 38.4900016784668,
       "adjClose": 38.4900016784668,
       "volume": 4246157
+    },
+    {
+      "date": "2026-08-07",
+      "open": 38.63999938964844,
+      "high": 39.70000076293945,
+      "low": 38.59000015258789,
+      "close": 39,
+      "adjClose": 39,
+      "volume": 2858319
     }
   ],
   "corporateActions": {
@@ -15150,9 +15159,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1680,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-06",
+    "lastDate": "2026-08-07",
     "gaps": 41
   }
 }

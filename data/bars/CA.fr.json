@@ -3,7 +3,7 @@
   "name": "Carrefour",
   "market": "FR",
   "yahooSymbol": "CA.PA",
-  "asOf": "2026-08-07",
+  "asOf": "2026-08-08",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15216,6 +15216,15 @@
       "close": 15.925000190734863,
       "adjClose": 15.925000190734863,
       "volume": 1959238
+    },
+    {
+      "date": "2026-08-07",
+      "open": 16,
+      "high": 16,
+      "low": 15.744999885559082,
+      "close": 15.770000457763672,
+      "adjClose": 15.770000457763672,
+      "volume": 1748065
     }
   ],
   "corporateActions": {
@@ -15256,9 +15265,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1690,
+    "barsAvailable": 1691,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-06",
+    "lastDate": "2026-08-07",
     "gaps": 31
   }
 }
