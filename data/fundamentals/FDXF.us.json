@@ -1,7 +1,22 @@
 {
   "ticker": "FDXF.us",
   "coverage": "full",
-  "dataAvailable": false,
+  "dataAvailable": true,
   "sic": "4513",
-  "sicDescription": "Air Courier Services"
+  "sicDescription": "Air Courier Services",
+  "fiscalYearEnd": "2026-05-31",
+  "valuation": {
+    "pe": 33.05022705635524,
+    "sectorMedianPe": 25.111906178426104,
+    "sectorMedianBasis": "n=2 US ticker(s) sharing SIC 4513 in the current 856-ticker seed universe (full sector classification arrives with the ~900-ticker universe, build step 10)"
+  },
+  "quality": {
+    "roe": null,
+    "debtEquity": null,
+    "piotroski": 3
+  },
+  "growth": {
+    "revCagr3y": null,
+    "epsCagr3y": null
+  }
 }

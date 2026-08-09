@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02",
+  "generatedAt": "2026-08-09",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -1872,13 +1872,6 @@
       "yahooSymbol": "DXCM"
     },
     {
-      "ticker": "EA.us",
-      "name": "Electronic Arts",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "EA"
-    },
-    {
       "ticker": "EBAY.us",
       "name": "eBay Inc.",
       "market": "US",
@@ -2262,6 +2255,13 @@
       "market": "US",
       "index": "NASDAQ100",
       "yahooSymbol": "FER"
+    },
+    {
+      "ticker": "FERG.us",
+      "name": "Ferguson Enterprises",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "FERG"
     },
     {
       "ticker": "FFIV.us",
