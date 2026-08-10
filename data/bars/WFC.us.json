@@ -3,7 +3,7 @@
   "name": "Wells Fargo",
   "market": "US",
   "yahooSymbol": "WFC",
-  "asOf": "2026-08-09",
+  "asOf": "2026-08-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14928,6 +14928,15 @@
       "close": 87.25,
       "adjClose": 87.25,
       "volume": 7388700
+    },
+    {
+      "date": "2026-08-10",
+      "open": 86.91000366210938,
+      "high": 87.80000305175781,
+      "low": 86.56999969482422,
+      "close": 87.5199966430664,
+      "adjClose": 87.5199966430664,
+      "volume": 9147703
     }
   ],
   "corporateActions": {
@@ -15044,9 +15053,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1658,
+    "barsAvailable": 1659,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-07",
+    "lastDate": "2026-08-10",
     "gaps": 64
   }
 }
