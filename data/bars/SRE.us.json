@@ -3,7 +3,7 @@
   "name": "Sempra",
   "market": "US",
   "yahooSymbol": "SRE",
-  "asOf": "2026-08-10",
+  "asOf": "2026-08-11",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14927,16 +14927,25 @@
       "low": 83.6500015258789,
       "close": 83.87999725341797,
       "adjClose": 83.87999725341797,
-      "volume": 6401600
+      "volume": 6403200
     },
     {
       "date": "2026-08-10",
       "open": 83.8499984741211,
       "high": 85.16000366210938,
-      "low": 84.02999877929688,
+      "low": 83.8499984741211,
       "close": 84.30999755859375,
       "adjClose": 84.30999755859375,
-      "volume": 3373544
+      "volume": 4586200
+    },
+    {
+      "date": "2026-08-11",
+      "open": 84.3499984741211,
+      "high": 85.75,
+      "low": 83.95999908447266,
+      "close": 85.4800033569336,
+      "adjClose": 85.4800033569336,
+      "volume": 3294387
     }
   ],
   "corporateActions": {
@@ -15056,9 +15065,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1659,
+    "barsAvailable": 1660,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-10",
+    "lastDate": "2026-08-11",
     "gaps": 64
   }
 }

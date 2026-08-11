@@ -3,7 +3,7 @@
   "name": "Royal Caribbean Group",
   "market": "US",
   "yahooSymbol": "RCL",
-  "asOf": "2026-08-10",
+  "asOf": "2026-08-11",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14933,10 +14933,19 @@
       "date": "2026-08-10",
       "open": 315,
       "high": 317,
-      "low": 307.1400146484375,
+      "low": 307.1300048828125,
       "close": 308,
       "adjClose": 308,
-      "volume": 1875824
+      "volume": 1878700
+    },
+    {
+      "date": "2026-08-11",
+      "open": 312,
+      "high": 312,
+      "low": 303,
+      "close": 307.1499938964844,
+      "adjClose": 307.1499938964844,
+      "volume": 1814160
     }
   ],
   "corporateActions": {
@@ -14981,9 +14990,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1659,
+    "barsAvailable": 1660,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-10",
+    "lastDate": "2026-08-11",
     "gaps": 64
   }
 }

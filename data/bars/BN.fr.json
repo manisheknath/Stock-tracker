@@ -3,7 +3,7 @@
   "name": "Danone",
   "market": "FR",
   "yahooSymbol": "BN.PA",
-  "asOf": "2026-08-10",
+  "asOf": "2026-08-11",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15225,6 +15225,15 @@
       "close": 68.22000122070312,
       "adjClose": 68.22000122070312,
       "volume": 1022001
+    },
+    {
+      "date": "2026-08-10",
+      "open": 68.0999984741211,
+      "high": 68.22000122070312,
+      "low": 67.54000091552734,
+      "close": 68,
+      "adjClose": 68,
+      "volume": 886581
     }
   ],
   "corporateActions": {
@@ -15261,9 +15270,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1691,
+    "barsAvailable": 1692,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-07",
+    "lastDate": "2026-08-10",
     "gaps": 31
   }
 }
