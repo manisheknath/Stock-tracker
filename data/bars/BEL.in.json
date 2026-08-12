@@ -3,7 +3,7 @@
   "name": "Bharat Electronics",
   "market": "IN",
   "yahooSymbol": "BEL.NS",
-  "asOf": "2026-08-11",
+  "asOf": "2026-08-12",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14757,6 +14757,15 @@
       "close": 404.3500061035156,
       "adjClose": 404.3500061035156,
       "volume": 7836426
+    },
+    {
+      "date": "2026-08-11",
+      "open": 405.25,
+      "high": 406.79998779296875,
+      "low": 401.3999938964844,
+      "close": 405.8500061035156,
+      "adjClose": 405.8500061035156,
+      "volume": 6803132
     }
   ],
   "corporateActions": {
@@ -14836,13 +14845,17 @@
       {
         "date": "2026-03-06",
         "amount": 1.95
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 0.55
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1639,
+    "barsAvailable": 1640,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-10",
+    "lastDate": "2026-08-11",
     "gaps": 85
   }
 }
