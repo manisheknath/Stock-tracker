@@ -3,7 +3,7 @@
   "name": "Unibail-Rodamco-Westfield",
   "market": "FR",
   "yahooSymbol": "URW.PA",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -7647,6 +7647,15 @@
       "close": 103.44999694824219,
       "adjClose": 103.44999694824219,
       "volume": 98314
+    },
+    {
+      "date": "2026-08-12",
+      "open": 103.75,
+      "high": 104.05000305175781,
+      "low": 103,
+      "close": 103.4000015258789,
+      "adjClose": 103.4000015258789,
+      "volume": 155432
     }
   ],
   "corporateActions": {
@@ -7667,9 +7676,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 849,
+    "barsAvailable": 850,
     "firstDate": "2023-04-14",
-    "lastDate": "2026-08-11",
+    "lastDate": "2026-08-12",
     "gaps": 19
   }
 }

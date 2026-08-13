@@ -3,7 +3,7 @@
   "name": "Babcock International",
   "market": "UK",
   "yahooSymbol": "BAB.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 1210,
       "low": 1181.5,
       "close": 1186.5,
-      "adjClose": 1186.5,
+      "adjClose": 1186.4508056640625,
       "volume": 928923
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 1195.5,
       "low": 1178.5,
       "close": 1190.5,
-      "adjClose": 1190.5,
+      "adjClose": 1190.4505615234375,
       "volume": 585620
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 1210,
       "low": 1180.5,
       "close": 1191,
-      "adjClose": 1191,
+      "adjClose": 1190.9505615234375,
       "volume": 979712
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 1212.5,
       "low": 1194,
       "close": 1205,
-      "adjClose": 1205,
-      "volume": 986651
+      "adjClose": 1204.949951171875,
+      "volume": 986710
+    },
+    {
+      "date": "2026-08-13",
+      "open": 1226,
+      "high": 1226,
+      "low": 1180.5,
+      "close": 1181.5,
+      "adjClose": 1181.5,
+      "volume": 1009828
     }
   ],
   "corporateActions": {
@@ -15060,13 +15069,17 @@
       {
         "date": "2025-12-04",
         "amount": 2.5
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 5
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

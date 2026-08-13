@@ -3,7 +3,7 @@
   "name": "Pershing Square Holdings",
   "market": "UK",
   "yahooSymbol": "PSH.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 3944,
       "low": 3888,
       "close": 3912,
-      "adjClose": 3912,
+      "adjClose": 3911.815673828125,
       "volume": 155998
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 3946,
       "low": 3901.716064453125,
       "close": 3912,
-      "adjClose": 3912,
+      "adjClose": 3911.815673828125,
       "volume": 123748
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 3927.699951171875,
       "low": 3878,
       "close": 3914,
-      "adjClose": 3914,
+      "adjClose": 3913.8154296875,
       "volume": 396529
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 3978,
       "low": 3864,
       "close": 3894,
-      "adjClose": 3894,
+      "adjClose": 3893.81640625,
       "volume": 149875
+    },
+    {
+      "date": "2026-08-13",
+      "open": 3896,
+      "high": 3924,
+      "low": 3864,
+      "close": 3868,
+      "adjClose": 3868,
+      "volume": 139847
     }
   ],
   "corporateActions": {
@@ -15148,13 +15157,17 @@
       {
         "date": "2026-05-14",
         "amount": 13.616945
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 13.618783
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

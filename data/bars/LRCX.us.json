@@ -3,7 +3,7 @@
   "name": "Lam Research",
   "market": "US",
   "yahooSymbol": "LRCX",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14949,12 +14949,21 @@
     },
     {
       "date": "2026-08-12",
-      "open": 326.8349914550781,
-      "high": 329.4898986816406,
-      "low": 323.5450134277344,
+      "open": 326.8399963378906,
+      "high": 329.489990234375,
+      "low": 323.5,
       "close": 326.1099853515625,
       "adjClose": 326.1099853515625,
-      "volume": 7255725
+      "volume": 8075600
+    },
+    {
+      "date": "2026-08-13",
+      "open": 327.6199951171875,
+      "high": 345.1199951171875,
+      "low": 324.010009765625,
+      "close": 337.010009765625,
+      "adjClose": 337.010009765625,
+      "volume": 8885690
     }
   ],
   "corporateActions": {
@@ -15074,9 +15083,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1661,
+    "barsAvailable": 1662,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 64
   }
 }

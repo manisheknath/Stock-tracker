@@ -3,7 +3,7 @@
   "name": "Endesa",
   "market": "ES",
   "yahooSymbol": "ELE.MC",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15218,6 +15218,15 @@
       "volume": 730229
     },
     {
+      "date": "2026-08-11",
+      "open": 41.88999938964844,
+      "high": 42.16999816894531,
+      "low": 41.45000076293945,
+      "close": 41.459999084472656,
+      "adjClose": 41.459999084472656,
+      "volume": 489954
+    },
+    {
       "date": "2026-08-12",
       "open": 41.63999938964844,
       "high": 41.83000183105469,
@@ -15281,9 +15290,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1691,
+    "barsAvailable": 1692,
     "firstDate": "2020-01-02",
     "lastDate": "2026-08-12",
-    "gaps": 34
+    "gaps": 33
   }
 }

@@ -3,7 +3,7 @@
   "name": "Shell plc",
   "market": "UK",
   "yahooSymbol": "SHEL.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 3330,
       "low": 3269.5,
       "close": 3277.5,
-      "adjClose": 3277.5,
+      "adjClose": 3277.11474609375,
       "volume": 10116124
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 3310.5,
       "low": 3258,
       "close": 3298,
-      "adjClose": 3298,
+      "adjClose": 3297.6123046875,
       "volume": 5651451
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 3356,
       "low": 3323.5,
       "close": 3356,
-      "adjClose": 3356,
+      "adjClose": 3355.60546875,
       "volume": 4198938
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 3353,
       "low": 3301,
       "close": 3322.5,
-      "adjClose": 3322.5,
-      "volume": 8746736
+      "adjClose": 3322.109375,
+      "volume": 8902749
+    },
+    {
+      "date": "2026-08-13",
+      "open": 3318,
+      "high": 3325,
+      "low": 3253,
+      "close": 3288,
+      "adjClose": 3288,
+      "volume": 9437362
     }
   ],
   "corporateActions": {
@@ -15144,13 +15153,17 @@
       {
         "date": "2026-05-21",
         "amount": 29.179998
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 28.958302
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

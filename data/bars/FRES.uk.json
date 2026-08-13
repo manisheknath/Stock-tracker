@@ -3,7 +3,7 @@
   "name": "Fresnillo plc",
   "market": "UK",
   "yahooSymbol": "FRES.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 2931,
       "low": 2803,
       "close": 2864,
-      "adjClose": 2864,
+      "adjClose": 2863.587890625,
       "volume": 5197091
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 2963,
       "low": 2848,
       "close": 2963,
-      "adjClose": 2963,
+      "adjClose": 2962.57373046875,
       "volume": 1029412
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 3016,
       "low": 2917,
       "close": 2948,
-      "adjClose": 2948,
+      "adjClose": 2947.575927734375,
       "volume": 532491
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 3075,
       "low": 2964,
       "close": 3016,
-      "adjClose": 3016,
-      "volume": 945113
+      "adjClose": 3015.566162109375,
+      "volume": 1453139
+    },
+    {
+      "date": "2026-08-13",
+      "open": 2926,
+      "high": 2973,
+      "low": 2857.02099609375,
+      "close": 2873,
+      "adjClose": 2873,
+      "volume": 855160
     }
   ],
   "corporateActions": {
@@ -15092,13 +15101,17 @@
       {
         "date": "2026-04-23",
         "amount": 79.748604
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 32.174152
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

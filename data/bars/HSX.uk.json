@@ -3,7 +3,7 @@
   "name": "Hiscox",
   "market": "UK",
   "yahooSymbol": "HSX.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 1851,
       "low": 1804,
       "close": 1829,
-      "adjClose": 1829,
+      "adjClose": 1828.8292236328125,
       "volume": 7083719
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 1831,
       "low": 1805,
       "close": 1807,
-      "adjClose": 1807,
+      "adjClose": 1806.831298828125,
       "volume": 2946695
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 1810,
       "low": 1778,
       "close": 1780,
-      "adjClose": 1780,
+      "adjClose": 1779.8338623046875,
       "volume": 1029894
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 1804,
       "low": 1774,
       "close": 1800,
-      "adjClose": 1800,
-      "volume": 2647620
+      "adjClose": 1799.83203125,
+      "volume": 2647623
+    },
+    {
+      "date": "2026-08-13",
+      "open": 1795,
+      "high": 1808,
+      "low": 1781,
+      "close": 1785,
+      "adjClose": 1785,
+      "volume": 905719
     }
   ],
   "corporateActions": {
@@ -15080,13 +15089,17 @@
       {
         "date": "2026-04-23",
         "amount": 26.74
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 12.454512
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

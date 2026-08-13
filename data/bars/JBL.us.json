@@ -3,7 +3,7 @@
   "name": "Jabil",
   "market": "US",
   "yahooSymbol": "JBL",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14950,11 +14950,20 @@
     {
       "date": "2026-08-12",
       "open": 365.79998779296875,
-      "high": 370,
-      "low": 363.5819091796875,
+      "high": 370.5,
+      "low": 363.5799865722656,
       "close": 366.1600036621094,
       "adjClose": 366.1600036621094,
-      "volume": 1414080
+      "volume": 1414600
+    },
+    {
+      "date": "2026-08-13",
+      "open": 366,
+      "high": 376.9700012207031,
+      "low": 364.4100036621094,
+      "close": 370.3599853515625,
+      "adjClose": 370.3599853515625,
+      "volume": 938221
     }
   ],
   "corporateActions": {
@@ -15067,9 +15076,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1661,
+    "barsAvailable": 1662,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 64
   }
 }

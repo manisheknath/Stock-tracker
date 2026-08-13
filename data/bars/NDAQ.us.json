@@ -3,7 +3,7 @@
   "name": "Nasdaq, Inc.",
   "market": "US",
   "yahooSymbol": "NDAQ",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14949,12 +14949,21 @@
     },
     {
       "date": "2026-08-12",
-      "open": 94.38999938964844,
+      "open": 94.26000213623047,
       "high": 96.08999633789062,
       "low": 94.05000305175781,
       "close": 95.66000366210938,
       "adjClose": 95.66000366210938,
-      "volume": 1740881
+      "volume": 1885900
+    },
+    {
+      "date": "2026-08-13",
+      "open": 96.5094985961914,
+      "high": 97.7300033569336,
+      "low": 95.28500366210938,
+      "close": 97.58999633789062,
+      "adjClose": 97.58999633789062,
+      "volume": 2015325
     }
   ],
   "corporateActions": {
@@ -15074,9 +15083,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1661,
+    "barsAvailable": 1662,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 64
   }
 }

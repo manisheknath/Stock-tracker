@@ -3,7 +3,7 @@
   "name": "Bayer",
   "market": "DE",
   "yahooSymbol": "BAYN.DE",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 48.95000076293945,
       "adjClose": 48.95000076293945,
       "volume": 1602662
+    },
+    {
+      "date": "2026-08-12",
+      "open": 48.95000076293945,
+      "high": 49.09000015258789,
+      "low": 47.790000915527344,
+      "close": 48,
+      "adjClose": 48,
+      "volume": 1849866
     }
   ],
   "corporateActions": {
@@ -15189,9 +15198,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-11",
+    "lastDate": "2026-08-12",
     "gaps": 41
   }
 }

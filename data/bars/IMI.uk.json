@@ -3,7 +3,7 @@
   "name": "IMI",
   "market": "UK",
   "yahooSymbol": "IMI.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 3138,
       "low": 3100,
       "close": 3136,
-      "adjClose": 3136,
+      "adjClose": 3135.87939453125,
       "volume": 597721
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 3150,
       "low": 3118,
       "close": 3142,
-      "adjClose": 3142,
+      "adjClose": 3141.879150390625,
       "volume": 865641
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 3162,
       "low": 3088,
       "close": 3124,
-      "adjClose": 3124,
+      "adjClose": 3123.8798828125,
       "volume": 842000
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 3166,
       "low": 3126,
       "close": 3148,
-      "adjClose": 3148,
-      "volume": 446432
+      "adjClose": 3147.87890625,
+      "volume": 446431
+    },
+    {
+      "date": "2026-08-13",
+      "open": 3150,
+      "high": 3156,
+      "low": 3088,
+      "close": 3088,
+      "adjClose": 3088,
+      "volume": 575870
     }
   ],
   "corporateActions": {
@@ -15088,13 +15097,17 @@
       {
         "date": "2026-04-02",
         "amount": 23.199999
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 12.1
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

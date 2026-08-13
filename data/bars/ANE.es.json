@@ -3,7 +3,7 @@
   "name": "Acciona Energía",
   "market": "ES",
   "yahooSymbol": "ANE.MC",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -11762,6 +11762,15 @@
       "volume": 123020
     },
     {
+      "date": "2026-08-11",
+      "open": 20.600000381469727,
+      "high": 21.31999969482422,
+      "low": 20.600000381469727,
+      "close": 21.100000381469727,
+      "adjClose": 21.100000381469727,
+      "volume": 176094
+    },
+    {
       "date": "2026-08-12",
       "open": 21.260000228881836,
       "high": 21.559999465942383,
@@ -11797,9 +11806,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1307,
+    "barsAvailable": 1308,
     "firstDate": "2021-07-02",
     "lastDate": "2026-08-12",
-    "gaps": 27
+    "gaps": 26
   }
 }

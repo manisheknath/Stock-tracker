@@ -3,7 +3,7 @@
   "name": "Mapfre",
   "market": "ES",
   "yahooSymbol": "MAP.MC",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15218,6 +15218,15 @@
       "volume": 1401286
     },
     {
+      "date": "2026-08-11",
+      "open": 4.389999866485596,
+      "high": 4.427999973297119,
+      "low": 4.366000175476074,
+      "close": 4.375999927520752,
+      "adjClose": 4.375999927520752,
+      "volume": 1260227
+    },
+    {
       "date": "2026-08-12",
       "open": 4.380000114440918,
       "high": 4.400000095367432,
@@ -15289,9 +15298,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1691,
+    "barsAvailable": 1692,
     "firstDate": "2020-01-02",
     "lastDate": "2026-08-12",
-    "gaps": 34
+    "gaps": 33
   }
 }

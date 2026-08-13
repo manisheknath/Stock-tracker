@@ -3,7 +3,7 @@
   "name": "S&P Global",
   "market": "US",
   "yahooSymbol": "SPGI",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14950,11 +14950,20 @@
     {
       "date": "2026-08-12",
       "open": 407.1700134277344,
-      "high": 411.2449951171875,
+      "high": 411.25,
       "low": 404.4700012207031,
       "close": 410.1000061035156,
       "adjClose": 410.1000061035156,
-      "volume": 1539872
+      "volume": 1541000
+    },
+    {
+      "date": "2026-08-13",
+      "open": 414,
+      "high": 424.3399963378906,
+      "low": 411.2250061035156,
+      "close": 422.6700134277344,
+      "adjClose": 422.6700134277344,
+      "volume": 1774774
     }
   ],
   "corporateActions": {
@@ -15074,9 +15083,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1661,
+    "barsAvailable": 1662,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 64
   }
 }

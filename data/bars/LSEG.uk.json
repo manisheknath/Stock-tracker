@@ -3,7 +3,7 @@
   "name": "London Stock Exchange Group",
   "market": "UK",
   "yahooSymbol": "LSEG.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15007,7 +15007,7 @@
       "high": 9040,
       "low": 8718,
       "close": 8920,
-      "adjClose": 8920,
+      "adjClose": 8919.439453125,
       "volume": 2165441
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 8916,
       "low": 8808,
       "close": 8838,
-      "adjClose": 8838,
+      "adjClose": 8837.4443359375,
       "volume": 563324
     },
     {
@@ -15025,7 +15025,7 @@
       "high": 8870,
       "low": 8756,
       "close": 8806,
-      "adjClose": 8806,
+      "adjClose": 8805.447265625,
       "volume": 760873
     },
     {
@@ -15034,8 +15034,17 @@
       "high": 8842,
       "low": 8690,
       "close": 8752,
-      "adjClose": 8752,
-      "volume": 838658
+      "adjClose": 8751.4501953125,
+      "volume": 838784
+    },
+    {
+      "date": "2026-08-13",
+      "open": 8556,
+      "high": 8634,
+      "low": 8408,
+      "close": 8556,
+      "adjClose": 8556,
+      "volume": 937782
     }
   ],
   "corporateActions": {
@@ -15092,13 +15101,17 @@
       {
         "date": "2026-04-16",
         "amount": 103
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 55
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 55
   }
 }

@@ -3,7 +3,7 @@
   "name": "Rio Tinto",
   "market": "UK",
   "yahooSymbol": "RIO.L",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -14998,7 +14998,7 @@
       "high": 7528,
       "low": 7430,
       "close": 7528,
-      "adjClose": 7528,
+      "adjClose": 7525.88916015625,
       "volume": 9732860
     },
     {
@@ -15007,7 +15007,7 @@
       "high": 7564,
       "low": 7446,
       "close": 7510,
-      "adjClose": 7510,
+      "adjClose": 7507.89453125,
       "volume": 1251270
     },
     {
@@ -15016,7 +15016,7 @@
       "high": 7595,
       "low": 7494,
       "close": 7497,
-      "adjClose": 7497,
+      "adjClose": 7494.89794921875,
       "volume": 8611614
     },
     {
@@ -15025,8 +15025,17 @@
       "high": 7638,
       "low": 7520,
       "close": 7525,
-      "adjClose": 7525,
-      "volume": 2785718
+      "adjClose": 7522.89013671875,
+      "volume": 2786125
+    },
+    {
+      "date": "2026-08-13",
+      "open": 7300,
+      "high": 7300,
+      "low": 7140,
+      "close": 7166,
+      "adjClose": 7166,
+      "volume": 5307662
     }
   ],
   "corporateActions": {
@@ -15083,13 +15092,17 @@
       {
         "date": "2026-03-05",
         "amount": 191.77051
+      },
+      {
+        "date": "2026-08-13",
+        "amount": 156.43117
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1669,
+    "barsAvailable": 1670,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 56
   }
 }

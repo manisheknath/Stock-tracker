@@ -3,7 +3,7 @@
   "name": "Apollo Hospitals",
   "market": "IN",
   "yahooSymbol": "APOLLOHOSP.NS",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14766,6 +14766,15 @@
       "close": 8750.5,
       "adjClose": 8750.5,
       "volume": 562067
+    },
+    {
+      "date": "2026-08-12",
+      "open": 8750.5,
+      "high": 8775.5,
+      "low": 8507.5,
+      "close": 8597,
+      "adjClose": 8597,
+      "volume": 876688
     }
   ],
   "corporateActions": {
@@ -14814,13 +14823,17 @@
       {
         "date": "2026-02-16",
         "amount": 10
+      },
+      {
+        "date": "2026-08-14",
+        "amount": 10
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1640,
+    "barsAvailable": 1641,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-11",
+    "lastDate": "2026-08-12",
     "gaps": 85
   }
 }

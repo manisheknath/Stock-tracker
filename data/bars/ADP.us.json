@@ -3,7 +3,7 @@
   "name": "Automatic Data Processing",
   "market": "US",
   "yahooSymbol": "ADP",
-  "asOf": "2026-08-12",
+  "asOf": "2026-08-13",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -14950,11 +14950,20 @@
     {
       "date": "2026-08-12",
       "open": 269.20001220703125,
-      "high": 271.0299072265625,
-      "low": 265.9054870605469,
+      "high": 271.0299987792969,
+      "low": 265.8999938964844,
       "close": 269.3299865722656,
       "adjClose": 269.3299865722656,
-      "volume": 2106618
+      "volume": 2159900
+    },
+    {
+      "date": "2026-08-13",
+      "open": 271.010009765625,
+      "high": 276.875,
+      "low": 268.7300109863281,
+      "close": 276.2300109863281,
+      "adjClose": 276.2300109863281,
+      "volume": 1735284
     }
   ],
   "corporateActions": {
@@ -15067,9 +15076,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1661,
+    "barsAvailable": 1662,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 64
   }
 }
