@@ -3,7 +3,7 @@
   "name": "MSCI Inc.",
   "market": "US",
   "yahooSymbol": "MSCI",
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14963,7 +14963,16 @@
       "low": 555.1099853515625,
       "close": 575.239990234375,
       "adjClose": 575.239990234375,
-      "volume": 609934
+      "volume": 689700
+    },
+    {
+      "date": "2026-08-14",
+      "open": 572.5,
+      "high": 572.7550048828125,
+      "low": 567.0590209960938,
+      "close": 569.1300048828125,
+      "adjClose": 569.1300048828125,
+      "volume": 402484
     }
   ],
   "corporateActions": {
@@ -15076,9 +15085,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1662,
+    "barsAvailable": 1663,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-13",
+    "lastDate": "2026-08-14",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "FactSet",
   "market": "US",
   "yahooSymbol": "FDS",
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14963,7 +14963,16 @@
       "low": 274.5,
       "close": 287.17999267578125,
       "adjClose": 287.17999267578125,
-      "volume": 566376
+      "volume": 686900
+    },
+    {
+      "date": "2026-08-14",
+      "open": 288.57000732421875,
+      "high": 288.4949951171875,
+      "low": 278.81500244140625,
+      "close": 283.489990234375,
+      "adjClose": 283.489990234375,
+      "volume": 1081335
     }
   ],
   "corporateActions": {
@@ -15076,9 +15085,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1662,
+    "barsAvailable": 1663,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-13",
+    "lastDate": "2026-08-14",
     "gaps": 64
   }
 }

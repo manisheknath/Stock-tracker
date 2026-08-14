@@ -3,7 +3,7 @@
   "name": "RWE",
   "market": "DE",
   "yahooSymbol": "RWE.DE",
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15162,6 +15162,15 @@
       "close": 57.619998931884766,
       "adjClose": 57.619998931884766,
       "volume": 1586659
+    },
+    {
+      "date": "2026-08-13",
+      "open": 58.20000076293945,
+      "high": 59.720001220703125,
+      "low": 57.560001373291016,
+      "close": 59.13999938964844,
+      "adjClose": 59.13999938964844,
+      "volume": 3416801
     }
   ],
   "corporateActions": {
@@ -15198,9 +15207,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1684,
+    "barsAvailable": 1685,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-12",
+    "lastDate": "2026-08-13",
     "gaps": 41
   }
 }

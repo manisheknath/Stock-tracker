@@ -3,7 +3,7 @@
   "name": "Travelers Companies (The)",
   "market": "US",
   "yahooSymbol": "TRV",
-  "asOf": "2026-08-13",
+  "asOf": "2026-08-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14960,10 +14960,19 @@
       "date": "2026-08-13",
       "open": 371.4599914550781,
       "high": 374.8699951171875,
-      "low": 368.760009765625,
+      "low": 368.75,
       "close": 370,
       "adjClose": 370,
-      "volume": 1412948
+      "volume": 1788200
+    },
+    {
+      "date": "2026-08-14",
+      "open": 370.2099914550781,
+      "high": 371.6199951171875,
+      "low": 368.010009765625,
+      "close": 370.3599853515625,
+      "adjClose": 370.3599853515625,
+      "volume": 1214816
     }
   ],
   "corporateActions": {
@@ -15076,9 +15085,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1662,
+    "barsAvailable": 1663,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-13",
+    "lastDate": "2026-08-14",
     "gaps": 64
   }
 }
