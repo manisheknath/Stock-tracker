@@ -3,7 +3,7 @@
   "name": "Deutsche Börse",
   "market": "DE",
   "yahooSymbol": "DB1.DE",
-  "asOf": "2026-08-14",
+  "asOf": "2026-08-15",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15171,6 +15171,15 @@
       "close": 271.79998779296875,
       "adjClose": 271.79998779296875,
       "volume": 201132
+    },
+    {
+      "date": "2026-08-14",
+      "open": 273.3999938964844,
+      "high": 274.79998779296875,
+      "low": 270.6000061035156,
+      "close": 272.8999938964844,
+      "adjClose": 272.8999938964844,
+      "volume": 205398
     }
   ],
   "corporateActions": {
@@ -15207,9 +15216,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1685,
+    "barsAvailable": 1686,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-13",
+    "lastDate": "2026-08-14",
     "gaps": 41
   }
 }

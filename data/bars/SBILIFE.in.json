@@ -3,7 +3,7 @@
   "name": "SBI Life Insurance Company",
   "market": "IN",
   "yahooSymbol": "SBILIFE.NS",
-  "asOf": "2026-08-14",
+  "asOf": "2026-08-15",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14784,6 +14784,15 @@
       "close": 1812,
       "adjClose": 1812,
       "volume": 1421896
+    },
+    {
+      "date": "2026-08-14",
+      "open": 1812.800048828125,
+      "high": 1820.9000244140625,
+      "low": 1789.4000244140625,
+      "close": 1795,
+      "adjClose": 1795,
+      "volume": 564182
     }
   ],
   "corporateActions": {
@@ -14816,9 +14825,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1642,
+    "barsAvailable": 1643,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-13",
+    "lastDate": "2026-08-14",
     "gaps": 85
   }
 }
