@@ -3,7 +3,7 @@
   "name": "Airbnb",
   "market": "US",
   "yahooSymbol": "ABNB",
-  "asOf": "2026-08-17",
+  "asOf": "2026-08-18",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -12830,16 +12830,25 @@
       "low": 183.66000366210938,
       "close": 184.05999755859375,
       "adjClose": 184.05999755859375,
-      "volume": 3762300
+      "volume": 3766200
     },
     {
       "date": "2026-08-17",
-      "open": 184.13999938964844,
+      "open": 184.05999755859375,
       "high": 184.13999938964844,
       "low": 178.83999633789062,
       "close": 179.2899932861328,
       "adjClose": 179.2899932861328,
-      "volume": 3929845
+      "volume": 3942400
+    },
+    {
+      "date": "2026-08-18",
+      "open": 180.49000549316406,
+      "high": 186.10000610351562,
+      "low": 180.0800018310547,
+      "close": 183.25,
+      "adjClose": 183.25,
+      "volume": 4345848
     }
   ],
   "corporateActions": {
@@ -12847,9 +12856,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1426,
+    "barsAvailable": 1427,
     "firstDate": "2020-12-10",
-    "lastDate": "2026-08-17",
+    "lastDate": "2026-08-18",
     "gaps": 57
   }
 }

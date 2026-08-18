@@ -3,7 +3,7 @@
   "name": "Gartner",
   "market": "US",
   "yahooSymbol": "IT",
-  "asOf": "2026-08-17",
+  "asOf": "2026-08-18",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14977,11 +14977,20 @@
     {
       "date": "2026-08-17",
       "open": 178.4199981689453,
-      "high": 180.47500610351562,
-      "low": 173.2550048828125,
+      "high": 180.47999572753906,
+      "low": 173.25,
       "close": 179.19000244140625,
       "adjClose": 179.19000244140625,
-      "volume": 1819224
+      "volume": 2285300
+    },
+    {
+      "date": "2026-08-18",
+      "open": 178.1199951171875,
+      "high": 187.82000732421875,
+      "low": 178.17999267578125,
+      "close": 182.07000732421875,
+      "adjClose": 182.07000732421875,
+      "volume": 1065340
     }
   ],
   "corporateActions": {
@@ -14989,9 +14998,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1664,
+    "barsAvailable": 1665,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-17",
+    "lastDate": "2026-08-18",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Logista",
   "market": "ES",
   "yahooSymbol": "LOG.MC",
-  "asOf": "2026-08-17",
+  "asOf": "2026-08-18",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -96,6 +96,15 @@
       "close": 36.13999938964844,
       "adjClose": 36.13999938964844,
       "volume": 116330
+    },
+    {
+      "date": "2026-08-17",
+      "open": 36.13999938964844,
+      "high": 36.15999984741211,
+      "low": 35.86000061035156,
+      "close": 35.86000061035156,
+      "adjClose": 35.86000061035156,
+      "volume": 298560
     }
   ],
   "corporateActions": {
@@ -103,9 +112,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 10,
+    "barsAvailable": 11,
     "firstDate": "2026-08-03",
-    "lastDate": "2026-08-14",
+    "lastDate": "2026-08-17",
     "gaps": 0
   }
 }
