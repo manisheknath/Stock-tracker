@@ -3,7 +3,7 @@
   "name": "BBVA",
   "market": "ES",
   "yahooSymbol": "BBVA.MC",
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -105,6 +105,15 @@
       "close": 24.84000015258789,
       "adjClose": 24.84000015258789,
       "volume": 5744132
+    },
+    {
+      "date": "2026-08-18",
+      "open": 25,
+      "high": 25.200000762939453,
+      "low": 24.860000610351562,
+      "close": 24.8799991607666,
+      "adjClose": 24.8799991607666,
+      "volume": 5613193
     }
   ],
   "corporateActions": {
@@ -112,9 +121,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 11,
+    "barsAvailable": 12,
     "firstDate": "2026-08-03",
-    "lastDate": "2026-08-17",
+    "lastDate": "2026-08-18",
     "gaps": 0
   }
 }

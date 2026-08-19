@@ -3,7 +3,7 @@
   "name": "Repsol",
   "market": "ES",
   "yahooSymbol": "REP.MC",
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -96,6 +96,15 @@
       "close": 27.059999465942383,
       "adjClose": 27.059999465942383,
       "volume": 2055155
+    },
+    {
+      "date": "2026-08-18",
+      "open": 27.299999237060547,
+      "high": 27.760000228881836,
+      "low": 27.260000228881836,
+      "close": 27.479999542236328,
+      "adjClose": 27.479999542236328,
+      "volume": 2444800
     }
   ],
   "corporateActions": {
@@ -103,9 +112,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 10,
+    "barsAvailable": 11,
     "firstDate": "2026-08-03",
-    "lastDate": "2026-08-17",
+    "lastDate": "2026-08-18",
     "gaps": 1
   }
 }

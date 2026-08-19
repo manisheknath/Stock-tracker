@@ -3,7 +3,7 @@
   "name": "Berkshire Hathaway",
   "market": "US",
   "yahooSymbol": "BRK-B",
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14986,11 +14986,20 @@
     {
       "date": "2026-08-18",
       "open": 501.0400085449219,
-      "high": 504.4700012207031,
-      "low": 499.60321044921875,
+      "high": 504.5,
+      "low": 499.6000061035156,
       "close": 502.9599914550781,
       "adjClose": 502.9599914550781,
-      "volume": 3372593
+      "volume": 3380700
+    },
+    {
+      "date": "2026-08-19",
+      "open": 503.4100036621094,
+      "high": 507.05999755859375,
+      "low": 499.45001220703125,
+      "close": 499.6199951171875,
+      "adjClose": 499.6199951171875,
+      "volume": 3542880
     }
   ],
   "corporateActions": {
@@ -14998,9 +15007,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1665,
+    "barsAvailable": 1666,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-18",
+    "lastDate": "2026-08-19",
     "gaps": 64
   }
 }

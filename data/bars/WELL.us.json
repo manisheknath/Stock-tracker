@@ -3,7 +3,7 @@
   "name": "Welltower",
   "market": "US",
   "yahooSymbol": "WELL",
-  "asOf": "2026-08-18",
+  "asOf": "2026-08-19",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14976,12 +14976,21 @@
     },
     {
       "date": "2026-08-18",
-      "open": 235.73500061035156,
+      "open": 235.74000549316406,
       "high": 238.85000610351562,
-      "low": 235.02000427246094,
+      "low": 235,
       "close": 235.44000244140625,
       "adjClose": 235.44000244140625,
-      "volume": 1241159
+      "volume": 1883400
+    },
+    {
+      "date": "2026-08-19",
+      "open": 235.44000244140625,
+      "high": 236.72000122070312,
+      "low": 234.3000030517578,
+      "close": 235.72999572753906,
+      "adjClose": 235.72999572753906,
+      "volume": 1109932
     }
   ],
   "corporateActions": {
@@ -15098,9 +15107,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1664,
+    "barsAvailable": 1665,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-18",
+    "lastDate": "2026-08-19",
     "gaps": 65
   }
 }
