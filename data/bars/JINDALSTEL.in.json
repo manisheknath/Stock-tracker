@@ -3,7 +3,7 @@
   "name": "Jindal Steel",
   "market": "IN",
   "yahooSymbol": "JINDALSTEL.NS",
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14811,6 +14811,15 @@
       "close": 1101.5,
       "adjClose": 1101.5,
       "volume": 561974
+    },
+    {
+      "date": "2026-08-19",
+      "open": 1102.300048828125,
+      "high": 1121.800048828125,
+      "low": 1095.199951171875,
+      "close": 1115,
+      "adjClose": 1115,
+      "volume": 1140894
     }
   ],
   "corporateActions": {
@@ -14835,13 +14844,17 @@
       {
         "date": "2025-08-22",
         "amount": 2
+      },
+      {
+        "date": "2026-08-21",
+        "amount": 2
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1645,
+    "barsAvailable": 1646,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-18",
+    "lastDate": "2026-08-19",
     "gaps": 85
   }
 }

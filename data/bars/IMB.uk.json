@@ -3,7 +3,7 @@
   "name": "Imperial Brands",
   "market": "UK",
   "yahooSymbol": "IMB.L",
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15043,7 +15043,7 @@
       "high": 2652,
       "low": 2597,
       "close": 2609,
-      "adjClose": 2609,
+      "adjClose": 2608.5693359375,
       "volume": 4405178
     },
     {
@@ -15052,7 +15052,7 @@
       "high": 2614,
       "low": 2568,
       "close": 2568,
-      "adjClose": 2568,
+      "adjClose": 2567.576171875,
       "volume": 2140980
     },
     {
@@ -15061,7 +15061,7 @@
       "high": 2597,
       "low": 2544,
       "close": 2572,
-      "adjClose": 2572,
+      "adjClose": 2571.575439453125,
       "volume": 1810488
     },
     {
@@ -15070,8 +15070,17 @@
       "high": 2586.946044921875,
       "low": 2525,
       "close": 2525,
-      "adjClose": 2525,
-      "volume": 1681550
+      "adjClose": 2524.583251953125,
+      "volume": 1682467
+    },
+    {
+      "date": "2026-08-20",
+      "open": 2495,
+      "high": 2521,
+      "low": 2476,
+      "close": 2515,
+      "adjClose": 2515,
+      "volume": 2620993
     }
   ],
   "corporateActions": {
@@ -15180,13 +15189,17 @@
       {
         "date": "2026-05-21",
         "amount": 41.68
+      },
+      {
+        "date": "2026-08-20",
+        "amount": 41.68
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1674,
+    "barsAvailable": 1675,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-19",
+    "lastDate": "2026-08-20",
     "gaps": 56
   }
 }

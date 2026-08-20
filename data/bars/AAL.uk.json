@@ -3,7 +3,7 @@
   "name": "Anglo American plc",
   "market": "UK",
   "yahooSymbol": "AAL.L",
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15052,7 +15052,7 @@
       "high": 3904,
       "low": 3817,
       "close": 3850,
-      "adjClose": 3850,
+      "adjClose": 3849.779541015625,
       "volume": 25217221
     },
     {
@@ -15061,7 +15061,7 @@
       "high": 3957,
       "low": 3890,
       "close": 3928,
-      "adjClose": 3928,
+      "adjClose": 3927.77490234375,
       "volume": 11342597
     },
     {
@@ -15070,7 +15070,7 @@
       "high": 3931,
       "low": 3814,
       "close": 3831,
-      "adjClose": 3831,
+      "adjClose": 3830.780517578125,
       "volume": 7763039
     },
     {
@@ -15079,8 +15079,17 @@
       "high": 4024,
       "low": 3822,
       "close": 4015,
-      "adjClose": 4015,
-      "volume": 3155814
+      "adjClose": 4014.77001953125,
+      "volume": 4124566
+    },
+    {
+      "date": "2026-08-20",
+      "open": 3995,
+      "high": 4011,
+      "low": 3847,
+      "close": 3966,
+      "adjClose": 3966,
+      "volume": 3176361
     }
   ],
   "corporateActions": {
@@ -15144,13 +15153,17 @@
       {
         "date": "2026-03-12",
         "amount": 11.8220005
+      },
+      {
+        "date": "2026-08-20",
+        "amount": 16.86889
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1676,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-19",
+    "lastDate": "2026-08-20",
     "gaps": 55
   }
 }

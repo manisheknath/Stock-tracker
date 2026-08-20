@@ -3,7 +3,7 @@
   "name": "Altria",
   "market": "US",
   "yahooSymbol": "MO",
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14995,11 +14995,20 @@
     {
       "date": "2026-08-19",
       "open": 65.30999755859375,
-      "high": 66.44499969482422,
-      "low": 64.94819641113281,
+      "high": 66.44999694824219,
+      "low": 64.94999694824219,
       "close": 66.02999877929688,
       "adjClose": 66.02999877929688,
-      "volume": 11089503
+      "volume": 11094700
+    },
+    {
+      "date": "2026-08-20",
+      "open": 65.98500061035156,
+      "high": 67.25,
+      "low": 66,
+      "close": 66.94000244140625,
+      "adjClose": 66.94000244140625,
+      "volume": 10275096
     }
   ],
   "corporateActions": {
@@ -15112,9 +15121,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1666,
+    "barsAvailable": 1667,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-19",
+    "lastDate": "2026-08-20",
     "gaps": 64
   }
 }

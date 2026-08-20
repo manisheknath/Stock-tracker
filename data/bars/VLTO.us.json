@@ -3,7 +3,7 @@
   "name": "Veralto",
   "market": "US",
   "yahooSymbol": "VLTO",
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -6467,7 +6467,16 @@
       "low": 97.06999969482422,
       "close": 100.0999984741211,
       "adjClose": 100.0999984741211,
-      "volume": 992714
+      "volume": 1828800
+    },
+    {
+      "date": "2026-08-20",
+      "open": 100.25,
+      "high": 101,
+      "low": 99.13999938964844,
+      "close": 99.45999908447266,
+      "adjClose": 99.45999908447266,
+      "volume": 1374606
     }
   ],
   "corporateActions": {
@@ -6520,9 +6529,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 718,
+    "barsAvailable": 719,
     "firstDate": "2023-10-04",
-    "lastDate": "2026-08-19",
+    "lastDate": "2026-08-20",
     "gaps": 33
   }
 }

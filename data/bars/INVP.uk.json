@@ -3,7 +3,7 @@
   "name": "Investec",
   "market": "UK",
   "yahooSymbol": "INVP.L",
-  "asOf": "2026-08-19",
+  "asOf": "2026-08-20",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15052,7 +15052,7 @@
       "high": 687.8800048828125,
       "low": 672,
       "close": 674.5,
-      "adjClose": 674.5,
+      "adjClose": 674.286865234375,
       "volume": 3125082
     },
     {
@@ -15061,7 +15061,7 @@
       "high": 680,
       "low": 663.5,
       "close": 663.5,
-      "adjClose": 663.5,
+      "adjClose": 663.2903442382812,
       "volume": 1600323
     },
     {
@@ -15070,7 +15070,7 @@
       "high": 668,
       "low": 661.5,
       "close": 666,
-      "adjClose": 666,
+      "adjClose": 665.78955078125,
       "volume": 5370000
     },
     {
@@ -15079,8 +15079,17 @@
       "high": 669.5,
       "low": 662,
       "close": 664.5,
-      "adjClose": 664.5,
-      "volume": 2202227
+      "adjClose": 664.2899780273438,
+      "volume": 2202238
+    },
+    {
+      "date": "2026-08-20",
+      "open": 643,
+      "high": 644.781005859375,
+      "low": 630.5,
+      "close": 634,
+      "adjClose": 634,
+      "volume": 2809741
     }
   ],
   "corporateActions": {
@@ -15129,13 +15138,17 @@
       {
         "date": "2025-12-11",
         "amount": 17.5
+      },
+      {
+        "date": "2026-08-20",
+        "amount": 21
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1676,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-19",
+    "lastDate": "2026-08-20",
     "gaps": 55
   }
 }
