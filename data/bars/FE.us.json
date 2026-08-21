@@ -3,7 +3,7 @@
   "name": "FirstEnergy",
   "market": "US",
   "yahooSymbol": "FE",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15004,11 +15004,20 @@
     {
       "date": "2026-08-20",
       "open": 47.16999816894531,
-      "high": 47.775001525878906,
+      "high": 47.779998779296875,
       "low": 47.09000015258789,
       "close": 47.18000030517578,
       "adjClose": 47.18000030517578,
-      "volume": 3392827
+      "volume": 3392800
+    },
+    {
+      "date": "2026-08-21",
+      "open": 47.18000030517578,
+      "high": 47.349998474121094,
+      "low": 45.915000915527344,
+      "close": 45.959999084472656,
+      "adjClose": 45.959999084472656,
+      "volume": 4435664
     }
   ],
   "corporateActions": {
@@ -15125,9 +15134,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1668,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 64
   }
 }

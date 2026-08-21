@@ -3,7 +3,7 @@
   "name": "NN Group",
   "market": "NL",
   "yahooSymbol": "NN.AS",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 77.12000274658203,
       "adjClose": 77.12000274658203,
       "volume": 567566
+    },
+    {
+      "date": "2026-08-20",
+      "open": 77,
+      "high": 77.0999984741211,
+      "low": 75.36000061035156,
+      "close": 75.62000274658203,
+      "adjClose": 75.62000274658203,
+      "volume": 654623
     }
   ],
   "corporateActions": {
@@ -15339,9 +15348,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-19",
+    "lastDate": "2026-08-20",
     "gaps": 33
   }
 }

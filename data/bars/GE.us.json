@@ -3,7 +3,7 @@
   "name": "GE Aerospace",
   "market": "US",
   "yahooSymbol": "GE",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15004,11 +15004,20 @@
     {
       "date": "2026-08-20",
       "open": 353.0899963378906,
-      "high": 354.4607849121094,
+      "high": 354.5,
       "low": 343.55999755859375,
       "close": 344.6400146484375,
       "adjClose": 344.6400146484375,
-      "volume": 6052008
+      "volume": 6056100
+    },
+    {
+      "date": "2026-08-21",
+      "open": 347.5400085449219,
+      "high": 351.8599853515625,
+      "low": 346.4100036621094,
+      "close": 348.3699951171875,
+      "adjClose": 348.3699951171875,
+      "volume": 3545795
     }
   ],
   "corporateActions": {
@@ -15140,9 +15149,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1668,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 64
   }
 }

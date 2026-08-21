@@ -3,7 +3,7 @@
   "name": "Diageo",
   "market": "UK",
   "yahooSymbol": "DGE.L",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15080,7 +15080,16 @@
       "low": 1690.5,
       "close": 1723.5,
       "adjClose": 1723.5,
-      "volume": 3520121
+      "volume": 3520621
+    },
+    {
+      "date": "2026-08-21",
+      "open": 1722,
+      "high": 1730,
+      "low": 1704,
+      "close": 1719,
+      "adjClose": 1719,
+      "volume": 4806532
     }
   ],
   "corporateActions": {
@@ -15141,9 +15150,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1676,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 56
   }
 }

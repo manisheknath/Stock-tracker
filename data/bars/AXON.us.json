@@ -3,7 +3,7 @@
   "name": "Axon Enterprise",
   "market": "US",
   "yahooSymbol": "AXON",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15003,12 +15003,21 @@
     },
     {
       "date": "2026-08-20",
-      "open": 640,
-      "high": 643.97998046875,
+      "open": 643,
+      "high": 644,
       "low": 613.27001953125,
       "close": 614.260009765625,
       "adjClose": 614.260009765625,
-      "volume": 838869
+      "volume": 839000
+    },
+    {
+      "date": "2026-08-21",
+      "open": 623.8599853515625,
+      "high": 636.36328125,
+      "low": 603.760009765625,
+      "close": 627.75,
+      "adjClose": 627.75,
+      "volume": 594935
     }
   ],
   "corporateActions": {
@@ -15016,9 +15025,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1668,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 64
   }
 }

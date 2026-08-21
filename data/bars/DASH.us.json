@@ -3,7 +3,7 @@
   "name": "DoorDash",
   "market": "US",
   "yahooSymbol": "DASH",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -12870,12 +12870,21 @@
     },
     {
       "date": "2026-08-20",
-      "open": 219.0279998779297,
-      "high": 224.02000427246094,
-      "low": 216.4199981689453,
+      "open": 219.00999450683594,
+      "high": 224.0399932861328,
+      "low": 216.00999450683594,
       "close": 222.36000061035156,
       "adjClose": 222.36000061035156,
-      "volume": 5870851
+      "volume": 5870900
+    },
+    {
+      "date": "2026-08-21",
+      "open": 223.47000122070312,
+      "high": 225.947998046875,
+      "low": 219.25999450683594,
+      "close": 223.49000549316406,
+      "adjClose": 223.49000549316406,
+      "volume": 3715944
     }
   ],
   "corporateActions": {
@@ -12883,9 +12892,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1430,
+    "barsAvailable": 1431,
     "firstDate": "2020-12-09",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 57
   }
 }

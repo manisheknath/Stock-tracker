@@ -3,7 +3,7 @@
   "name": "Bunge Global",
   "market": "US",
   "yahooSymbol": "BG",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14978,10 +14978,19 @@
       "date": "2026-08-20",
       "open": 114.43000030517578,
       "high": 118.56999969482422,
-      "low": 115.48999786376953,
+      "low": 114,
       "close": 116.56999969482422,
       "adjClose": 116.56999969482422,
-      "volume": 904853
+      "volume": 904900
+    },
+    {
+      "date": "2026-08-21",
+      "open": 117.8499984741211,
+      "high": 118.73999786376953,
+      "low": 110.76000213623047,
+      "close": 113.11000061035156,
+      "adjClose": 113.11000061035156,
+      "volume": 1892520
     }
   ],
   "corporateActions": {
@@ -15098,9 +15107,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1664,
+    "barsAvailable": 1665,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 67
   }
 }

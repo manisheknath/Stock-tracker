@@ -3,7 +3,7 @@
   "name": "Hilton Worldwide",
   "market": "US",
   "yahooSymbol": "HLT",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15004,11 +15004,20 @@
     {
       "date": "2026-08-20",
       "open": 333.0799865722656,
-      "high": 333.5,
-      "low": 327.4949951171875,
+      "high": 333.5400085449219,
+      "low": 327.44000244140625,
       "close": 329.6099853515625,
       "adjClose": 329.6099853515625,
-      "volume": 2119466
+      "volume": 2119500
+    },
+    {
+      "date": "2026-08-21",
+      "open": 330.4200134277344,
+      "high": 331.985107421875,
+      "low": 325.2699890136719,
+      "close": 326.6300048828125,
+      "adjClose": 326.6300048828125,
+      "volume": 1043972
     }
   ],
   "corporateActions": {
@@ -15089,9 +15098,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1668,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 64
   }
 }

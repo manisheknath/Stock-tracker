@@ -3,7 +3,7 @@
   "name": "Union Pacific Corporation",
   "market": "US",
   "yahooSymbol": "UNP",
-  "asOf": "2026-08-20",
+  "asOf": "2026-08-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15004,11 +15004,20 @@
     {
       "date": "2026-08-20",
       "open": 300.75,
-      "high": 307.6449890136719,
+      "high": 307.6499938964844,
       "low": 300.010009765625,
       "close": 303.9700012207031,
       "adjClose": 303.9700012207031,
-      "volume": 4107318
+      "volume": 4107300
+    },
+    {
+      "date": "2026-08-21",
+      "open": 306.260009765625,
+      "high": 308.260009765625,
+      "low": 303.8699951171875,
+      "close": 308.04998779296875,
+      "adjClose": 308.04998779296875,
+      "volume": 2684224
     }
   ],
   "corporateActions": {
@@ -15121,9 +15130,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1668,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-20",
+    "lastDate": "2026-08-21",
     "gaps": 64
   }
 }
