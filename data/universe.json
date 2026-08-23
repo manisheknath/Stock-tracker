@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-23",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -603,13 +603,6 @@
       "market": "UK",
       "index": "FTSE100",
       "yahooSymbol": "AV.L"
-    },
-    {
-      "ticker": "AVB.us",
-      "name": "AvalonBay Communities",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "AVB"
     },
     {
       "ticker": "AVGO.us",
@@ -2045,13 +2038,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "EQIX"
-    },
-    {
-      "ticker": "EQR.us",
-      "name": "Equity Residential",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "EQR"
     },
     {
       "ticker": "EQT.us",
@@ -4532,6 +4518,13 @@
       "yahooSymbol": "RCL"
     },
     {
+      "ticker": "RDDT.us",
+      "name": "Reddit",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "RDDT"
+    },
+    {
       "ticker": "RECLTD.in",
       "name": "REC",
       "market": "IN",
@@ -5699,6 +5692,13 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "VMC"
+    },
+    {
+      "ticker": "VMRK.us",
+      "name": "Vivmark Residential",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VMRK"
     },
     {
       "ticker": "VNA.de",

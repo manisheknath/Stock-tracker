@@ -3,7 +3,7 @@
   "name": "Siemens Energy",
   "market": "IN",
   "yahooSymbol": "ENRIN.NS",
-  "asOf": "2026-08-22",
+  "asOf": "2026-08-23",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -2519,6 +2519,15 @@
       "volume": 701712
     },
     {
+      "date": "2026-07-31",
+      "open": 3154.60009765625,
+      "high": 3247.89990234375,
+      "low": 3152,
+      "close": 3230.800048828125,
+      "adjClose": 3230.800048828125,
+      "volume": 536106
+    },
+    {
       "date": "2026-08-03",
       "open": 3236,
       "high": 3298.300048828125,
@@ -2664,9 +2673,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 294,
+    "barsAvailable": 295,
     "firstDate": "2025-06-19",
     "lastDate": "2026-08-21",
-    "gaps": 13
+    "gaps": 12
   }
 }
