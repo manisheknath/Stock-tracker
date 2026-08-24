@@ -3,7 +3,7 @@
   "name": "Goldman Sachs",
   "market": "US",
   "yahooSymbol": "GS",
-  "asOf": "2026-08-23",
+  "asOf": "2026-08-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15018,6 +15018,15 @@
       "close": 1039.280029296875,
       "adjClose": 1039.280029296875,
       "volume": 2744000
+    },
+    {
+      "date": "2026-08-24",
+      "open": 1039,
+      "high": 1047.280029296875,
+      "low": 1030.1800537109375,
+      "close": 1036.280029296875,
+      "adjClose": 1036.280029296875,
+      "volume": 1986510
     }
   ],
   "corporateActions": {
@@ -15130,9 +15139,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1668,
+    "barsAvailable": 1669,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-21",
+    "lastDate": "2026-08-24",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "FedEx",
   "market": "US",
   "yahooSymbol": "FDX",
-  "asOf": "2026-08-23",
+  "asOf": "2026-08-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15018,6 +15018,15 @@
       "close": 325.0799865722656,
       "adjClose": 325.0799865722656,
       "volume": 1776700
+    },
+    {
+      "date": "2026-08-24",
+      "open": 325,
+      "high": 334.3699951171875,
+      "low": 324.29998779296875,
+      "close": 334.04998779296875,
+      "adjClose": 334.04998779296875,
+      "volume": 1489711
     }
   ],
   "corporateActions": {
@@ -15137,9 +15146,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1668,
+    "barsAvailable": 1669,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-21",
+    "lastDate": "2026-08-24",
     "gaps": 64
   }
 }
