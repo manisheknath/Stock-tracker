@@ -3,7 +3,7 @@
   "name": "Computacenter",
   "market": "UK",
   "yahooSymbol": "CCC.L",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15103,11 +15103,20 @@
     {
       "date": "2026-08-24",
       "open": 5070,
-      "high": 5105.8076171875,
+      "high": 5105.80810546875,
       "low": 5040,
       "close": 5100,
       "adjClose": 5100,
-      "volume": 94952
+      "volume": 94957
+    },
+    {
+      "date": "2026-08-25",
+      "open": 5075,
+      "high": 5220,
+      "low": 5075,
+      "close": 5190,
+      "adjClose": 5190,
+      "volume": 176191
     }
   ],
   "corporateActions": {
@@ -15164,9 +15173,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 55
   }
 }

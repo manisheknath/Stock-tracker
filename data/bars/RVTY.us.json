@@ -3,7 +3,7 @@
   "name": "Revvity",
   "market": "US",
   "yahooSymbol": "RVTY",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15022,11 +15022,20 @@
     {
       "date": "2026-08-24",
       "open": 123.48999786376953,
-      "high": 124.37999725341797,
+      "high": 124.88999938964844,
       "low": 121.37999725341797,
       "close": 123,
       "adjClose": 123,
-      "volume": 1505356
+      "volume": 1505400
+    },
+    {
+      "date": "2026-08-25",
+      "open": 123.69000244140625,
+      "high": 124.94000244140625,
+      "low": 122.45500183105469,
+      "close": 124.83999633789062,
+      "adjClose": 124.83999633789062,
+      "volume": 1035638
     }
   ],
   "corporateActions": {
@@ -15143,9 +15152,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1669,
+    "barsAvailable": 1670,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 64
   }
 }

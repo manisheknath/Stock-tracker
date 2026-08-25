@@ -3,7 +3,7 @@
   "name": "Lion Finance Group",
   "market": "UK",
   "yahooSymbol": "BGEO.L",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15103,11 +15103,20 @@
     {
       "date": "2026-08-24",
       "open": 13050,
-      "high": 13260,
+      "high": 13270,
       "low": 13010,
       "close": 13230,
       "adjClose": 13230,
-      "volume": 55155
+      "volume": 55163
+    },
+    {
+      "date": "2026-08-25",
+      "open": 13360,
+      "high": 13450,
+      "low": 13070,
+      "close": 13330,
+      "adjClose": 13330,
+      "volume": 54224
     }
   ],
   "corporateActions": {
@@ -15164,9 +15173,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 55
   }
 }

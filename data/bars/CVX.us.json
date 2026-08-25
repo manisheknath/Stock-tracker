@@ -3,7 +3,7 @@
   "name": "Chevron Corporation",
   "market": "US",
   "yahooSymbol": "CVX",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15023,10 +15023,19 @@
       "date": "2026-08-24",
       "open": 203.6699981689453,
       "high": 205.3000030517578,
-      "low": 201.77000427246094,
+      "low": 201.75,
       "close": 203.08999633789062,
       "adjClose": 203.08999633789062,
-      "volume": 5559861
+      "volume": 5853900
+    },
+    {
+      "date": "2026-08-25",
+      "open": 201.02999877929688,
+      "high": 202.02499389648438,
+      "low": 199.7899932861328,
+      "close": 199.88999938964844,
+      "adjClose": 199.88999938964844,
+      "volume": 7540886
     }
   ],
   "corporateActions": {
@@ -15143,9 +15152,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1669,
+    "barsAvailable": 1670,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 64
   }
 }

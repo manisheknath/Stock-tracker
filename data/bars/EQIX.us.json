@@ -3,7 +3,7 @@
   "name": "Equinix",
   "market": "US",
   "yahooSymbol": "EQIX",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15021,12 +15021,21 @@
     },
     {
       "date": "2026-08-24",
-      "open": 1065.6400146484375,
+      "open": 1066.7099609375,
       "high": 1072.5,
       "low": 1033.8299560546875,
       "close": 1055.199951171875,
       "adjClose": 1055.199951171875,
-      "volume": 630672
+      "volume": 681000
+    },
+    {
+      "date": "2026-08-25",
+      "open": 1054.4000244140625,
+      "high": 1086.97998046875,
+      "low": 1027.93994140625,
+      "close": 1073.43994140625,
+      "adjClose": 1073.43994140625,
+      "volume": 434280
     }
   ],
   "corporateActions": {
@@ -15143,9 +15152,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1669,
+    "barsAvailable": 1670,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 64
   }
 }

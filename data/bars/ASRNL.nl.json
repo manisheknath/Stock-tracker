@@ -3,7 +3,7 @@
   "name": "ASR Nederland",
   "market": "NL",
   "yahooSymbol": "ASRNL.AS",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 69.45999908447266,
       "adjClose": 69.45999908447266,
       "volume": 422748
+    },
+    {
+      "date": "2026-08-24",
+      "open": 69.58000183105469,
+      "high": 70.4800033569336,
+      "low": 69.36000061035156,
+      "close": 70.4800033569336,
+      "adjClose": 70.4800033569336,
+      "volume": 482457
     }
   ],
   "corporateActions": {
@@ -15367,13 +15376,17 @@
       {
         "date": "2026-05-22",
         "amount": 2.14
+      },
+      {
+        "date": "2026-08-26",
+        "amount": 1.39
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-21",
+    "lastDate": "2026-08-24",
     "gaps": 31
   }
 }

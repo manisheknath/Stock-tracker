@@ -3,7 +3,7 @@
   "name": "WEC Energy Group",
   "market": "US",
   "yahooSymbol": "WEC",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15022,11 +15022,20 @@
     {
       "date": "2026-08-24",
       "open": 106.5,
-      "high": 107.84020233154297,
+      "high": 107.83999633789062,
       "low": 106.01000213623047,
       "close": 107.58000183105469,
       "adjClose": 107.58000183105469,
-      "volume": 2703416
+      "volume": 2703400
+    },
+    {
+      "date": "2026-08-25",
+      "open": 107.77999877929688,
+      "high": 107.90499877929688,
+      "low": 106.61000061035156,
+      "close": 106.66999816894531,
+      "adjClose": 106.66999816894531,
+      "volume": 1780691
     }
   ],
   "corporateActions": {
@@ -15143,9 +15152,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1669,
+    "barsAvailable": 1670,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 64
   }
 }

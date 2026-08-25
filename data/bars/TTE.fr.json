@@ -3,7 +3,7 @@
   "name": "TotalEnergies",
   "market": "FR",
   "yahooSymbol": "TTE.PA",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 77.44000244140625,
       "adjClose": 77.44000244140625,
       "volume": 3691016
+    },
+    {
+      "date": "2026-08-24",
+      "open": 77.19999694824219,
+      "high": 77.25,
+      "low": 75.94000244140625,
+      "close": 75.9800033569336,
+      "adjClose": 75.9800033569336,
+      "volume": 2712191
     }
   ],
   "corporateActions": {
@@ -15435,9 +15444,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-21",
+    "lastDate": "2026-08-24",
     "gaps": 31
   }
 }

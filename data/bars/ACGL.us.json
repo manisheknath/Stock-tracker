@@ -3,7 +3,7 @@
   "name": "Arch Capital Group",
   "market": "US",
   "yahooSymbol": "ACGL",
-  "asOf": "2026-08-24",
+  "asOf": "2026-08-25",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15021,12 +15021,21 @@
     },
     {
       "date": "2026-08-24",
-      "open": 99.72000122070312,
-      "high": 101.56999969482422,
+      "open": 100,
+      "high": 101.58000183105469,
       "low": 99.52999877929688,
       "close": 101.13999938964844,
       "adjClose": 101.13999938964844,
-      "volume": 1196762
+      "volume": 1202300
+    },
+    {
+      "date": "2026-08-25",
+      "open": 101.13999938964844,
+      "high": 101.2699966430664,
+      "low": 100.1449966430664,
+      "close": 100.55999755859375,
+      "adjClose": 100.55999755859375,
+      "volume": 1039611
     }
   ],
   "corporateActions": {
@@ -15039,9 +15048,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1669,
+    "barsAvailable": 1670,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-25",
     "gaps": 64
   }
 }
