@@ -3,7 +3,7 @@
   "name": "Eaton Corporation",
   "market": "US",
   "yahooSymbol": "ETN",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15032,10 +15032,19 @@
       "date": "2026-08-25",
       "open": 418.3299865722656,
       "high": 419.989990234375,
-      "low": 407.4700927734375,
+      "low": 407.4700012207031,
       "close": 409.20001220703125,
       "adjClose": 409.20001220703125,
-      "volume": 1521065
+      "volume": 1521400
+    },
+    {
+      "date": "2026-08-26",
+      "open": 411.9700012207031,
+      "high": 420.9200134277344,
+      "low": 409.7749938964844,
+      "close": 419.44000244140625,
+      "adjClose": 419.44000244140625,
+      "volume": 1749019
     }
   ],
   "corporateActions": {
@@ -15152,9 +15161,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

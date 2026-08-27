@@ -3,7 +3,7 @@
   "name": "U.S. Bancorp",
   "market": "US",
   "yahooSymbol": "USB",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15031,11 +15031,20 @@
     {
       "date": "2026-08-25",
       "open": 62.439998626708984,
-      "high": 62.494998931884766,
+      "high": 62.5,
       "low": 61.9900016784668,
       "close": 62.40999984741211,
       "adjClose": 62.40999984741211,
-      "volume": 6274997
+      "volume": 6311600
+    },
+    {
+      "date": "2026-08-26",
+      "open": 62.45000076293945,
+      "high": 63.18000030517578,
+      "low": 62.095001220703125,
+      "close": 62.79999923706055,
+      "adjClose": 62.79999923706055,
+      "volume": 6387652
     }
   ],
   "corporateActions": {
@@ -15148,9 +15157,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

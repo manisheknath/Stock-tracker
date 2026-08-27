@@ -3,7 +3,7 @@
   "name": "Texas Pacific Land Corporation",
   "market": "US",
   "yahooSymbol": "TPL",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15032,10 +15032,19 @@
       "date": "2026-08-25",
       "open": 368.17999267578125,
       "high": 376.5400085449219,
-      "low": 365.1614990234375,
+      "low": 365.1600036621094,
       "close": 372.7900085449219,
       "adjClose": 372.7900085449219,
-      "volume": 242613
+      "volume": 242900
+    },
+    {
+      "date": "2026-08-26",
+      "open": 369.5799865722656,
+      "high": 383.04400634765625,
+      "low": 368,
+      "close": 369.3999938964844,
+      "adjClose": 369.3999938964844,
+      "volume": 288885
     }
   ],
   "corporateActions": {
@@ -15157,9 +15166,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

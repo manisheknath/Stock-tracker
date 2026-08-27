@@ -3,7 +3,7 @@
   "name": "Domino's",
   "market": "US",
   "yahooSymbol": "DPZ",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15031,11 +15031,20 @@
     {
       "date": "2026-08-25",
       "open": 346.25,
-      "high": 353.92498779296875,
+      "high": 353.92999267578125,
       "low": 346.25,
       "close": 349.9100036621094,
       "adjClose": 349.9100036621094,
-      "volume": 940737
+      "volume": 940800
+    },
+    {
+      "date": "2026-08-26",
+      "open": 345.45001220703125,
+      "high": 348.8999938964844,
+      "low": 341.45001220703125,
+      "close": 344.55999755859375,
+      "adjClose": 344.55999755859375,
+      "volume": 884663
     }
   ],
   "corporateActions": {
@@ -15148,9 +15157,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

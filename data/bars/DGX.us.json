@@ -3,7 +3,7 @@
   "name": "Quest Diagnostics",
   "market": "US",
   "yahooSymbol": "DGX",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15035,7 +15035,16 @@
       "low": 241.7899932861328,
       "close": 244.50999450683594,
       "adjClose": 244.50999450683594,
-      "volume": 709140
+      "volume": 709200
+    },
+    {
+      "date": "2026-08-26",
+      "open": 244.11000061035156,
+      "high": 245.98500061035156,
+      "low": 243.48500061035156,
+      "close": 245,
+      "adjClose": 245,
+      "volume": 811002
     }
   ],
   "corporateActions": {
@@ -15152,9 +15161,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

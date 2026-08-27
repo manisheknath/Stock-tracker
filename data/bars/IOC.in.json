@@ -3,7 +3,7 @@
   "name": "Indian Oil Corporation",
   "market": "IN",
   "yahooSymbol": "IOC.NS",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14847,6 +14847,24 @@
       "close": 138.5,
       "adjClose": 138.5,
       "volume": 9432799
+    },
+    {
+      "date": "2026-08-25",
+      "open": 138,
+      "high": 139,
+      "low": 137,
+      "close": 139,
+      "adjClose": 139,
+      "volume": 7676722
+    },
+    {
+      "date": "2026-08-26",
+      "open": 140,
+      "high": 141.14999389648438,
+      "low": 138.5,
+      "close": 139.47999572753906,
+      "adjClose": 139.47999572753906,
+      "volume": 6514034
     }
   ],
   "corporateActions": {
@@ -14918,9 +14936,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1649,
+    "barsAvailable": 1651,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-24",
+    "lastDate": "2026-08-26",
     "gaps": 85
   }
 }

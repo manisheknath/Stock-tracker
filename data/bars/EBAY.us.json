@@ -3,7 +3,7 @@
   "name": "eBay Inc.",
   "market": "US",
   "yahooSymbol": "EBAY",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15031,11 +15031,20 @@
     {
       "date": "2026-08-25",
       "open": 106.52999877929688,
-      "high": 107.13839721679688,
+      "high": 107.13999938964844,
       "low": 105.44999694824219,
       "close": 106,
       "adjClose": 106,
-      "volume": 2424502
+      "volume": 2444400
+    },
+    {
+      "date": "2026-08-26",
+      "open": 105.72000122070312,
+      "high": 106.08000183105469,
+      "low": 104,
+      "close": 104.19999694824219,
+      "adjClose": 104.19999694824219,
+      "volume": 2003976
     }
   ],
   "corporateActions": {
@@ -15148,9 +15157,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

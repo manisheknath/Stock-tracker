@@ -3,7 +3,7 @@
   "name": "Boeing",
   "market": "US",
   "yahooSymbol": "BA",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15030,12 +15030,21 @@
     },
     {
       "date": "2026-08-25",
-      "open": 212.4949951171875,
+      "open": 212.5,
       "high": 212.94000244140625,
       "low": 210.11000061035156,
       "close": 211.0800018310547,
       "adjClose": 211.0800018310547,
-      "volume": 4835007
+      "volume": 4854600
+    },
+    {
+      "date": "2026-08-26",
+      "open": 211.77999877929688,
+      "high": 212.60000610351562,
+      "low": 209.66000366210938,
+      "close": 212.08999633789062,
+      "adjClose": 212.08999633789062,
+      "volume": 4346178
     }
   ],
   "corporateActions": {
@@ -15048,9 +15057,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

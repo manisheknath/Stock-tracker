@@ -3,7 +3,7 @@
   "name": "Coinbase",
   "market": "US",
   "yahooSymbol": "COIN",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -12132,12 +12132,21 @@
     },
     {
       "date": "2026-08-25",
-      "open": 176.1649932861328,
+      "open": 176,
       "high": 189.27000427246094,
       "low": 174.72999572753906,
       "close": 187.16000366210938,
       "adjClose": 187.16000366210938,
-      "volume": 10514422
+      "volume": 10565300
+    },
+    {
+      "date": "2026-08-26",
+      "open": 181.64999389648438,
+      "high": 185.47000122070312,
+      "low": 179.43170166015625,
+      "close": 181.77999877929688,
+      "adjClose": 181.77999877929688,
+      "volume": 6210882
     }
   ],
   "corporateActions": {
@@ -12145,9 +12154,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1348,
+    "barsAvailable": 1349,
     "firstDate": "2021-04-14",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 52
   }
 }

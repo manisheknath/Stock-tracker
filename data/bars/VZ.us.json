@@ -3,7 +3,7 @@
   "name": "Verizon",
   "market": "US",
   "yahooSymbol": "VZ",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15030,12 +15030,21 @@
     },
     {
       "date": "2026-08-25",
-      "open": 49.994998931884766,
+      "open": 50,
       "high": 50.33000183105469,
       "low": 49.790000915527344,
       "close": 50.25,
       "adjClose": 50.25,
-      "volume": 21336318
+      "volume": 21337600
+    },
+    {
+      "date": "2026-08-26",
+      "open": 50.310001373291016,
+      "high": 50.779998779296875,
+      "low": 50.08000183105469,
+      "close": 50.189998626708984,
+      "adjClose": 50.189998626708984,
+      "volume": 20697480
     }
   ],
   "corporateActions": {
@@ -15152,9 +15161,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

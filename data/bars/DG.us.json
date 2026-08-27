@@ -3,7 +3,7 @@
   "name": "Dollar General",
   "market": "US",
   "yahooSymbol": "DG",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15031,11 +15031,20 @@
     {
       "date": "2026-08-25",
       "open": 124.77999877929688,
-      "high": 124.7699966430664,
+      "high": 124.80999755859375,
       "low": 122.30000305175781,
       "close": 122.58000183105469,
       "adjClose": 122.58000183105469,
-      "volume": 1529743
+      "volume": 1532800
+    },
+    {
+      "date": "2026-08-26",
+      "open": 122,
+      "high": 123.79000091552734,
+      "low": 120.44000244140625,
+      "close": 122.77999877929688,
+      "adjClose": 122.77999877929688,
+      "volume": 3228337
     }
   ],
   "corporateActions": {
@@ -15152,9 +15161,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

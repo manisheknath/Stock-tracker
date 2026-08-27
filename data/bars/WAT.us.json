@@ -3,7 +3,7 @@
   "name": "Waters Corporation",
   "market": "US",
   "yahooSymbol": "WAT",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15035,7 +15035,16 @@
       "low": 407.1199951171875,
       "close": 414.44000244140625,
       "adjClose": 414.44000244140625,
-      "volume": 631808
+      "volume": 631800
+    },
+    {
+      "date": "2026-08-26",
+      "open": 409.75,
+      "high": 418.43499755859375,
+      "low": 407.5299987792969,
+      "close": 414.1700134277344,
+      "adjClose": 414.1700134277344,
+      "volume": 426638
     }
   ],
   "corporateActions": {
@@ -15043,9 +15052,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1670,
+    "barsAvailable": 1671,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 64
   }
 }

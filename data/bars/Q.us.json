@@ -3,7 +3,7 @@
   "name": "Qnity Electronics",
   "market": "US",
   "yahooSymbol": "Q",
-  "asOf": "2026-08-25",
+  "asOf": "2026-08-27",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -1873,11 +1873,20 @@
     {
       "date": "2026-08-25",
       "open": 129.0399932861328,
-      "high": 129.49000549316406,
+      "high": 129.5,
       "low": 125.80999755859375,
       "close": 126.62000274658203,
       "adjClose": 126.62000274658203,
-      "volume": 915616
+      "volume": 944900
+    },
+    {
+      "date": "2026-08-26",
+      "open": 127.12000274658203,
+      "high": 127.92379760742188,
+      "low": 125.13999938964844,
+      "close": 126.19999694824219,
+      "adjClose": 126.19999694824219,
+      "volume": 1438690
     }
   ],
   "corporateActions": {
@@ -1898,9 +1907,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 208,
+    "barsAvailable": 209,
     "firstDate": "2025-10-27",
-    "lastDate": "2026-08-25",
+    "lastDate": "2026-08-26",
     "gaps": 9
   }
 }
