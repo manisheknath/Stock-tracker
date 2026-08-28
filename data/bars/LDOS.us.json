@@ -3,7 +3,7 @@
   "name": "Leidos",
   "market": "US",
   "yahooSymbol": "LDOS",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15041,10 +15041,19 @@
       "date": "2026-08-26",
       "open": 134.32000732421875,
       "high": 138.05999755859375,
-      "low": 134.32000732421875,
+      "low": 134.27000427246094,
       "close": 137.42999267578125,
       "adjClose": 137.42999267578125,
-      "volume": 944467
+      "volume": 944500
+    },
+    {
+      "date": "2026-08-27",
+      "open": 137.8300018310547,
+      "high": 140.5800018310547,
+      "low": 137.07000732421875,
+      "close": 139.86000061035156,
+      "adjClose": 139.86000061035156,
+      "volume": 880300
     }
   ],
   "corporateActions": {
@@ -15157,9 +15166,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

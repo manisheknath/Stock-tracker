@@ -3,7 +3,7 @@
   "name": "Strategy Inc",
   "market": "US",
   "yahooSymbol": "MSTR",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15039,12 +15039,21 @@
     },
     {
       "date": "2026-08-26",
-      "open": 123.19499969482422,
+      "open": 123.26000213623047,
       "high": 125.54000091552734,
       "low": 120.87000274658203,
       "close": 123.19000244140625,
       "adjClose": 123.19000244140625,
-      "volume": 16645203
+      "volume": 17032300
+    },
+    {
+      "date": "2026-08-27",
+      "open": 126.7699966430664,
+      "high": 139.77999877929688,
+      "low": 124.47000122070312,
+      "close": 137.39999389648438,
+      "adjClose": 137.39999389648438,
+      "volume": 44091800
     }
   ],
   "corporateActions": {
@@ -15059,9 +15068,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Datadog",
   "market": "US",
   "yahooSymbol": "DDOG",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15039,12 +15039,21 @@
     },
     {
       "date": "2026-08-26",
-      "open": 220.42999267578125,
+      "open": 220.4600067138672,
       "high": 234.9499969482422,
       "low": 219,
       "close": 227.6699981689453,
       "adjClose": 227.6699981689453,
-      "volume": 4038696
+      "volume": 4044000
+    },
+    {
+      "date": "2026-08-27",
+      "open": 237,
+      "high": 251.99000549316406,
+      "low": 236,
+      "close": 242.92999267578125,
+      "adjClose": 242.92999267578125,
+      "volume": 4550400
     }
   ],
   "corporateActions": {
@@ -15052,9 +15061,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

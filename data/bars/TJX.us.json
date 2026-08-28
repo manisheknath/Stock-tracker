@@ -3,7 +3,7 @@
   "name": "TJX Companies",
   "market": "US",
   "yahooSymbol": "TJX",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15040,11 +15040,20 @@
     {
       "date": "2026-08-26",
       "open": 139.1999969482422,
-      "high": 139.17999267578125,
+      "high": 139.25,
       "low": 136.74000549316406,
       "close": 136.8300018310547,
       "adjClose": 136.8300018310547,
-      "volume": 10449044
+      "volume": 10469800
+    },
+    {
+      "date": "2026-08-27",
+      "open": 135.85000610351562,
+      "high": 135.89999389648438,
+      "low": 134.1699981689453,
+      "close": 134.22000122070312,
+      "adjClose": 134.22000122070312,
+      "volume": 7037900
     }
   ],
   "corporateActions": {
@@ -15149,9 +15158,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "CenterPoint Energy",
   "market": "US",
   "yahooSymbol": "CNP",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15041,10 +15041,19 @@
       "date": "2026-08-26",
       "open": 39.0099983215332,
       "high": 39.72999954223633,
-      "low": 39.005001068115234,
+      "low": 39,
       "close": 39.59000015258789,
       "adjClose": 39.59000015258789,
-      "volume": 5591529
+      "volume": 5617200
+    },
+    {
+      "date": "2026-08-27",
+      "open": 39.209999084472656,
+      "high": 39.45000076293945,
+      "low": 39.02000045776367,
+      "close": 39.290000915527344,
+      "adjClose": 39.290000915527344,
+      "volume": 4469100
     }
   ],
   "corporateActions": {
@@ -15161,9 +15170,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

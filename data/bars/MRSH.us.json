@@ -3,7 +3,7 @@
   "name": "Marsh McLennan",
   "market": "US",
   "yahooSymbol": "MRSH",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15040,11 +15040,20 @@
     {
       "date": "2026-08-26",
       "open": 193.92999267578125,
-      "high": 195.43150329589844,
-      "low": 193.10809326171875,
+      "high": 195.5500030517578,
+      "low": 193.0800018310547,
       "close": 193.25999450683594,
       "adjClose": 193.25999450683594,
-      "volume": 2929660
+      "volume": 2956200
+    },
+    {
+      "date": "2026-08-27",
+      "open": 190.61000061035156,
+      "high": 192.42999267578125,
+      "low": 188.75999450683594,
+      "close": 190,
+      "adjClose": 190,
+      "volume": 2674300
     }
   ],
   "corporateActions": {
@@ -15161,9 +15170,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "DuPont",
   "market": "US",
   "yahooSymbol": "DD",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15044,7 +15044,16 @@
       "low": 136.00999450683594,
       "close": 137.97999572753906,
       "adjClose": 137.97999572753906,
-      "volume": 914905
+      "volume": 915000
+    },
+    {
+      "date": "2026-08-27",
+      "open": 137.5,
+      "high": 139.4600067138672,
+      "low": 137.5,
+      "close": 138.8000030517578,
+      "adjClose": 138.8000030517578,
+      "volume": 860000
     }
   ],
   "corporateActions": {
@@ -15170,9 +15179,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

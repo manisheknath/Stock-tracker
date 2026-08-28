@@ -3,7 +3,7 @@
   "name": "Oracle Corporation",
   "market": "US",
   "yahooSymbol": "ORCL",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15040,11 +15040,20 @@
     {
       "date": "2026-08-26",
       "open": 147,
-      "high": 151.61000061035156,
-      "low": 146.8249969482422,
+      "high": 151.6300048828125,
+      "low": 146.8300018310547,
       "close": 148.8699951171875,
       "adjClose": 148.8699951171875,
-      "volume": 18073128
+      "volume": 18426100
+    },
+    {
+      "date": "2026-08-27",
+      "open": 152.11000061035156,
+      "high": 153.8300018310547,
+      "low": 147.52000427246094,
+      "close": 151.94000244140625,
+      "adjClose": 151.94000244140625,
+      "volume": 30148300
     }
   ],
   "corporateActions": {
@@ -15161,9 +15170,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Prologis",
   "market": "US",
   "yahooSymbol": "PLD",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15040,11 +15040,20 @@
     {
       "date": "2026-08-26",
       "open": 143.38999938964844,
-      "high": 143.80999755859375,
-      "low": 142.00660705566406,
+      "high": 143.82000732421875,
+      "low": 142,
       "close": 142.58999633789062,
       "adjClose": 142.58999633789062,
-      "volume": 3832493
+      "volume": 3834000
+    },
+    {
+      "date": "2026-08-27",
+      "open": 141.4600067138672,
+      "high": 142.8699951171875,
+      "low": 141.02000427246094,
+      "close": 141.85000610351562,
+      "adjClose": 141.85000610351562,
+      "volume": 2864700
     }
   ],
   "corporateActions": {
@@ -15157,9 +15166,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1671,
+    "barsAvailable": 1672,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 64
   }
 }

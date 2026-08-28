@@ -3,7 +3,7 @@
   "name": "Space Exploration Technologies Corp.",
   "market": "US",
   "yahooSymbol": "SPCX",
-  "asOf": "2026-08-27",
+  "asOf": "2026-08-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -468,12 +468,21 @@
     },
     {
       "date": "2026-08-26",
-      "open": 136.93499755859375,
-      "high": 139.97999572753906,
+      "open": 137,
+      "high": 140.17999267578125,
       "low": 135.10000610351562,
       "close": 139.6300048828125,
       "adjClose": 139.6300048828125,
-      "volume": 59784460
+      "volume": 61380500
+    },
+    {
+      "date": "2026-08-27",
+      "open": 139.99000549316406,
+      "high": 142.05999755859375,
+      "low": 138.60000610351562,
+      "close": 140.8699951171875,
+      "adjClose": 140.8699951171875,
+      "volume": 55095800
     }
   ],
   "corporateActions": {
@@ -481,9 +490,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 52,
+    "barsAvailable": 53,
     "firstDate": "2026-06-12",
-    "lastDate": "2026-08-26",
+    "lastDate": "2026-08-27",
     "gaps": 2
   }
 }
