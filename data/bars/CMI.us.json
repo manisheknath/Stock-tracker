@@ -3,7 +3,7 @@
   "name": "Cummins",
   "market": "US",
   "yahooSymbol": "CMI",
-  "asOf": "2026-08-28",
+  "asOf": "2026-08-29",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15054,6 +15054,15 @@
       "close": 573.8699951171875,
       "adjClose": 573.8699951171875,
       "volume": 1003500
+    },
+    {
+      "date": "2026-08-28",
+      "open": 576.9600219726562,
+      "high": 580.2387084960938,
+      "low": 561.469970703125,
+      "close": 564.8499755859375,
+      "adjClose": 564.8499755859375,
+      "volume": 767452
     }
   ],
   "corporateActions": {
@@ -15170,9 +15179,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1672,
+    "barsAvailable": 1673,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 64
   }
 }

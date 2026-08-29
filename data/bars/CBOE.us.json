@@ -3,7 +3,7 @@
   "name": "Cboe Global Markets",
   "market": "US",
   "yahooSymbol": "CBOE",
-  "asOf": "2026-08-28",
+  "asOf": "2026-08-29",
   "currency": "USD",
   "exchange": "Cboe US",
   "bars": [
@@ -15054,6 +15054,15 @@
       "close": 313.95001220703125,
       "adjClose": 313.95001220703125,
       "volume": 836400
+    },
+    {
+      "date": "2026-08-28",
+      "open": 315,
+      "high": 316.6724853515625,
+      "low": 307.4100036621094,
+      "close": 310.45001220703125,
+      "adjClose": 310.45001220703125,
+      "volume": 953714
     }
   ],
   "corporateActions": {
@@ -15158,9 +15167,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1672,
+    "barsAvailable": 1673,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 64
   }
 }
