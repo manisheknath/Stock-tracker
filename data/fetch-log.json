@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-29T03:43:23.229Z",
+  "ranAt": "2026-08-30T00:10:49.718Z",
   "results": [
     {
       "ticker": "A.us",
@@ -33,7 +33,7 @@
       "ticker": "ABB.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -525,7 +525,7 @@
       "ticker": "APOLLOHOSP.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -737,7 +737,7 @@
       "ticker": "BAJAJHLDNG.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -807,7 +807,7 @@
       "ticker": "BBVA.es",
       "market": "ES",
       "status": "ok",
-      "barsAvailable": 1703,
+      "barsAvailable": 1704,
       "gaps": 33
     },
     {
@@ -1005,7 +1005,7 @@
       "ticker": "BOSCHLTD.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1652,
+      "barsAvailable": 1651,
       "gaps": 86
     },
     {
@@ -1131,7 +1131,7 @@
       "ticker": "CANBK.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -1623,7 +1623,7 @@
       "ticker": "CUMMINSIND.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -2695,7 +2695,7 @@
       "ticker": "GRASIM.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -2786,7 +2786,7 @@
       "ticker": "HDFCAMC.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -3032,7 +3032,7 @@
       "ticker": "IBE.es",
       "market": "ES",
       "status": "ok",
-      "barsAvailable": 1703,
+      "barsAvailable": 1704,
       "gaps": 33
     },
     {
@@ -3382,7 +3382,7 @@
       "ticker": "JSWSTEEL.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -3655,7 +3655,7 @@
       "ticker": "LTM.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -3885,9 +3885,52 @@
     {
       "ticker": "MNST.us",
       "market": "US",
-      "status": "ok",
-      "barsAvailable": 1672,
-      "gaps": 65
+      "status": "excluded",
+      "reason": "Unexplained single-bar move(s) exceeding 40% threshold",
+      "flags": [
+        {
+          "date": "2026-07-20",
+          "prevClose": 97.5,
+          "currClose": 47.724998474121094,
+          "pctChange": -51.05,
+          "message": "Unexplained -51.1% single-bar move not matched to a recorded split within 1 day(s)"
+        },
+        {
+          "date": "2026-07-23",
+          "prevClose": 47.834999084472656,
+          "currClose": 93.55999755859375,
+          "pctChange": 95.59,
+          "message": "Unexplained 95.6% single-bar move not matched to a recorded split within 1 day(s)"
+        },
+        {
+          "date": "2026-07-31",
+          "prevClose": 97.6500015258789,
+          "currClose": 48.189998626708984,
+          "pctChange": -50.65,
+          "message": "Unexplained -50.7% single-bar move not matched to a recorded split within 1 day(s)"
+        },
+        {
+          "date": "2026-08-03",
+          "prevClose": 48.189998626708984,
+          "currClose": 93.55000305175781,
+          "pctChange": 94.13,
+          "message": "Unexplained 94.1% single-bar move not matched to a recorded split within 1 day(s)"
+        },
+        {
+          "date": "2026-08-06",
+          "prevClose": 94.45999908447266,
+          "currClose": 47.08000183105469,
+          "pctChange": -50.16,
+          "message": "Unexplained -50.2% single-bar move not matched to a recorded split within 1 day(s)"
+        },
+        {
+          "date": "2026-08-07",
+          "prevClose": 47.08000183105469,
+          "currClose": 90.36000061035156,
+          "pctChange": 91.93,
+          "message": "Unexplained 91.9% single-bar move not matched to a recorded split within 1 day(s)"
+        }
+      ]
     },
     {
       "ticker": "MO.us",
@@ -4069,7 +4112,7 @@
       "ticker": "MUTHOOTFIN.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -4514,7 +4557,7 @@
       "ticker": "PIDILITIND.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -4985,7 +5028,7 @@
       "ticker": "SAN.es",
       "market": "ES",
       "status": "ok",
-      "barsAvailable": 1703,
+      "barsAvailable": 1704,
       "gaps": 33
     },
     {
@@ -5013,7 +5056,7 @@
       "ticker": "SBILIFE.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -5364,7 +5407,7 @@
       "ticker": "SUNPHARMA.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -5441,7 +5484,7 @@
       "ticker": "TATACAP.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 221,
+      "barsAvailable": 220,
       "gaps": 9
     },
     {
@@ -5603,7 +5646,7 @@
       "ticker": "TORNTPHARM.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     },
     {
@@ -6256,7 +6299,7 @@
       "ticker": "ZYDUSLIFE.in",
       "market": "IN",
       "status": "ok",
-      "barsAvailable": 1653,
+      "barsAvailable": 1652,
       "gaps": 85
     }
   ]
