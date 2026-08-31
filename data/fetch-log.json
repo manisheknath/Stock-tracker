@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-30T00:10:49.718Z",
+  "ranAt": "2026-08-31T00:27:48.689Z",
   "results": [
     {
       "ticker": "A.us",
@@ -3885,52 +3885,9 @@
     {
       "ticker": "MNST.us",
       "market": "US",
-      "status": "excluded",
-      "reason": "Unexplained single-bar move(s) exceeding 40% threshold",
-      "flags": [
-        {
-          "date": "2026-07-20",
-          "prevClose": 97.5,
-          "currClose": 47.724998474121094,
-          "pctChange": -51.05,
-          "message": "Unexplained -51.1% single-bar move not matched to a recorded split within 1 day(s)"
-        },
-        {
-          "date": "2026-07-23",
-          "prevClose": 47.834999084472656,
-          "currClose": 93.55999755859375,
-          "pctChange": 95.59,
-          "message": "Unexplained 95.6% single-bar move not matched to a recorded split within 1 day(s)"
-        },
-        {
-          "date": "2026-07-31",
-          "prevClose": 97.6500015258789,
-          "currClose": 48.189998626708984,
-          "pctChange": -50.65,
-          "message": "Unexplained -50.7% single-bar move not matched to a recorded split within 1 day(s)"
-        },
-        {
-          "date": "2026-08-03",
-          "prevClose": 48.189998626708984,
-          "currClose": 93.55000305175781,
-          "pctChange": 94.13,
-          "message": "Unexplained 94.1% single-bar move not matched to a recorded split within 1 day(s)"
-        },
-        {
-          "date": "2026-08-06",
-          "prevClose": 94.45999908447266,
-          "currClose": 47.08000183105469,
-          "pctChange": -50.16,
-          "message": "Unexplained -50.2% single-bar move not matched to a recorded split within 1 day(s)"
-        },
-        {
-          "date": "2026-08-07",
-          "prevClose": 47.08000183105469,
-          "currClose": 90.36000061035156,
-          "pctChange": 91.93,
-          "message": "Unexplained 91.9% single-bar move not matched to a recorded split within 1 day(s)"
-        }
-      ]
+      "status": "ok",
+      "barsAvailable": 1672,
+      "gaps": 65
     },
     {
       "ticker": "MO.us",
