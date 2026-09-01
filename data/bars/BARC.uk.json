@@ -3,7 +3,7 @@
   "name": "Barclays",
   "market": "UK",
   "yahooSymbol": "BARC.L",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15126,6 +15126,15 @@
       "close": 492.6000061035156,
       "adjClose": 492.6000061035156,
       "volume": 23155849
+    },
+    {
+      "date": "2026-08-28",
+      "open": 497.45001220703125,
+      "high": 501.3500061035156,
+      "low": 490.25,
+      "close": 496.6499938964844,
+      "adjClose": 496.6499938964844,
+      "volume": 34628521
     }
   ],
   "corporateActions": {
@@ -15182,9 +15191,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1680,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 56
   }
 }

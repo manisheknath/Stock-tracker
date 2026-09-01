@@ -3,7 +3,7 @@
   "name": "Wolters Kluwer",
   "market": "NL",
   "yahooSymbol": "WKL.AS",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 70.12000274658203,
       "adjClose": 70.12000274658203,
       "volume": 925049
+    },
+    {
+      "date": "2026-08-28",
+      "open": 70.33999633789062,
+      "high": 70.58000183105469,
+      "low": 69.30000305175781,
+      "close": 70.22000122070312,
+      "adjClose": 70.22000122070312,
+      "volume": 876286
     }
   ],
   "corporateActions": {
@@ -15407,13 +15416,17 @@
       {
         "date": "2026-05-25",
         "amount": 1.59
+      },
+      {
+        "date": "2026-09-01",
+        "amount": 1.01
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 31
   }
 }

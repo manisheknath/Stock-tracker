@@ -3,7 +3,7 @@
   "name": "Masco",
   "market": "US",
   "yahooSymbol": "MAS",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15063,6 +15063,15 @@
       "close": 73.25,
       "adjClose": 73.25,
       "volume": 1314000
+    },
+    {
+      "date": "2026-08-31",
+      "open": 72.45999908447266,
+      "high": 72.9800033569336,
+      "low": 72.05999755859375,
+      "close": 72.16000366210938,
+      "adjClose": 72.16000366210938,
+      "volume": 1781294
     }
   ],
   "corporateActions": {
@@ -15179,9 +15188,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1673,
+    "barsAvailable": 1674,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 64
   }
 }

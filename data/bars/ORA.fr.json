@@ -3,7 +3,7 @@
   "name": "Orange",
   "market": "FR",
   "yahooSymbol": "ORA.PA",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 15.100000381469727,
       "adjClose": 15.100000381469727,
       "volume": 9631964
+    },
+    {
+      "date": "2026-08-28",
+      "open": 15.1850004196167,
+      "high": 15.244999885559082,
+      "low": 14.864999771118164,
+      "close": 15.194999694824219,
+      "adjClose": 15.194999694824219,
+      "volume": 8056883
     }
   ],
   "corporateActions": {
@@ -15411,9 +15420,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 31
   }
 }

@@ -3,7 +3,7 @@
   "name": "PG&E Corporation",
   "market": "US",
   "yahooSymbol": "PCG",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15063,6 +15063,15 @@
       "close": 16.600000381469727,
       "adjClose": 16.600000381469727,
       "volume": 114350800
+    },
+    {
+      "date": "2026-08-31",
+      "open": 13.260000228881836,
+      "high": 13.699999809265137,
+      "low": 13.085000038146973,
+      "close": 13.270000457763672,
+      "adjClose": 13.270000457763672,
+      "volume": 153622033
     }
   ],
   "corporateActions": {
@@ -15115,9 +15124,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1673,
+    "barsAvailable": 1674,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "M&T Bank",
   "market": "US",
   "yahooSymbol": "MTB",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15063,6 +15063,15 @@
       "close": 237.2899932861328,
       "adjClose": 237.2899932861328,
       "volume": 868300
+    },
+    {
+      "date": "2026-08-31",
+      "open": 236.89999389648438,
+      "high": 237.23500061035156,
+      "low": 233.0449981689453,
+      "close": 233.94000244140625,
+      "adjClose": 233.94000244140625,
+      "volume": 1745991
     }
   ],
   "corporateActions": {
@@ -15175,9 +15184,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1673,
+    "barsAvailable": 1674,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 64
   }
 }

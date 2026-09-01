@@ -3,7 +3,7 @@
   "name": "Sysco",
   "market": "US",
   "yahooSymbol": "SYY",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15063,6 +15063,15 @@
       "close": 81.94000244140625,
       "adjClose": 81.94000244140625,
       "volume": 2083100
+    },
+    {
+      "date": "2026-08-31",
+      "open": 82.0199966430664,
+      "high": 82.2300033569336,
+      "low": 80.54000091552734,
+      "close": 81.08000183105469,
+      "adjClose": 81.08000183105469,
+      "volume": 2759963
     }
   ],
   "corporateActions": {
@@ -15179,9 +15188,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1673,
+    "barsAvailable": 1674,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 64
   }
 }

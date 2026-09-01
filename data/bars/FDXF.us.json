@@ -3,7 +3,7 @@
   "name": "FedEx Freight",
   "market": "US",
   "yahooSymbol": "FDXF",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -600,6 +600,15 @@
       "close": 133.4499969482422,
       "adjClose": 133.4499969482422,
       "volume": 774100
+    },
+    {
+      "date": "2026-08-31",
+      "open": 132.80999755859375,
+      "high": 135.22999572753906,
+      "low": 131.61000061035156,
+      "close": 133.74000549316406,
+      "adjClose": 133.74000549316406,
+      "volume": 1460014
     }
   ],
   "corporateActions": {
@@ -607,9 +616,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 66,
+    "barsAvailable": 67,
     "firstDate": "2026-05-27",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 2
   }
 }

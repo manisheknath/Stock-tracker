@@ -3,7 +3,7 @@
   "name": "Daimler Truck",
   "market": "DE",
   "yahooSymbol": "DTG.DE",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -10806,6 +10806,15 @@
       "close": 46.959999084472656,
       "adjClose": 46.959999084472656,
       "volume": 722833
+    },
+    {
+      "date": "2026-08-28",
+      "open": 47.25,
+      "high": 47.45000076293945,
+      "low": 46.58000183105469,
+      "close": 46.77000045776367,
+      "adjClose": 46.77000045776367,
+      "volume": 827090
     }
   ],
   "corporateActions": {
@@ -10830,9 +10839,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1200,
+    "barsAvailable": 1201,
     "firstDate": "2021-12-10",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 30
   }
 }

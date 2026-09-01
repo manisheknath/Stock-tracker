@@ -3,7 +3,7 @@
   "name": "Bankinter",
   "market": "ES",
   "yahooSymbol": "BKT.MC",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 16.579999923706055,
       "adjClose": 16.579999923706055,
       "volume": 709099
+    },
+    {
+      "date": "2026-08-28",
+      "open": 16.719999313354492,
+      "high": 16.739999771118164,
+      "low": 16.600000381469727,
+      "close": 16.674999237060547,
+      "adjClose": 16.674999237060547,
+      "volume": 426549
     }
   ],
   "corporateActions": {
@@ -15421,9 +15430,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 33
   }
 }

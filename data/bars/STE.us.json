@@ -3,7 +3,7 @@
   "name": "Steris",
   "market": "US",
   "yahooSymbol": "STE",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15063,6 +15063,15 @@
       "close": 233.77999877929688,
       "adjClose": 233.77999877929688,
       "volume": 339500
+    },
+    {
+      "date": "2026-08-31",
+      "open": 231.69000244140625,
+      "high": 233.05499267578125,
+      "low": 229.84500122070312,
+      "close": 232.63999938964844,
+      "adjClose": 232.63999938964844,
+      "volume": 860213
     }
   ],
   "corporateActions": {
@@ -15171,9 +15180,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1673,
+    "barsAvailable": 1674,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 64
   }
 }

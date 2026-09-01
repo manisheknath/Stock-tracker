@@ -3,7 +3,7 @@
   "name": "London Stock Exchange Group",
   "market": "UK",
   "yahooSymbol": "LSEG.L",
-  "asOf": "2026-08-31",
+  "asOf": "2026-09-01",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15135,6 +15135,15 @@
       "close": 8980,
       "adjClose": 8980,
       "volume": 1440562
+    },
+    {
+      "date": "2026-08-28",
+      "open": 8986,
+      "high": 9034,
+      "low": 8900,
+      "close": 9000,
+      "adjClose": 9000,
+      "volume": 2505103
     }
   ],
   "corporateActions": {
@@ -15199,9 +15208,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1681,
+    "barsAvailable": 1682,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-27",
+    "lastDate": "2026-08-28",
     "gaps": 55
   }
 }
