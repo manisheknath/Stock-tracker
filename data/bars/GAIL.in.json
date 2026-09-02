@@ -14883,6 +14883,15 @@
       "close": 171.10000610351562,
       "adjClose": 171.10000610351562,
       "volume": 8706458
+    },
+    {
+      "date": "2026-08-31",
+      "open": 172.1999969482422,
+      "high": 177.5,
+      "low": 170.3300018310547,
+      "close": 177.5,
+      "adjClose": 177.5,
+      "volume": 13012294
     }
   ],
   "corporateActions": {
@@ -14938,13 +14947,17 @@
       {
         "date": "2026-02-05",
         "amount": 5
+      },
+      {
+        "date": "2026-09-02",
+        "amount": 0.5
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1653,
+    "barsAvailable": 1654,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-08-28",
+    "lastDate": "2026-08-31",
     "gaps": 85
   }
 }
