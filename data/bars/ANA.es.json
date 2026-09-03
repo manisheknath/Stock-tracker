@@ -3,7 +3,7 @@
   "name": "Acciona",
   "market": "ES",
   "yahooSymbol": "ANA.MC",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 209.60000610351562,
       "adjClose": 209.60000610351562,
       "volume": 162545
+    },
+    {
+      "date": "2026-09-01",
+      "open": 211.8000030517578,
+      "high": 211.8000030517578,
+      "low": 204,
+      "close": 204,
+      "adjClose": 204,
+      "volume": 108058
     }
   ],
   "corporateActions": {
@@ -15387,9 +15396,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 33
   }
 }

@@ -3,7 +3,7 @@
   "name": "Unilever",
   "market": "NL",
   "yahooSymbol": "UNA.AS",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -13227,6 +13227,15 @@
       "close": 55.9900016784668,
       "adjClose": 55.9900016784668,
       "volume": 885706
+    },
+    {
+      "date": "2026-09-01",
+      "open": 56,
+      "high": 56.599998474121094,
+      "low": 55.75,
+      "close": 56.15999984741211,
+      "adjClose": 56.15999984741211,
+      "volume": 1885284
     }
   ],
   "corporateActions": {
@@ -13334,9 +13343,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1469,
+    "barsAvailable": 1470,
     "firstDate": "2020-12-04",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 28
   }
 }

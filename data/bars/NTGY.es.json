@@ -3,7 +3,7 @@
   "name": "Naturgy",
   "market": "ES",
   "yahooSymbol": "NTGY.MC",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 29.459999084472656,
       "adjClose": 29.459999084472656,
       "volume": 3088325
+    },
+    {
+      "date": "2026-09-01",
+      "open": 29.5,
+      "high": 29.6200008392334,
+      "low": 29.219999313354492,
+      "close": 29.520000457763672,
+      "adjClose": 29.520000457763672,
+      "volume": 1178347
     }
   ],
   "corporateActions": {
@@ -15443,9 +15452,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 33
   }
 }

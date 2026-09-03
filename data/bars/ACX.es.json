@@ -3,7 +3,7 @@
   "name": "Acerinox",
   "market": "ES",
   "yahooSymbol": "ACX.MC",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 17.920000076293945,
       "adjClose": 17.920000076293945,
       "volume": 828896
+    },
+    {
+      "date": "2026-09-01",
+      "open": 18.09000015258789,
+      "high": 18.209999084472656,
+      "low": 17.489999771118164,
+      "close": 17.75,
+      "adjClose": 17.75,
+      "volume": 640593
     }
   ],
   "corporateActions": {
@@ -15407,9 +15416,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 33
   }
 }

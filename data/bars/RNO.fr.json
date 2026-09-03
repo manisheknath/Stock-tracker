@@ -3,7 +3,7 @@
   "name": "Renault",
   "market": "FR",
   "yahooSymbol": "RNO.PA",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 29.719999313354492,
       "adjClose": 29.719999313354492,
       "volume": 2127208
+    },
+    {
+      "date": "2026-09-01",
+      "open": 29.600000381469727,
+      "high": 29.65999984741211,
+      "low": 28.610000610351562,
+      "close": 29.010000228881836,
+      "adjClose": 29.010000228881836,
+      "volume": 1386455
     }
   ],
   "corporateActions": {
@@ -15393,9 +15402,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 31
   }
 }

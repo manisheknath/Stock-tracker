@@ -3,7 +3,7 @@
   "name": "Pernod Ricard",
   "market": "FR",
   "yahooSymbol": "RI.PA",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 64.5,
       "adjClose": 64.5,
       "volume": 1090159
+    },
+    {
+      "date": "2026-09-01",
+      "open": 64.33999633789062,
+      "high": 64.68000030517578,
+      "low": 62.060001373291016,
+      "close": 62.540000915527344,
+      "adjClose": 62.540000915527344,
+      "volume": 854064
     }
   ],
   "corporateActions": {
@@ -15429,9 +15438,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 31
   }
 }

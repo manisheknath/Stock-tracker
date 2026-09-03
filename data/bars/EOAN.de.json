@@ -3,7 +3,7 @@
   "name": "E.ON",
   "market": "DE",
   "yahooSymbol": "EOAN.DE",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 17.799999237060547,
       "adjClose": 17.799999237060547,
       "volume": 3678503
+    },
+    {
+      "date": "2026-09-01",
+      "open": 17.905000686645508,
+      "high": 17.985000610351562,
+      "low": 17.639999389648438,
+      "close": 17.725000381469727,
+      "adjClose": 17.725000381469727,
+      "volume": 3568437
     }
   ],
   "corporateActions": {
@@ -15315,9 +15324,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 41
   }
 }

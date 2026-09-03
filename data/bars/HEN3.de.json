@@ -3,7 +3,7 @@
   "name": "Henkel",
   "market": "DE",
   "yahooSymbol": "HEN3.DE",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 76.04000091552734,
       "adjClose": 76.04000091552734,
       "volume": 735895
+    },
+    {
+      "date": "2026-09-01",
+      "open": 76,
+      "high": 76.83999633789062,
+      "low": 75.72000122070312,
+      "close": 76,
+      "adjClose": 76,
+      "volume": 327986
     }
   ],
   "corporateActions": {
@@ -15315,9 +15324,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 41
   }
 }

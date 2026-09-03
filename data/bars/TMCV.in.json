@@ -3,7 +3,7 @@
   "name": "Tata Motors",
   "market": "IN",
   "yahooSymbol": "TMCV.NS",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -1824,6 +1824,15 @@
       "close": 471.1000061035156,
       "adjClose": 471.1000061035156,
       "volume": 15309357
+    },
+    {
+      "date": "2026-09-01",
+      "open": 472,
+      "high": 477.29998779296875,
+      "low": 456.8999938964844,
+      "close": 464.3500061035156,
+      "adjClose": 464.3500061035156,
+      "volume": 8807895
     }
   ],
   "corporateActions": {
@@ -1836,9 +1845,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 202,
+    "barsAvailable": 203,
     "firstDate": "2025-11-12",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 7
   }
 }

@@ -3,7 +3,7 @@
   "name": "Axa",
   "market": "FR",
   "yahooSymbol": "CS.PA",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 43.099998474121094,
       "adjClose": 43.099998474121094,
       "volume": 4797191
+    },
+    {
+      "date": "2026-09-01",
+      "open": 43.400001525878906,
+      "high": 43.900001525878906,
+      "low": 43.11000061035156,
+      "close": 43.709999084472656,
+      "adjClose": 43.709999084472656,
+      "volume": 2745703
     }
   ],
   "corporateActions": {
@@ -15405,9 +15414,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 31
   }
 }

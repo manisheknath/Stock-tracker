@@ -3,7 +3,7 @@
   "name": "Teleperformance",
   "market": "FR",
   "yahooSymbol": "TEP.PA",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 69.69999694824219,
       "adjClose": 69.69999694824219,
       "volume": 253008
+    },
+    {
+      "date": "2026-09-01",
+      "open": 70.19999694824219,
+      "high": 72.19999694824219,
+      "low": 69.87999725341797,
+      "close": 72,
+      "adjClose": 72,
+      "volume": 284851
     }
   ],
   "corporateActions": {
@@ -15405,9 +15414,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 31
   }
 }

@@ -3,7 +3,7 @@
   "name": "GEA Group",
   "market": "DE",
   "yahooSymbol": "G1A.DE",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-02",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 67.19999694824219,
       "adjClose": 67.19999694824219,
       "volume": 466496
+    },
+    {
+      "date": "2026-09-01",
+      "open": 67.25,
+      "high": 67.3499984741211,
+      "low": 66.5,
+      "close": 66.8499984741211,
+      "adjClose": 66.8499984741211,
+      "volume": 283577
     }
   ],
   "corporateActions": {
@@ -15319,9 +15328,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-08-31",
+    "lastDate": "2026-09-01",
     "gaps": 41
   }
 }
