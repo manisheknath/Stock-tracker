@@ -3,7 +3,7 @@
   "name": "IQVIA",
   "market": "US",
   "yahooSymbol": "IQV",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 258.3500061035156,
       "adjClose": 258.3500061035156,
       "volume": 1240000
+    },
+    {
+      "date": "2026-09-02",
+      "open": 258,
+      "high": 266.0799865722656,
+      "low": 257.17999267578125,
+      "close": 263.8399963378906,
+      "adjClose": 263.8399963378906,
+      "volume": 1127700
+    },
+    {
+      "date": "2026-09-03",
+      "open": 265.80999755859375,
+      "high": 271.69000244140625,
+      "low": 263.3800048828125,
+      "close": 271.6199951171875,
+      "adjClose": 271.6199951171875,
+      "volume": 2012428
     }
   ],
   "corporateActions": {
@@ -15088,9 +15106,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }

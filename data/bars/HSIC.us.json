@@ -3,7 +3,7 @@
   "name": "Henry Schein",
   "market": "US",
   "yahooSymbol": "HSIC",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 88.5199966430664,
       "adjClose": 88.5199966430664,
       "volume": 718000
+    },
+    {
+      "date": "2026-09-02",
+      "open": 89.0199966430664,
+      "high": 91.36000061035156,
+      "low": 88.61000061035156,
+      "close": 90.38999938964844,
+      "adjClose": 90.38999938964844,
+      "volume": 859400
+    },
+    {
+      "date": "2026-09-03",
+      "open": 90.68000030517578,
+      "high": 91.69000244140625,
+      "low": 89.55999755859375,
+      "close": 90.86000061035156,
+      "adjClose": 90.86000061035156,
+      "volume": 679334
     }
   ],
   "corporateActions": {
@@ -15088,9 +15106,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }

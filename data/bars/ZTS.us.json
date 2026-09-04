@@ -3,7 +3,7 @@
   "name": "Zoetis",
   "market": "US",
   "yahooSymbol": "ZTS",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15081,6 +15081,15 @@
       "close": 77.25,
       "adjClose": 77.25,
       "volume": 4000700
+    },
+    {
+      "date": "2026-09-02",
+      "open": 77.45999908447266,
+      "high": 77.8499984741211,
+      "low": 75.87999725341797,
+      "close": 76.16999816894531,
+      "adjClose": 76.16999816894531,
+      "volume": 4474600
     }
   ],
   "corporateActions": {
@@ -15197,9 +15206,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1676,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-02",
     "gaps": 64
   }
 }

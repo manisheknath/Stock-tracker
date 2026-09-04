@@ -3,7 +3,7 @@
   "name": "Standard Chartered",
   "market": "UK",
   "yahooSymbol": "STAN.L",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 2169,
       "adjClose": 2169,
       "volume": 3679099
+    },
+    {
+      "date": "2026-09-02",
+      "open": 2165,
+      "high": 2222,
+      "low": 2159.199951171875,
+      "close": 2204,
+      "adjClose": 2204,
+      "volume": 4862819
     }
   ],
   "corporateActions": {
@@ -15209,9 +15218,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-02",
     "gaps": 56
   }
 }

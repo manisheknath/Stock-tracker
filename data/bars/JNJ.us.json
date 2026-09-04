@@ -3,7 +3,7 @@
   "name": "Johnson & Johnson",
   "market": "US",
   "yahooSymbol": "JNJ",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 271.19000244140625,
       "adjClose": 271.19000244140625,
       "volume": 6033600
+    },
+    {
+      "date": "2026-09-02",
+      "open": 274.739990234375,
+      "high": 281.07000732421875,
+      "low": 273.5299987792969,
+      "close": 275.2099914550781,
+      "adjClose": 275.2099914550781,
+      "volume": 7910600
+    },
+    {
+      "date": "2026-09-03",
+      "open": 277.32000732421875,
+      "high": 278.8525085449219,
+      "low": 273.1549987792969,
+      "close": 278.42999267578125,
+      "adjClose": 278.42999267578125,
+      "volume": 5908379
     }
   ],
   "corporateActions": {
@@ -15197,9 +15215,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }

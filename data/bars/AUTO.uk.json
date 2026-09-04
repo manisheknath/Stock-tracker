@@ -3,7 +3,7 @@
   "name": "Autotrader Group",
   "market": "UK",
   "yahooSymbol": "AUTO.L",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 505.6000061035156,
       "adjClose": 505.6000061035156,
       "volume": 3409709
+    },
+    {
+      "date": "2026-09-02",
+      "open": 499.29998779296875,
+      "high": 505.3999938964844,
+      "low": 494.5,
+      "close": 500.79998779296875,
+      "adjClose": 500.79998779296875,
+      "volume": 2447219
     }
   ],
   "corporateActions": {
@@ -15209,9 +15218,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-02",
     "gaps": 56
   }
 }

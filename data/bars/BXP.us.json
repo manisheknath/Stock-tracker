@@ -3,7 +3,7 @@
   "name": "BXP, Inc.",
   "market": "US",
   "yahooSymbol": "BXP",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 67.05999755859375,
       "adjClose": 67.05999755859375,
       "volume": 1358400
+    },
+    {
+      "date": "2026-09-02",
+      "open": 67.12999725341797,
+      "high": 67.87000274658203,
+      "low": 66.55000305175781,
+      "close": 67.0999984741211,
+      "adjClose": 67.0999984741211,
+      "volume": 1147000
+    },
+    {
+      "date": "2026-09-03",
+      "open": 67.93000030517578,
+      "high": 68.43000030517578,
+      "low": 67.21499633789062,
+      "close": 68.2300033569336,
+      "adjClose": 68.2300033569336,
+      "volume": 1037057
     }
   ],
   "corporateActions": {
@@ -15193,9 +15211,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }

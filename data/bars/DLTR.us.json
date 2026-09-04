@@ -3,7 +3,7 @@
   "name": "Dollar Tree",
   "market": "US",
   "yahooSymbol": "DLTR",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 131.7100067138672,
       "adjClose": 131.7100067138672,
       "volume": 2161200
+    },
+    {
+      "date": "2026-09-02",
+      "open": 131.8300018310547,
+      "high": 134.99000549316406,
+      "low": 130.41000366210938,
+      "close": 131.91000366210938,
+      "adjClose": 131.91000366210938,
+      "volume": 1250300
+    },
+    {
+      "date": "2026-09-03",
+      "open": 132.19000244140625,
+      "high": 133.63259887695312,
+      "low": 129.89500427246094,
+      "close": 131.0399932861328,
+      "adjClose": 131.0399932861328,
+      "volume": 1672498
     }
   ],
   "corporateActions": {
@@ -15088,9 +15106,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "GoDaddy",
   "market": "US",
   "yahooSymbol": "GDDY",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 100.55000305175781,
       "adjClose": 100.55000305175781,
       "volume": 1981300
+    },
+    {
+      "date": "2026-09-02",
+      "open": 100.37000274658203,
+      "high": 102.91000366210938,
+      "low": 99.93000030517578,
+      "close": 101.87000274658203,
+      "adjClose": 101.87000274658203,
+      "volume": 1777600
+    },
+    {
+      "date": "2026-09-03",
+      "open": 103.0199966430664,
+      "high": 105.88999938964844,
+      "low": 101.62999725341797,
+      "close": 103.62999725341797,
+      "adjClose": 103.62999725341797,
+      "volume": 1895761
     }
   ],
   "corporateActions": {
@@ -15088,9 +15106,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }

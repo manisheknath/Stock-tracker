@@ -3,7 +3,7 @@
   "name": "Antofagasta plc",
   "market": "UK",
   "yahooSymbol": "ANTO.L",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15133,7 +15133,7 @@
       "high": 4043,
       "low": 3986,
       "close": 4039,
-      "adjClose": 4039,
+      "adjClose": 4038.68408203125,
       "volume": 496207
     },
     {
@@ -15142,7 +15142,7 @@
       "high": 4120,
       "low": 3961,
       "close": 4039,
-      "adjClose": 4039,
+      "adjClose": 4038.68408203125,
       "volume": 2056897
     },
     {
@@ -15151,8 +15151,17 @@
       "high": 4066,
       "low": 3805,
       "close": 3828,
-      "adjClose": 3828,
+      "adjClose": 3827.70068359375,
       "volume": 1035146
+    },
+    {
+      "date": "2026-09-02",
+      "open": 3750,
+      "high": 3898,
+      "low": 3731,
+      "close": 3849,
+      "adjClose": 3848.698974609375,
+      "volume": 633357
     }
   ],
   "corporateActions": {
@@ -15212,14 +15221,14 @@
       },
       {
         "date": "2026-09-03",
-        "amount": 22.323965
+        "amount": 22.248415
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-02",
     "gaps": 56
   }
 }

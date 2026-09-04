@@ -3,7 +3,7 @@
   "name": "Copart",
   "market": "US",
   "yahooSymbol": "CPRT",
-  "asOf": "2026-09-02",
+  "asOf": "2026-09-03",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 32.470001220703125,
       "adjClose": 32.470001220703125,
       "volume": 5552600
+    },
+    {
+      "date": "2026-09-02",
+      "open": 32.380001068115234,
+      "high": 32.4900016784668,
+      "low": 31.889999389648438,
+      "close": 32.15999984741211,
+      "adjClose": 32.15999984741211,
+      "volume": 6512200
+    },
+    {
+      "date": "2026-09-03",
+      "open": 33.52000045776367,
+      "high": 34.43000030517578,
+      "low": 32.935001373291016,
+      "close": 33.58000183105469,
+      "adjClose": 33.58000183105469,
+      "volume": 8395856
     }
   ],
   "corporateActions": {
@@ -15101,9 +15119,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
+    "lastDate": "2026-09-03",
     "gaps": 64
   }
 }
