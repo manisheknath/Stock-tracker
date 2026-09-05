@@ -3,7 +3,7 @@
   "name": "Lloyds Banking Group",
   "market": "UK",
   "yahooSymbol": "LLOY.L",
-  "asOf": "2026-09-04",
+  "asOf": "2026-09-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15171,6 +15171,15 @@
       "close": 112.44999694824219,
       "adjClose": 112.44999694824219,
       "volume": 126713443
+    },
+    {
+      "date": "2026-09-04",
+      "open": 112.3499984741211,
+      "high": 112.7249984741211,
+      "low": 111.05000305175781,
+      "close": 112.5999984741211,
+      "adjClose": 112.5999984741211,
+      "volume": 72383351
     }
   ],
   "corporateActions": {
@@ -15227,9 +15236,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1685,
+    "barsAvailable": 1686,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 56
   }
 }
