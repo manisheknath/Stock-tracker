@@ -3,7 +3,7 @@
   "name": "Block, Inc.",
   "market": "US",
   "yahooSymbol": "XYZ",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15090,6 +15090,24 @@
       "close": 82.45999908447266,
       "adjClose": 82.45999908447266,
       "volume": 5975700
+    },
+    {
+      "date": "2026-09-03",
+      "open": 82.33999633789062,
+      "high": 84.55999755859375,
+      "low": 81.8499984741211,
+      "close": 83.37000274658203,
+      "adjClose": 83.37000274658203,
+      "volume": 3279600
+    },
+    {
+      "date": "2026-09-04",
+      "open": 82.51000213623047,
+      "high": 83.55999755859375,
+      "low": 81.87999725341797,
+      "close": 82.76000213623047,
+      "adjClose": 82.76000213623047,
+      "volume": 2456103
     }
   ],
   "corporateActions": {
@@ -15097,9 +15115,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1676,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-02",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

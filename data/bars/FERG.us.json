@@ -3,7 +3,7 @@
   "name": "Ferguson Enterprises",
   "market": "US",
   "yahooSymbol": "FERG",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15094,11 +15094,20 @@
     {
       "date": "2026-09-03",
       "open": 223.39999389648438,
-      "high": 223.80169677734375,
-      "low": 220.11749267578125,
+      "high": 223.8000030517578,
+      "low": 220,
       "close": 223.22999572753906,
       "adjClose": 223.22999572753906,
-      "volume": 1472360
+      "volume": 1472400
+    },
+    {
+      "date": "2026-09-04",
+      "open": 222.1999969482422,
+      "high": 230.14500427246094,
+      "low": 222.10000610351562,
+      "close": 228.41000366210938,
+      "adjClose": 228.41000366210938,
+      "volume": 1144812
     }
   ],
   "corporateActions": {
@@ -15191,9 +15200,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

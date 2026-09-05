@@ -3,7 +3,7 @@
   "name": "Coherent Corp.",
   "market": "US",
   "yahooSymbol": "COHR",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15095,10 +15095,19 @@
       "date": "2026-09-03",
       "open": 266.8599853515625,
       "high": 268.6499938964844,
-      "low": 255.3800048828125,
+      "low": 255.25,
       "close": 264.4100036621094,
       "adjClose": 264.4100036621094,
-      "volume": 4210869
+      "volume": 4212500
+    },
+    {
+      "date": "2026-09-04",
+      "open": 269.69000244140625,
+      "high": 283.8525085449219,
+      "low": 264.1000061035156,
+      "close": 281.8599853515625,
+      "adjClose": 281.8599853515625,
+      "volume": 4999192
     }
   ],
   "corporateActions": {
@@ -15106,9 +15115,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

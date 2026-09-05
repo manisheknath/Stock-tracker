@@ -3,7 +3,7 @@
   "name": "Baker Hughes",
   "market": "US",
   "yahooSymbol": "BKR",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15098,7 +15098,16 @@
       "low": 63.59000015258789,
       "close": 63.63999938964844,
       "adjClose": 63.63999938964844,
-      "volume": 4624485
+      "volume": 4624500
+    },
+    {
+      "date": "2026-09-04",
+      "open": 63.00199890136719,
+      "high": 63.72999954223633,
+      "low": 62.720001220703125,
+      "close": 63.5,
+      "adjClose": 63.5,
+      "volume": 5733746
     }
   ],
   "corporateActions": {
@@ -15215,9 +15224,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Sandisk",
   "market": "US",
   "yahooSymbol": "SNDK",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -3519,12 +3519,21 @@
     },
     {
       "date": "2026-09-03",
-      "open": 1543.75,
+      "open": 1544.550048828125,
       "high": 1576.800048828125,
       "low": 1511,
       "close": 1554.989990234375,
       "adjClose": 1554.989990234375,
-      "volume": 8670816
+      "volume": 8688900
+    },
+    {
+      "date": "2026-09-04",
+      "open": 1585.5899658203125,
+      "high": 1740,
+      "low": 1581,
+      "close": 1740,
+      "adjClose": 1740,
+      "volume": 16217211
     }
   ],
   "corporateActions": {
@@ -3532,9 +3541,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 391,
+    "barsAvailable": 392,
     "firstDate": "2025-02-13",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 15
   }
 }

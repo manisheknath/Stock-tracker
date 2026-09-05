@@ -3,7 +3,7 @@
   "name": "CaixaBank",
   "market": "ES",
   "yahooSymbol": "CABK.MC",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 13.21500015258789,
       "adjClose": 13.21500015258789,
       "volume": 4780481
+    },
+    {
+      "date": "2026-09-03",
+      "open": 13.295000076293945,
+      "high": 13.524999618530273,
+      "low": 13.244999885559082,
+      "close": 13.524999618530273,
+      "adjClose": 13.524999618530273,
+      "volume": 4682559
     }
   ],
   "corporateActions": {
@@ -15413,9 +15422,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-02",
+    "lastDate": "2026-09-03",
     "gaps": 33
   }
 }

@@ -3,7 +3,7 @@
   "name": "Vistra Corp .",
   "market": "US",
   "yahooSymbol": "VST",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15090,6 +15090,24 @@
       "close": 143.4600067138672,
       "adjClose": 143.4600067138672,
       "volume": 4766100
+    },
+    {
+      "date": "2026-09-03",
+      "open": 145,
+      "high": 148.7760009765625,
+      "low": 142.80999755859375,
+      "close": 144.22000122070312,
+      "adjClose": 144.22000122070312,
+      "volume": 4321900
+    },
+    {
+      "date": "2026-09-04",
+      "open": 143.8699951171875,
+      "high": 149.4499969482422,
+      "low": 143.16000366210938,
+      "close": 149.3000030517578,
+      "adjClose": 149.3000030517578,
+      "volume": 4584830
     }
   ],
   "corporateActions": {
@@ -15202,9 +15220,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1676,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-02",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

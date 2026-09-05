@@ -3,7 +3,7 @@
   "name": "CBRE Group",
   "market": "US",
   "yahooSymbol": "CBRE",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15094,11 +15094,20 @@
     {
       "date": "2026-09-03",
       "open": 144.77999877929688,
-      "high": 150.05999755859375,
-      "low": 144.97999572753906,
+      "high": 150.11000061035156,
+      "low": 144.77999877929688,
       "close": 148.74000549316406,
       "adjClose": 148.74000549316406,
-      "volume": 1874155
+      "volume": 1874200
+    },
+    {
+      "date": "2026-09-04",
+      "open": 146.8300018310547,
+      "high": 148.9197998046875,
+      "low": 145.41000366210938,
+      "close": 147.85000610351562,
+      "adjClose": 147.85000610351562,
+      "volume": 1068978
     }
   ],
   "corporateActions": {
@@ -15106,9 +15115,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

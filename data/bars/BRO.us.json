@@ -3,7 +3,7 @@
   "name": "Brown & Brown",
   "market": "US",
   "yahooSymbol": "BRO",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15094,11 +15094,20 @@
     {
       "date": "2026-09-03",
       "open": 72.69999694824219,
-      "high": 73.94000244140625,
+      "high": 74,
       "low": 72.12999725341797,
       "close": 72.55999755859375,
       "adjClose": 72.55999755859375,
-      "volume": 1351522
+      "volume": 1351500
+    },
+    {
+      "date": "2026-09-04",
+      "open": 71.58999633789062,
+      "high": 72.08000183105469,
+      "low": 71.22000122070312,
+      "close": 71.41999816894531,
+      "adjClose": 71.41999816894531,
+      "volume": 1353431
     }
   ],
   "corporateActions": {
@@ -15215,9 +15224,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

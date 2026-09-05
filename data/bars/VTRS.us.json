@@ -3,7 +3,7 @@
   "name": "Viatris",
   "market": "US",
   "yahooSymbol": "VTRS",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15090,6 +15090,24 @@
       "close": 17.09000015258789,
       "adjClose": 17.09000015258789,
       "volume": 7833200
+    },
+    {
+      "date": "2026-09-03",
+      "open": 17.219999313354492,
+      "high": 17.280000686645508,
+      "low": 16.809999465942383,
+      "close": 16.940000534057617,
+      "adjClose": 16.940000534057617,
+      "volume": 8032000
+    },
+    {
+      "date": "2026-09-04",
+      "open": 16.690000534057617,
+      "high": 17.020000457763672,
+      "low": 16.670000076293945,
+      "close": 16.8799991607666,
+      "adjClose": 16.8799991607666,
+      "volume": 5599203
     }
   ],
   "corporateActions": {
@@ -15186,9 +15204,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1676,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-02",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }

@@ -3,7 +3,7 @@
   "name": "Amphenol",
   "market": "US",
   "yahooSymbol": "APH",
-  "asOf": "2026-09-01",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15081,6 +15081,15 @@
       "close": 163.17999267578125,
       "adjClose": 163.17999267578125,
       "volume": 7650337
+    },
+    {
+      "date": "2026-09-04",
+      "open": 82.83999633789062,
+      "high": 83.80000305175781,
+      "low": 81.84500122070312,
+      "close": 82.77999877929688,
+      "adjClose": 82.77999877929688,
+      "volume": 11055268
     }
   ],
   "corporateActions": {
@@ -15093,6 +15102,12 @@
       },
       {
         "date": "2024-06-12",
+        "numerator": 2,
+        "denominator": 1,
+        "ratio": "2:1"
+      },
+      {
+        "date": "2026-09-03",
         "numerator": 2,
         "denominator": 1,
         "ratio": "2:1"
@@ -15206,9 +15221,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1676,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-01",
-    "gaps": 64
+    "lastDate": "2026-09-04",
+    "gaps": 66
   }
 }

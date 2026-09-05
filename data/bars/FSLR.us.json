@@ -3,7 +3,7 @@
   "name": "First Solar",
   "market": "US",
   "yahooSymbol": "FSLR",
-  "asOf": "2026-09-03",
+  "asOf": "2026-09-04",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15094,11 +15094,20 @@
     {
       "date": "2026-09-03",
       "open": 202.1699981689453,
-      "high": 207.6999053955078,
-      "low": 201.7449951171875,
+      "high": 207.6999969482422,
+      "low": 201.75,
       "close": 207.4199981689453,
       "adjClose": 207.4199981689453,
-      "volume": 1873273
+      "volume": 1873700
+    },
+    {
+      "date": "2026-09-04",
+      "open": 208.23500061035156,
+      "high": 209.67990112304688,
+      "low": 203.4783935546875,
+      "close": 204.4499969482422,
+      "adjClose": 204.4499969482422,
+      "volume": 1519700
     }
   ],
   "corporateActions": {
@@ -15106,9 +15115,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1677,
+    "barsAvailable": 1678,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-03",
+    "lastDate": "2026-09-04",
     "gaps": 64
   }
 }
