@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-05T23:51:24.726Z",
+  "ranAt": "2026-09-06T23:49:32.565Z",
   "results": [
     {
       "ticker": "A.us",
@@ -510,17 +510,9 @@
     {
       "ticker": "APH.us",
       "market": "US",
-      "status": "excluded",
-      "reason": "Unexplained single-bar move(s) exceeding 40% threshold",
-      "flags": [
-        {
-          "date": "2026-08-31",
-          "prevClose": 157.74000549316406,
-          "currClose": 79.2750015258789,
-          "pctChange": -49.74,
-          "message": "Unexplained -49.7% single-bar move not matched to a recorded split within 1 day(s)"
-        }
-      ]
+      "status": "ok",
+      "barsAvailable": 1678,
+      "gaps": 64
     },
     {
       "ticker": "APO.us",
@@ -3894,8 +3886,8 @@
       "ticker": "MNST.us",
       "market": "US",
       "status": "ok",
-      "barsAvailable": 1677,
-      "gaps": 65
+      "barsAvailable": 1678,
+      "gaps": 64
     },
     {
       "ticker": "MO.us",
@@ -4049,8 +4041,8 @@
       "ticker": "MTLN.uk",
       "market": "UK",
       "status": "ok",
-      "barsAvailable": 277,
-      "gaps": 8
+      "barsAvailable": 276,
+      "gaps": 9
     },
     {
       "ticker": "MTS.es",
