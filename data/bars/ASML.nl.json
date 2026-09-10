@@ -3,7 +3,7 @@
   "name": "ASML Holding",
   "market": "NL",
   "yahooSymbol": "ASML.AS",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 1467.4000244140625,
       "adjClose": 1467.4000244140625,
       "volume": 436091
+    },
+    {
+      "date": "2026-09-08",
+      "open": 1506,
+      "high": 1540,
+      "low": 1486.5999755859375,
+      "close": 1518,
+      "adjClose": 1518,
+      "volume": 478705
     }
   ],
   "corporateActions": {
@@ -15501,9 +15510,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

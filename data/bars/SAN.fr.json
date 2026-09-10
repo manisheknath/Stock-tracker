@@ -3,7 +3,7 @@
   "name": "Sanofi",
   "market": "FR",
   "yahooSymbol": "SAN.PA",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 76.26000213623047,
       "adjClose": 76.26000213623047,
       "volume": 1490914
+    },
+    {
+      "date": "2026-09-08",
+      "open": 75.5999984741211,
+      "high": 75.98999786376953,
+      "low": 74.2300033569336,
+      "close": 74.69999694824219,
+      "adjClose": 74.69999694824219,
+      "volume": 1468180
     }
   ],
   "corporateActions": {
@@ -15441,9 +15450,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

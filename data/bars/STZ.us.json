@@ -3,7 +3,7 @@
   "name": "Constellation Brands",
   "market": "US",
   "yahooSymbol": "STZ",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 128.17999267578125,
       "adjClose": 128.17999267578125,
       "volume": 1657300
+    },
+    {
+      "date": "2026-09-08",
+      "open": 128,
+      "high": 130.99000549316406,
+      "low": 120.43000030517578,
+      "close": 120.9800033569336,
+      "adjClose": 120.9800033569336,
+      "volume": 4546000
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Adyen",
   "market": "NL",
   "yahooSymbol": "ADYEN.AS",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 1026.5999755859375,
       "adjClose": 1026.5999755859375,
       "volume": 89366
+    },
+    {
+      "date": "2026-09-08",
+      "open": 1003,
+      "high": 1007,
+      "low": 983.0999755859375,
+      "close": 989.5999755859375,
+      "adjClose": 989.5999755859375,
+      "volume": 81870
     }
   ],
   "corporateActions": {
@@ -15412,9 +15421,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

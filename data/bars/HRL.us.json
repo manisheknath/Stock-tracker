@@ -3,7 +3,7 @@
   "name": "Hormel Foods",
   "market": "US",
   "yahooSymbol": "HRL",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 21.540000915527344,
       "adjClose": 21.540000915527344,
       "volume": 3815000
+    },
+    {
+      "date": "2026-09-08",
+      "open": 21.600000381469727,
+      "high": 21.6200008392334,
+      "low": 21.110000610351562,
+      "close": 21.209999084472656,
+      "adjClose": 21.209999084472656,
+      "volume": 4516400
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

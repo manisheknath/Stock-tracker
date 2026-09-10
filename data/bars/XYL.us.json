@@ -3,7 +3,7 @@
   "name": "Xylem Inc.",
   "market": "US",
   "yahooSymbol": "XYL",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 105.69000244140625,
       "adjClose": 105.69000244140625,
       "volume": 2424800
+    },
+    {
+      "date": "2026-09-08",
+      "open": 106.5,
+      "high": 110.12999725341797,
+      "low": 106.02999877929688,
+      "close": 108.80999755859375,
+      "adjClose": 108.80999755859375,
+      "volume": 3607900
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

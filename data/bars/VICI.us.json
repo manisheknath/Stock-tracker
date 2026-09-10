@@ -3,7 +3,7 @@
   "name": "Vici Properties",
   "market": "US",
   "yahooSymbol": "VICI",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 25.420000076293945,
       "adjClose": 25.420000076293945,
       "volume": 16781500
+    },
+    {
+      "date": "2026-09-08",
+      "open": 25.43000030517578,
+      "high": 25.559999465942383,
+      "low": 25.229999542236328,
+      "close": 25.270000457763672,
+      "adjClose": 25.270000457763672,
+      "volume": 11952400
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

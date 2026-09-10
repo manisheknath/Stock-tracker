@@ -3,7 +3,7 @@
   "name": "Kimco Realty",
   "market": "US",
   "yahooSymbol": "KIM",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 23.600000381469727,
       "adjClose": 23.600000381469727,
       "volume": 6003400
+    },
+    {
+      "date": "2026-09-08",
+      "open": 23.530000686645508,
+      "high": 23.860000610351562,
+      "low": 23.530000686645508,
+      "close": 23.760000228881836,
+      "adjClose": 23.760000228881836,
+      "volume": 6121500
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

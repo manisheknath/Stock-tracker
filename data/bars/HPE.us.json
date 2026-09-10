@@ -3,7 +3,7 @@
   "name": "Hewlett Packard Enterprise",
   "market": "US",
   "yahooSymbol": "HPE",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15107,7 +15107,16 @@
       "low": 51.4900016784668,
       "close": 52,
       "adjClose": 52,
-      "volume": 30113300
+      "volume": 30210400
+    },
+    {
+      "date": "2026-09-08",
+      "open": 52.290000915527344,
+      "high": 56.16999816894531,
+      "low": 51.79999923706055,
+      "close": 56.029998779296875,
+      "adjClose": 56.029998779296875,
+      "volume": 27635500
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

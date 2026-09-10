@@ -3,7 +3,7 @@
   "name": "HCA Healthcare",
   "market": "US",
   "yahooSymbol": "HCA",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 405,
       "adjClose": 405,
       "volume": 971300
+    },
+    {
+      "date": "2026-09-08",
+      "open": 401.54998779296875,
+      "high": 411.75,
+      "low": 397.6000061035156,
+      "close": 402.0199890136719,
+      "adjClose": 402.0199890136719,
+      "volume": 1764700
     }
   ],
   "corporateActions": {
@@ -15216,9 +15225,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Beiersdorf",
   "market": "DE",
   "yahooSymbol": "BEI.DE",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 76.44000244140625,
       "adjClose": 76.44000244140625,
       "volume": 361356
+    },
+    {
+      "date": "2026-09-08",
+      "open": 75.26000213623047,
+      "high": 77.5,
+      "low": 75.0999984741211,
+      "close": 76.44000244140625,
+      "adjClose": 76.44000244140625,
+      "volume": 279150
     }
   ],
   "corporateActions": {
@@ -15351,9 +15360,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 41
+    "lastDate": "2026-09-08",
+    "gaps": 42
   }
 }

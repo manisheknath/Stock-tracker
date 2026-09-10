@@ -3,7 +3,7 @@
   "name": "Land Securities",
   "market": "UK",
   "yahooSymbol": "LAND.L",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15189,6 +15189,15 @@
       "close": 662.5,
       "adjClose": 662.5,
       "volume": 2340957
+    },
+    {
+      "date": "2026-09-08",
+      "open": 659.5,
+      "high": 664,
+      "low": 654,
+      "close": 658,
+      "adjClose": 658,
+      "volume": 2385659
     }
   ],
   "corporateActions": {
@@ -15281,9 +15290,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1687,
+    "barsAvailable": 1688,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-07",
+    "lastDate": "2026-09-08",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Republic Services",
   "market": "US",
   "yahooSymbol": "RSG",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 222.7100067138672,
       "adjClose": 222.7100067138672,
       "volume": 1611000
+    },
+    {
+      "date": "2026-09-08",
+      "open": 221.13999938964844,
+      "high": 223.14999389648438,
+      "low": 220.16000366210938,
+      "close": 221.6300048828125,
+      "adjClose": 221.6300048828125,
+      "volume": 1504000
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

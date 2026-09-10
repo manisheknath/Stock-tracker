@@ -3,7 +3,7 @@
   "name": "AkzoNobel",
   "market": "NL",
   "yahooSymbol": "AKZA.AS",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 60.7400016784668,
       "adjClose": 60.7400016784668,
       "volume": 366180
+    },
+    {
+      "date": "2026-09-08",
+      "open": 59.86000061035156,
+      "high": 61.540000915527344,
+      "low": 59.779998779296875,
+      "close": 60.900001525878906,
+      "adjClose": 60.900001525878906,
+      "volume": 301263
     }
   ],
   "corporateActions": {
@@ -15465,9 +15474,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

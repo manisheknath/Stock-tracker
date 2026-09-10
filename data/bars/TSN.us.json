@@ -3,7 +3,7 @@
   "name": "Tyson Foods",
   "market": "US",
   "yahooSymbol": "TSN",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 51.41999816894531,
       "adjClose": 51.41999816894531,
       "volume": 5833500
+    },
+    {
+      "date": "2026-09-08",
+      "open": 51.45000076293945,
+      "high": 52.7400016784668,
+      "low": 51.349998474121094,
+      "close": 52.279998779296875,
+      "adjClose": 52.279998779296875,
+      "volume": 5274300
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

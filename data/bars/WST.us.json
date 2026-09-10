@@ -3,7 +3,7 @@
   "name": "West Pharmaceutical Services",
   "market": "US",
   "yahooSymbol": "WST",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 339.9700012207031,
       "adjClose": 339.9700012207031,
       "volume": 364100
+    },
+    {
+      "date": "2026-09-08",
+      "open": 335.510009765625,
+      "high": 342.3399963378906,
+      "low": 334.0400085449219,
+      "close": 337.75,
+      "adjClose": 337.75,
+      "volume": 581000
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

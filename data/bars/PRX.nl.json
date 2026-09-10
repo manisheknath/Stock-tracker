@@ -3,7 +3,7 @@
   "name": "Prosus",
   "market": "NL",
   "yahooSymbol": "PRX.AS",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 37.125,
       "adjClose": 37.125,
       "volume": 2380966
+    },
+    {
+      "date": "2026-09-08",
+      "open": 36.30500030517578,
+      "high": 36.52000045776367,
+      "low": 36.154998779296875,
+      "close": 36.22999954223633,
+      "adjClose": 36.22999954223633,
+      "volume": 2146269
     }
   ],
   "corporateActions": {
@@ -15444,9 +15453,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

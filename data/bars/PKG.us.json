@@ -3,7 +3,7 @@
   "name": "Packaging Corporation of America",
   "market": "US",
   "yahooSymbol": "PKG",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 237.25,
       "adjClose": 237.25,
       "volume": 530400
+    },
+    {
+      "date": "2026-09-08",
+      "open": 234.69000244140625,
+      "high": 238.1699981689453,
+      "low": 231.83999633789062,
+      "close": 231.99000549316406,
+      "adjClose": 231.99000549316406,
+      "volume": 566200
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

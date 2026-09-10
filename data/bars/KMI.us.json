@@ -3,7 +3,7 @@
   "name": "Kinder Morgan",
   "market": "US",
   "yahooSymbol": "KMI",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 31.399999618530273,
       "adjClose": 31.399999618530273,
       "volume": 7728100
+    },
+    {
+      "date": "2026-09-08",
+      "open": 31.440000534057617,
+      "high": 32.119998931884766,
+      "low": 31.100000381469727,
+      "close": 31.979999542236328,
+      "adjClose": 31.979999542236328,
+      "volume": 17839400
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

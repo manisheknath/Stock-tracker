@@ -3,7 +3,7 @@
   "name": "RELX",
   "market": "NL",
   "yahooSymbol": "REN.AS",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 30.600000381469727,
       "adjClose": 30.600000381469727,
       "volume": 1177139
+    },
+    {
+      "date": "2026-09-08",
+      "open": 30.299999237060547,
+      "high": 30.479999542236328,
+      "low": 29.65999984741211,
+      "close": 29.860000610351562,
+      "adjClose": 29.860000610351562,
+      "volume": 729392
     }
   ],
   "corporateActions": {
@@ -15469,9 +15478,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

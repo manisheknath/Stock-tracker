@@ -3,7 +3,7 @@
   "name": "UnitedHealth Group",
   "market": "US",
   "yahooSymbol": "UNH",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 397.1400146484375,
       "adjClose": 397.1400146484375,
       "volume": 5565400
+    },
+    {
+      "date": "2026-09-08",
+      "open": 392.3999938964844,
+      "high": 403.8900146484375,
+      "low": 390.44000244140625,
+      "close": 400.8399963378906,
+      "adjClose": 400.8399963378906,
+      "volume": 7049400
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

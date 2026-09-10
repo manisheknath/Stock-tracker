@@ -3,7 +3,7 @@
   "name": "Extra Space Storage",
   "market": "US",
   "yahooSymbol": "EXR",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 139.25,
       "adjClose": 139.25,
       "volume": 967300
+    },
+    {
+      "date": "2026-09-08",
+      "open": 138.5,
+      "high": 140.4499969482422,
+      "low": 138.5,
+      "close": 139.16000366210938,
+      "adjClose": 139.16000366210938,
+      "volume": 1140300
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

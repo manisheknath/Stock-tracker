@@ -3,7 +3,7 @@
   "name": "Textron",
   "market": "US",
   "yahooSymbol": "TXT",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 79.06999969482422,
       "adjClose": 79.06999969482422,
       "volume": 2061400
+    },
+    {
+      "date": "2026-09-08",
+      "open": 79.0199966430664,
+      "high": 79.76000213623047,
+      "low": 78.20999908447266,
+      "close": 79.54000091552734,
+      "adjClose": 79.54000091552734,
+      "volume": 1460600
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

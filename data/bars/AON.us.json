@@ -3,7 +3,7 @@
   "name": "Aon plc",
   "market": "US",
   "yahooSymbol": "AON",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 323.0899963378906,
       "adjClose": 323.0899963378906,
       "volume": 1467900
+    },
+    {
+      "date": "2026-09-08",
+      "open": 316.7799987792969,
+      "high": 321.57000732421875,
+      "low": 314.95001220703125,
+      "close": 315.7900085449219,
+      "adjClose": 315.7900085449219,
+      "volume": 1926500
     }
   ],
   "corporateActions": {
@@ -15216,9 +15225,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

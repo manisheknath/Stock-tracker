@@ -3,7 +3,7 @@
   "name": "MetLife",
   "market": "US",
   "yahooSymbol": "MET",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 97.62000274658203,
       "adjClose": 97.62000274658203,
       "volume": 2663100
+    },
+    {
+      "date": "2026-09-08",
+      "open": 96.55999755859375,
+      "high": 97.08999633789062,
+      "low": 95.38999938964844,
+      "close": 95.5,
+      "adjClose": 95.5,
+      "volume": 2459200
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

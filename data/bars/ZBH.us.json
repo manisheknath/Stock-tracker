@@ -3,7 +3,7 @@
   "name": "Zimmer Biomet",
   "market": "US",
   "yahooSymbol": "ZBH",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 98.06999969482422,
       "adjClose": 98.06999969482422,
       "volume": 1325000
+    },
+    {
+      "date": "2026-09-08",
+      "open": 97.05000305175781,
+      "high": 97.2300033569336,
+      "low": 91.87000274658203,
+      "close": 94.22000122070312,
+      "adjClose": 94.22000122070312,
+      "volume": 3132400
     }
   ],
   "corporateActions": {
@@ -15227,9 +15236,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

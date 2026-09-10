@@ -3,7 +3,7 @@
   "name": "LyondellBasell",
   "market": "US",
   "yahooSymbol": "LYB",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 63.52000045776367,
       "adjClose": 63.52000045776367,
       "volume": 2589900
+    },
+    {
+      "date": "2026-09-08",
+      "open": 64.4000015258789,
+      "high": 65.87999725341797,
+      "low": 64.4000015258789,
+      "close": 64.58999633789062,
+      "adjClose": 64.58999633789062,
+      "volume": 3267100
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

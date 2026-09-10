@@ -3,7 +3,7 @@
   "name": "CDW Corporation",
   "market": "US",
   "yahooSymbol": "CDW",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 152.3800048828125,
       "adjClose": 152.3800048828125,
       "volume": 1291200
+    },
+    {
+      "date": "2026-09-08",
+      "open": 152,
+      "high": 152,
+      "low": 143.6300048828125,
+      "close": 144.47999572753906,
+      "adjClose": 144.47999572753906,
+      "volume": 2221000
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

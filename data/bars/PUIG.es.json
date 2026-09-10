@@ -3,7 +3,7 @@
   "name": "Puig",
   "market": "ES",
   "yahooSymbol": "PUIG.MC",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -5406,6 +5406,15 @@
       "close": 18.31999969482422,
       "adjClose": 18.31999969482422,
       "volume": 333506
+    },
+    {
+      "date": "2026-09-08",
+      "open": 18.260000228881836,
+      "high": 18.510000228881836,
+      "low": 18.09000015258789,
+      "close": 18.149999618530273,
+      "adjClose": 18.149999618530273,
+      "volume": 327313
     }
   ],
   "corporateActions": {
@@ -5422,9 +5431,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 600,
+    "barsAvailable": 601,
     "firstDate": "2024-05-03",
-    "lastDate": "2026-09-07",
+    "lastDate": "2026-09-08",
     "gaps": 12
   }
 }

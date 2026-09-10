@@ -3,7 +3,7 @@
   "name": "Corteva",
   "market": "US",
   "yahooSymbol": "CTVA",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 87.86000061035156,
       "adjClose": 87.86000061035156,
       "volume": 4274300
+    },
+    {
+      "date": "2026-09-08",
+      "open": 88.25,
+      "high": 89.12999725341797,
+      "low": 84.9800033569336,
+      "close": 85.9000015258789,
+      "adjClose": 85.9000015258789,
+      "volume": 4604000
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

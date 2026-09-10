@@ -3,7 +3,7 @@
   "name": "Hannover Re",
   "market": "DE",
   "yahooSymbol": "HNR1.DE",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 260.6000061035156,
       "adjClose": 260.6000061035156,
       "volume": 197454
+    },
+    {
+      "date": "2026-09-08",
+      "open": 253.1999969482422,
+      "high": 254.39999389648438,
+      "low": 247.39999389648438,
+      "close": 247.39999389648438,
+      "adjClose": 247.39999389648438,
+      "volume": 201311
     }
   ],
   "corporateActions": {
@@ -15351,9 +15360,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 41
+    "lastDate": "2026-09-08",
+    "gaps": 42
   }
 }

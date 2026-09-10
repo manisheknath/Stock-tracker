@@ -3,7 +3,7 @@
   "name": "Kering",
   "market": "FR",
   "yahooSymbol": "KER.PA",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15405,6 +15405,15 @@
       "close": 245.1999969482422,
       "adjClose": 245.1999969482422,
       "volume": 254090
+    },
+    {
+      "date": "2026-09-08",
+      "open": 240.35000610351562,
+      "high": 251.89999389648438,
+      "low": 238.60000610351562,
+      "close": 244.39999389648438,
+      "adjClose": 244.39999389648438,
+      "volume": 343452
     }
   ],
   "corporateActions": {
@@ -15469,9 +15478,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1711,
+    "barsAvailable": 1712,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 31
+    "lastDate": "2026-09-08",
+    "gaps": 32
   }
 }

@@ -3,7 +3,7 @@
   "name": "Fluidra",
   "market": "ES",
   "yahooSymbol": "FDR.MC",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15387,6 +15387,15 @@
       "close": 19.049999237060547,
       "adjClose": 19.049999237060547,
       "volume": 185495
+    },
+    {
+      "date": "2026-09-08",
+      "open": 18.920000076293945,
+      "high": 19,
+      "low": 18.81999969482422,
+      "close": 18.84000015258789,
+      "adjClose": 18.84000015258789,
+      "volume": 206740
     }
   ],
   "corporateActions": {
@@ -15443,9 +15452,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 33
+    "lastDate": "2026-09-08",
+    "gaps": 34
   }
 }

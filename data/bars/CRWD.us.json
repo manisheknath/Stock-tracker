@@ -3,7 +3,7 @@
   "name": "CrowdStrike",
   "market": "US",
   "yahooSymbol": "CRWD",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 213.10000610351562,
       "adjClose": 213.10000610351562,
       "volume": 8422800
+    },
+    {
+      "date": "2026-09-08",
+      "open": 209.85000610351562,
+      "high": 211.67999267578125,
+      "low": 205.39999389648438,
+      "close": 210.02000427246094,
+      "adjClose": 210.02000427246094,
+      "volume": 8026600
     }
   ],
   "corporateActions": {
@@ -15122,9 +15131,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

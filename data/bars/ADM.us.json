@@ -3,7 +3,7 @@
   "name": "Archer Daniels Midland",
   "market": "US",
   "yahooSymbol": "ADM",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 84.61000061035156,
       "adjClose": 84.61000061035156,
       "volume": 2362900
+    },
+    {
+      "date": "2026-09-08",
+      "open": 85.5,
+      "high": 86.95999908447266,
+      "low": 83.86000061035156,
+      "close": 84.5,
+      "adjClose": 84.5,
+      "volume": 5139700
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

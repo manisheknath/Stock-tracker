@@ -3,7 +3,7 @@
   "name": "Realty Income",
   "market": "US",
   "yahooSymbol": "O",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 61.25,
       "adjClose": 61.25,
       "volume": 5098100
+    },
+    {
+      "date": "2026-09-08",
+      "open": 61.150001525878906,
+      "high": 61.689998626708984,
+      "low": 60.95000076293945,
+      "close": 61.02000045776367,
+      "adjClose": 61.02000045776367,
+      "volume": 5962900
     }
   ],
   "corporateActions": {
@@ -15447,9 +15456,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

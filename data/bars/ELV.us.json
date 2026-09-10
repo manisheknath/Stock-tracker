@@ -3,7 +3,7 @@
   "name": "Elevance Health",
   "market": "US",
   "yahooSymbol": "ELV",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 407.5,
       "adjClose": 407.5,
       "volume": 1132900
+    },
+    {
+      "date": "2026-09-08",
+      "open": 401.0199890136719,
+      "high": 405.1700134277344,
+      "low": 399.7300109863281,
+      "close": 401.94000244140625,
+      "adjClose": 401.94000244140625,
+      "volume": 1174500
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

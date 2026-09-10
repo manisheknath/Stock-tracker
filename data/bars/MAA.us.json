@@ -3,7 +3,7 @@
   "name": "Mid-America Apartment Communities",
   "market": "US",
   "yahooSymbol": "MAA",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 128.32000732421875,
       "adjClose": 128.32000732421875,
       "volume": 580400
+    },
+    {
+      "date": "2026-09-08",
+      "open": 128,
+      "high": 129.33999633789062,
+      "low": 127.69999694824219,
+      "close": 127.88999938964844,
+      "adjClose": 127.88999938964844,
+      "volume": 976500
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

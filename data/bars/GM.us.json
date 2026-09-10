@@ -3,7 +3,7 @@
   "name": "General Motors",
   "market": "US",
   "yahooSymbol": "GM",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 87.76000213623047,
       "adjClose": 87.76000213623047,
       "volume": 5440300
+    },
+    {
+      "date": "2026-09-08",
+      "open": 87.37999725341797,
+      "high": 87.8499984741211,
+      "low": 85.30999755859375,
+      "close": 85.79000091552734,
+      "adjClose": 85.79000091552734,
+      "volume": 6236200
     }
   ],
   "corporateActions": {
@@ -15188,9 +15197,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

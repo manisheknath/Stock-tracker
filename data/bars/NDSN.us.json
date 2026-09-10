@@ -3,7 +3,7 @@
   "name": "Nordson Corporation",
   "market": "US",
   "yahooSymbol": "NDSN",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 318.3599853515625,
       "adjClose": 318.3599853515625,
       "volume": 428900
+    },
+    {
+      "date": "2026-09-08",
+      "open": 318.1000061035156,
+      "high": 319.1199951171875,
+      "low": 314.95001220703125,
+      "close": 316.79998779296875,
+      "adjClose": 316.79998779296875,
+      "volume": 279400
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

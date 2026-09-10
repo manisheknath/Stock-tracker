@@ -3,7 +3,7 @@
   "name": "Rollins, Inc.",
   "market": "US",
   "yahooSymbol": "ROL",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 35.86000061035156,
       "adjClose": 35.86000061035156,
       "volume": 5236800
+    },
+    {
+      "date": "2026-09-08",
+      "open": 35.61000061035156,
+      "high": 35.650001525878906,
+      "low": 34.95000076293945,
+      "close": 34.95000076293945,
+      "adjClose": 34.95000076293945,
+      "volume": 5833300
     }
   ],
   "corporateActions": {
@@ -15231,9 +15240,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

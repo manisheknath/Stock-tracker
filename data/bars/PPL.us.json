@@ -3,7 +3,7 @@
   "name": "PPL Corporation",
   "market": "US",
   "yahooSymbol": "PPL",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 35.11000061035156,
       "adjClose": 35.11000061035156,
       "volume": 10269300
+    },
+    {
+      "date": "2026-09-08",
+      "open": 35.08000183105469,
+      "high": 35.58000183105469,
+      "low": 35.029998779296875,
+      "close": 35.08000183105469,
+      "adjClose": 35.08000183105469,
+      "volume": 9991600
     }
   ],
   "corporateActions": {
@@ -15220,9 +15229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

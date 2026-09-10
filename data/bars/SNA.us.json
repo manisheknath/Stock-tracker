@@ -3,7 +3,7 @@
   "name": "Snap-on",
   "market": "US",
   "yahooSymbol": "SNA",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15108,6 +15108,15 @@
       "close": 383,
       "adjClose": 383,
       "volume": 237000
+    },
+    {
+      "date": "2026-09-08",
+      "open": 381,
+      "high": 383.239990234375,
+      "low": 378.1300048828125,
+      "close": 379.8800048828125,
+      "adjClose": 379.8800048828125,
+      "volume": 313400
     }
   ],
   "corporateActions": {
@@ -15224,9 +15233,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1679,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-04",
-    "gaps": 64
+    "lastDate": "2026-09-08",
+    "gaps": 65
   }
 }

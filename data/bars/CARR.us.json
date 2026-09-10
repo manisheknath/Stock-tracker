@@ -3,7 +3,7 @@
   "name": "Carrier Global",
   "market": "US",
   "yahooSymbol": "CARR",
-  "asOf": "2026-09-09",
+  "asOf": "2026-09-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -14631,6 +14631,15 @@
       "close": 59.709999084472656,
       "adjClose": 59.709999084472656,
       "volume": 4349200
+    },
+    {
+      "date": "2026-09-08",
+      "open": 59.970001220703125,
+      "high": 60.35599899291992,
+      "low": 59.084999084472656,
+      "close": 59.11000061035156,
+      "adjClose": 59.11000061035156,
+      "volume": 4900200
     }
   ],
   "corporateActions": {
@@ -14739,9 +14748,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1625,
+    "barsAvailable": 1626,
     "firstDate": "2020-03-19",
-    "lastDate": "2026-09-04",
-    "gaps": 62
+    "lastDate": "2026-09-08",
+    "gaps": 63
   }
 }
