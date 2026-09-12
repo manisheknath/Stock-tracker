@@ -3,7 +3,7 @@
   "name": "Standard Life",
   "market": "UK",
   "yahooSymbol": "SDLF.L",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15207,6 +15207,15 @@
       "close": 927.5,
       "adjClose": 927.5,
       "volume": 2047933
+    },
+    {
+      "date": "2026-09-10",
+      "open": 927,
+      "high": 931,
+      "low": 911,
+      "close": 911,
+      "adjClose": 911,
+      "volume": 2449329
     }
   ],
   "corporateActions": {
@@ -15267,9 +15276,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1689,
+    "barsAvailable": 1690,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-10",
     "gaps": 56
   }
 }

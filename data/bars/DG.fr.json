@@ -3,7 +3,7 @@
   "name": "Vinci",
   "market": "FR",
   "yahooSymbol": "DG.PA",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15423,6 +15423,15 @@
       "close": 111.80000305175781,
       "adjClose": 111.80000305175781,
       "volume": 825805
+    },
+    {
+      "date": "2026-09-10",
+      "open": 111.80000305175781,
+      "high": 112.5,
+      "low": 110.30000305175781,
+      "close": 110.55000305175781,
+      "adjClose": 110.55000305175781,
+      "volume": 734353
     }
   ],
   "corporateActions": {
@@ -15479,9 +15488,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1714,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-10",
     "gaps": 32
   }
 }

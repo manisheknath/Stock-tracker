@@ -3,7 +3,7 @@
   "name": "SAP",
   "market": "DE",
   "yahooSymbol": "SAP.DE",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 182.86000061035156,
       "adjClose": 182.86000061035156,
       "volume": 2442888
+    },
+    {
+      "date": "2026-09-10",
+      "open": 180,
+      "high": 180.39999389648438,
+      "low": 176.1999969482422,
+      "close": 177.82000732421875,
+      "adjClose": 177.82000732421875,
+      "volume": 3314805
     }
   ],
   "corporateActions": {
@@ -15369,9 +15378,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-10",
     "gaps": 42
   }
 }

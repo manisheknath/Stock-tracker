@@ -3,7 +3,7 @@
   "name": "Bouygues",
   "market": "FR",
   "yahooSymbol": "EN.PA",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15423,6 +15423,15 @@
       "close": 44.150001525878906,
       "adjClose": 44.150001525878906,
       "volume": 844545
+    },
+    {
+      "date": "2026-09-10",
+      "open": 44,
+      "high": 44.334999084472656,
+      "low": 43.709999084472656,
+      "close": 43.849998474121094,
+      "adjClose": 43.849998474121094,
+      "volume": 593236
     }
   ],
   "corporateActions": {
@@ -15459,9 +15468,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1714,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-10",
     "gaps": 32
   }
 }

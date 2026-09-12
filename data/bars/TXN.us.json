@@ -3,7 +3,7 @@
   "name": "Texas Instruments",
   "market": "US",
   "yahooSymbol": "TXN",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15126,6 +15126,15 @@
       "close": 261.5899963378906,
       "adjClose": 261.5899963378906,
       "volume": 4253000
+    },
+    {
+      "date": "2026-09-10",
+      "open": 256.760009765625,
+      "high": 261.7200012207031,
+      "low": 255.82000732421875,
+      "close": 258.82000732421875,
+      "adjClose": 258.82000732421875,
+      "volume": 5840200
     }
   ],
   "corporateActions": {
@@ -15242,9 +15251,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1680,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-10",
     "gaps": 65
   }
 }

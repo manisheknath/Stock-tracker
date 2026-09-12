@@ -3,7 +3,7 @@
   "name": "EssilorLuxottica",
   "market": "FR",
   "yahooSymbol": "EL.PA",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15423,6 +15423,15 @@
       "close": 149,
       "adjClose": 149,
       "volume": 1121237
+    },
+    {
+      "date": "2026-09-10",
+      "open": 148.64999389648438,
+      "high": 148.8000030517578,
+      "low": 144.64999389648438,
+      "close": 145.85000610351562,
+      "adjClose": 145.85000610351562,
+      "volume": 864157
     }
   ],
   "corporateActions": {
@@ -15459,9 +15468,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1714,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-10",
     "gaps": 32
   }
 }

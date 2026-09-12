@@ -3,7 +3,7 @@
   "name": "Tata Capital",
   "market": "IN",
   "yahooSymbol": "TATACAP.NS",
-  "asOf": "2026-09-10",
+  "asOf": "2026-09-12",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -2067,6 +2067,24 @@
       "close": 363,
       "adjClose": 363,
       "volume": 617731
+    },
+    {
+      "date": "2026-09-10",
+      "open": 362,
+      "high": 365.54998779296875,
+      "low": 360.6499938964844,
+      "close": 363.1499938964844,
+      "adjClose": 363.1499938964844,
+      "volume": 664000
+    },
+    {
+      "date": "2026-09-11",
+      "open": 361.20001220703125,
+      "high": 365.1499938964844,
+      "low": 356.79998779296875,
+      "close": 362.8999938964844,
+      "adjClose": 362.8999938964844,
+      "volume": 495348
     }
   ],
   "corporateActions": {
@@ -2079,9 +2097,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 229,
+    "barsAvailable": 231,
     "firstDate": "2025-10-13",
-    "lastDate": "2026-09-09",
+    "lastDate": "2026-09-11",
     "gaps": 9
   }
 }
