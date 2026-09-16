@@ -3,7 +3,7 @@
   "name": "Nucor",
   "market": "US",
   "yahooSymbol": "NUE",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 259.42999267578125,
       "adjClose": 259.42999267578125,
       "volume": 844800
+    },
+    {
+      "date": "2026-09-14",
+      "open": 257.25,
+      "high": 260.95001220703125,
+      "low": 253.52999877929688,
+      "close": 254.6300048828125,
+      "adjClose": 254.6300048828125,
+      "volume": 1039000
     }
   ],
   "corporateActions": {
@@ -15256,9 +15265,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 65
   }
 }

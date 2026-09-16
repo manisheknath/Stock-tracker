@@ -3,7 +3,7 @@
   "name": "National Grid plc",
   "market": "UK",
   "yahooSymbol": "NG.L",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15225,6 +15225,15 @@
       "close": 1130.5,
       "adjClose": 1130.5,
       "volume": 5228900
+    },
+    {
+      "date": "2026-09-14",
+      "open": 1130,
+      "high": 1132,
+      "low": 1105,
+      "close": 1105,
+      "adjClose": 1105,
+      "volume": 16399245
     }
   ],
   "corporateActions": {
@@ -15285,9 +15294,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1691,
+    "barsAvailable": 1692,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 56
   }
 }

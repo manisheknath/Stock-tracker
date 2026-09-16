@@ -3,7 +3,7 @@
   "name": "Thomson Reuters Corporation",
   "market": "US",
   "yahooSymbol": "TRI",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 97.3499984741211,
       "adjClose": 97.3499984741211,
       "volume": 1120800
+    },
+    {
+      "date": "2026-09-14",
+      "open": 101.08999633789062,
+      "high": 106.12999725341797,
+      "low": 100.4800033569336,
+      "close": 105.81999969482422,
+      "adjClose": 105.81999969482422,
+      "volume": 2067900
     }
   ],
   "corporateActions": {
@@ -15275,9 +15284,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Mettler Toledo",
   "market": "US",
   "yahooSymbol": "MTD",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 1293.52001953125,
       "adjClose": 1293.52001953125,
       "volume": 96700
+    },
+    {
+      "date": "2026-09-14",
+      "open": 1302.8800048828125,
+      "high": 1306.1400146484375,
+      "low": 1274.510009765625,
+      "close": 1285.75,
+      "adjClose": 1285.75,
+      "volume": 206000
     }
   ],
   "corporateActions": {
@@ -15151,9 +15160,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 65
   }
 }

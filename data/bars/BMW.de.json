@@ -3,7 +3,7 @@
   "name": "BMW",
   "market": "DE",
   "yahooSymbol": "BMW.DE",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 63,
       "adjClose": 63,
       "volume": 1253381
+    },
+    {
+      "date": "2026-09-14",
+      "open": 63.15999984741211,
+      "high": 64.18000030517578,
+      "low": 62.20000076293945,
+      "close": 62.720001220703125,
+      "adjClose": 62.720001220703125,
+      "volume": 1147588
     }
   ],
   "corporateActions": {
@@ -15387,9 +15396,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 42
   }
 }

@@ -3,7 +3,7 @@
   "name": "Fair Isaac",
   "market": "US",
   "yahooSymbol": "FICO",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 985.3900146484375,
       "adjClose": 985.3900146484375,
       "volume": 400200
+    },
+    {
+      "date": "2026-09-14",
+      "open": 1002,
+      "high": 1014,
+      "low": 982.780029296875,
+      "close": 1001.5,
+      "adjClose": 1001.5,
+      "volume": 253600
     }
   ],
   "corporateActions": {
@@ -15151,9 +15160,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 65
   }
 }

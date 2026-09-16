@@ -3,7 +3,7 @@
   "name": "PulteGroup",
   "market": "US",
   "yahooSymbol": "PHM",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 118.26000213623047,
       "adjClose": 118.26000213623047,
       "volume": 1265200
+    },
+    {
+      "date": "2026-09-14",
+      "open": 117.25,
+      "high": 119.80999755859375,
+      "low": 116.93000030517578,
+      "close": 118.94000244140625,
+      "adjClose": 118.94000244140625,
+      "volume": 1160800
     }
   ],
   "corporateActions": {
@@ -15256,9 +15265,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 65
   }
 }

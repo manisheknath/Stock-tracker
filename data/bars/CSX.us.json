@@ -3,7 +3,7 @@
   "name": "CSX Corporation",
   "market": "US",
   "yahooSymbol": "CSX",
-  "asOf": "2026-09-15",
+  "asOf": "2026-09-16",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15144,6 +15144,15 @@
       "close": 48.95000076293945,
       "adjClose": 48.95000076293945,
       "volume": 7112600
+    },
+    {
+      "date": "2026-09-14",
+      "open": 48.63999938964844,
+      "high": 48.959999084472656,
+      "low": 48.310001373291016,
+      "close": 48.90999984741211,
+      "adjClose": 48.90999984741211,
+      "volume": 8259200
     }
   ],
   "corporateActions": {
@@ -15267,9 +15276,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1682,
+    "barsAvailable": 1683,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-11",
+    "lastDate": "2026-09-14",
     "gaps": 65
   }
 }
