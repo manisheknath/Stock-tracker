@@ -3,9 +3,9 @@
   "name": "Kraft Heinz",
   "market": "US",
   "yahooSymbol": "KHC",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "USD",
-  "exchange": "NasdaqGS",
+  "exchange": "NYSE",
   "bars": [
     {
       "date": "2020-01-02",
@@ -15153,6 +15153,15 @@
       "close": 24.270000457763672,
       "adjClose": 24.270000457763672,
       "volume": 20331100
+    },
+    {
+      "date": "2026-09-15",
+      "open": 23.940000534057617,
+      "high": 24.954999923706055,
+      "low": 23.75,
+      "close": 24.729999542236328,
+      "adjClose": 24.729999542236328,
+      "volume": 22949300
     }
   ],
   "corporateActions": {
@@ -15269,9 +15278,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 65
   }
 }

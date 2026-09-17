@@ -3,7 +3,7 @@
   "name": "Principal Financial Group",
   "market": "US",
   "yahooSymbol": "PFG",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 116.9000015258789,
       "adjClose": 116.9000015258789,
       "volume": 922800
+    },
+    {
+      "date": "2026-09-15",
+      "open": 116.77999877929688,
+      "high": 118.4800033569336,
+      "low": 116.5199966430664,
+      "close": 118.37000274658203,
+      "adjClose": 118.37000274658203,
+      "volume": 1392300
     }
   ],
   "corporateActions": {
@@ -15269,9 +15278,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Pfizer",
   "market": "US",
   "yahooSymbol": "PFE",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 27.719999313354492,
       "adjClose": 27.719999313354492,
       "volume": 28571600
+    },
+    {
+      "date": "2026-09-15",
+      "open": 27.6200008392334,
+      "high": 27.65999984741211,
+      "low": 27.25,
+      "close": 27.549999237060547,
+      "adjClose": 27.549999237060547,
+      "volume": 40426600
     }
   ],
   "corporateActions": {
@@ -15276,9 +15285,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 65
   }
 }

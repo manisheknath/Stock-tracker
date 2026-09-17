@@ -3,7 +3,7 @@
   "name": "American Express",
   "market": "US",
   "yahooSymbol": "AXP",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 327.7799987792969,
       "adjClose": 327.7799987792969,
       "volume": 2437600
+    },
+    {
+      "date": "2026-09-15",
+      "open": 326.6600036621094,
+      "high": 327,
+      "low": 322.010009765625,
+      "close": 324.42999267578125,
+      "adjClose": 324.42999267578125,
+      "volume": 2059000
     }
   ],
   "corporateActions": {
@@ -15269,9 +15278,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Aflac",
   "market": "US",
   "yahooSymbol": "AFL",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 117.01000213623047,
       "adjClose": 117.01000213623047,
       "volume": 1837600
+    },
+    {
+      "date": "2026-09-15",
+      "open": 116.80999755859375,
+      "high": 117.7699966430664,
+      "low": 116.02999877929688,
+      "close": 117.55000305175781,
+      "adjClose": 117.55000305175781,
+      "volume": 2201200
     }
   ],
   "corporateActions": {
@@ -15269,9 +15278,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "ExxonMobil",
   "market": "US",
   "yahooSymbol": "XOM",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15153,6 +15153,15 @@
       "close": 165.0800018310547,
       "adjClose": 165.0800018310547,
       "volume": 13942100
+    },
+    {
+      "date": "2026-09-15",
+      "open": 165.36000061035156,
+      "high": 169.63999938964844,
+      "low": 165.14999389648438,
+      "close": 169.32000732421875,
+      "adjClose": 169.32000732421875,
+      "volume": 12329200
     }
   ],
   "corporateActions": {
@@ -15269,9 +15278,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1683,
+    "barsAvailable": 1684,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Tesco",
   "market": "UK",
   "yahooSymbol": "TSCO.L",
-  "asOf": "2026-09-16",
+  "asOf": "2026-09-17",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15234,6 +15234,15 @@
       "close": 480.8999938964844,
       "adjClose": 480.8999938964844,
       "volume": 17663411
+    },
+    {
+      "date": "2026-09-15",
+      "open": 478.6000061035156,
+      "high": 485.5,
+      "low": 478.29998779296875,
+      "close": 479.5,
+      "adjClose": 479.5,
+      "volume": 16870032
     }
   ],
   "corporateActions": {
@@ -15305,9 +15314,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1692,
+    "barsAvailable": 1693,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-14",
+    "lastDate": "2026-09-15",
     "gaps": 56
   }
 }
