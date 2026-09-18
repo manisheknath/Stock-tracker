@@ -3,7 +3,7 @@
   "name": "Santander",
   "market": "ES",
   "yahooSymbol": "SAN.MC",
-  "asOf": "2026-09-17",
+  "asOf": "2026-09-18",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 12.666000366210938,
       "adjClose": 12.666000366210938,
       "volume": 20136293
+    },
+    {
+      "date": "2026-09-16",
+      "open": 12.814000129699707,
+      "high": 12.815999984741211,
+      "low": 12.628000259399414,
+      "close": 12.6899995803833,
+      "adjClose": 12.6899995803833,
+      "volume": 17865450
     }
   ],
   "corporateActions": {
@@ -15509,9 +15518,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-15",
+    "lastDate": "2026-09-16",
     "gaps": 33
   }
 }
