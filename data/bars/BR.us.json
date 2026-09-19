@@ -3,7 +3,7 @@
   "name": "Broadridge Financial Solutions",
   "market": "US",
   "yahooSymbol": "BR",
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-19",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15171,6 +15171,15 @@
       "close": 167.08999633789062,
       "adjClose": 167.08999633789062,
       "volume": 894200
+    },
+    {
+      "date": "2026-09-17",
+      "open": 166.63999938964844,
+      "high": 167.24000549316406,
+      "low": 164.2100067138672,
+      "close": 164.30999755859375,
+      "adjClose": 164.30999755859375,
+      "volume": 860000
     }
   ],
   "corporateActions": {
@@ -15287,9 +15296,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1685,
+    "barsAvailable": 1686,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-16",
+    "lastDate": "2026-09-17",
     "gaps": 65
   }
 }

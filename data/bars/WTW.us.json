@@ -3,7 +3,7 @@
   "name": "Willis Towers Watson",
   "market": "US",
   "yahooSymbol": "WTW",
-  "asOf": "2026-09-18",
+  "asOf": "2026-09-19",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15171,6 +15171,15 @@
       "close": 312.9100036621094,
       "adjClose": 312.9100036621094,
       "volume": 530500
+    },
+    {
+      "date": "2026-09-17",
+      "open": 312.95001220703125,
+      "high": 313.739990234375,
+      "low": 309.1199951171875,
+      "close": 310.989990234375,
+      "adjClose": 310.989990234375,
+      "volume": 354600
     }
   ],
   "corporateActions": {
@@ -15283,9 +15292,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1685,
+    "barsAvailable": 1686,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-16",
+    "lastDate": "2026-09-17",
     "gaps": 65
   }
 }
