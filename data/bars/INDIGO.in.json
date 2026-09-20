@@ -3,7 +3,7 @@
   "name": "IndiGo",
   "market": "IN",
   "yahooSymbol": "INDIGO.NS",
-  "asOf": "2026-09-19",
+  "asOf": "2026-09-20",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14921,6 +14921,15 @@
       "volume": 394117
     },
     {
+      "date": "2026-09-07",
+      "open": 4950,
+      "high": 5008,
+      "low": 4944,
+      "close": 5001,
+      "adjClose": 5001,
+      "volume": 354874
+    },
+    {
       "date": "2026-09-08",
       "open": 4971,
       "high": 5022.5,
@@ -14991,6 +15000,15 @@
       "close": 4845,
       "adjClose": 4845,
       "volume": 509638
+    },
+    {
+      "date": "2026-09-18",
+      "open": 4925,
+      "high": 4970,
+      "low": 4881,
+      "close": 4920,
+      "adjClose": 4920,
+      "volume": 732347
     }
   ],
   "corporateActions": {
@@ -15003,9 +15021,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1665,
+    "barsAvailable": 1667,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-09-17",
-    "gaps": 87
+    "lastDate": "2026-09-18",
+    "gaps": 86
   }
 }

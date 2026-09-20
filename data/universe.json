@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-20",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -2012,13 +2012,6 @@
       "yahooSymbol": "ENRIN.NS"
     },
     {
-      "ticker": "ENT.uk",
-      "name": "Entain",
-      "market": "UK",
-      "index": "FTSE100",
-      "yahooSymbol": "ENT.L"
-    },
-    {
       "ticker": "EOAN.de",
       "name": "E.ON",
       "market": "DE",
@@ -2157,6 +2150,13 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "EXR"
+    },
+    {
+      "ticker": "EZJ.uk",
+      "name": "EasyJet",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "EZJ.L"
     },
     {
       "ticker": "F.us",
@@ -3102,6 +3102,13 @@
       "market": "IN",
       "index": "NIFTY50",
       "yahooSymbol": "ITC.NS"
+    },
+    {
+      "ticker": "ITH.uk",
+      "name": "Ithaca Energy",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "ITH.L"
     },
     {
       "ticker": "ITRK.uk",
@@ -4425,13 +4432,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "PSKY"
-    },
-    {
-      "ticker": "PSN.uk",
-      "name": "Persimmon",
-      "market": "UK",
-      "index": "FTSE100",
-      "yahooSymbol": "PSN.L"
     },
     {
       "ticker": "PSON.uk",
