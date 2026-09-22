@@ -3,7 +3,7 @@
   "name": "Cipla",
   "market": "IN",
   "yahooSymbol": "CIPLA.NS",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15002,6 +15002,15 @@
       "volume": 911572
     },
     {
+      "date": "2026-09-17",
+      "open": 1362.5,
+      "high": 1385,
+      "low": 1351.5999755859375,
+      "close": 1376.300048828125,
+      "adjClose": 1376.300048828125,
+      "volume": 730653
+    },
+    {
       "date": "2026-09-18",
       "open": 1371.699951171875,
       "high": 1394.5,
@@ -15045,9 +15054,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1668,
     "firstDate": "2020-01-01",
     "lastDate": "2026-09-18",
-    "gaps": 86
+    "gaps": 85
   }
 }

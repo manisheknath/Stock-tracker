@@ -3,7 +3,7 @@
   "name": "Schneider Electric",
   "market": "FR",
   "yahooSymbol": "SU.PA",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15479,6 +15479,15 @@
       "volume": 669103
     },
     {
+      "date": "2026-09-17",
+      "open": 282,
+      "high": 289.45001220703125,
+      "low": 281.20001220703125,
+      "close": 287.1000061035156,
+      "adjClose": 287.1000061035156,
+      "volume": 852452
+    },
+    {
       "date": "2026-09-18",
       "open": 287.79998779296875,
       "high": 289.29998779296875,
@@ -15522,9 +15531,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1721,
     "firstDate": "2020-01-02",
     "lastDate": "2026-09-18",
-    "gaps": 32
+    "gaps": 31
   }
 }

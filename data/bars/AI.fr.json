@@ -3,7 +3,7 @@
   "name": "Air Liquide",
   "market": "FR",
   "yahooSymbol": "AI.PA",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15479,6 +15479,15 @@
       "volume": 785835
     },
     {
+      "date": "2026-09-17",
+      "open": 166.3800048828125,
+      "high": 166.9600067138672,
+      "low": 164.89999389648438,
+      "close": 165.24000549316406,
+      "adjClose": 165.24000549316406,
+      "volume": 657487
+    },
+    {
       "date": "2026-09-18",
       "open": 164.47999572753906,
       "high": 164.94000244140625,
@@ -15541,9 +15550,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1721,
     "firstDate": "2020-01-02",
     "lastDate": "2026-09-18",
-    "gaps": 32
+    "gaps": 31
   }
 }

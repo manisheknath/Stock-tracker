@@ -3,7 +3,7 @@
   "name": "NN Group",
   "market": "NL",
   "yahooSymbol": "NN.AS",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15479,6 +15479,15 @@
       "volume": 574368
     },
     {
+      "date": "2026-09-17",
+      "open": 80.27999877929688,
+      "high": 81.19999694824219,
+      "low": 80.08000183105469,
+      "close": 81.0999984741211,
+      "adjClose": 81.0999984741211,
+      "volume": 621665
+    },
+    {
       "date": "2026-09-18",
       "open": 80.9000015258789,
       "high": 81.0199966430664,
@@ -15546,9 +15555,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1721,
     "firstDate": "2020-01-02",
     "lastDate": "2026-09-18",
-    "gaps": 32
+    "gaps": 31
   }
 }

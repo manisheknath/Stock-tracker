@@ -3,7 +3,7 @@
   "name": "Hermès",
   "market": "FR",
   "yahooSymbol": "RMS.PA",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15479,6 +15479,15 @@
       "volume": 91961
     },
     {
+      "date": "2026-09-17",
+      "open": 1397.5,
+      "high": 1401,
+      "low": 1373.5,
+      "close": 1375,
+      "adjClose": 1375,
+      "volume": 74773
+    },
+    {
       "date": "2026-09-18",
       "open": 1367,
       "high": 1373.5,
@@ -15550,9 +15559,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1721,
     "firstDate": "2020-01-02",
     "lastDate": "2026-09-18",
-    "gaps": 32
+    "gaps": 31
   }
 }

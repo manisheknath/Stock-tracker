@@ -3,7 +3,7 @@
   "name": "Capgemini",
   "market": "FR",
   "yahooSymbol": "CAP.PA",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15479,6 +15479,15 @@
       "volume": 535055
     },
     {
+      "date": "2026-09-17",
+      "open": 106.5,
+      "high": 107.0999984741211,
+      "low": 104.75,
+      "close": 107.0999984741211,
+      "adjClose": 107.0999984741211,
+      "volume": 488966
+    },
+    {
       "date": "2026-09-18",
       "open": 106.69999694824219,
       "high": 107.69999694824219,
@@ -15522,9 +15531,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1721,
     "firstDate": "2020-01-02",
     "lastDate": "2026-09-18",
-    "gaps": 32
+    "gaps": 31
   }
 }

@@ -3,7 +3,7 @@
   "name": "Shell plc",
   "market": "NL",
   "yahooSymbol": "SHELL.AS",
-  "asOf": "2026-09-21",
+  "asOf": "2026-09-22",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15479,6 +15479,15 @@
       "volume": 5079314
     },
     {
+      "date": "2026-09-17",
+      "open": 41.58000183105469,
+      "high": 42.05500030517578,
+      "low": 41.380001068115234,
+      "close": 41.560001373291016,
+      "adjClose": 41.560001373291016,
+      "volume": 4960833
+    },
+    {
       "date": "2026-09-18",
       "open": 41.46500015258789,
       "high": 41.5,
@@ -15602,9 +15611,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1721,
     "firstDate": "2020-01-02",
     "lastDate": "2026-09-18",
-    "gaps": 32
+    "gaps": 31
   }
 }
