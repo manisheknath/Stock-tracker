@@ -3,7 +3,7 @@
   "name": "RTX Corporation",
   "market": "US",
   "yahooSymbol": "RTX",
-  "asOf": "2026-09-22",
+  "asOf": "2026-09-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15188,7 +15188,16 @@
       "low": 191.17999267578125,
       "close": 194,
       "adjClose": 194,
-      "volume": 9831700
+      "volume": 9843400
+    },
+    {
+      "date": "2026-09-21",
+      "open": 193.75,
+      "high": 195.19000244140625,
+      "low": 192.86000061035156,
+      "close": 194.33999633789062,
+      "adjClose": 194.33999633789062,
+      "volume": 2921200
     }
   ],
   "corporateActions": {
@@ -15312,9 +15321,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1687,
+    "barsAvailable": 1688,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-18",
+    "lastDate": "2026-09-21",
     "gaps": 65
   }
 }

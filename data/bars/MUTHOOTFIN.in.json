@@ -3,7 +3,7 @@
   "name": "Muthoot Finance",
   "market": "IN",
   "yahooSymbol": "MUTHOOTFIN.NS",
-  "asOf": "2026-09-22",
+  "asOf": "2026-09-23",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -14975,6 +14975,15 @@
       "volume": 1015297
     },
     {
+      "date": "2026-09-14",
+      "open": 2792.10009765625,
+      "high": 2792.10009765625,
+      "low": 2792.10009765625,
+      "close": 2792.10009765625,
+      "adjClose": 2792.10009765625,
+      "volume": 0
+    },
+    {
       "date": "2026-09-15",
       "open": 2792.10009765625,
       "high": 2794,
@@ -15009,6 +15018,15 @@
       "close": 2841.10009765625,
       "adjClose": 2841.10009765625,
       "volume": 654610
+    },
+    {
+      "date": "2026-09-21",
+      "open": 2826,
+      "high": 2874.199951171875,
+      "low": 2814,
+      "close": 2854.199951171875,
+      "adjClose": 2854.199951171875,
+      "volume": 433892
     }
   ],
   "corporateActions": {
@@ -15045,9 +15063,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1667,
+    "barsAvailable": 1669,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-09-18",
-    "gaps": 86
+    "lastDate": "2026-09-21",
+    "gaps": 85
   }
 }
