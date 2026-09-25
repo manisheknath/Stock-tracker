@@ -3,7 +3,7 @@
   "name": "J.B. Hunt",
   "market": "US",
   "yahooSymbol": "JBHT",
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15198,6 +15198,15 @@
       "close": 236.1699981689453,
       "adjClose": 236.1699981689453,
       "volume": 1024600
+    },
+    {
+      "date": "2026-09-23",
+      "open": 236.5,
+      "high": 239.49000549316406,
+      "low": 233.36000061035156,
+      "close": 234.6300048828125,
+      "adjClose": 234.6300048828125,
+      "volume": 898800
     }
   ],
   "corporateActions": {
@@ -15314,9 +15323,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1688,
+    "barsAvailable": 1689,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-21",
-    "gaps": 65
+    "lastDate": "2026-09-23",
+    "gaps": 66
   }
 }

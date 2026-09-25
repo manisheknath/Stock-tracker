@@ -3,7 +3,7 @@
   "name": "NiSource",
   "market": "US",
   "yahooSymbol": "NI",
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15198,6 +15198,15 @@
       "close": 40.52000045776367,
       "adjClose": 40.52000045776367,
       "volume": 8278100
+    },
+    {
+      "date": "2026-09-23",
+      "open": 39.689998626708984,
+      "high": 39.7400016784668,
+      "low": 39,
+      "close": 39.25,
+      "adjClose": 39.25,
+      "volume": 8472200
     }
   ],
   "corporateActions": {
@@ -15314,9 +15323,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1688,
+    "barsAvailable": 1689,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-21",
-    "gaps": 65
+    "lastDate": "2026-09-23",
+    "gaps": 66
   }
 }

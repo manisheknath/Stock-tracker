@@ -3,7 +3,7 @@
   "name": "Oneok",
   "market": "US",
   "yahooSymbol": "OKE",
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15198,6 +15198,15 @@
       "close": 91.80000305175781,
       "adjClose": 91.80000305175781,
       "volume": 3255000
+    },
+    {
+      "date": "2026-09-23",
+      "open": 90.75,
+      "high": 91.9000015258789,
+      "low": 89.9000015258789,
+      "close": 90.54000091552734,
+      "adjClose": 90.54000091552734,
+      "volume": 3038200
     }
   ],
   "corporateActions": {
@@ -15314,9 +15323,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1688,
+    "barsAvailable": 1689,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-21",
-    "gaps": 65
+    "lastDate": "2026-09-23",
+    "gaps": 66
   }
 }

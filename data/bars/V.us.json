@@ -3,7 +3,7 @@
   "name": "Visa Inc.",
   "market": "US",
   "yahooSymbol": "V",
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15198,6 +15198,15 @@
       "close": 369.95001220703125,
       "adjClose": 369.95001220703125,
       "volume": 7108400
+    },
+    {
+      "date": "2026-09-23",
+      "open": 361.239990234375,
+      "high": 366.3299865722656,
+      "low": 360,
+      "close": 361.5199890136719,
+      "adjClose": 361.5199890136719,
+      "volume": 5125600
     }
   ],
   "corporateActions": {
@@ -15314,9 +15323,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1688,
+    "barsAvailable": 1689,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-21",
-    "gaps": 65
+    "lastDate": "2026-09-23",
+    "gaps": 66
   }
 }

@@ -3,7 +3,7 @@
   "name": "Mosaic Company (The)",
   "market": "US",
   "yahooSymbol": "MOS",
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15198,6 +15198,15 @@
       "close": 24.06999969482422,
       "adjClose": 24.06999969482422,
       "volume": 13089900
+    },
+    {
+      "date": "2026-09-23",
+      "open": 24.5,
+      "high": 25.06999969482422,
+      "low": 24.290000915527344,
+      "close": 24.3700008392334,
+      "adjClose": 24.3700008392334,
+      "volume": 5306400
     }
   ],
   "corporateActions": {
@@ -15318,9 +15327,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1688,
+    "barsAvailable": 1689,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-21",
-    "gaps": 65
+    "lastDate": "2026-09-23",
+    "gaps": 66
   }
 }

@@ -3,7 +3,7 @@
   "name": "Everest Group",
   "market": "US",
   "yahooSymbol": "EG",
-  "asOf": "2026-09-24",
+  "asOf": "2026-09-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15198,6 +15198,15 @@
       "close": 369.4200134277344,
       "adjClose": 369.4200134277344,
       "volume": 386000
+    },
+    {
+      "date": "2026-09-23",
+      "open": 371.4100036621094,
+      "high": 376.8399963378906,
+      "low": 370.7099914550781,
+      "close": 372.3599853515625,
+      "adjClose": 372.3599853515625,
+      "volume": 291300
     }
   ],
   "corporateActions": {
@@ -15306,9 +15315,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1688,
+    "barsAvailable": 1689,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-21",
-    "gaps": 65
+    "lastDate": "2026-09-23",
+    "gaps": 66
   }
 }
