@@ -3,7 +3,7 @@
   "name": "Huntington Ingalls Industries",
   "market": "US",
   "yahooSymbol": "HII",
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15200,6 +15200,15 @@
       "volume": 425100
     },
     {
+      "date": "2026-09-22",
+      "open": 278,
+      "high": 278.7799987792969,
+      "low": 268.0899963378906,
+      "close": 270.95001220703125,
+      "adjClose": 270.95001220703125,
+      "volume": 541600
+    },
+    {
       "date": "2026-09-23",
       "open": 269.989990234375,
       "high": 274.3500061035156,
@@ -15207,6 +15216,15 @@
       "close": 269.79998779296875,
       "adjClose": 269.79998779296875,
       "volume": 476600
+    },
+    {
+      "date": "2026-09-24",
+      "open": 270,
+      "high": 271.989990234375,
+      "low": 265.5799865722656,
+      "close": 266,
+      "adjClose": 266,
+      "volume": 375600
     }
   ],
   "corporateActions": {
@@ -15323,9 +15341,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1689,
+    "barsAvailable": 1691,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-23",
-    "gaps": 66
+    "lastDate": "2026-09-24",
+    "gaps": 65
   }
 }

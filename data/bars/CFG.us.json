@@ -3,7 +3,7 @@
   "name": "Citizens Financial Group",
   "market": "US",
   "yahooSymbol": "CFG",
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15200,6 +15200,15 @@
       "volume": 3171700
     },
     {
+      "date": "2026-09-22",
+      "open": 67.5,
+      "high": 67.62000274658203,
+      "low": 65.3499984741211,
+      "close": 65.48999786376953,
+      "adjClose": 65.48999786376953,
+      "volume": 4895500
+    },
+    {
       "date": "2026-09-23",
       "open": 65,
       "high": 65.73999786376953,
@@ -15207,6 +15216,15 @@
       "close": 64.61000061035156,
       "adjClose": 64.61000061035156,
       "volume": 4702300
+    },
+    {
+      "date": "2026-09-24",
+      "open": 64.7699966430664,
+      "high": 64.88500213623047,
+      "low": 63.849998474121094,
+      "close": 64.7300033569336,
+      "adjClose": 64.7300033569336,
+      "volume": 4280300
     }
   ],
   "corporateActions": {
@@ -15323,9 +15341,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1689,
+    "barsAvailable": 1691,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-23",
-    "gaps": 66
+    "lastDate": "2026-09-24",
+    "gaps": 65
   }
 }

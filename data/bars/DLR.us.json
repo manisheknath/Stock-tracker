@@ -3,7 +3,7 @@
   "name": "Digital Realty",
   "market": "US",
   "yahooSymbol": "DLR",
-  "asOf": "2026-09-25",
+  "asOf": "2026-09-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15200,6 +15200,15 @@
       "volume": 1679700
     },
     {
+      "date": "2026-09-22",
+      "open": 185.57000732421875,
+      "high": 186.88999938964844,
+      "low": 184.64999389648438,
+      "close": 185.64999389648438,
+      "adjClose": 185.64999389648438,
+      "volume": 1537700
+    },
+    {
       "date": "2026-09-23",
       "open": 184.2899932861328,
       "high": 187,
@@ -15207,6 +15216,15 @@
       "close": 181.4499969482422,
       "adjClose": 181.4499969482422,
       "volume": 1604000
+    },
+    {
+      "date": "2026-09-24",
+      "open": 180.97000122070312,
+      "high": 183.0500030517578,
+      "low": 178.6300048828125,
+      "close": 181,
+      "adjClose": 181,
+      "volume": 1289100
     }
   ],
   "corporateActions": {
@@ -15323,9 +15341,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1689,
+    "barsAvailable": 1691,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-23",
-    "gaps": 66
+    "lastDate": "2026-09-24",
+    "gaps": 65
   }
 }
