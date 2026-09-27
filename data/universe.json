@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20",
+  "generatedAt": "2026-09-27",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -794,6 +794,13 @@
       "yahooSymbol": "BDX"
     },
     {
+      "ticker": "BE.us",
+      "name": "Bloom Energy",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "BE"
+    },
+    {
       "ticker": "BEI.de",
       "name": "Beiersdorf",
       "market": "DE",
@@ -883,13 +890,6 @@
       "market": "ES",
       "index": "IBEX35",
       "yahooSymbol": "BKT.MC"
-    },
-    {
-      "ticker": "BLDR.us",
-      "name": "Builders FirstSource",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "BLDR"
     },
     {
       "ticker": "BLK.us",
@@ -2950,6 +2950,13 @@
       "yahooSymbol": "III.L"
     },
     {
+      "ticker": "ILMN.us",
+      "name": "Illumina, Inc.",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "ILMN"
+    },
+    {
       "ticker": "IMB.uk",
       "name": "Imperial Brands",
       "market": "UK",
@@ -4182,6 +4189,13 @@
       "yahooSymbol": "OXY"
     },
     {
+      "ticker": "P.us",
+      "name": "Everpure",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "P"
+    },
+    {
       "ticker": "PAH3.de",
       "name": "Porsche SE",
       "market": "DE",
@@ -5190,13 +5204,6 @@
       "yahooSymbol": "T"
     },
     {
-      "ticker": "TAP.us",
-      "name": "Molson Coors Beverage Company",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "TAP"
-    },
-    {
       "ticker": "TATACAP.in",
       "name": "Tata Capital",
       "market": "IN",
@@ -5447,13 +5454,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "TT"
-    },
-    {
-      "ticker": "TTD.us",
-      "name": "Trade Desk (The)",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "TTD"
     },
     {
       "ticker": "TTE.fr",
