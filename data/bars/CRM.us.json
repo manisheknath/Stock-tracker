@@ -3,7 +3,7 @@
   "name": "Salesforce",
   "market": "US",
   "yahooSymbol": "CRM",
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-29",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15234,6 +15234,15 @@
       "close": 234.02000427246094,
       "adjClose": 234.02000427246094,
       "volume": 8735500
+    },
+    {
+      "date": "2026-09-28",
+      "open": 224.97000122070312,
+      "high": 230.57000732421875,
+      "low": 221.17999267578125,
+      "close": 227.27000427246094,
+      "adjClose": 227.27000427246094,
+      "volume": 10263200
     }
   ],
   "corporateActions": {
@@ -15286,9 +15295,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1692,
+    "barsAvailable": 1693,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 65
   }
 }

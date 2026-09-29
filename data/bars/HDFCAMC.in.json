@@ -3,7 +3,7 @@
   "name": "HDFC Asset Management",
   "market": "IN",
   "yahooSymbol": "HDFCAMC.NS",
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-29",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15063,6 +15063,15 @@
       "close": 2378,
       "adjClose": 2378,
       "volume": 363424
+    },
+    {
+      "date": "2026-09-28",
+      "open": 2362,
+      "high": 2366.199951171875,
+      "low": 2300.699951171875,
+      "close": 2302.300048828125,
+      "adjClose": 2302.300048828125,
+      "volume": 877414
     }
   ],
   "corporateActions": {
@@ -15106,9 +15115,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1673,
+    "barsAvailable": 1674,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 85
   }
 }

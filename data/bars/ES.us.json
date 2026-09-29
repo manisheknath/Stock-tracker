@@ -3,7 +3,7 @@
   "name": "Eversource Energy",
   "market": "US",
   "yahooSymbol": "ES",
-  "asOf": "2026-09-28",
+  "asOf": "2026-09-29",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15234,6 +15234,15 @@
       "close": 63.66999816894531,
       "adjClose": 63.66999816894531,
       "volume": 2867400
+    },
+    {
+      "date": "2026-09-28",
+      "open": 63.58000183105469,
+      "high": 63.63999938964844,
+      "low": 62.720001220703125,
+      "close": 63.279998779296875,
+      "adjClose": 63.279998779296875,
+      "volume": 3100500
     }
   ],
   "corporateActions": {
@@ -15350,9 +15359,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1692,
+    "barsAvailable": 1693,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 65
   }
 }
