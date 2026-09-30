@@ -3,7 +3,7 @@
   "name": "Continental",
   "market": "DE",
   "yahooSymbol": "CON.DE",
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 69,
       "adjClose": 69,
       "volume": 357899
+    },
+    {
+      "date": "2026-09-28",
+      "open": 69.5999984741211,
+      "high": 69.62000274658203,
+      "low": 68.45999908447266,
+      "close": 68.76000213623047,
+      "adjClose": 68.76000213623047,
+      "volume": 370620
     }
   ],
   "corporateActions": {
@@ -15482,9 +15491,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 41
   }
 }

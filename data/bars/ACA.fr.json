@@ -3,7 +3,7 @@
   "name": "Crédit Agricole",
   "market": "FR",
   "yahooSymbol": "ACA.PA",
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15540,6 +15540,15 @@
       "close": 18.184999465942383,
       "adjClose": 18.184999465942383,
       "volume": 3280493
+    },
+    {
+      "date": "2026-09-28",
+      "open": 18.239999771118164,
+      "high": 18.260000228881836,
+      "low": 17.934999465942383,
+      "close": 17.934999465942383,
+      "adjClose": 17.934999465942383,
+      "volume": 4131579
     }
   ],
   "corporateActions": {
@@ -15572,9 +15581,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 31
   }
 }

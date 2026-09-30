@@ -3,7 +3,7 @@
   "name": "British American Tobacco",
   "market": "UK",
   "yahooSymbol": "BATS.L",
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 4180,
       "adjClose": 4180,
       "volume": 3136231
+    },
+    {
+      "date": "2026-09-28",
+      "open": 4186,
+      "high": 4242,
+      "low": 4184,
+      "close": 4223,
+      "adjClose": 4223,
+      "volume": 2552539
     }
   ],
   "corporateActions": {
@@ -15427,9 +15436,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 56
   }
 }

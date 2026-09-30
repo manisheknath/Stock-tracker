@@ -3,7 +3,7 @@
   "name": "Sage Group",
   "market": "UK",
   "yahooSymbol": "SGE.L",
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 1002.5,
       "adjClose": 1002.5,
       "volume": 1926414
+    },
+    {
+      "date": "2026-09-28",
+      "open": 999.2000122070312,
+      "high": 1009.5,
+      "low": 966.2000122070312,
+      "close": 982.4000244140625,
+      "adjClose": 982.4000244140625,
+      "volume": 1541755
     }
   ],
   "corporateActions": {
@@ -15379,9 +15388,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 56
   }
 }

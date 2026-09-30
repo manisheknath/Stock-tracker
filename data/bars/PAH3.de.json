@@ -3,7 +3,7 @@
   "name": "Porsche SE",
   "market": "DE",
   "yahooSymbol": "PAH3.DE",
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 25.770000457763672,
       "adjClose": 25.770000457763672,
       "volume": 540001
+    },
+    {
+      "date": "2026-09-28",
+      "open": 25.979999542236328,
+      "high": 26.200000762939453,
+      "low": 25.25,
+      "close": 25.25,
+      "adjClose": 25.25,
+      "volume": 513253
     }
   ],
   "corporateActions": {
@@ -15486,9 +15495,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 41
   }
 }

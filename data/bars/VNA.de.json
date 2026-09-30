@@ -3,7 +3,7 @@
   "name": "Vonovia",
   "market": "DE",
   "yahooSymbol": "VNA.DE",
-  "asOf": "2026-09-29",
+  "asOf": "2026-09-30",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 17.170000076293945,
       "adjClose": 17.170000076293945,
       "volume": 2848484
+    },
+    {
+      "date": "2026-09-28",
+      "open": 17.360000610351562,
+      "high": 17.46500015258789,
+      "low": 16.979999542236328,
+      "close": 17.05500030517578,
+      "adjClose": 17.05500030517578,
+      "volume": 3402961
     }
   ],
   "corporateActions": {
@@ -15486,9 +15495,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-25",
+    "lastDate": "2026-09-28",
     "gaps": 41
   }
 }
