@@ -3,7 +3,7 @@
   "name": "Adidas",
   "market": "DE",
   "yahooSymbol": "ADS.DE",
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15459,6 +15459,15 @@
       "close": 147.85000610351562,
       "adjClose": 147.85000610351562,
       "volume": 373265
+    },
+    {
+      "date": "2026-09-29",
+      "open": 147.5,
+      "high": 147.85000610351562,
+      "low": 145.0500030517578,
+      "close": 145.75,
+      "adjClose": 145.75,
+      "volume": 326548
     }
   ],
   "corporateActions": {
@@ -15491,9 +15500,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1717,
+    "barsAvailable": 1718,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-28",
+    "lastDate": "2026-09-29",
     "gaps": 41
   }
 }

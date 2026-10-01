@@ -3,7 +3,7 @@
   "name": "PepsiCo",
   "market": "US",
   "yahooSymbol": "PEP",
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15243,6 +15243,15 @@
       "close": 128.5,
       "adjClose": 128.5,
       "volume": 7512700
+    },
+    {
+      "date": "2026-09-29",
+      "open": 126.51000213623047,
+      "high": 128.94000244140625,
+      "low": 126.41999816894531,
+      "close": 128.69000244140625,
+      "adjClose": 128.69000244140625,
+      "volume": 8413900
     }
   ],
   "corporateActions": {
@@ -15359,9 +15368,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1693,
+    "barsAvailable": 1694,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-28",
+    "lastDate": "2026-09-29",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Ithaca Energy",
   "market": "UK",
   "yahooSymbol": "ITH.L",
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -8835,6 +8835,15 @@
       "close": 285.6000061035156,
       "adjClose": 285.6000061035156,
       "volume": 1732575
+    },
+    {
+      "date": "2026-09-29",
+      "open": 284,
+      "high": 285.3999938964844,
+      "low": 271.7900085449219,
+      "close": 275,
+      "adjClose": 275,
+      "volume": 1570410
     }
   ],
   "corporateActions": {
@@ -8883,9 +8892,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 981,
+    "barsAvailable": 982,
     "firstDate": "2022-11-09",
-    "lastDate": "2026-09-28",
+    "lastDate": "2026-09-29",
     "gaps": 33
   }
 }

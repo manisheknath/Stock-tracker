@@ -3,7 +3,7 @@
   "name": "NTPC",
   "market": "IN",
   "yahooSymbol": "NTPC.NS",
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15081,6 +15081,15 @@
       "close": 323.5,
       "adjClose": 323.5,
       "volume": 11956206
+    },
+    {
+      "date": "2026-09-30",
+      "open": 323.5,
+      "high": 323.95001220703125,
+      "low": 318.8999938964844,
+      "close": 322.75,
+      "adjClose": 322.75,
+      "volume": 6908628
     }
   ],
   "corporateActions": {
@@ -15157,9 +15166,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1676,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 85
   }
 }

@@ -3,7 +3,7 @@
   "name": "F & C Investment Trust",
   "market": "UK",
   "yahooSymbol": "FCIT.L",
-  "asOf": "2026-09-30",
+  "asOf": "2026-10-01",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15324,6 +15324,15 @@
       "close": 345.3999938964844,
       "adjClose": 345.3999938964844,
       "volume": 1898478
+    },
+    {
+      "date": "2026-09-29",
+      "open": 344.6000061035156,
+      "high": 347.6000061035156,
+      "low": 344.6000061035156,
+      "close": 345.6000061035156,
+      "adjClose": 345.6000061035156,
+      "volume": 1303038
     }
   ],
   "corporateActions": {
@@ -15443,13 +15452,17 @@
       {
         "date": "2026-07-02",
         "amount": 0.99
+      },
+      {
+        "date": "2026-10-01",
+        "amount": 0.99
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1703,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-28",
+    "lastDate": "2026-09-29",
     "gaps": 56
   }
 }
