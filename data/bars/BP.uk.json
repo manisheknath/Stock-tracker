@@ -3,7 +3,7 @@
   "name": "BP",
   "market": "UK",
   "yahooSymbol": "BP.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15324,6 +15324,15 @@
       "close": 550.7000122070312,
       "adjClose": 550.7000122070312,
       "volume": 34513136
+    },
+    {
+      "date": "2026-09-30",
+      "open": 547.5999755859375,
+      "high": 550.7999877929688,
+      "low": 539.9840087890625,
+      "close": 549.4000244140625,
+      "adjClose": 549.4000244140625,
+      "volume": 99811750
     }
   ],
   "corporateActions": {
@@ -15440,9 +15449,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1703,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 57
   }
 }

@@ -3,7 +3,7 @@
   "name": "Edenred",
   "market": "FR",
   "yahooSymbol": "EDEN.PA",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 28.219999313354492,
       "adjClose": 28.219999313354492,
       "volume": 278934
+    },
+    {
+      "date": "2026-09-30",
+      "open": 27.979999542236328,
+      "high": 28.25,
+      "low": 27.270000457763672,
+      "close": 27.59000015258789,
+      "adjClose": 27.59000015258789,
+      "volume": 579733
     }
   ],
   "corporateActions": {
@@ -15594,9 +15603,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 31
   }
 }

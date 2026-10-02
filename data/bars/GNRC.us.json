@@ -3,7 +3,7 @@
   "name": "Generac",
   "market": "US",
   "yahooSymbol": "GNRC",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 212.22000122070312,
       "adjClose": 212.22000122070312,
       "volume": 1274300
+    },
+    {
+      "date": "2026-09-30",
+      "open": 212.52999877929688,
+      "high": 214,
+      "low": 205.77000427246094,
+      "close": 206.9499969482422,
+      "adjClose": 206.9499969482422,
+      "volume": 818900
     }
   ],
   "corporateActions": {
@@ -15259,9 +15268,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

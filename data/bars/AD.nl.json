@@ -3,7 +3,7 @@
   "name": "Ahold Delhaize",
   "market": "NL",
   "yahooSymbol": "AD.AS",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 31.979999542236328,
       "adjClose": 31.979999542236328,
       "volume": 2091372
+    },
+    {
+      "date": "2026-09-30",
+      "open": 32.060001373291016,
+      "high": 32.38999938964844,
+      "low": 31.850000381469727,
+      "close": 31.850000381469727,
+      "adjClose": 31.850000381469727,
+      "volume": 3590932
     }
   ],
   "corporateActions": {
@@ -15622,9 +15631,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 31
   }
 }

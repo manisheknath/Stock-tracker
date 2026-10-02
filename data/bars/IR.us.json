@@ -3,7 +3,7 @@
   "name": "Ingersoll Rand",
   "market": "US",
   "yahooSymbol": "IR",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 76.4800033569336,
       "adjClose": 76.4800033569336,
       "volume": 4968600
+    },
+    {
+      "date": "2026-09-30",
+      "open": 76.4800033569336,
+      "high": 77.04000091552734,
+      "low": 75.08999633789062,
+      "close": 75.11000061035156,
+      "adjClose": 75.11000061035156,
+      "volume": 6666200
     }
   ],
   "corporateActions": {
@@ -15340,9 +15349,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

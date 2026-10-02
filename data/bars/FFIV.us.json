@@ -3,7 +3,7 @@
   "name": "F5, Inc.",
   "market": "US",
   "yahooSymbol": "FFIV",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 438.07000732421875,
       "adjClose": 438.07000732421875,
       "volume": 663600
+    },
+    {
+      "date": "2026-09-30",
+      "open": 440,
+      "high": 449.7200012207031,
+      "low": 440,
+      "close": 445.17999267578125,
+      "adjClose": 445.17999267578125,
+      "volume": 430500
     }
   ],
   "corporateActions": {
@@ -15259,9 +15268,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

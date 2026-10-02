@@ -3,7 +3,7 @@
   "name": "Alliant Energy",
   "market": "US",
   "yahooSymbol": "LNT",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 64.33999633789062,
       "adjClose": 64.33999633789062,
       "volume": 3890400
+    },
+    {
+      "date": "2026-09-30",
+      "open": 64.54000091552734,
+      "high": 64.6500015258789,
+      "low": 63.18000030517578,
+      "close": 63.29999923706055,
+      "adjClose": 63.29999923706055,
+      "volume": 4636900
     }
   ],
   "corporateActions": {
@@ -15368,9 +15377,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

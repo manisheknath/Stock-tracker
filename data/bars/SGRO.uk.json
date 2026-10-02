@@ -3,7 +3,7 @@
   "name": "Segro",
   "market": "UK",
   "yahooSymbol": "SGRO.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 937.5999755859375,
       "adjClose": 937.5999755859375,
       "volume": 5445858
+    },
+    {
+      "date": "2026-09-30",
+      "open": 941.2000122070312,
+      "high": 944.4000244140625,
+      "low": 929.4000244140625,
+      "close": 929.4000244140625,
+      "adjClose": 929.4000244140625,
+      "volume": 4122879
     }
   ],
   "corporateActions": {
@@ -15397,9 +15406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

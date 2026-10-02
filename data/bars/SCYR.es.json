@@ -3,7 +3,7 @@
   "name": "Sacyr",
   "market": "ES",
   "yahooSymbol": "SCYR.MC",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15540,6 +15540,15 @@
       "close": 4.00600004196167,
       "adjClose": 4.00600004196167,
       "volume": 2786833
+    },
+    {
+      "date": "2026-09-30",
+      "open": 4.00600004196167,
+      "high": 4.033999919891357,
+      "low": 3.937999963760376,
+      "close": 3.9660000801086426,
+      "adjClose": 3.9660000801086426,
+      "volume": 1972459
     }
   ],
   "corporateActions": {
@@ -15611,9 +15620,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 33
   }
 }

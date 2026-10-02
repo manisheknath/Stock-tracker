@@ -3,7 +3,7 @@
   "name": "Broadcom",
   "market": "US",
   "yahooSymbol": "AVGO",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 355.1000061035156,
       "adjClose": 355.1000061035156,
       "volume": 19187400
+    },
+    {
+      "date": "2026-09-30",
+      "open": 356.8999938964844,
+      "high": 357.8999938964844,
+      "low": 350.69000244140625,
+      "close": 351.19000244140625,
+      "adjClose": 351.19000244140625,
+      "volume": 19760700
     }
   ],
   "corporateActions": {
@@ -15375,9 +15384,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

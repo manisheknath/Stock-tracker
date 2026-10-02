@@ -3,7 +3,7 @@
   "name": "Walt Disney Company (The)",
   "market": "US",
   "yahooSymbol": "DIS",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 105.41000366210938,
       "adjClose": 105.41000366210938,
       "volume": 7323300
+    },
+    {
+      "date": "2026-09-30",
+      "open": 105.75,
+      "high": 106.4000015258789,
+      "low": 104.9000015258789,
+      "close": 104.9000015258789,
+      "adjClose": 104.9000015258789,
+      "volume": 11601200
     }
   ],
   "corporateActions": {
@@ -15284,9 +15293,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

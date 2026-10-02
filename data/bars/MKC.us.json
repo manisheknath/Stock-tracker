@@ -3,7 +3,7 @@
   "name": "McCormick & Company",
   "market": "US",
   "yahooSymbol": "MKC",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 48.400001525878906,
       "adjClose": 48.400001525878906,
       "volume": 3349800
+    },
+    {
+      "date": "2026-09-30",
+      "open": 49,
+      "high": 49.20000076293945,
+      "low": 46.25,
+      "close": 46.400001525878906,
+      "adjClose": 46.400001525878906,
+      "volume": 5687400
     }
   ],
   "corporateActions": {
@@ -15371,9 +15380,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

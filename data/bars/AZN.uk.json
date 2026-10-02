@@ -3,7 +3,7 @@
   "name": "AstraZeneca",
   "market": "UK",
   "yahooSymbol": "AZN.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 12428,
       "adjClose": 12428,
       "volume": 2735445
+    },
+    {
+      "date": "2026-09-30",
+      "open": 12436,
+      "high": 12518,
+      "low": 12250,
+      "close": 12280,
+      "adjClose": 12280,
+      "volume": 3855859
     }
   ],
   "corporateActions": {
@@ -15397,9 +15406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

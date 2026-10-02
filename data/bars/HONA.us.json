@@ -3,7 +3,7 @@
   "name": "Honeywell Aerospace",
   "market": "US",
   "yahooSymbol": "HONA",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -672,6 +672,15 @@
       "close": 155.44000244140625,
       "adjClose": 155.44000244140625,
       "volume": 2542800
+    },
+    {
+      "date": "2026-09-30",
+      "open": 155.60000610351562,
+      "high": 156.88999938964844,
+      "low": 153.4199981689453,
+      "close": 154.97000122070312,
+      "adjClose": 154.97000122070312,
+      "volume": 2384600
     }
   ],
   "corporateActions": {
@@ -679,9 +688,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 74,
+    "barsAvailable": 75,
     "firstDate": "2026-06-15",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 3
   }
 }

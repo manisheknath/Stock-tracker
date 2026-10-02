@@ -3,7 +3,7 @@
   "name": "Global Payments",
   "market": "US",
   "yahooSymbol": "GPN",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 83.33000183105469,
       "adjClose": 83.33000183105469,
       "volume": 1814300
+    },
+    {
+      "date": "2026-09-30",
+      "open": 83.4000015258789,
+      "high": 83.80999755859375,
+      "low": 81.36000061035156,
+      "close": 81.66999816894531,
+      "adjClose": 81.66999816894531,
+      "volume": 2374100
     }
   ],
   "corporateActions": {
@@ -15368,9 +15377,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

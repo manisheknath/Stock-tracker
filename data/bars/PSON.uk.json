@@ -3,7 +3,7 @@
   "name": "Pearson plc",
   "market": "UK",
   "yahooSymbol": "PSON.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 1208,
       "adjClose": 1208,
       "volume": 1041906
+    },
+    {
+      "date": "2026-09-30",
+      "open": 1208,
+      "high": 1219,
+      "low": 1195.5,
+      "close": 1216,
+      "adjClose": 1216,
+      "volume": 1629930
     }
   ],
   "corporateActions": {
@@ -15397,9 +15406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

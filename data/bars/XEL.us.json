@@ -3,7 +3,7 @@
   "name": "Xcel Energy",
   "market": "US",
   "yahooSymbol": "XEL",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,24 @@
       "close": 70.69000244140625,
       "adjClose": 70.69000244140625,
       "volume": 6561600
+    },
+    {
+      "date": "2026-09-30",
+      "open": 71.23999786376953,
+      "high": 71.37000274658203,
+      "low": 70.43000030517578,
+      "close": 70.4800033569336,
+      "adjClose": 70.4800033569336,
+      "volume": 5387700
+    },
+    {
+      "date": "2026-10-01",
+      "open": 70.44999694824219,
+      "high": 70.69000244140625,
+      "low": 69.5,
+      "close": 70.55000305175781,
+      "adjClose": 70.55000305175781,
+      "volume": 4085800
     }
   ],
   "corporateActions": {
@@ -15368,9 +15386,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

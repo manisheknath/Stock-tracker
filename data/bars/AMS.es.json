@@ -3,7 +3,7 @@
   "name": "Amadeus IT Group",
   "market": "ES",
   "yahooSymbol": "AMS.MC",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15540,6 +15540,15 @@
       "close": 52.47999954223633,
       "adjClose": 52.47999954223633,
       "volume": 521465
+    },
+    {
+      "date": "2026-09-30",
+      "open": 52.380001068115234,
+      "high": 52.779998779296875,
+      "low": 51.63999938964844,
+      "close": 51.81999969482422,
+      "adjClose": 51.81999969482422,
+      "volume": 714579
     }
   ],
   "corporateActions": {
@@ -15580,9 +15589,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 33
   }
 }

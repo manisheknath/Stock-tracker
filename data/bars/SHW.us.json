@@ -3,7 +3,7 @@
   "name": "Sherwin-Williams",
   "market": "US",
   "yahooSymbol": "SHW",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,24 @@
       "close": 330.44000244140625,
       "adjClose": 330.44000244140625,
       "volume": 2223500
+    },
+    {
+      "date": "2026-09-30",
+      "open": 331.1000061035156,
+      "high": 331.260009765625,
+      "low": 322.4200134277344,
+      "close": 323.2699890136719,
+      "adjClose": 323.2699890136719,
+      "volume": 1403300
+    },
+    {
+      "date": "2026-10-01",
+      "open": 320.6400146484375,
+      "high": 321.6700134277344,
+      "low": 313.260009765625,
+      "close": 320.7799987792969,
+      "adjClose": 320.7799987792969,
+      "volume": 1627100
     }
   ],
   "corporateActions": {
@@ -15375,9 +15393,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

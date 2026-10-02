@@ -3,7 +3,7 @@
   "name": "Bureau Veritas",
   "market": "FR",
   "yahooSymbol": "BVI.PA",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 27.06999969482422,
       "adjClose": 27.06999969482422,
       "volume": 1027890
+    },
+    {
+      "date": "2026-09-30",
+      "open": 27.040000915527344,
+      "high": 27.200000762939453,
+      "low": 26.809999465942383,
+      "close": 26.860000610351562,
+      "adjClose": 26.860000610351562,
+      "volume": 1084666
     }
   ],
   "corporateActions": {
@@ -15590,9 +15599,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 31
   }
 }

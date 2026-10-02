@@ -3,7 +3,7 @@
   "name": "Solaria",
   "market": "ES",
   "yahooSymbol": "SLR.MC",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15540,6 +15540,15 @@
       "close": 16.100000381469727,
       "adjClose": 16.100000381469727,
       "volume": 1370504
+    },
+    {
+      "date": "2026-09-30",
+      "open": 16.110000610351562,
+      "high": 16.540000915527344,
+      "low": 16.09000015258789,
+      "close": 16.405000686645508,
+      "adjClose": 16.405000686645508,
+      "volume": 1250439
     }
   ],
   "corporateActions": {
@@ -15547,9 +15556,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 33
   }
 }

@@ -3,7 +3,7 @@
   "name": "Warner Bros. Discovery",
   "market": "US",
   "yahooSymbol": "WBD",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,24 @@
       "close": 30.850000381469727,
       "adjClose": 30.850000381469727,
       "volume": 46828000
+    },
+    {
+      "date": "2026-09-30",
+      "open": 30.850000381469727,
+      "high": 30.969999313354492,
+      "low": 30.790000915527344,
+      "close": 30.950000762939453,
+      "adjClose": 30.950000762939453,
+      "volume": 95725000
+    },
+    {
+      "date": "2026-10-01",
+      "open": 30.950000762939453,
+      "high": 30.959999084472656,
+      "low": 30.93000030517578,
+      "close": 30.950000762939453,
+      "adjClose": 30.950000762939453,
+      "volume": 44280500
     }
   ],
   "corporateActions": {
@@ -15259,9 +15277,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

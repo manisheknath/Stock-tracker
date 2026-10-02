@@ -3,7 +3,7 @@
   "name": "Bajaj Finserv",
   "market": "IN",
   "yahooSymbol": "BAJAJFINSV.NS",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15081,6 +15081,24 @@
       "close": 1742.4000244140625,
       "adjClose": 1742.4000244140625,
       "volume": 858895
+    },
+    {
+      "date": "2026-09-30",
+      "open": 1742.4000244140625,
+      "high": 1748,
+      "low": 1702.0999755859375,
+      "close": 1731,
+      "adjClose": 1731,
+      "volume": 1086211
+    },
+    {
+      "date": "2026-10-01",
+      "open": 1723,
+      "high": 1734.9000244140625,
+      "low": 1703.4000244140625,
+      "close": 1732.5999755859375,
+      "adjClose": 1732.5999755859375,
+      "volume": 2292234
     }
   ],
   "corporateActions": {
@@ -15124,9 +15142,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1675,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 85
   }
 }

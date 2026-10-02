@@ -3,7 +3,7 @@
   "name": "ICG",
   "market": "UK",
   "yahooSymbol": "ICG.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 1831,
       "adjClose": 1831,
       "volume": 869645
+    },
+    {
+      "date": "2026-09-30",
+      "open": 1846,
+      "high": 1870.5,
+      "low": 1836,
+      "close": 1849,
+      "adjClose": 1849,
+      "volume": 868118
     }
   ],
   "corporateActions": {
@@ -15393,9 +15402,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

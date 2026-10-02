@@ -3,7 +3,7 @@
   "name": "Smiths Group",
   "market": "UK",
   "yahooSymbol": "SMIN.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 2831,
       "adjClose": 2831,
       "volume": 1415269
+    },
+    {
+      "date": "2026-09-30",
+      "open": 2850,
+      "high": 2869,
+      "low": 2823,
+      "close": 2825,
+      "adjClose": 2825,
+      "volume": 1654894
     }
   ],
   "corporateActions": {
@@ -15389,9 +15398,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

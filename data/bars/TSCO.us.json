@@ -3,7 +3,7 @@
   "name": "Tractor Supply",
   "market": "US",
   "yahooSymbol": "TSCO",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,24 @@
       "close": 31.510000228881836,
       "adjClose": 31.510000228881836,
       "volume": 7504400
+    },
+    {
+      "date": "2026-09-30",
+      "open": 31.559999465942383,
+      "high": 31.65999984741211,
+      "low": 30.989999771118164,
+      "close": 31.290000915527344,
+      "adjClose": 31.290000915527344,
+      "volume": 8101700
+    },
+    {
+      "date": "2026-10-01",
+      "open": 31.350000381469727,
+      "high": 31.860000610351562,
+      "low": 30.6200008392334,
+      "close": 31.729999542236328,
+      "adjClose": 31.729999542236328,
+      "volume": 11889300
     }
   ],
   "corporateActions": {
@@ -15375,9 +15393,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

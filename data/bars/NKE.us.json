@@ -3,7 +3,7 @@
   "name": "Nike, Inc.",
   "market": "US",
   "yahooSymbol": "NKE",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 35.84000015258789,
       "adjClose": 35.84000015258789,
       "volume": 28960000
+    },
+    {
+      "date": "2026-09-30",
+      "open": 35.7400016784668,
+      "high": 35.9900016784668,
+      "low": 35.15999984741211,
+      "close": 35.400001525878906,
+      "adjClose": 35.400001525878906,
+      "volume": 38151700
     }
   ],
   "corporateActions": {
@@ -15368,9 +15377,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

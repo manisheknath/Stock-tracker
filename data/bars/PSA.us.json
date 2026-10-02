@@ -3,7 +3,7 @@
   "name": "Public Storage",
   "market": "US",
   "yahooSymbol": "PSA",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 285.5799865722656,
       "adjClose": 285.5799865722656,
       "volume": 823800
+    },
+    {
+      "date": "2026-09-30",
+      "open": 286.7699890136719,
+      "high": 286.7699890136719,
+      "low": 281.9100036621094,
+      "close": 282.8399963378906,
+      "adjClose": 282.8399963378906,
+      "volume": 988700
     }
   ],
   "corporateActions": {
@@ -15372,9 +15381,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

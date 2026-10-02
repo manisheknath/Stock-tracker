@@ -3,7 +3,7 @@
   "name": "KPN",
   "market": "NL",
   "yahooSymbol": "KPN.AS",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 3.990000009536743,
       "adjClose": 3.990000009536743,
       "volume": 10843005
+    },
+    {
+      "date": "2026-09-30",
+      "open": 3.990000009536743,
+      "high": 4.002999782562256,
+      "low": 3.9539999961853027,
+      "close": 3.9570000171661377,
+      "adjClose": 3.9570000171661377,
+      "volume": 9654853
     }
   ],
   "corporateActions": {
@@ -15622,9 +15631,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 31
   }
 }

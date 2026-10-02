@@ -3,7 +3,7 @@
   "name": "Freeport-McMoRan",
   "market": "US",
   "yahooSymbol": "FCX",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 70.79000091552734,
       "adjClose": 70.79000091552734,
       "volume": 10436100
+    },
+    {
+      "date": "2026-09-30",
+      "open": 71.6500015258789,
+      "high": 74.44999694824219,
+      "low": 69.95999908447266,
+      "close": 70,
+      "adjClose": 70,
+      "volume": 16657400
     }
   ],
   "corporateActions": {
@@ -15352,9 +15361,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

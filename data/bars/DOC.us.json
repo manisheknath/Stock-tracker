@@ -3,7 +3,7 @@
   "name": "Healthpeak Properties",
   "market": "US",
   "yahooSymbol": "DOC",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 20.1299991607666,
       "adjClose": 20.1299991607666,
       "volume": 4541200
+    },
+    {
+      "date": "2026-09-30",
+      "open": 20.239999771118164,
+      "high": 20.25,
+      "low": 19.93000030517578,
+      "close": 19.969999313354492,
+      "adjClose": 19.969999313354492,
+      "volume": 4699500
     }
   ],
   "corporateActions": {
@@ -15416,9 +15425,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

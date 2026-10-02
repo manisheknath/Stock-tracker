@@ -3,7 +3,7 @@
   "name": "Thales",
   "market": "FR",
   "yahooSymbol": "HO.PA",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 226.60000610351562,
       "adjClose": 226.60000610351562,
       "volume": 184687
+    },
+    {
+      "date": "2026-09-30",
+      "open": 225.1999969482422,
+      "high": 228.3000030517578,
+      "low": 223.1999969482422,
+      "close": 224.5,
+      "adjClose": 224.5,
+      "volume": 321362
     }
   ],
   "corporateActions": {
@@ -15614,9 +15623,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 31
   }
 }

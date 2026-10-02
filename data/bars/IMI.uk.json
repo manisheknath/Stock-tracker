@@ -3,7 +3,7 @@
   "name": "IMI",
   "market": "UK",
   "yahooSymbol": "IMI.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 3134,
       "adjClose": 3134,
       "volume": 1011927
+    },
+    {
+      "date": "2026-09-30",
+      "open": 3150,
+      "high": 3186,
+      "low": 3136,
+      "close": 3136,
+      "adjClose": 3136,
+      "volume": 475039
     }
   ],
   "corporateActions": {
@@ -15393,9 +15402,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

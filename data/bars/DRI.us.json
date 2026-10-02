@@ -3,7 +3,7 @@
   "name": "Darden Restaurants",
   "market": "US",
   "yahooSymbol": "DRI",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 195.11000061035156,
       "adjClose": 195.11000061035156,
       "volume": 1256700
+    },
+    {
+      "date": "2026-09-30",
+      "open": 195.30999755859375,
+      "high": 196.97000122070312,
+      "low": 192.6699981689453,
+      "close": 193.25,
+      "adjClose": 193.25,
+      "volume": 1507500
     }
   ],
   "corporateActions": {
@@ -15360,9 +15369,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }

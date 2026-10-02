@@ -3,7 +3,7 @@
   "name": "Wabtec",
   "market": "US",
   "yahooSymbol": "WAB",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,24 @@
       "close": 291.2300109863281,
       "adjClose": 291.2300109863281,
       "volume": 605000
+    },
+    {
+      "date": "2026-09-30",
+      "open": 291,
+      "high": 292.6000061035156,
+      "low": 287.17999267578125,
+      "close": 287.17999267578125,
+      "adjClose": 287.17999267578125,
+      "volume": 883200
+    },
+    {
+      "date": "2026-10-01",
+      "open": 285,
+      "high": 288.0199890136719,
+      "low": 281.1099853515625,
+      "close": 287.8399963378906,
+      "adjClose": 287.8399963378906,
+      "volume": 852800
     }
   ],
   "corporateActions": {
@@ -15368,9 +15386,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

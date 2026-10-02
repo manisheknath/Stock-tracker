@@ -3,7 +3,7 @@
   "name": "Verisk Analytics",
   "market": "US",
   "yahooSymbol": "VRSK",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15252,6 +15252,24 @@
       "close": 165.94000244140625,
       "adjClose": 165.94000244140625,
       "volume": 1685800
+    },
+    {
+      "date": "2026-09-30",
+      "open": 166.1999969482422,
+      "high": 168.19000244140625,
+      "low": 165.49000549316406,
+      "close": 167.85000610351562,
+      "adjClose": 167.85000610351562,
+      "volume": 1508100
+    },
+    {
+      "date": "2026-10-01",
+      "open": 170.6999969482422,
+      "high": 171.30999755859375,
+      "low": 167.0800018310547,
+      "close": 168.3800048828125,
+      "adjClose": 168.3800048828125,
+      "volume": 1213400
     }
   ],
   "corporateActions": {
@@ -15368,9 +15386,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Accor",
   "market": "FR",
   "yahooSymbol": "AC.PA",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 46.150001525878906,
       "adjClose": 46.150001525878906,
       "volume": 560798
+    },
+    {
+      "date": "2026-09-30",
+      "open": 46.25,
+      "high": 47.04999923706055,
+      "low": 45.689998626708984,
+      "close": 45.849998474121094,
+      "adjClose": 45.849998474121094,
+      "volume": 840111
     }
   ],
   "corporateActions": {
@@ -15582,9 +15591,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 31
   }
 }

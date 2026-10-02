@@ -3,7 +3,7 @@
   "name": "Halma plc",
   "market": "UK",
   "yahooSymbol": "HLMA.L",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 3528,
       "adjClose": 3528,
       "volume": 592832
+    },
+    {
+      "date": "2026-09-30",
+      "open": 3512,
+      "high": 3544,
+      "low": 3492,
+      "close": 3502,
+      "adjClose": 3502,
+      "volume": 1171758
     }
   ],
   "corporateActions": {
@@ -15393,9 +15402,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Bajaj Finance",
   "market": "IN",
   "yahooSymbol": "BAJFINANCE.NS",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15090,6 +15090,15 @@
       "close": 959.4000244140625,
       "adjClose": 959.4000244140625,
       "volume": 6625616
+    },
+    {
+      "date": "2026-10-01",
+      "open": 953.9000244140625,
+      "high": 955.9500122070312,
+      "low": 937.2999877929688,
+      "close": 948.2999877929688,
+      "adjClose": 948.2999877929688,
+      "volume": 5698769
     }
   ],
   "corporateActions": {
@@ -15137,9 +15146,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1676,
+    "barsAvailable": 1677,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 85
   }
 }

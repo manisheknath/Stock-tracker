@@ -3,7 +3,7 @@
   "name": "Lowe's",
   "market": "US",
   "yahooSymbol": "LOW",
-  "asOf": "2026-10-01",
+  "asOf": "2026-10-02",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15252,6 +15252,15 @@
       "close": 187.25999450683594,
       "adjClose": 187.25999450683594,
       "volume": 2901800
+    },
+    {
+      "date": "2026-09-30",
+      "open": 189.05999755859375,
+      "high": 189.14999389648438,
+      "low": 184.22000122070312,
+      "close": 184.2899932861328,
+      "adjClose": 184.2899932861328,
+      "volume": 3694400
     }
   ],
   "corporateActions": {
@@ -15368,9 +15377,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1694,
+    "barsAvailable": 1695,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-29",
+    "lastDate": "2026-09-30",
     "gaps": 65
   }
 }
