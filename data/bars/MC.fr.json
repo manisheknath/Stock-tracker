@@ -3,7 +3,7 @@
   "name": "LVMH",
   "market": "FR",
   "yahooSymbol": "MC.PA",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15567,6 +15567,15 @@
       "close": 390,
       "adjClose": 390,
       "volume": 829329
+    },
+    {
+      "date": "2026-10-01",
+      "open": 387,
+      "high": 389.25,
+      "low": 379.1000061035156,
+      "close": 379.5,
+      "adjClose": 379.5,
+      "volume": 773338
     }
   ],
   "corporateActions": {
@@ -15627,9 +15636,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1729,
+    "barsAvailable": 1730,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 31
   }
 }

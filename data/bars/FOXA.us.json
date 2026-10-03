@@ -3,7 +3,7 @@
   "name": "Fox Corporation (Class A)",
   "market": "US",
   "yahooSymbol": "FOXA",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15261,6 +15261,15 @@
       "close": 62.650001525878906,
       "adjClose": 62.650001525878906,
       "volume": 4110700
+    },
+    {
+      "date": "2026-10-01",
+      "open": 62.63999938964844,
+      "high": 62.63999938964844,
+      "low": 60.2599983215332,
+      "close": 61.279998779296875,
+      "adjClose": 61.279998779296875,
+      "volume": 4823800
     }
   ],
   "corporateActions": {
@@ -15325,9 +15334,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1695,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

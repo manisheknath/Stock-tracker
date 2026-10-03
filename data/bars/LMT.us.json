@@ -3,7 +3,7 @@
   "name": "Lockheed Martin",
   "market": "US",
   "yahooSymbol": "LMT",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15261,6 +15261,15 @@
       "close": 509.25,
       "adjClose": 509.25,
       "volume": 1380400
+    },
+    {
+      "date": "2026-10-01",
+      "open": 508,
+      "high": 511.69000244140625,
+      "low": 503.5299987792969,
+      "close": 505.5,
+      "adjClose": 505.5,
+      "volume": 894600
     }
   ],
   "corporateActions": {
@@ -15377,9 +15386,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1695,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }

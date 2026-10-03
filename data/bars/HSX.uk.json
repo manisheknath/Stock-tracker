@@ -3,7 +3,7 @@
   "name": "Hiscox",
   "market": "UK",
   "yahooSymbol": "HSX.L",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 1854,
       "adjClose": 1854,
       "volume": 909892
+    },
+    {
+      "date": "2026-10-01",
+      "open": 1830,
+      "high": 1860,
+      "low": 1821,
+      "close": 1848,
+      "adjClose": 1848,
+      "volume": 2293144
     }
   ],
   "corporateActions": {
@@ -15394,9 +15403,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 56
   }
 }

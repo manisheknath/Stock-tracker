@@ -3,7 +3,7 @@
   "name": "Schroders",
   "market": "UK",
   "yahooSymbol": "SDR.L",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 589,
       "adjClose": 589,
       "volume": 56036156
+    },
+    {
+      "date": "2026-10-01",
+      "open": 588.9409790039062,
+      "high": 588.9409790039062,
+      "low": 588.9409790039062,
+      "close": 589,
+      "adjClose": 589,
+      "volume": 78568
     }
   ],
   "corporateActions": {
@@ -15413,9 +15422,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 56
   }
 }

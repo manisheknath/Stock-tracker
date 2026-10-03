@@ -3,7 +3,7 @@
   "name": "Scout24",
   "market": "DE",
   "yahooSymbol": "G24.DE",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15477,6 +15477,15 @@
       "close": 67,
       "adjClose": 67,
       "volume": 328866
+    },
+    {
+      "date": "2026-10-01",
+      "open": 67.19999694824219,
+      "high": 69.0999984741211,
+      "low": 66.30000305175781,
+      "close": 67.5999984741211,
+      "adjClose": 67.5999984741211,
+      "volume": 376050
     }
   ],
   "corporateActions": {
@@ -15513,9 +15522,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1719,
+    "barsAvailable": 1720,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 41
   }
 }

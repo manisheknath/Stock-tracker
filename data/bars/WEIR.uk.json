@@ -3,7 +3,7 @@
   "name": "Weir",
   "market": "UK",
   "yahooSymbol": "WEIR.L",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 2702,
       "adjClose": 2701.800048828125,
       "volume": 1669882
+    },
+    {
+      "date": "2026-10-01",
+      "open": 2638,
+      "high": 2702.2939453125,
+      "low": 2574,
+      "close": 2574,
+      "adjClose": 2574,
+      "volume": 1214443
     }
   ],
   "corporateActions": {
@@ -15394,9 +15403,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 56
   }
 }

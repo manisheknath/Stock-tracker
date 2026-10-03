@@ -3,7 +3,7 @@
   "name": "Becton Dickinson",
   "market": "US",
   "yahooSymbol": "BDX",
-  "asOf": "2026-10-02",
+  "asOf": "2026-10-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15261,6 +15261,15 @@
       "close": 179,
       "adjClose": 179,
       "volume": 1798600
+    },
+    {
+      "date": "2026-10-01",
+      "open": 179.11000061035156,
+      "high": 179.6699981689453,
+      "low": 177.02000427246094,
+      "close": 178.07000732421875,
+      "adjClose": 178.07000732421875,
+      "volume": 1287900
     }
   ],
   "corporateActions": {
@@ -15390,9 +15399,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1695,
+    "barsAvailable": 1696,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-09-30",
+    "lastDate": "2026-10-01",
     "gaps": 65
   }
 }
