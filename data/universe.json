@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27",
+  "generatedAt": "2026-10-04",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -311,13 +311,6 @@
       "yahooSymbol": "AKZA.AS"
     },
     {
-      "ticker": "ALAB.us",
-      "name": "Astera Labs, Inc.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "ALAB"
-    },
-    {
       "ticker": "ALB.us",
       "name": "Albemarle Corporation",
       "market": "US",
@@ -344,13 +337,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "ALLE"
-    },
-    {
-      "ticker": "ALNY.us",
-      "name": "Alnylam Pharmaceuticals, Inc.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "ALNY"
     },
     {
       "ticker": "ALV.de",
@@ -542,13 +528,6 @@
       "yahooSymbol": "ARES"
     },
     {
-      "ticker": "ARM.us",
-      "name": "Arm Holdings plc",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "ARM"
-    },
-    {
       "ticker": "ASIANPAINT.in",
       "name": "Asian Paints",
       "market": "IN",
@@ -568,13 +547,6 @@
       "market": "NL",
       "index": "AEX",
       "yahooSymbol": "ASML.AS"
-    },
-    {
-      "ticker": "ASML.us",
-      "name": "ASML Holding N.V.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "ASML"
     },
     {
       "ticker": "ASRNL.nl",
@@ -780,6 +752,13 @@
       "yahooSymbol": "BBVA.MC"
     },
     {
+      "ticker": "BBY.uk",
+      "name": "Balfour Beatty",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "BBY.L"
+    },
+    {
       "ticker": "BBY.us",
       "name": "Best Buy",
       "market": "US",
@@ -827,13 +806,6 @@
       "market": "NL",
       "index": "AEX",
       "yahooSymbol": "BESI.AS"
-    },
-    {
-      "ticker": "BEZ.uk",
-      "name": "Beazley",
-      "market": "UK",
-      "index": "FTSE100",
-      "yahooSymbol": "BEZ.L"
     },
     {
       "ticker": "BF-B.us",
@@ -1156,13 +1128,6 @@
       "market": "UK",
       "index": "FTSE100",
       "yahooSymbol": "CCEP.L"
-    },
-    {
-      "ticker": "CCEP.us",
-      "name": "Coca-Cola Europacific Partners PLC",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "CCEP"
     },
     {
       "ticker": "CCH.uk",
@@ -1492,13 +1457,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "CRWD"
-    },
-    {
-      "ticker": "CRWV.us",
-      "name": "CoreWeave, Inc.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "CRWV"
     },
     {
       "ticker": "CS.fr",
@@ -2234,13 +2192,6 @@
       "market": "ES",
       "index": "IBEX35",
       "yahooSymbol": "FER.MC"
-    },
-    {
-      "ticker": "FER.us",
-      "name": "Ferrovial N.V.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "FER"
     },
     {
       "ticker": "FERG.us",
@@ -3650,13 +3601,6 @@
       "yahooSymbol": "MDT"
     },
     {
-      "ticker": "MELI.us",
-      "name": "MercadoLibre, Inc.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "MELI"
-    },
-    {
       "ticker": "MET.us",
       "name": "MetLife",
       "market": "US",
@@ -3839,13 +3783,6 @@
       "yahooSymbol": "MSI"
     },
     {
-      "ticker": "MSTR.us",
-      "name": "Strategy Inc",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "MSTR"
-    },
-    {
       "ticker": "MT.fr",
       "name": "ArcelorMittal",
       "market": "FR",
@@ -3907,13 +3844,6 @@
       "market": "DE",
       "index": "DAX40",
       "yahooSymbol": "MUV2.DE"
-    },
-    {
-      "ticker": "NBIS.us",
-      "name": "Nebius Group N.V.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "NBIS"
     },
     {
       "ticker": "NCLH.us",
@@ -4236,13 +4166,6 @@
       "market": "UK",
       "index": "FTSE100",
       "yahooSymbol": "PCT.L"
-    },
-    {
-      "ticker": "PDD.us",
-      "name": "PDD Holdings Inc.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "PDD"
     },
     {
       "ticker": "PEG.us",
@@ -4630,13 +4553,6 @@
       "yahooSymbol": "RJF"
     },
     {
-      "ticker": "RKLB.us",
-      "name": "Rocket Lab Corporation",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "RKLB"
-    },
-    {
       "ticker": "RKT.uk",
       "name": "Reckitt",
       "market": "UK",
@@ -4840,13 +4756,6 @@
       "yahooSymbol": "SDLF.L"
     },
     {
-      "ticker": "SDR.uk",
-      "name": "Schroders",
-      "market": "UK",
-      "index": "FTSE100",
-      "yahooSymbol": "SDR.L"
-    },
-    {
       "ticker": "SGE.uk",
       "name": "Sage Group",
       "market": "UK",
@@ -4887,13 +4796,6 @@
       "market": "DE",
       "index": "DAX40",
       "yahooSymbol": "SHL.DE"
-    },
-    {
-      "ticker": "SHOP.us",
-      "name": "Shopify Inc.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "SHOP"
     },
     {
       "ticker": "SHREECEM.in",
@@ -5020,13 +4922,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "SOLV"
-    },
-    {
-      "ticker": "SPCX.us",
-      "name": "Space Exploration Technologies Corp.",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "SPCX"
     },
     {
       "ticker": "SPG.us",
@@ -5391,13 +5286,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "TRGP"
-    },
-    {
-      "ticker": "TRI.us",
-      "name": "Thomson Reuters Corporation",
-      "market": "US",
-      "index": "NASDAQ100",
-      "yahooSymbol": "TRI"
     },
     {
       "ticker": "TRMB.us",
@@ -5874,6 +5762,13 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "WMT"
+    },
+    {
+      "ticker": "WPP.uk",
+      "name": "WPP",
+      "market": "UK",
+      "index": "FTSE100",
+      "yahooSymbol": "WPP.L"
     },
     {
       "ticker": "WRB.us",
