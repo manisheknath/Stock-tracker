@@ -3,7 +3,7 @@
   "name": "Blackstone Inc.",
   "market": "US",
   "yahooSymbol": "BX",
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 111.75,
       "adjClose": 111.75,
       "volume": 5714400
+    },
+    {
+      "date": "2026-10-05",
+      "open": 110.70999908447266,
+      "high": 112.95999908447266,
+      "low": 109.01000213623047,
+      "close": 111.6500015258789,
+      "adjClose": 111.6500015258789,
+      "volume": 4776800
     }
   ],
   "corporateActions": {
@@ -15395,9 +15404,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-02",
+    "lastDate": "2026-10-05",
     "gaps": 65
   }
 }

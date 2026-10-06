@@ -3,7 +3,7 @@
   "name": "McDonald's",
   "market": "US",
   "yahooSymbol": "MCD",
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 231.88999938964844,
       "adjClose": 231.88999938964844,
       "volume": 6425900
+    },
+    {
+      "date": "2026-10-05",
+      "open": 231.89999389648438,
+      "high": 233.0800018310547,
+      "low": 229.1999969482422,
+      "close": 233.0399932861328,
+      "adjClose": 233.0399932861328,
+      "volume": 5594000
     }
   ],
   "corporateActions": {
@@ -15395,9 +15404,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-02",
+    "lastDate": "2026-10-05",
     "gaps": 65
   }
 }

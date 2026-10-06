@@ -3,7 +3,7 @@
   "name": "Simon Property Group",
   "market": "US",
   "yahooSymbol": "SPG",
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 200.9499969482422,
       "adjClose": 200.9499969482422,
       "volume": 1228400
+    },
+    {
+      "date": "2026-10-05",
+      "open": 200.8000030517578,
+      "high": 202.52000427246094,
+      "low": 199.74000549316406,
+      "close": 201.39999389648438,
+      "adjClose": 201.39999389648438,
+      "volume": 1040900
     }
   ],
   "corporateActions": {
@@ -15395,9 +15404,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-02",
+    "lastDate": "2026-10-05",
     "gaps": 65
   }
 }

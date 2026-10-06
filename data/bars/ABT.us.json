@@ -3,7 +3,7 @@
   "name": "Abbott Laboratories",
   "market": "US",
   "yahooSymbol": "ABT",
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 97.5,
       "adjClose": 97.5,
       "volume": 8709500
+    },
+    {
+      "date": "2026-10-05",
+      "open": 97.83999633789062,
+      "high": 100.69999694824219,
+      "low": 97.38999938964844,
+      "close": 100.0999984741211,
+      "adjClose": 100.0999984741211,
+      "volume": 11985600
     }
   ],
   "corporateActions": {
@@ -15395,9 +15404,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-02",
+    "lastDate": "2026-10-05",
     "gaps": 65
   }
 }

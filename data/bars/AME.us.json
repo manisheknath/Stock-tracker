@@ -3,7 +3,7 @@
   "name": "Ametek",
   "market": "US",
   "yahooSymbol": "AME",
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 251.92999267578125,
       "adjClose": 251.92999267578125,
       "volume": 1588800
+    },
+    {
+      "date": "2026-10-05",
+      "open": 251.89999389648438,
+      "high": 254.8000030517578,
+      "low": 250.44000244140625,
+      "close": 251.9199981689453,
+      "adjClose": 251.9199981689453,
+      "volume": 1204100
     }
   ],
   "corporateActions": {
@@ -15395,9 +15404,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-02",
+    "lastDate": "2026-10-05",
     "gaps": 65
   }
 }

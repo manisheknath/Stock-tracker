@@ -3,7 +3,7 @@
   "name": "EQT Corporation",
   "market": "US",
   "yahooSymbol": "EQT",
-  "asOf": "2026-10-05",
+  "asOf": "2026-10-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15279,6 +15279,15 @@
       "close": 50.16999816894531,
       "adjClose": 50.16999816894531,
       "volume": 7587700
+    },
+    {
+      "date": "2026-10-05",
+      "open": 50.06999969482422,
+      "high": 51.529998779296875,
+      "low": 49.33000183105469,
+      "close": 51.119998931884766,
+      "adjClose": 51.119998931884766,
+      "volume": 8513600
     }
   ],
   "corporateActions": {
@@ -15367,9 +15376,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1697,
+    "barsAvailable": 1698,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-02",
+    "lastDate": "2026-10-05",
     "gaps": 65
   }
 }
