@@ -3,7 +3,7 @@
   "name": "Netflix",
   "market": "US",
   "yahooSymbol": "NFLX",
-  "asOf": "2026-10-06",
+  "asOf": "2026-10-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15287,7 +15287,16 @@
       "low": 66.54000091552734,
       "close": 67.5,
       "adjClose": 67.5,
-      "volume": 36724900
+      "volume": 36820200
+    },
+    {
+      "date": "2026-10-06",
+      "open": 67.51000213623047,
+      "high": 68.77999877929688,
+      "low": 67.30999755859375,
+      "close": 68.69000244140625,
+      "adjClose": 68.69000244140625,
+      "volume": 35052500
     }
   ],
   "corporateActions": {
@@ -15302,9 +15311,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1698,
+    "barsAvailable": 1699,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-05",
+    "lastDate": "2026-10-06",
     "gaps": 65
   }
 }
