@@ -3,7 +3,7 @@
   "name": "Axis Bank",
   "market": "IN",
   "yahooSymbol": "AXISBANK.NS",
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15117,6 +15117,24 @@
       "close": 1222.199951171875,
       "adjClose": 1222.199951171875,
       "volume": 7472163
+    },
+    {
+      "date": "2026-10-06",
+      "open": 1234,
+      "high": 1251.9000244140625,
+      "low": 1232,
+      "close": 1248,
+      "adjClose": 1248,
+      "volume": 7518330
+    },
+    {
+      "date": "2026-10-07",
+      "open": 1240.199951171875,
+      "high": 1259,
+      "low": 1230.199951171875,
+      "close": 1242.5,
+      "adjClose": 1242.5,
+      "volume": 9678421
     }
   ],
   "corporateActions": {
@@ -15145,9 +15163,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1679,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-05",
+    "lastDate": "2026-10-07",
     "gaps": 85
   }
 }

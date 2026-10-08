@@ -3,7 +3,7 @@
   "name": "Kingfisher plc",
   "market": "UK",
   "yahooSymbol": "KGF.L",
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 325.20001220703125,
       "adjClose": 325.20001220703125,
       "volume": 3716853
+    },
+    {
+      "date": "2026-10-06",
+      "open": 328.5,
+      "high": 330.5,
+      "low": 323.5,
+      "close": 329.1000061035156,
+      "adjClose": 329.1000061035156,
+      "volume": 3483670
     }
   ],
   "corporateActions": {
@@ -15417,13 +15426,17 @@
       {
         "date": "2026-05-28",
         "amount": 8.6
+      },
+      {
+        "date": "2026-10-08",
+        "amount": 3.8
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-05",
+    "lastDate": "2026-10-06",
     "gaps": 56
   }
 }

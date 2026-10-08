@@ -3,7 +3,7 @@
   "name": "Barratt Redrow",
   "market": "UK",
   "yahooSymbol": "BTRW.L",
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 308.8999938964844,
       "adjClose": 308.8999938964844,
       "volume": 3877290
+    },
+    {
+      "date": "2026-10-06",
+      "open": 311.8999938964844,
+      "high": 316,
+      "low": 307.5,
+      "close": 309.20001220703125,
+      "adjClose": 309.20001220703125,
+      "volume": 4786188
     }
   ],
   "corporateActions": {
@@ -15417,13 +15426,17 @@
       {
         "date": "2026-04-02",
         "amount": 5
+      },
+      {
+        "date": "2026-10-08",
+        "amount": 1
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-05",
+    "lastDate": "2026-10-06",
     "gaps": 56
   }
 }

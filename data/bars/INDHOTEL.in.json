@@ -3,7 +3,7 @@
   "name": "Indian Hotels Company",
   "market": "IN",
   "yahooSymbol": "INDHOTEL.NS",
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15101,6 +15101,15 @@
       "volume": 4023940
     },
     {
+      "date": "2026-10-02",
+      "open": 718,
+      "high": 718,
+      "low": 718,
+      "close": 718,
+      "adjClose": 718,
+      "volume": 0
+    },
+    {
       "date": "2026-10-05",
       "open": 713,
       "high": 726.5999755859375,
@@ -15108,6 +15117,24 @@
       "close": 725,
       "adjClose": 725,
       "volume": 3696656
+    },
+    {
+      "date": "2026-10-06",
+      "open": 720.2999877929688,
+      "high": 736,
+      "low": 720.2999877929688,
+      "close": 736,
+      "adjClose": 736,
+      "volume": 2461719
+    },
+    {
+      "date": "2026-10-07",
+      "open": 736.6500244140625,
+      "high": 743,
+      "low": 728.5,
+      "close": 731.2999877929688,
+      "adjClose": 731.2999877929688,
+      "volume": 3190796
     }
   ],
   "corporateActions": {
@@ -15144,9 +15171,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1678,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-05",
-    "gaps": 86
+    "lastDate": "2026-10-07",
+    "gaps": 85
   }
 }

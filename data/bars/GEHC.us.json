@@ -3,7 +3,7 @@
   "name": "GE HealthCare",
   "market": "US",
   "yahooSymbol": "GEHC",
-  "asOf": "2026-10-07",
+  "asOf": "2026-10-08",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -8583,6 +8583,24 @@
       "close": 65.73999786376953,
       "adjClose": 65.73999786376953,
       "volume": 4299500
+    },
+    {
+      "date": "2026-10-06",
+      "open": 66.04000091552734,
+      "high": 66.55000305175781,
+      "low": 64.6709976196289,
+      "close": 64.7699966430664,
+      "adjClose": 64.7699966430664,
+      "volume": 3553200
+    },
+    {
+      "date": "2026-10-07",
+      "open": 64.93000030517578,
+      "high": 65.44000244140625,
+      "low": 64.02999877929688,
+      "close": 64.66999816894531,
+      "adjClose": 64.66999816894531,
+      "volume": 4065600
     }
   ],
   "corporateActions": {
@@ -8647,9 +8665,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 953,
+    "barsAvailable": 955,
     "firstDate": "2022-12-15",
-    "lastDate": "2026-10-05",
+    "lastDate": "2026-10-07",
     "gaps": 40
   }
 }
