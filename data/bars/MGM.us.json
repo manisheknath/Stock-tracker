@@ -3,7 +3,7 @@
   "name": "MGM Resorts",
   "market": "US",
   "yahooSymbol": "MGM",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15306,6 +15306,15 @@
       "close": 30,
       "adjClose": 30,
       "volume": 5399000
+    },
+    {
+      "date": "2026-10-08",
+      "open": 29.799999237060547,
+      "high": 30.420000076293945,
+      "low": 29.600000381469727,
+      "close": 30.010000228881836,
+      "adjClose": 30.010000228881836,
+      "volume": 5342900
     }
   ],
   "corporateActions": {
@@ -15362,9 +15371,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1700,
+    "barsAvailable": 1701,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-07",
+    "lastDate": "2026-10-08",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Medtronic",
   "market": "US",
   "yahooSymbol": "MDT",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15306,6 +15306,15 @@
       "close": 85.51000213623047,
       "adjClose": 85.51000213623047,
       "volume": 55891000
+    },
+    {
+      "date": "2026-10-08",
+      "open": 85.9000015258789,
+      "high": 88.4800033569336,
+      "low": 85.55000305175781,
+      "close": 87.75,
+      "adjClose": 87.75,
+      "volume": 105664000
     }
   ],
   "corporateActions": {
@@ -15422,9 +15431,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1700,
+    "barsAvailable": 1701,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-07",
+    "lastDate": "2026-10-08",
     "gaps": 65
   }
 }

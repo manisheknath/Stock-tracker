@@ -3,7 +3,7 @@
   "name": "Ventas",
   "market": "US",
   "yahooSymbol": "VTR",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15306,6 +15306,15 @@
       "close": 80.04000091552734,
       "adjClose": 80.04000091552734,
       "volume": 4174900
+    },
+    {
+      "date": "2026-10-08",
+      "open": 80.11000061035156,
+      "high": 82.25,
+      "low": 79.8499984741211,
+      "close": 81.76000213623047,
+      "adjClose": 81.76000213623047,
+      "volume": 4588800
     }
   ],
   "corporateActions": {
@@ -15426,9 +15435,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1700,
+    "barsAvailable": 1701,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-07",
+    "lastDate": "2026-10-08",
     "gaps": 65
   }
 }

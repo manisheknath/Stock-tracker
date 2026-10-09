@@ -3,7 +3,7 @@
   "name": "Aviva",
   "market": "UK",
   "yahooSymbol": "AV.L",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15378,6 +15378,15 @@
       "close": 688.4000244140625,
       "adjClose": 688.4000244140625,
       "volume": 3045486
+    },
+    {
+      "date": "2026-10-07",
+      "open": 682,
+      "high": 684,
+      "low": 673.5919799804688,
+      "close": 677.2000122070312,
+      "adjClose": 677.2000122070312,
+      "volume": 6933495
     }
   ],
   "corporateActions": {
@@ -15453,9 +15462,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-06",
+    "lastDate": "2026-10-07",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Comcast",
   "market": "US",
   "yahooSymbol": "CMCSA",
-  "asOf": "2026-10-08",
+  "asOf": "2026-10-09",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15305,7 +15305,16 @@
       "low": 20.8799991607666,
       "close": 20.940000534057617,
       "adjClose": 20.940000534057617,
-      "volume": 30071500
+      "volume": 30095700
+    },
+    {
+      "date": "2026-10-08",
+      "open": 20.90999984741211,
+      "high": 21.229999542236328,
+      "low": 20.75,
+      "close": 21.209999084472656,
+      "adjClose": 21.209999084472656,
+      "volume": 44699900
     }
   ],
   "corporateActions": {
@@ -15433,9 +15442,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1700,
+    "barsAvailable": 1701,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-07",
+    "lastDate": "2026-10-08",
     "gaps": 65
   }
 }
