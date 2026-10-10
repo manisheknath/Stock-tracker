@@ -3,7 +3,7 @@
   "name": "Amgen",
   "market": "US",
   "yahooSymbol": "AMGN",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 407.44000244140625,
       "adjClose": 407.44000244140625,
       "volume": 2378100
+    },
+    {
+      "date": "2026-10-09",
+      "open": 405,
+      "high": 417.7799987792969,
+      "low": 404.04998779296875,
+      "close": 414.8699951171875,
+      "adjClose": 414.8699951171875,
+      "volume": 2553000
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

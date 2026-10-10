@@ -3,7 +3,7 @@
   "name": "Hartford (The)",
   "market": "US",
   "yahooSymbol": "HIG",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 129.47999572753906,
       "adjClose": 129.47999572753906,
       "volume": 1619700
+    },
+    {
+      "date": "2026-10-09",
+      "open": 129,
+      "high": 130.52000427246094,
+      "low": 128.9499969482422,
+      "close": 129.11000061035156,
+      "adjClose": 129.11000061035156,
+      "volume": 1324100
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

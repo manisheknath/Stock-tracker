@@ -3,7 +3,7 @@
   "name": "Emcor",
   "market": "US",
   "yahooSymbol": "EME",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 778.239990234375,
       "adjClose": 778.239990234375,
       "volume": 370100
+    },
+    {
+      "date": "2026-10-09",
+      "open": 788.1500244140625,
+      "high": 793.9500122070312,
+      "low": 774.739990234375,
+      "close": 789.4500122070312,
+      "adjClose": 789.4500122070312,
+      "volume": 180600
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

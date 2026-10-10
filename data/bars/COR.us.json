@@ -3,7 +3,7 @@
   "name": "Cencora",
   "market": "US",
   "yahooSymbol": "COR",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 321.3500061035156,
       "adjClose": 321.3500061035156,
       "volume": 897600
+    },
+    {
+      "date": "2026-10-09",
+      "open": 319.5,
+      "high": 325.82000732421875,
+      "low": 318.7900085449219,
+      "close": 323.8500061035156,
+      "adjClose": 323.8500061035156,
+      "volume": 781900
     }
   ],
   "corporateActions": {
@@ -15463,9 +15472,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

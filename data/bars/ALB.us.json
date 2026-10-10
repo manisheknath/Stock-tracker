@@ -3,7 +3,7 @@
   "name": "Albemarle Corporation",
   "market": "US",
   "yahooSymbol": "ALB",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 102.0999984741211,
       "adjClose": 102.0999984741211,
       "volume": 3903700
+    },
+    {
+      "date": "2026-10-09",
+      "open": 103,
+      "high": 103.3499984741211,
+      "low": 100.68000030517578,
+      "close": 101.2699966430664,
+      "adjClose": 101.2699966430664,
+      "volume": 2510300
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

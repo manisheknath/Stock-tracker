@@ -3,7 +3,7 @@
   "name": "Lennox International",
   "market": "US",
   "yahooSymbol": "LII",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 361.5400085449219,
       "adjClose": 361.5400085449219,
       "volume": 486000
+    },
+    {
+      "date": "2026-10-09",
+      "open": 362.8699951171875,
+      "high": 362.8699951171875,
+      "low": 354,
+      "close": 356.44000244140625,
+      "adjClose": 356.44000244140625,
+      "volume": 377500
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

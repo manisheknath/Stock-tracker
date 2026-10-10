@@ -3,7 +3,7 @@
   "name": "General Mills",
   "market": "US",
   "yahooSymbol": "GIS",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 32.59000015258789,
       "adjClose": 32.59000015258789,
       "volume": 16556900
+    },
+    {
+      "date": "2026-10-09",
+      "open": 32.380001068115234,
+      "high": 32.5,
+      "low": 31.93000030517578,
+      "close": 32.290000915527344,
+      "adjClose": 32.290000915527344,
+      "volume": 7588900
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }

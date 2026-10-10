@@ -3,7 +3,7 @@
   "name": "Capital One",
   "market": "US",
   "yahooSymbol": "COF",
-  "asOf": "2026-10-09",
+  "asOf": "2026-10-10",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15315,6 +15315,15 @@
       "close": 199.39999389648438,
       "adjClose": 199.39999389648438,
       "volume": 5091500
+    },
+    {
+      "date": "2026-10-09",
+      "open": 198.61000061035156,
+      "high": 200.50999450683594,
+      "low": 197.57000732421875,
+      "close": 199.25999450683594,
+      "adjClose": 199.25999450683594,
+      "volume": 2786200
     }
   ],
   "corporateActions": {
@@ -15431,9 +15440,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1701,
+    "barsAvailable": 1702,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-08",
+    "lastDate": "2026-10-09",
     "gaps": 65
   }
 }
