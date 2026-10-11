@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04",
+  "generatedAt": "2026-10-11",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -1508,13 +1508,6 @@
       "yahooSymbol": "CTSH"
     },
     {
-      "ticker": "CTVA.us",
-      "name": "Corteva",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "CTVA"
-    },
-    {
       "ticker": "CUMMINSIND.in",
       "name": "Cummins India",
       "market": "IN",
@@ -1851,13 +1844,6 @@
       "yahooSymbol": "ED"
     },
     {
-      "ticker": "EDEN.fr",
-      "name": "Edenred",
-      "market": "FR",
-      "index": "CAC40",
-      "yahooSymbol": "EDEN.PA"
-    },
-    {
       "ticker": "EDV.uk",
       "name": "Endeavour Mining",
       "market": "UK",
@@ -1968,6 +1954,13 @@
       "market": "IN",
       "index": "NIFTYNEXT50",
       "yahooSymbol": "ENRIN.NS"
+    },
+    {
+      "ticker": "ENX.fr",
+      "name": "Euronext",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "ENX.PA"
     },
     {
       "ticker": "EOAN.de",
@@ -2206,6 +2199,13 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "FFIV"
+    },
+    {
+      "ticker": "FGR.fr",
+      "name": "Eiffage",
+      "market": "FR",
+      "index": "CAC40",
+      "yahooSymbol": "FGR.PA"
     },
     {
       "ticker": "FICO.us",
@@ -4364,13 +4364,6 @@
       "yahooSymbol": "PSH.L"
     },
     {
-      "ticker": "PSKY.us",
-      "name": "Paramount Skydance Corporation",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "PSKY"
-    },
-    {
       "ticker": "PSON.uk",
       "name": "Pearson plc",
       "market": "UK",
@@ -4840,6 +4833,13 @@
       "yahooSymbol": "SJM"
     },
     {
+      "ticker": "SKYD.us",
+      "name": "Skydance Corporation",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "SKYD"
+    },
+    {
       "ticker": "SLB.us",
       "name": "Schlumberger",
       "market": "US",
@@ -5176,13 +5176,6 @@
       "yahooSymbol": "TEL"
     },
     {
-      "ticker": "TEP.fr",
-      "name": "Teleperformance",
-      "market": "FR",
-      "index": "CAC40",
-      "yahooSymbol": "TEP.PA"
-    },
-    {
       "ticker": "TER.us",
       "name": "Teradyne",
       "market": "US",
@@ -5363,6 +5356,13 @@
       "market": "IN",
       "index": "NIFTYNEXT50",
       "yahooSymbol": "TVSMOTOR.NS"
+    },
+    {
+      "ticker": "TWLO.us",
+      "name": "Twilio",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "TWLO"
     },
     {
       "ticker": "TXN.us",
@@ -5659,6 +5659,13 @@
       "yahooSymbol": "VTRS"
     },
     {
+      "ticker": "VYLR.us",
+      "name": "Vylor",
+      "market": "US",
+      "index": "SP500",
+      "yahooSymbol": "VYLR"
+    },
+    {
       "ticker": "VZ.us",
       "name": "Verizon",
       "market": "US",
@@ -5678,13 +5685,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "WAT"
-    },
-    {
-      "ticker": "WBD.us",
-      "name": "Warner Bros. Discovery",
-      "market": "US",
-      "index": "SP500",
-      "yahooSymbol": "WBD"
     },
     {
       "ticker": "WDAY.us",
