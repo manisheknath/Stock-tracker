@@ -3,7 +3,7 @@
   "name": "Ecolab",
   "market": "US",
   "yahooSymbol": "ECL",
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15324,6 +15324,15 @@
       "close": 281.8299865722656,
       "adjClose": 281.8299865722656,
       "volume": 935000
+    },
+    {
+      "date": "2026-10-12",
+      "open": 281,
+      "high": 285.57000732421875,
+      "low": 278.8500061035156,
+      "close": 284.29998779296875,
+      "adjClose": 284.29998779296875,
+      "volume": 875000
     }
   ],
   "corporateActions": {
@@ -15440,9 +15449,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1703,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "American International Group",
   "market": "US",
   "yahooSymbol": "AIG",
-  "asOf": "2026-10-12",
+  "asOf": "2026-10-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15324,6 +15324,15 @@
       "close": 77.04000091552734,
       "adjClose": 77.04000091552734,
       "volume": 5032700
+    },
+    {
+      "date": "2026-10-12",
+      "open": 77.3499984741211,
+      "high": 77.93000030517578,
+      "low": 77.16000366210938,
+      "close": 77.69999694824219,
+      "adjClose": 77.69999694824219,
+      "volume": 4260400
     }
   ],
   "corporateActions": {
@@ -15440,9 +15449,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1703,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 65
   }
 }
