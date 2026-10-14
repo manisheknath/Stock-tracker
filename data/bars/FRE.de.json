@@ -3,7 +3,7 @@
   "name": "Fresenius",
   "market": "DE",
   "yahooSymbol": "FRE.DE",
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15540,6 +15540,15 @@
       "close": 42.35499954223633,
       "adjClose": 42.35499954223633,
       "volume": 1014166
+    },
+    {
+      "date": "2026-10-12",
+      "open": 42.59000015258789,
+      "high": 43.03499984741211,
+      "low": 42.5,
+      "close": 43,
+      "adjClose": 43,
+      "volume": 804507
     }
   ],
   "corporateActions": {
@@ -15572,9 +15581,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 41
   }
 }

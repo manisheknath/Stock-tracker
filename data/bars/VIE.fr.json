@@ -3,7 +3,7 @@
   "name": "Veolia",
   "market": "FR",
   "yahooSymbol": "VIE.PA",
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15630,6 +15630,15 @@
       "close": 31.09000015258789,
       "adjClose": 31.09000015258789,
       "volume": 1189214
+    },
+    {
+      "date": "2026-10-12",
+      "open": 31.270000457763672,
+      "high": 31.459999084472656,
+      "low": 31.149999618530273,
+      "close": 31.280000686645508,
+      "adjClose": 31.280000686645508,
+      "volume": 995653
     }
   ],
   "corporateActions": {
@@ -15666,9 +15675,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1736,
+    "barsAvailable": 1737,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 31
   }
 }

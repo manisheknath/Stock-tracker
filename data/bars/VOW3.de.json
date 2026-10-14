@@ -3,7 +3,7 @@
   "name": "Volkswagen Group",
   "market": "DE",
   "yahooSymbol": "VOW3.DE",
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15540,6 +15540,15 @@
       "close": 68,
       "adjClose": 68,
       "volume": 1080003
+    },
+    {
+      "date": "2026-10-12",
+      "open": 68.80000305175781,
+      "high": 69.4000015258789,
+      "low": 68,
+      "close": 68.4000015258789,
+      "adjClose": 68.4000015258789,
+      "volume": 771143
     }
   ],
   "corporateActions": {
@@ -15580,9 +15589,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 41
   }
 }

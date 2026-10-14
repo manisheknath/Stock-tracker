@@ -3,7 +3,7 @@
   "name": "AENA",
   "market": "ES",
   "yahooSymbol": "AENA.MC",
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15612,6 +15612,15 @@
       "close": 24.8799991607666,
       "adjClose": 24.8799991607666,
       "volume": 1328737
+    },
+    {
+      "date": "2026-10-12",
+      "open": 25.040000915527344,
+      "high": 25.260000228881836,
+      "low": 24.940000534057617,
+      "close": 25.1200008392334,
+      "adjClose": 25.1200008392334,
+      "volume": 655416
     }
   ],
   "corporateActions": {
@@ -15643,9 +15652,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1734,
+    "barsAvailable": 1735,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 33
   }
 }

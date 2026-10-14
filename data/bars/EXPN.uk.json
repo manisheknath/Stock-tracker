@@ -3,7 +3,7 @@
   "name": "Experian",
   "market": "UK",
   "yahooSymbol": "EXPN.L",
-  "asOf": "2026-10-13",
+  "asOf": "2026-10-14",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15396,6 +15396,15 @@
       "close": 2682,
       "adjClose": 2682,
       "volume": 3668418
+    },
+    {
+      "date": "2026-10-12",
+      "open": 2681,
+      "high": 2722,
+      "low": 2669,
+      "close": 2698,
+      "adjClose": 2698,
+      "volume": 1927235
     }
   ],
   "corporateActions": {
@@ -15460,9 +15469,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1710,
+    "barsAvailable": 1711,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-09",
+    "lastDate": "2026-10-12",
     "gaps": 57
   }
 }
