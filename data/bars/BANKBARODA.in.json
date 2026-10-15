@@ -3,7 +3,7 @@
   "name": "Bank of Baroda",
   "market": "IN",
   "yahooSymbol": "BANKBARODA.NS",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15126,6 +15126,15 @@
       "close": 238.42999267578125,
       "adjClose": 238.42999267578125,
       "volume": 3889036
+    },
+    {
+      "date": "2026-10-14",
+      "open": 235.89999389648438,
+      "high": 235.89999389648438,
+      "low": 228.80999755859375,
+      "close": 229,
+      "adjClose": 229,
+      "volume": 18009302
     }
   ],
   "corporateActions": {
@@ -15154,9 +15163,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1680,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 90
   }
 }

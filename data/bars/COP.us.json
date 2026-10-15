@@ -3,7 +3,7 @@
   "name": "ConocoPhillips",
   "market": "US",
   "yahooSymbol": "COP",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 137.55999755859375,
       "adjClose": 137.55999755859375,
       "volume": 4418600
+    },
+    {
+      "date": "2026-10-13",
+      "open": 138.47000122070312,
+      "high": 141.05999755859375,
+      "low": 138,
+      "close": 140.89999389648438,
+      "adjClose": 140.89999389648438,
+      "volume": 6523800
     }
   ],
   "corporateActions": {
@@ -15481,9 +15490,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

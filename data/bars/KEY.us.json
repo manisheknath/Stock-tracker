@@ -3,7 +3,7 @@
   "name": "KeyCorp",
   "market": "US",
   "yahooSymbol": "KEY",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 20.09000015258789,
       "adjClose": 20.09000015258789,
       "volume": 12023200
+    },
+    {
+      "date": "2026-10-13",
+      "open": 20.25,
+      "high": 20.309999465942383,
+      "low": 19.75,
+      "close": 19.90999984741211,
+      "adjClose": 19.90999984741211,
+      "volume": 17676400
     }
   ],
   "corporateActions": {
@@ -15449,9 +15458,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

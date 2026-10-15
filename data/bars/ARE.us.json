@@ -3,7 +3,7 @@
   "name": "Alexandria Real Estate Equities",
   "market": "US",
   "yahooSymbol": "ARE",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 44.119998931884766,
       "adjClose": 44.119998931884766,
       "volume": 2266100
+    },
+    {
+      "date": "2026-10-13",
+      "open": 44.72999954223633,
+      "high": 45.20000076293945,
+      "low": 43.5099983215332,
+      "close": 43.81999969482422,
+      "adjClose": 43.81999969482422,
+      "volume": 1859900
     }
   ],
   "corporateActions": {
@@ -15449,9 +15458,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

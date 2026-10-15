@@ -3,7 +3,7 @@
   "name": "British Land",
   "market": "UK",
   "yahooSymbol": "BLND.L",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15414,6 +15414,15 @@
       "close": 394.3999938964844,
       "adjClose": 394.3999938964844,
       "volume": 1976143
+    },
+    {
+      "date": "2026-10-13",
+      "open": 400,
+      "high": 402.3999938964844,
+      "low": 397,
+      "close": 399.20001220703125,
+      "adjClose": 399.20001220703125,
+      "volume": 2513254
     }
   ],
   "corporateActions": {
@@ -15474,9 +15483,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1712,
+    "barsAvailable": 1713,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 56
   }
 }

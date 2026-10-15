@@ -3,7 +3,7 @@
   "name": "CMS Energy",
   "market": "US",
   "yahooSymbol": "CMS",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 65.86000061035156,
       "adjClose": 65.86000061035156,
       "volume": 3030700
+    },
+    {
+      "date": "2026-10-13",
+      "open": 66.27999877929688,
+      "high": 66.43000030517578,
+      "low": 64.98999786376953,
+      "close": 66.30000305175781,
+      "adjClose": 66.30000305175781,
+      "volume": 3257800
     }
   ],
   "corporateActions": {
@@ -15449,9 +15458,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

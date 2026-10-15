@@ -3,7 +3,7 @@
   "name": "Rentokil Initial",
   "market": "UK",
   "yahooSymbol": "RTO.L",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15414,6 +15414,15 @@
       "close": 305.8999938964844,
       "adjClose": 305.8999938964844,
       "volume": 6183496
+    },
+    {
+      "date": "2026-10-13",
+      "open": 305.5,
+      "high": 307.79998779296875,
+      "low": 302.3999938964844,
+      "close": 306,
+      "adjClose": 306,
+      "volume": 4638454
     }
   ],
   "corporateActions": {
@@ -15470,9 +15479,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1712,
+    "barsAvailable": 1713,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 56
   }
 }

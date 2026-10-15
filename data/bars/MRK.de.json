@@ -3,7 +3,7 @@
   "name": "Merck",
   "market": "DE",
   "yahooSymbol": "MRK.DE",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15549,6 +15549,15 @@
       "close": 138.64999389648438,
       "adjClose": 138.64999389648438,
       "volume": 159544
+    },
+    {
+      "date": "2026-10-13",
+      "open": 140,
+      "high": 140.9499969482422,
+      "low": 137.60000610351562,
+      "close": 137.60000610351562,
+      "adjClose": 137.60000610351562,
+      "volume": 166551
     }
   ],
   "corporateActions": {
@@ -15585,9 +15594,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1727,
+    "barsAvailable": 1728,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 41
   }
 }

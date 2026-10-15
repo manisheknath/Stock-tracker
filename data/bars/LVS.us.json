@@ -3,7 +3,7 @@
   "name": "Las Vegas Sands",
   "market": "US",
   "yahooSymbol": "LVS",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 36.150001525878906,
       "adjClose": 36.150001525878906,
       "volume": 4336400
+    },
+    {
+      "date": "2026-10-13",
+      "open": 36.5,
+      "high": 37.08000183105469,
+      "low": 36.439998626708984,
+      "close": 37.040000915527344,
+      "adjClose": 37.040000915527344,
+      "volume": 5074300
     }
   ],
   "corporateActions": {
@@ -15397,9 +15406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

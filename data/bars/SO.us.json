@@ -3,7 +3,7 @@
   "name": "Southern Company",
   "market": "US",
   "yahooSymbol": "SO",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 87.04000091552734,
       "adjClose": 87.04000091552734,
       "volume": 3386300
+    },
+    {
+      "date": "2026-10-13",
+      "open": 87.52999877929688,
+      "high": 88.33999633789062,
+      "low": 86.23999786376953,
+      "close": 88.11000061035156,
+      "adjClose": 88.11000061035156,
+      "volume": 6565900
     }
   ],
   "corporateActions": {
@@ -15449,9 +15458,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

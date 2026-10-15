@@ -3,7 +3,7 @@
   "name": "Garmin",
   "market": "US",
   "yahooSymbol": "GRMN",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 266.760009765625,
       "adjClose": 266.760009765625,
       "volume": 546000
+    },
+    {
+      "date": "2026-10-13",
+      "open": 266.7300109863281,
+      "high": 277.739990234375,
+      "low": 266.2799987792969,
+      "close": 276.4100036621094,
+      "adjClose": 276.4100036621094,
+      "volume": 778900
     }
   ],
   "corporateActions": {
@@ -15449,9 +15458,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

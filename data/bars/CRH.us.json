@@ -3,7 +3,7 @@
   "name": "CRH plc",
   "market": "US",
   "yahooSymbol": "CRH",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 81.05000305175781,
       "adjClose": 81.05000305175781,
       "volume": 3149600
+    },
+    {
+      "date": "2026-10-13",
+      "open": 81.44000244140625,
+      "high": 81.97000122070312,
+      "low": 79.94999694824219,
+      "close": 80.13999938964844,
+      "adjClose": 80.13999938964844,
+      "volume": 4858300
     }
   ],
   "corporateActions": {
@@ -15417,9 +15426,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

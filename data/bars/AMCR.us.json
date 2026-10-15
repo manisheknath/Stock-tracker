@@ -3,7 +3,7 @@
   "name": "Amcor",
   "market": "US",
   "yahooSymbol": "AMCR",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 41.58000183105469,
       "adjClose": 41.58000183105469,
       "volume": 1933500
+    },
+    {
+      "date": "2026-10-13",
+      "open": 42.029998779296875,
+      "high": 42.18000030517578,
+      "low": 41.61000061035156,
+      "close": 41.77000045776367,
+      "adjClose": 41.77000045776367,
+      "volume": 2236700
     }
   ],
   "corporateActions": {
@@ -15456,9 +15465,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "GAIL",
   "market": "IN",
   "yahooSymbol": "GAIL.NS",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15117,6 +15117,24 @@
       "close": 166.91000366210938,
       "adjClose": 166.91000366210938,
       "volume": 8839150
+    },
+    {
+      "date": "2026-10-13",
+      "open": 167.49000549316406,
+      "high": 168.88999938964844,
+      "low": 165.8699951171875,
+      "close": 168.3000030517578,
+      "adjClose": 168.3000030517578,
+      "volume": 7740206
+    },
+    {
+      "date": "2026-10-14",
+      "open": 168,
+      "high": 168.25,
+      "low": 166,
+      "close": 166.9600067138672,
+      "adjClose": 166.9600067138672,
+      "volume": 13797116
     }
   ],
   "corporateActions": {
@@ -15180,9 +15198,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1679,
+    "barsAvailable": 1681,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-14",
     "gaps": 90
   }
 }

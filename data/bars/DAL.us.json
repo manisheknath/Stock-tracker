@@ -3,7 +3,7 @@
   "name": "Delta Air Lines",
   "market": "US",
   "yahooSymbol": "DAL",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15333,6 +15333,15 @@
       "close": 80.11000061035156,
       "adjClose": 80.11000061035156,
       "volume": 6157500
+    },
+    {
+      "date": "2026-10-13",
+      "open": 80.69999694824219,
+      "high": 80.69999694824219,
+      "low": 78.5199966430664,
+      "close": 79.56999969482422,
+      "adjClose": 79.56999969482422,
+      "volume": 6652000
     }
   ],
   "corporateActions": {
@@ -15397,9 +15406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-12",
+    "lastDate": "2026-10-13",
     "gaps": 65
   }
 }
