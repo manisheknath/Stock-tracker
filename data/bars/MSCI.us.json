@@ -3,7 +3,7 @@
   "name": "MSCI",
   "market": "US",
   "yahooSymbol": "MSCI",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 560.8200073242188,
       "adjClose": 560.8200073242188,
       "volume": 469900
+    },
+    {
+      "date": "2026-10-14",
+      "open": 560.510009765625,
+      "high": 562.530029296875,
+      "low": 557,
+      "close": 560.52001953125,
+      "adjClose": 560.52001953125,
+      "volume": 548600
     }
   ],
   "corporateActions": {
@@ -15458,9 +15467,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 65
   }
 }

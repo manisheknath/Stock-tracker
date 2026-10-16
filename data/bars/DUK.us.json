@@ -3,7 +3,7 @@
   "name": "Duke Energy",
   "market": "US",
   "yahooSymbol": "DUK",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 118.19000244140625,
       "adjClose": 118.19000244140625,
       "volume": 3498800
+    },
+    {
+      "date": "2026-10-14",
+      "open": 118.0199966430664,
+      "high": 119.69000244140625,
+      "low": 117.41000366210938,
+      "close": 119.63999938964844,
+      "adjClose": 119.63999938964844,
+      "volume": 4666400
     }
   ],
   "corporateActions": {
@@ -15458,9 +15467,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 65
   }
 }

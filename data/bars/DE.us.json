@@ -3,7 +3,7 @@
   "name": "Deere & Company",
   "market": "US",
   "yahooSymbol": "DE",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 650,
       "adjClose": 650,
       "volume": 1328700
+    },
+    {
+      "date": "2026-10-14",
+      "open": 646.9600219726562,
+      "high": 653.5900268554688,
+      "low": 640.52001953125,
+      "close": 650.3800048828125,
+      "adjClose": 650.3800048828125,
+      "volume": 1547500
     }
   ],
   "corporateActions": {
@@ -15458,9 +15467,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 65
   }
 }

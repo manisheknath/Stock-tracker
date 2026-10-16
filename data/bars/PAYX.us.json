@@ -3,7 +3,7 @@
   "name": "Paychex",
   "market": "US",
   "yahooSymbol": "PAYX",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 106.25,
       "adjClose": 106.25,
       "volume": 2018400
+    },
+    {
+      "date": "2026-10-14",
+      "open": 106.69000244140625,
+      "high": 108.4000015258789,
+      "low": 106.25,
+      "close": 108.37000274658203,
+      "adjClose": 108.37000274658203,
+      "volume": 2721200
     }
   ],
   "corporateActions": {
@@ -15458,9 +15467,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 65
   }
 }

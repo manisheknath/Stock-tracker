@@ -3,7 +3,7 @@
   "name": "ArcelorMittal",
   "market": "ES",
   "yahooSymbol": "MTS.MC",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15630,6 +15630,15 @@
       "close": 56.41999816894531,
       "adjClose": 56.41999816894531,
       "volume": 91776
+    },
+    {
+      "date": "2026-10-14",
+      "open": 57.08000183105469,
+      "high": 57.31999969482422,
+      "low": 55.97999954223633,
+      "close": 56.220001220703125,
+      "adjClose": 56.220001220703125,
+      "volume": 61261
     }
   ],
   "corporateActions": {
@@ -15682,9 +15691,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1736,
+    "barsAvailable": 1737,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 33
   }
 }

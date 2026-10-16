@@ -3,7 +3,7 @@
   "name": "Norfolk Southern",
   "market": "US",
   "yahooSymbol": "NSC",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15342,6 +15342,15 @@
       "close": 321.1400146484375,
       "adjClose": 321.1400146484375,
       "volume": 650800
+    },
+    {
+      "date": "2026-10-14",
+      "open": 321.9700012207031,
+      "high": 324.010009765625,
+      "low": 319.29998779296875,
+      "close": 323.7300109863281,
+      "adjClose": 323.7300109863281,
+      "volume": 652000
     }
   ],
   "corporateActions": {
@@ -15458,9 +15467,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1705,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 65
   }
 }

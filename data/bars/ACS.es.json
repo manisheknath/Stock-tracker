@@ -3,7 +3,7 @@
   "name": "ACS",
   "market": "ES",
   "yahooSymbol": "ACS.MC",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15630,6 +15630,15 @@
       "close": 90.0999984741211,
       "adjClose": 90.0999984741211,
       "volume": 382514
+    },
+    {
+      "date": "2026-10-14",
+      "open": 91.19999694824219,
+      "high": 91.69999694824219,
+      "low": 90,
+      "close": 90.05000305175781,
+      "adjClose": 90.05000305175781,
+      "volume": 345868
     }
   ],
   "corporateActions": {
@@ -15702,9 +15711,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1736,
+    "barsAvailable": 1737,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 33
   }
 }

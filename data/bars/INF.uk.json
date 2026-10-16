@@ -3,7 +3,7 @@
   "name": "Informa",
   "market": "UK",
   "yahooSymbol": "INF.L",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15423,6 +15423,15 @@
       "close": 881.4000244140625,
       "adjClose": 881.4000244140625,
       "volume": 2455918
+    },
+    {
+      "date": "2026-10-14",
+      "open": 891,
+      "high": 897,
+      "low": 870.5999755859375,
+      "close": 871.7999877929688,
+      "adjClose": 871.7999877929688,
+      "volume": 3411449
     }
   ],
   "corporateActions": {
@@ -15467,9 +15476,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1714,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 56
   }
 }

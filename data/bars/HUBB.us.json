@@ -3,7 +3,7 @@
   "name": "Hubbell Incorporated",
   "market": "US",
   "yahooSymbol": "HUBB",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15341,7 +15341,25 @@
       "low": 463.9800109863281,
       "close": 477.92999267578125,
       "adjClose": 477.92999267578125,
-      "volume": 443199
+      "volume": 443356
+    },
+    {
+      "date": "2026-10-14",
+      "open": 474.67999267578125,
+      "high": 477.92999267578125,
+      "low": 467.29998779296875,
+      "close": 473.3699951171875,
+      "adjClose": 473.3699951171875,
+      "volume": 586049
+    },
+    {
+      "date": "2026-10-15",
+      "open": 464.0799865722656,
+      "high": 466.9100036621094,
+      "low": 457.5899963378906,
+      "close": 464.7099914550781,
+      "adjClose": 464.7099914550781,
+      "volume": 678515
     }
   ],
   "corporateActions": {
@@ -15458,9 +15476,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1704,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }

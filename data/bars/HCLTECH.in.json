@@ -3,7 +3,7 @@
   "name": "HCLTech",
   "market": "IN",
   "yahooSymbol": "HCLTECH.NS",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15106,7 +15106,7 @@
       "high": 1221,
       "low": 1175,
       "close": 1216.699951171875,
-      "adjClose": 1216.699951171875,
+      "adjClose": 1205.96435546875,
       "volume": 2934650
     },
     {
@@ -15115,7 +15115,7 @@
       "high": 1236.800048828125,
       "low": 1206,
       "close": 1223,
-      "adjClose": 1223,
+      "adjClose": 1212.2088623046875,
       "volume": 2511247
     },
     {
@@ -15124,7 +15124,7 @@
       "high": 1326,
       "low": 1238.199951171875,
       "close": 1326,
-      "adjClose": 1326,
+      "adjClose": 1314.300048828125,
       "volume": 21744525
     },
     {
@@ -15133,8 +15133,17 @@
       "high": 1353.699951171875,
       "low": 1319,
       "close": 1327,
-      "adjClose": 1327,
+      "adjClose": 1315.2911376953125,
       "volume": 9240685
+    },
+    {
+      "date": "2026-10-15",
+      "open": 1345,
+      "high": 1375.9000244140625,
+      "low": 1328.300048828125,
+      "close": 1360,
+      "adjClose": 1348,
+      "volume": 8001609
     }
   ],
   "corporateActions": {
@@ -15247,13 +15256,17 @@
       {
         "date": "2026-07-17",
         "amount": 12
+      },
+      {
+        "date": "2026-10-16",
+        "amount": 12
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1681,
+    "barsAvailable": 1682,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 90
   }
 }

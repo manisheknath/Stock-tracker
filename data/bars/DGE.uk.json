@@ -3,7 +3,7 @@
   "name": "Diageo",
   "market": "UK",
   "yahooSymbol": "DGE.L",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-16",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15385,7 +15385,7 @@
       "high": 1632.5,
       "low": 1590,
       "close": 1622,
-      "adjClose": 1622,
+      "adjClose": 1621.7203369140625,
       "volume": 2997244
     },
     {
@@ -15394,7 +15394,7 @@
       "high": 1656,
       "low": 1632.5,
       "close": 1638,
-      "adjClose": 1638,
+      "adjClose": 1637.717529296875,
       "volume": 2822613
     },
     {
@@ -15403,7 +15403,7 @@
       "high": 1673,
       "low": 1630.5,
       "close": 1673,
-      "adjClose": 1673,
+      "adjClose": 1672.7115478515625,
       "volume": 4187559
     },
     {
@@ -15412,8 +15412,17 @@
       "high": 1725.5,
       "low": 1680.5,
       "close": 1712.5,
-      "adjClose": 1712.5,
+      "adjClose": 1712.2047119140625,
       "volume": 4878321
+    },
+    {
+      "date": "2026-10-14",
+      "open": 1700.5,
+      "high": 1742.5050048828125,
+      "low": 1692,
+      "close": 1739.5,
+      "adjClose": 1739.2000732421875,
+      "volume": 4254057
     }
   ],
   "corporateActions": {
@@ -15473,14 +15482,14 @@
       },
       {
         "date": "2026-10-15",
-        "amount": 22.677002
+        "amount": 22.606802
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1712,
+    "barsAvailable": 1713,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-13",
+    "lastDate": "2026-10-14",
     "gaps": 57
   }
 }
