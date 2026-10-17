@@ -3,7 +3,7 @@
   "name": "M&G",
   "market": "UK",
   "yahooSymbol": "MNG.L",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15432,6 +15432,15 @@
       "close": 308.20001220703125,
       "adjClose": 308.20001220703125,
       "volume": 3015281
+    },
+    {
+      "date": "2026-10-15",
+      "open": 308,
+      "high": 313.20001220703125,
+      "low": 305.8970031738281,
+      "close": 310.6000061035156,
+      "adjClose": 310.6000061035156,
+      "volume": 2842100
     }
   ],
   "corporateActions": {
@@ -15496,9 +15505,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1714,
+    "barsAvailable": 1715,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 56
   }
 }

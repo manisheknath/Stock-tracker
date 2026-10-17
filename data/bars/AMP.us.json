@@ -3,7 +3,7 @@
   "name": "Ameriprise Financial",
   "market": "US",
   "yahooSymbol": "AMP",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 495.82000732421875,
       "adjClose": 495.82000732421875,
       "volume": 456100
+    },
+    {
+      "date": "2026-10-15",
+      "open": 497.6099853515625,
+      "high": 502.739990234375,
+      "low": 487.3999938964844,
+      "close": 502.5799865722656,
+      "adjClose": 502.5799865722656,
+      "volume": 489600
     }
   ],
   "corporateActions": {
@@ -15467,9 +15476,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "International Paper",
   "market": "US",
   "yahooSymbol": "IP",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 31.899999618530273,
       "adjClose": 31.899999618530273,
       "volume": 5421200
+    },
+    {
+      "date": "2026-10-15",
+      "open": 33.25,
+      "high": 34.619998931884766,
+      "low": 32.7400016784668,
+      "close": 34.099998474121094,
+      "adjClose": 34.099998474121094,
+      "volume": 9006800
     }
   ],
   "corporateActions": {
@@ -15474,9 +15483,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }

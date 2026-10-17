@@ -3,7 +3,7 @@
   "name": "Banco Sabadell",
   "market": "ES",
   "yahooSymbol": "SAB.MC",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15639,6 +15639,24 @@
       "close": 3.619999885559082,
       "adjClose": 3.619999885559082,
       "volume": 15469826
+    },
+    {
+      "date": "2026-10-15",
+      "open": 3.5799999237060547,
+      "high": 3.6640000343322754,
+      "low": 3.5179998874664307,
+      "close": 3.546999931335449,
+      "adjClose": 3.546999931335449,
+      "volume": 15884317
+    },
+    {
+      "date": "2026-10-16",
+      "open": 3.5799999237060547,
+      "high": 3.63700008392334,
+      "low": 3.5759999752044678,
+      "close": 3.619999885559082,
+      "adjClose": 3.619999885559082,
+      "volume": 10674533
     }
   ],
   "corporateActions": {
@@ -15691,9 +15709,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1737,
+    "barsAvailable": 1739,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-16",
     "gaps": 33
   }
 }

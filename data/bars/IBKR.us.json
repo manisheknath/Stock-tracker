@@ -3,7 +3,7 @@
   "name": "Interactive Brokers",
   "market": "US",
   "yahooSymbol": "IBKR",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 84.13999938964844,
       "adjClose": 84.13999938964844,
       "volume": 4562600
+    },
+    {
+      "date": "2026-10-15",
+      "open": 82.75,
+      "high": 86.22000122070312,
+      "low": 81.04000091552734,
+      "close": 86.02999877929688,
+      "adjClose": 86.02999877929688,
+      "volume": 5838600
     }
   ],
   "corporateActions": {
@@ -15474,9 +15483,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }

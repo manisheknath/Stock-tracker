@@ -3,7 +3,7 @@
   "name": "Paccar",
   "market": "US",
   "yahooSymbol": "PCAR",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 108.55999755859375,
       "adjClose": 108.55999755859375,
       "volume": 2748300
+    },
+    {
+      "date": "2026-10-15",
+      "open": 109.94000244140625,
+      "high": 111.33000183105469,
+      "low": 109.13999938964844,
+      "close": 110.80999755859375,
+      "adjClose": 110.80999755859375,
+      "volume": 4205600
     }
   ],
   "corporateActions": {
@@ -15498,9 +15507,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }

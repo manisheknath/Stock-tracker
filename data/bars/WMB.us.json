@@ -3,7 +3,7 @@
   "name": "Williams Companies",
   "market": "US",
   "yahooSymbol": "WMB",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 72.80000305175781,
       "adjClose": 72.80000305175781,
       "volume": 10634500
+    },
+    {
+      "date": "2026-10-15",
+      "open": 72.88999938964844,
+      "high": 72.88999938964844,
+      "low": 68.5,
+      "close": 69.22000122070312,
+      "adjClose": 69.22000122070312,
+      "volume": 12680700
     }
   ],
   "corporateActions": {
@@ -15467,9 +15476,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }

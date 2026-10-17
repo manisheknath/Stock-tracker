@@ -3,7 +3,7 @@
   "name": "Hershey Company (The)",
   "market": "US",
   "yahooSymbol": "HSY",
-  "asOf": "2026-10-16",
+  "asOf": "2026-10-17",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15351,6 +15351,15 @@
       "close": 164.25,
       "adjClose": 164.25,
       "volume": 1157700
+    },
+    {
+      "date": "2026-10-15",
+      "open": 166.9600067138672,
+      "high": 169.72000122070312,
+      "low": 166.9199981689453,
+      "close": 168.67999267578125,
+      "adjClose": 168.67999267578125,
+      "volume": 1446600
     }
   ],
   "corporateActions": {
@@ -15467,9 +15476,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1705,
+    "barsAvailable": 1706,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-14",
+    "lastDate": "2026-10-15",
     "gaps": 65
   }
 }
