@@ -3,7 +3,7 @@
   "name": "BASF",
   "market": "DE",
   "yahooSymbol": "BAS.DE",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 53.22999954223633,
       "adjClose": 53.22999954223633,
       "volume": 1929449
+    },
+    {
+      "date": "2026-10-19",
+      "open": 52.90999984741211,
+      "high": 53.209999084472656,
+      "low": 52.220001220703125,
+      "close": 52.66999816894531,
+      "adjClose": 52.66999816894531,
+      "volume": 1430894
     }
   ],
   "corporateActions": {
@@ -15621,9 +15630,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 41
   }
 }

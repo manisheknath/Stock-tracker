@@ -3,7 +3,7 @@
   "name": "ABN AMRO",
   "market": "NL",
   "yahooSymbol": "ABN.AS",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15675,6 +15675,15 @@
       "close": 40.9900016784668,
       "adjClose": 40.9900016784668,
       "volume": 1786570
+    },
+    {
+      "date": "2026-10-19",
+      "open": 40.66999816894531,
+      "high": 40.66999816894531,
+      "low": 40.04999923706055,
+      "close": 40.29999923706055,
+      "adjClose": 40.29999923706055,
+      "volume": 1065742
     }
   ],
   "corporateActions": {
@@ -15727,9 +15736,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1741,
+    "barsAvailable": 1742,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 31
   }
 }

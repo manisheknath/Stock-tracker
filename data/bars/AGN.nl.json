@@ -3,7 +3,7 @@
   "name": "Aegon",
   "market": "NL",
   "yahooSymbol": "AGN.AS",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15675,6 +15675,15 @@
       "close": 7.5,
       "adjClose": 7.5,
       "volume": 4819008
+    },
+    {
+      "date": "2026-10-19",
+      "open": 7.466000080108643,
+      "high": 7.480000019073486,
+      "low": 7.3480000495910645,
+      "close": 7.4019999504089355,
+      "adjClose": 7.4019999504089355,
+      "volume": 5706735
     }
   ],
   "corporateActions": {
@@ -15735,9 +15744,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1741,
+    "barsAvailable": 1742,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 31
   }
 }

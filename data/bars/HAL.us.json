@@ -3,7 +3,7 @@
   "name": "Halliburton",
   "market": "US",
   "yahooSymbol": "HAL",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 33.5,
       "adjClose": 33.5,
       "volume": 7705000
+    },
+    {
+      "date": "2026-10-19",
+      "open": 33.45000076293945,
+      "high": 33.45000076293945,
+      "low": 32.40999984741211,
+      "close": 32.97999954223633,
+      "adjClose": 32.97999954223633,
+      "volume": 17654800
     }
   ],
   "corporateActions": {
@@ -15485,9 +15494,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 65
   }
 }

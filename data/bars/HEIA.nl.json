@@ -3,7 +3,7 @@
   "name": "Heineken",
   "market": "NL",
   "yahooSymbol": "HEIA.AS",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15675,6 +15675,15 @@
       "close": 76.0999984741211,
       "adjClose": 76.0999984741211,
       "volume": 675223
+    },
+    {
+      "date": "2026-10-19",
+      "open": 75.86000061035156,
+      "high": 76.36000061035156,
+      "low": 75.63999938964844,
+      "close": 76.27999877929688,
+      "adjClose": 76.27999877929688,
+      "volume": 731600
     }
   ],
   "corporateActions": {
@@ -15731,9 +15740,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1741,
+    "barsAvailable": 1742,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 31
   }
 }

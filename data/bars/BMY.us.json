@@ -3,7 +3,7 @@
   "name": "Bristol Myers Squibb",
   "market": "US",
   "yahooSymbol": "BMY",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 59.75,
       "adjClose": 59.75,
       "volume": 13770800
+    },
+    {
+      "date": "2026-10-19",
+      "open": 59.400001525878906,
+      "high": 59.869998931884766,
+      "low": 58.439998626708984,
+      "close": 58.83000183105469,
+      "adjClose": 58.83000183105469,
+      "volume": 11549700
     }
   ],
   "corporateActions": {
@@ -15489,9 +15498,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 65
   }
 }

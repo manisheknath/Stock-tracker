@@ -3,7 +3,7 @@
   "name": "A. O. Smith",
   "market": "US",
   "yahooSymbol": "AOS",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 59.220001220703125,
       "adjClose": 59.220001220703125,
       "volume": 1735000
+    },
+    {
+      "date": "2026-10-19",
+      "open": 58.25,
+      "high": 59.119998931884766,
+      "low": 58,
+      "close": 58.68000030517578,
+      "adjClose": 58.68000030517578,
+      "volume": 1279400
     }
   ],
   "corporateActions": {
@@ -15485,9 +15494,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 65
   }
 }

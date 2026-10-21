@@ -3,7 +3,7 @@
   "name": "Deutsche Bank",
   "market": "DE",
   "yahooSymbol": "DBK.DE",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 29.329999923706055,
       "adjClose": 29.329999923706055,
       "volume": 4210126
+    },
+    {
+      "date": "2026-10-19",
+      "open": 29.020000457763672,
+      "high": 29.05500030517578,
+      "low": 28.385000228881836,
+      "close": 28.520000457763672,
+      "adjClose": 28.520000457763672,
+      "volume": 4892768
     }
   ],
   "corporateActions": {
@@ -15613,9 +15622,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 41
   }
 }

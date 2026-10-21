@@ -3,7 +3,7 @@
   "name": "News Corp (Class A)",
   "market": "US",
   "yahooSymbol": "NWSA",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 30.030000686645508,
       "adjClose": 30.030000686645508,
       "volume": 3070200
+    },
+    {
+      "date": "2026-10-19",
+      "open": 29.950000762939453,
+      "high": 30.209999084472656,
+      "low": 29.739999771118164,
+      "close": 30.059999465942383,
+      "adjClose": 30.059999465942383,
+      "volume": 2560900
     }
   ],
   "corporateActions": {
@@ -15433,9 +15442,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 65
   }
 }

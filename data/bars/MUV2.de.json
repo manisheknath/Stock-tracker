@@ -3,7 +3,7 @@
   "name": "Munich Re",
   "market": "DE",
   "yahooSymbol": "MUV2.DE",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 547.2000122070312,
       "adjClose": 547.2000122070312,
       "volume": 234947
+    },
+    {
+      "date": "2026-10-19",
+      "open": 545,
+      "high": 547.7999877929688,
+      "low": 541.2000122070312,
+      "close": 542.7999877929688,
+      "adjClose": 542.7999877929688,
+      "volume": 242146
     }
   ],
   "corporateActions": {
@@ -15621,9 +15630,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 41
   }
 }

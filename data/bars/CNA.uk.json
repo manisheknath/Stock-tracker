@@ -3,7 +3,7 @@
   "name": "Centrica",
   "market": "UK",
   "yahooSymbol": "CNA.L",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 150.5,
       "adjClose": 150.5,
       "volume": 7427555
+    },
+    {
+      "date": "2026-10-19",
+      "open": 149.64999389648438,
+      "high": 150.1999969482422,
+      "low": 147.60000610351562,
+      "close": 148.5,
+      "adjClose": 148.5,
+      "volume": 7770606
     }
   ],
   "corporateActions": {
@@ -15494,9 +15503,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 56
   }
 }

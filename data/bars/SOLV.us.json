@@ -3,7 +3,7 @@
   "name": "Solventum",
   "market": "US",
   "yahooSymbol": "SOLV",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -5793,6 +5793,15 @@
       "close": 85.80999755859375,
       "adjClose": 85.80999755859375,
       "volume": 1165400
+    },
+    {
+      "date": "2026-10-19",
+      "open": 85.30999755859375,
+      "high": 86.25,
+      "low": 85.04000091552734,
+      "close": 85.05000305175781,
+      "adjClose": 85.05000305175781,
+      "volume": 851000
     }
   ],
   "corporateActions": {
@@ -5800,9 +5809,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 643,
+    "barsAvailable": 644,
     "firstDate": "2024-03-26",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 26
   }
 }

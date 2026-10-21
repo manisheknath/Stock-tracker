@@ -3,7 +3,7 @@
   "name": "United Parcel Service",
   "market": "US",
   "yahooSymbol": "UPS",
-  "asOf": "2026-10-20",
+  "asOf": "2026-10-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15369,6 +15369,15 @@
       "close": 97.4800033569336,
       "adjClose": 97.4800033569336,
       "volume": 5512000
+    },
+    {
+      "date": "2026-10-19",
+      "open": 97.25,
+      "high": 97.69000244140625,
+      "low": 96.7699966430664,
+      "close": 97.45999908447266,
+      "adjClose": 97.45999908447266,
+      "volume": 3303800
     }
   ],
   "corporateActions": {
@@ -15485,9 +15494,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1707,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-16",
+    "lastDate": "2026-10-19",
     "gaps": 65
   }
 }
