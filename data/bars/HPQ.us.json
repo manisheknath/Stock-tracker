@@ -3,7 +3,7 @@
   "name": "HP Inc.",
   "market": "US",
   "yahooSymbol": "HPQ",
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15378,6 +15378,15 @@
       "close": 30.239999771118164,
       "adjClose": 30.239999771118164,
       "volume": 8605000
+    },
+    {
+      "date": "2026-10-20",
+      "open": 30.25,
+      "high": 31.280000686645508,
+      "low": 30.020000457763672,
+      "close": 31.209999084472656,
+      "adjClose": 31.209999084472656,
+      "volume": 7993000
     }
   ],
   "corporateActions": {
@@ -15494,9 +15503,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-19",
+    "lastDate": "2026-10-20",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "CME Group",
   "market": "US",
   "yahooSymbol": "CME",
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15378,6 +15378,15 @@
       "close": 293.5299987792969,
       "adjClose": 293.5299987792969,
       "volume": 3510600
+    },
+    {
+      "date": "2026-10-20",
+      "open": 296.3900146484375,
+      "high": 299.9200134277344,
+      "low": 293.29998779296875,
+      "close": 295.30999755859375,
+      "adjClose": 295.30999755859375,
+      "volume": 3150700
     }
   ],
   "corporateActions": {
@@ -15514,9 +15523,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-19",
+    "lastDate": "2026-10-20",
     "gaps": 65
   }
 }

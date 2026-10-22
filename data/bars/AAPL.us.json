@@ -3,7 +3,7 @@
   "name": "Apple Inc.",
   "market": "US",
   "yahooSymbol": "AAPL",
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15378,6 +15378,15 @@
       "close": 342.94000244140625,
       "adjClose": 342.94000244140625,
       "volume": 34573200
+    },
+    {
+      "date": "2026-10-20",
+      "open": 339.8599853515625,
+      "high": 343.05999755859375,
+      "low": 338.70001220703125,
+      "close": 339.5,
+      "adjClose": 339.5,
+      "volume": 35851400
     }
   ],
   "corporateActions": {
@@ -15501,9 +15510,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-19",
+    "lastDate": "2026-10-20",
     "gaps": 65
   }
 }

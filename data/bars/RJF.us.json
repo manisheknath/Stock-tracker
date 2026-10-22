@@ -3,7 +3,7 @@
   "name": "Raymond James Financial",
   "market": "US",
   "yahooSymbol": "RJF",
-  "asOf": "2026-10-21",
+  "asOf": "2026-10-22",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15378,6 +15378,15 @@
       "close": 153.44000244140625,
       "adjClose": 153.44000244140625,
       "volume": 1301200
+    },
+    {
+      "date": "2026-10-20",
+      "open": 153.88999938964844,
+      "high": 156.6199951171875,
+      "low": 152.92999267578125,
+      "close": 155.27000427246094,
+      "adjClose": 155.27000427246094,
+      "volume": 1008500
     }
   ],
   "corporateActions": {
@@ -15505,9 +15514,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-19",
+    "lastDate": "2026-10-20",
     "gaps": 65
   }
 }
