@@ -3,7 +3,7 @@
   "name": "Ford Motor Company",
   "market": "US",
   "yahooSymbol": "F",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15387,6 +15387,15 @@
       "close": 12.149999618530273,
       "adjClose": 12.149999618530273,
       "volume": 34212000
+    },
+    {
+      "date": "2026-10-21",
+      "open": 12.140000343322754,
+      "high": 12.180000305175781,
+      "low": 11.84000015258789,
+      "close": 11.899999618530273,
+      "adjClose": 11.899999618530273,
+      "volume": 44408800
     }
   ],
   "corporateActions": {
@@ -15479,9 +15488,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-20",
+    "lastDate": "2026-10-21",
     "gaps": 65
   }
 }

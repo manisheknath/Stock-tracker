@@ -3,7 +3,7 @@
   "name": "Dominion Energy",
   "market": "US",
   "yahooSymbol": "D",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15387,6 +15387,15 @@
       "close": 62.84000015258789,
       "adjClose": 62.84000015258789,
       "volume": 2793300
+    },
+    {
+      "date": "2026-10-21",
+      "open": 63.11000061035156,
+      "high": 63.5,
+      "low": 62.25,
+      "close": 62.33000183105469,
+      "adjClose": 62.33000183105469,
+      "volume": 4591900
     }
   ],
   "corporateActions": {
@@ -15503,9 +15512,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-20",
+    "lastDate": "2026-10-21",
     "gaps": 65
   }
 }

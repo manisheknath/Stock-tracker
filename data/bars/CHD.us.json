@@ -3,7 +3,7 @@
   "name": "Church & Dwight",
   "market": "US",
   "yahooSymbol": "CHD",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15387,6 +15387,15 @@
       "close": 105.95999908447266,
       "adjClose": 105.95999908447266,
       "volume": 1987400
+    },
+    {
+      "date": "2026-10-21",
+      "open": 105.38999938964844,
+      "high": 105.91000366210938,
+      "low": 104.62000274658203,
+      "close": 105,
+      "adjClose": 105,
+      "volume": 2000000
     }
   ],
   "corporateActions": {
@@ -15503,9 +15512,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-20",
+    "lastDate": "2026-10-21",
     "gaps": 65
   }
 }

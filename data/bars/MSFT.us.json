@@ -3,7 +3,7 @@
   "name": "Microsoft",
   "market": "US",
   "yahooSymbol": "MSFT",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15387,6 +15387,15 @@
       "close": 531.8699951171875,
       "adjClose": 531.8699951171875,
       "volume": 14576000
+    },
+    {
+      "date": "2026-10-21",
+      "open": 529.4400024414062,
+      "high": 533.280029296875,
+      "low": 525.02001953125,
+      "close": 532.9500122070312,
+      "adjClose": 532.9500122070312,
+      "volume": 13940100
     }
   ],
   "corporateActions": {
@@ -15503,9 +15512,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-20",
+    "lastDate": "2026-10-21",
     "gaps": 65
   }
 }

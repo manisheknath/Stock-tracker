@@ -3,7 +3,7 @@
   "name": "Cincinnati Financial",
   "market": "US",
   "yahooSymbol": "CINF",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15387,6 +15387,15 @@
       "close": 172.07000732421875,
       "adjClose": 172.07000732421875,
       "volume": 365200
+    },
+    {
+      "date": "2026-10-21",
+      "open": 172.36000061035156,
+      "high": 173.94000244140625,
+      "low": 171.7100067138672,
+      "close": 173.6300048828125,
+      "adjClose": 173.6300048828125,
+      "volume": 501600
     }
   ],
   "corporateActions": {
@@ -15503,9 +15512,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-20",
+    "lastDate": "2026-10-21",
     "gaps": 65
   }
 }

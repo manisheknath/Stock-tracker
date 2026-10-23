@@ -3,7 +3,7 @@
   "name": "Randstad",
   "market": "NL",
   "yahooSymbol": "RAND.AS",
-  "asOf": "2026-10-22",
+  "asOf": "2026-10-23",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15693,6 +15693,15 @@
       "close": 34.33000183105469,
       "adjClose": 34.33000183105469,
       "volume": 538001
+    },
+    {
+      "date": "2026-10-21",
+      "open": 37.66999816894531,
+      "high": 42.18000030517578,
+      "low": 37.4900016784668,
+      "close": 41.25,
+      "adjClose": 41.25,
+      "volume": 1413130
     }
   ],
   "corporateActions": {
@@ -15737,9 +15746,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1743,
+    "barsAvailable": 1744,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-20",
+    "lastDate": "2026-10-21",
     "gaps": 31
   }
 }
