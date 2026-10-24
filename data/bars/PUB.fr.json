@@ -3,7 +3,7 @@
   "name": "Publicis",
   "market": "FR",
   "yahooSymbol": "PUB.PA",
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-24",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15702,6 +15702,15 @@
       "close": 100.80000305175781,
       "adjClose": 100.80000305175781,
       "volume": 603086
+    },
+    {
+      "date": "2026-10-22",
+      "open": 100.55000305175781,
+      "high": 101.5,
+      "low": 99.27999877929688,
+      "close": 101.5,
+      "adjClose": 101.5,
+      "volume": 561018
     }
   ],
   "corporateActions": {
@@ -15738,9 +15747,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1744,
+    "barsAvailable": 1745,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-21",
+    "lastDate": "2026-10-22",
     "gaps": 31
   }
 }
