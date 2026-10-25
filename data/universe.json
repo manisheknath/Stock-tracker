@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11",
+  "generatedAt": "2026-10-25",
   "source": "wikipedia-weekly-scrape (Nasdaq-100 via stockanalysis.com fallback -- see refresh-universe.mjs)",
   "tickers": [
     {
@@ -981,6 +981,13 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "BRO"
+    },
+    {
+      "ticker": "BSE.in",
+      "name": "BSE",
+      "market": "IN",
+      "index": "NIFTY50",
+      "yahooSymbol": "BSE.NS"
     },
     {
       "ticker": "BSX.us",
@@ -3574,7 +3581,7 @@
     },
     {
       "ticker": "MCK.us",
-      "name": "McKesson Corporation",
+      "name": "McKesson",
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "MCK"
@@ -4561,7 +4568,7 @@
     },
     {
       "ticker": "RMD.us",
-      "name": "ResMed |",
+      "name": "ResMed",
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "RMD"
@@ -5727,13 +5734,6 @@
       "market": "US",
       "index": "SP500",
       "yahooSymbol": "WFC"
-    },
-    {
-      "ticker": "WIPRO.in",
-      "name": "Wipro",
-      "market": "IN",
-      "index": "NIFTY50",
-      "yahooSymbol": "WIPRO.NS"
     },
     {
       "ticker": "WKL.nl",
