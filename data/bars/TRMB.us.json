@@ -3,7 +3,7 @@
   "name": "Trimble Inc.",
   "market": "US",
   "yahooSymbol": "TRMB",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15423,6 +15423,24 @@
       "close": 63.369998931884766,
       "adjClose": 63.369998931884766,
       "volume": 1823300
+    },
+    {
+      "date": "2026-10-27",
+      "open": 63.7400016784668,
+      "high": 63.7599983215332,
+      "low": 62.7599983215332,
+      "close": 63.15999984741211,
+      "adjClose": 63.15999984741211,
+      "volume": 1036700
+    },
+    {
+      "date": "2026-10-28",
+      "open": 62.83000183105469,
+      "high": 64.43000030517578,
+      "low": 62.540000915527344,
+      "close": 64.3499984741211,
+      "adjClose": 64.3499984741211,
+      "volume": 2218800
     }
   ],
   "corporateActions": {
@@ -15430,9 +15448,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1715,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-28",
     "gaps": 65
   }
 }

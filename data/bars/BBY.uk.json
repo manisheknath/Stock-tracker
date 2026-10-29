@@ -3,7 +3,7 @@
   "name": "Balfour Beatty",
   "market": "UK",
   "yahooSymbol": "BBY.L",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15504,6 +15504,15 @@
       "close": 850.5,
       "adjClose": 850.5,
       "volume": 764247
+    },
+    {
+      "date": "2026-10-27",
+      "open": 848,
+      "high": 862.5,
+      "low": 845,
+      "close": 860.5,
+      "adjClose": 860.5,
+      "volume": 980213
     }
   ],
   "corporateActions": {
@@ -15552,13 +15561,17 @@
       {
         "date": "2026-05-14",
         "amount": 9.8
+      },
+      {
+        "date": "2026-10-29",
+        "amount": 4.7
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1722,
+    "barsAvailable": 1723,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-27",
     "gaps": 56
   }
 }

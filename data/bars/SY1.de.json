@@ -3,7 +3,7 @@
   "name": "Symrise",
   "market": "DE",
   "yahooSymbol": "SY1.DE",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15639,6 +15639,15 @@
       "close": 100.1500015258789,
       "adjClose": 100.1500015258789,
       "volume": 450057
+    },
+    {
+      "date": "2026-10-27",
+      "open": 99.77999877929688,
+      "high": 100.5,
+      "low": 98.77999877929688,
+      "close": 100.05000305175781,
+      "adjClose": 100.05000305175781,
+      "volume": 386153
     }
   ],
   "corporateActions": {
@@ -15675,9 +15684,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1737,
+    "barsAvailable": 1738,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-27",
     "gaps": 41
   }
 }

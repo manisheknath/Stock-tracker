@@ -3,7 +3,7 @@
   "name": "United Airlines Holdings",
   "market": "US",
   "yahooSymbol": "UAL",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15423,6 +15423,24 @@
       "close": 100.69000244140625,
       "adjClose": 100.69000244140625,
       "volume": 4663900
+    },
+    {
+      "date": "2026-10-27",
+      "open": 101.94000244140625,
+      "high": 105.0999984741211,
+      "low": 100.0199966430664,
+      "close": 104.70999908447266,
+      "adjClose": 104.70999908447266,
+      "volume": 4838700
+    },
+    {
+      "date": "2026-10-28",
+      "open": 104.31999969482422,
+      "high": 105.5999984741211,
+      "low": 102.69999694824219,
+      "close": 103.43000030517578,
+      "adjClose": 103.43000030517578,
+      "volume": 4418500
     }
   ],
   "corporateActions": {
@@ -15430,9 +15448,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1715,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-28",
     "gaps": 65
   }
 }

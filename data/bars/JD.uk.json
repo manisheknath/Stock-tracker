@@ -3,7 +3,7 @@
   "name": "JD Sports",
   "market": "UK",
   "yahooSymbol": "JD.L",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15504,6 +15504,15 @@
       "close": 92.23999786376953,
       "adjClose": 92.23999786376953,
       "volume": 9009614
+    },
+    {
+      "date": "2026-10-27",
+      "open": 92.19999694824219,
+      "high": 92.93000030517578,
+      "low": 91.32499694824219,
+      "close": 92,
+      "adjClose": 92,
+      "volume": 8862271
     }
   ],
   "corporateActions": {
@@ -15555,13 +15564,17 @@
       {
         "date": "2026-07-02",
         "amount": 0.87
+      },
+      {
+        "date": "2026-10-29",
+        "amount": 0.4
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1722,
+    "barsAvailable": 1723,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-27",
     "gaps": 56
   }
 }

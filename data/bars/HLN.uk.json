@@ -3,7 +3,7 @@
   "name": "Haleon",
   "market": "UK",
   "yahooSymbol": "HLN.L",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -9735,6 +9735,15 @@
       "close": 380.20001220703125,
       "adjClose": 380.20001220703125,
       "volume": 19526780
+    },
+    {
+      "date": "2026-10-27",
+      "open": 378.29998779296875,
+      "high": 380,
+      "low": 375,
+      "close": 376,
+      "adjClose": 376,
+      "volume": 20519047
     }
   ],
   "corporateActions": {
@@ -9775,9 +9784,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1081,
+    "barsAvailable": 1082,
     "firstDate": "2022-07-18",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-27",
     "gaps": 35
   }
 }

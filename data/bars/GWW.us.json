@@ -3,7 +3,7 @@
   "name": "W. W. Grainger",
   "market": "US",
   "yahooSymbol": "GWW",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15423,6 +15423,24 @@
       "close": 1357.5999755859375,
       "adjClose": 1357.5999755859375,
       "volume": 191600
+    },
+    {
+      "date": "2026-10-27",
+      "open": 1357.0899658203125,
+      "high": 1365.1099853515625,
+      "low": 1332.56005859375,
+      "close": 1342.719970703125,
+      "adjClose": 1342.719970703125,
+      "volume": 221600
+    },
+    {
+      "date": "2026-10-28",
+      "open": 1350.0799560546875,
+      "high": 1351.1600341796875,
+      "low": 1332.7099609375,
+      "close": 1340.760009765625,
+      "adjClose": 1340.760009765625,
+      "volume": 121500
     }
   ],
   "corporateActions": {
@@ -15539,9 +15557,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1713,
+    "barsAvailable": 1715,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-28",
     "gaps": 65
   }
 }

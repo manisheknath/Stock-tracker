@@ -3,7 +3,7 @@
   "name": "Whitbread",
   "market": "UK",
   "yahooSymbol": "WTB.L",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-29",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15504,6 +15504,15 @@
       "close": 2605,
       "adjClose": 2605,
       "volume": 373907
+    },
+    {
+      "date": "2026-10-27",
+      "open": 2586,
+      "high": 2616,
+      "low": 2574,
+      "close": 2592,
+      "adjClose": 2592,
+      "volume": 255399
     }
   ],
   "corporateActions": {
@@ -15544,13 +15553,17 @@
       {
         "date": "2026-05-21",
         "amount": 60.600002
+      },
+      {
+        "date": "2026-10-29",
+        "amount": 36.399998
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1722,
+    "barsAvailable": 1723,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-26",
+    "lastDate": "2026-10-27",
     "gaps": 56
   }
 }
