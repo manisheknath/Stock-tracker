@@ -3,7 +3,7 @@
   "name": "News Corp (Class B)",
   "market": "US",
   "yahooSymbol": "NWS",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15441,6 +15441,15 @@
       "close": 32.02000045776367,
       "adjClose": 32.02000045776367,
       "volume": 1165600
+    },
+    {
+      "date": "2026-10-29",
+      "open": 32.25,
+      "high": 32.52000045776367,
+      "low": 32.06999969482422,
+      "close": 32.18000030517578,
+      "adjClose": 32.18000030517578,
+      "volume": 894200
     }
   ],
   "corporateActions": {
@@ -15505,9 +15514,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1715,
+    "barsAvailable": 1716,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 65
   }
 }

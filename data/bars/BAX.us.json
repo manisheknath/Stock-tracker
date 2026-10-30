@@ -3,7 +3,7 @@
   "name": "Baxter International",
   "market": "US",
   "yahooSymbol": "BAX",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15441,6 +15441,15 @@
       "close": 25.459999084472656,
       "adjClose": 25.459999084472656,
       "volume": 12433100
+    },
+    {
+      "date": "2026-10-29",
+      "open": 26,
+      "high": 26.100000381469727,
+      "low": 23.3700008392334,
+      "close": 23.5,
+      "adjClose": 23.5,
+      "volume": 15668800
     }
   ],
   "corporateActions": {
@@ -15557,9 +15566,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1715,
+    "barsAvailable": 1716,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 65
   }
 }

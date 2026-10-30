@@ -3,7 +3,7 @@
   "name": "Legrand",
   "market": "FR",
   "yahooSymbol": "LR.PA",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15738,6 +15738,15 @@
       "close": 129.0500030517578,
       "adjClose": 129.0500030517578,
       "volume": 561359
+    },
+    {
+      "date": "2026-10-28",
+      "open": 130.85000610351562,
+      "high": 133.10000610351562,
+      "low": 130.10000610351562,
+      "close": 132.5,
+      "adjClose": 132.5,
+      "volume": 933000
     }
   ],
   "corporateActions": {
@@ -15774,9 +15783,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1748,
+    "barsAvailable": 1749,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-27",
+    "lastDate": "2026-10-28",
     "gaps": 31
   }
 }

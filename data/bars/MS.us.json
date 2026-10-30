@@ -3,7 +3,7 @@
   "name": "Morgan Stanley",
   "market": "US",
   "yahooSymbol": "MS",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15441,6 +15441,15 @@
       "close": 190.1300048828125,
       "adjClose": 190.1300048828125,
       "volume": 5811500
+    },
+    {
+      "date": "2026-10-29",
+      "open": 192.3699951171875,
+      "high": 193.05999755859375,
+      "low": 189.58999633789062,
+      "close": 190,
+      "adjClose": 190,
+      "volume": 5547200
     }
   ],
   "corporateActions": {
@@ -15557,9 +15566,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1715,
+    "barsAvailable": 1716,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 65
   }
 }

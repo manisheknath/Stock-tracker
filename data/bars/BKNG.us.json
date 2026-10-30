@@ -3,7 +3,7 @@
   "name": "Booking Holdings",
   "market": "US",
   "yahooSymbol": "BKNG",
-  "asOf": "2026-10-29",
+  "asOf": "2026-10-30",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15441,6 +15441,15 @@
       "close": 147.94000244140625,
       "adjClose": 147.94000244140625,
       "volume": 8563400
+    },
+    {
+      "date": "2026-10-29",
+      "open": 150.60000610351562,
+      "high": 151.83999633789062,
+      "low": 147.52999877929688,
+      "close": 150.42999267578125,
+      "adjClose": 150.42999267578125,
+      "volume": 5896000
     }
   ],
   "corporateActions": {
@@ -15500,9 +15509,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1715,
+    "barsAvailable": 1716,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 65
   }
 }
