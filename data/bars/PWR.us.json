@@ -3,7 +3,7 @@
   "name": "Quanta Services",
   "market": "US",
   "yahooSymbol": "PWR",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 635.1799926757812,
       "adjClose": 635.1799926757812,
       "volume": 2010400
+    },
+    {
+      "date": "2026-10-30",
+      "open": 608,
+      "high": 638.7899780273438,
+      "low": 607.25,
+      "close": 620.72998046875,
+      "adjClose": 620.72998046875,
+      "volume": 1476400
     }
   ],
   "corporateActions": {
@@ -15570,9 +15579,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

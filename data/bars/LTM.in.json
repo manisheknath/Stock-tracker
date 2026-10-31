@@ -3,7 +3,7 @@
   "name": "LTM",
   "market": "IN",
   "yahooSymbol": "LTM.NS",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15216,6 +15216,24 @@
       "close": 4104,
       "adjClose": 4104,
       "volume": 459122
+    },
+    {
+      "date": "2026-10-29",
+      "open": 4111.10009765625,
+      "high": 4155.89990234375,
+      "low": 4062.199951171875,
+      "close": 4094.699951171875,
+      "adjClose": 4094.699951171875,
+      "volume": 272051
+    },
+    {
+      "date": "2026-10-30",
+      "open": 4115,
+      "high": 4257,
+      "low": 4109.5,
+      "close": 4233.5,
+      "adjClose": 4233.5,
+      "volume": 388758
     }
   ],
   "corporateActions": {
@@ -15284,9 +15302,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1690,
+    "barsAvailable": 1692,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-30",
     "gaps": 91
   }
 }

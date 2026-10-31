@@ -3,7 +3,7 @@
   "name": "Wynn Resorts",
   "market": "US",
   "yahooSymbol": "WYNN",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 74.20999908447266,
       "adjClose": 74.20999908447266,
       "volume": 2084200
+    },
+    {
+      "date": "2026-10-30",
+      "open": 74.33000183105469,
+      "high": 75.4800033569336,
+      "low": 73.26000213623047,
+      "close": 74.66000366210938,
+      "adjClose": 74.66000366210938,
+      "volume": 2260100
     }
   ],
   "corporateActions": {
@@ -15518,9 +15527,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

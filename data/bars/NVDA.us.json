@@ -3,7 +3,7 @@
   "name": "Nvidia",
   "market": "US",
   "yahooSymbol": "NVDA",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15449,7 +15449,16 @@
       "low": 212.0800018310547,
       "close": 213.66000366210938,
       "adjClose": 213.66000366210938,
-      "volume": 76216000
+      "volume": 77568100
+    },
+    {
+      "date": "2026-10-30",
+      "open": 208.94000244140625,
+      "high": 209.05999755859375,
+      "low": 200.9199981689453,
+      "close": 204.63999938964844,
+      "adjClose": 204.63999938964844,
+      "volume": 168039400
     }
   ],
   "corporateActions": {
@@ -15579,9 +15588,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

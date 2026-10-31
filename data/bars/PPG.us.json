@@ -3,7 +3,7 @@
   "name": "PPG Industries",
   "market": "US",
   "yahooSymbol": "PPG",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 120,
       "adjClose": 120,
       "volume": 2173400
+    },
+    {
+      "date": "2026-10-30",
+      "open": 120.30999755859375,
+      "high": 121.18000030517578,
+      "low": 118.69000244140625,
+      "close": 119.5199966430664,
+      "adjClose": 119.5199966430664,
+      "volume": 2031500
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

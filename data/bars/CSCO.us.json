@@ -3,7 +3,7 @@
   "name": "Cisco",
   "market": "US",
   "yahooSymbol": "CSCO",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15449,7 +15449,16 @@
       "low": 108.27999877929688,
       "close": 108.58999633789062,
       "adjClose": 108.58999633789062,
-      "volume": 13484500
+      "volume": 13562100
+    },
+    {
+      "date": "2026-10-30",
+      "open": 108.7699966430664,
+      "high": 108.7699966430664,
+      "low": 103.13999938964844,
+      "close": 104.51000213623047,
+      "adjClose": 104.51000213623047,
+      "volume": 24702900
     }
   ],
   "corporateActions": {
@@ -15570,9 +15579,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

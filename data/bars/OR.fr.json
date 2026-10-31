@@ -3,7 +3,7 @@
   "name": "L'Oréal",
   "market": "FR",
   "yahooSymbol": "OR.PA",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15747,6 +15747,15 @@
       "close": 423.6499938964844,
       "adjClose": 423.6499938964844,
       "volume": 340040
+    },
+    {
+      "date": "2026-10-29",
+      "open": 425.6000061035156,
+      "high": 430.6499938964844,
+      "low": 423.54998779296875,
+      "close": 424.5,
+      "adjClose": 424.5,
+      "volume": 279291
     }
   ],
   "corporateActions": {
@@ -15783,9 +15792,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1749,
+    "barsAvailable": 1750,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 31
   }
 }

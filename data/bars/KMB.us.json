@@ -3,7 +3,7 @@
   "name": "Kimberly-Clark",
   "market": "US",
   "yahooSymbol": "KMB",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 110.0199966430664,
       "adjClose": 110.0199966430664,
       "volume": 2988700
+    },
+    {
+      "date": "2026-10-30",
+      "open": 112.33000183105469,
+      "high": 112.81999969482422,
+      "low": 107.37000274658203,
+      "close": 107.94000244140625,
+      "adjClose": 107.94000244140625,
+      "volume": 9787400
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

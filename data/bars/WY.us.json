@@ -3,7 +3,7 @@
   "name": "Weyerhaeuser",
   "market": "US",
   "yahooSymbol": "WY",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 19.75,
       "adjClose": 19.75,
       "volume": 10185000
+    },
+    {
+      "date": "2026-10-30",
+      "open": 19.959999084472656,
+      "high": 20.649999618530273,
+      "low": 19.780000686645508,
+      "close": 20.350000381469727,
+      "adjClose": 20.350000381469727,
+      "volume": 12797900
     }
   ],
   "corporateActions": {
@@ -15574,9 +15583,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Truist Financial",
   "market": "US",
   "yahooSymbol": "TFC",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 49.31999969482422,
       "adjClose": 49.31999969482422,
       "volume": 9851600
+    },
+    {
+      "date": "2026-10-30",
+      "open": 49.58000183105469,
+      "high": 49.66999816894531,
+      "low": 48.310001373291016,
+      "close": 48.790000915527344,
+      "adjClose": 48.790000915527344,
+      "volume": 7771400
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

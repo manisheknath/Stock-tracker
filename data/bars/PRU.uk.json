@@ -3,7 +3,7 @@
   "name": "Prudential plc",
   "market": "UK",
   "yahooSymbol": "PRU.L",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15522,6 +15522,15 @@
       "close": 902,
       "adjClose": 902,
       "volume": 5704140
+    },
+    {
+      "date": "2026-10-29",
+      "open": 905.5999755859375,
+      "high": 912.5999755859375,
+      "low": 902.7999877929688,
+      "close": 904,
+      "adjClose": 904,
+      "volume": 5107604
     }
   ],
   "corporateActions": {
@@ -15586,9 +15595,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 56
   }
 }

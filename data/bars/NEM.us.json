@@ -3,7 +3,7 @@
   "name": "Newmont",
   "market": "US",
   "yahooSymbol": "NEM",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 111.80000305175781,
       "adjClose": 111.80000305175781,
       "volume": 5186400
+    },
+    {
+      "date": "2026-10-30",
+      "open": 107.3499984741211,
+      "high": 108.06999969482422,
+      "low": 104.51000213623047,
+      "close": 106.61000061035156,
+      "adjClose": 106.61000061035156,
+      "volume": 8760600
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

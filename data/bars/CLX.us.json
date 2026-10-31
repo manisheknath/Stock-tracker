@@ -3,7 +3,7 @@
   "name": "Clorox",
   "market": "US",
   "yahooSymbol": "CLX",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 88.66999816894531,
       "adjClose": 88.66999816894531,
       "volume": 3672000
+    },
+    {
+      "date": "2026-10-30",
+      "open": 90.0199966430664,
+      "high": 90.77999877929688,
+      "low": 87.44000244140625,
+      "close": 88,
+      "adjClose": 88,
+      "volume": 3871400
     }
   ],
   "corporateActions": {
@@ -15570,9 +15579,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

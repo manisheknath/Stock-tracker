@@ -3,7 +3,7 @@
   "name": "KLA Corporation",
   "market": "US",
   "yahooSymbol": "KLAC",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15449,7 +15449,16 @@
       "low": 161.60000610351562,
       "close": 167.42999267578125,
       "adjClose": 167.42999267578125,
-      "volume": 15107200
+      "volume": 15144800
+    },
+    {
+      "date": "2026-10-30",
+      "open": 159.5399932861328,
+      "high": 164.25,
+      "low": 156.02999877929688,
+      "close": 157.91000366210938,
+      "adjClose": 157.91000366210938,
+      "volume": 22412900
     }
   ],
   "corporateActions": {
@@ -15573,9 +15582,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

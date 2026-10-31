@@ -3,7 +3,7 @@
   "name": "Edison International",
   "market": "US",
   "yahooSymbol": "EIX",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 59.380001068115234,
       "adjClose": 59.380001068115234,
       "volume": 2271900
+    },
+    {
+      "date": "2026-10-30",
+      "open": 59.36000061035156,
+      "high": 60.459999084472656,
+      "low": 58.68000030517578,
+      "close": 58.790000915527344,
+      "adjClose": 58.790000915527344,
+      "volume": 4434900
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

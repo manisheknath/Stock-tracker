@@ -3,7 +3,7 @@
   "name": "SSE plc",
   "market": "UK",
   "yahooSymbol": "SSE.L",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15522,6 +15522,15 @@
       "close": 2604,
       "adjClose": 2604,
       "volume": 2440365
+    },
+    {
+      "date": "2026-10-29",
+      "open": 2614,
+      "high": 2668,
+      "low": 2603,
+      "close": 2647,
+      "adjClose": 2647,
+      "volume": 2254278
     }
   ],
   "corporateActions": {
@@ -15586,9 +15595,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 56
   }
 }

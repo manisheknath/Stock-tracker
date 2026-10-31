@@ -3,7 +3,7 @@
   "name": "Uber",
   "market": "US",
   "yahooSymbol": "UBER",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15449,7 +15449,16 @@
       "low": 64.04000091552734,
       "close": 65.73999786376953,
       "adjClose": 65.73999786376953,
-      "volume": 16244900
+      "volume": 16286800
+    },
+    {
+      "date": "2026-10-30",
+      "open": 65.61000061035156,
+      "high": 65.80000305175781,
+      "low": 64.67500305175781,
+      "close": 65.25,
+      "adjClose": 65.25,
+      "volume": 17934900
     }
   ],
   "corporateActions": {
@@ -15457,9 +15466,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Stanley Black & Decker",
   "market": "US",
   "yahooSymbol": "SWK",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 103.61000061035156,
       "adjClose": 103.61000061035156,
       "volume": 1767300
+    },
+    {
+      "date": "2026-10-30",
+      "open": 104,
+      "high": 105.16999816894531,
+      "low": 101.5,
+      "close": 103.44000244140625,
+      "adjClose": 103.44000244140625,
+      "volume": 2005900
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

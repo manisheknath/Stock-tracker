@@ -3,7 +3,7 @@
   "name": "D. R. Horton",
   "market": "US",
   "yahooSymbol": "DHI",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 146.52999877929688,
       "adjClose": 146.52999877929688,
       "volume": 5253200
+    },
+    {
+      "date": "2026-10-30",
+      "open": 146.02999877929688,
+      "high": 148.92999267578125,
+      "low": 144.5500030517578,
+      "close": 146,
+      "adjClose": 146,
+      "volume": 2991200
     }
   ],
   "corporateActions": {
@@ -15566,9 +15575,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

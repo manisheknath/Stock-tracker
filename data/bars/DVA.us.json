@@ -3,7 +3,7 @@
   "name": "DaVita",
   "market": "US",
   "yahooSymbol": "DVA",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 193.30999755859375,
       "adjClose": 193.30999755859375,
       "volume": 2076600
+    },
+    {
+      "date": "2026-10-30",
+      "open": 175,
+      "high": 187.91000366210938,
+      "low": 171.14999389648438,
+      "close": 187.5,
+      "adjClose": 187.5,
+      "volume": 1760600
     }
   ],
   "corporateActions": {
@@ -15457,9 +15466,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

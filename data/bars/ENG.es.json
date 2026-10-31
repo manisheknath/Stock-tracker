@@ -3,7 +3,7 @@
   "name": "Enagás",
   "market": "ES",
   "yahooSymbol": "ENG.MC",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "EUR",
   "exchange": "MCE",
   "bars": [
@@ -15729,6 +15729,15 @@
       "close": 17.68000030517578,
       "adjClose": 17.68000030517578,
       "volume": 656819
+    },
+    {
+      "date": "2026-10-29",
+      "open": 17.610000610351562,
+      "high": 17.75,
+      "low": 17.5,
+      "close": 17.639999389648438,
+      "adjClose": 17.639999389648438,
+      "volume": 877804
     }
   ],
   "corporateActions": {
@@ -15785,9 +15794,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1747,
+    "barsAvailable": 1748,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-29",
     "gaps": 33
   }
 }

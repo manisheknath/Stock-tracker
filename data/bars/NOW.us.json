@@ -3,7 +3,7 @@
   "name": "ServiceNow",
   "market": "US",
   "yahooSymbol": "NOW",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15449,7 +15449,16 @@
       "low": 108.68000030517578,
       "close": 109.66999816894531,
       "adjClose": 109.66999816894531,
-      "volume": 76173000
+      "volume": 76427200
+    },
+    {
+      "date": "2026-10-30",
+      "open": 109.12999725341797,
+      "high": 109.9000015258789,
+      "low": 103.51000213623047,
+      "close": 105.12000274658203,
+      "adjClose": 105.12000274658203,
+      "volume": 35167300
     }
   ],
   "corporateActions": {
@@ -15464,9 +15473,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Pentair",
   "market": "US",
   "yahooSymbol": "PNR",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 65.83999633789062,
       "adjClose": 65.83999633789062,
       "volume": 4457000
+    },
+    {
+      "date": "2026-10-30",
+      "open": 66.01000213623047,
+      "high": 67.20999908447266,
+      "low": 65.45999908447266,
+      "close": 66.26000213623047,
+      "adjClose": 66.26000213623047,
+      "volume": 4959400
     }
   ],
   "corporateActions": {
@@ -15570,9 +15579,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

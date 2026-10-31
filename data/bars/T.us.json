@@ -3,7 +3,7 @@
   "name": "AT&T",
   "market": "US",
   "yahooSymbol": "T",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15449,7 +15449,16 @@
       "low": 20.860000610351562,
       "close": 20.920000076293945,
       "adjClose": 20.920000076293945,
-      "volume": 45882000
+      "volume": 45921200
+    },
+    {
+      "date": "2026-10-30",
+      "open": 21.309999465942383,
+      "high": 21.59000015258789,
+      "low": 21.239999771118164,
+      "close": 21.40999984741211,
+      "adjClose": 21.40999984741211,
+      "volume": 52719900
     }
   ],
   "corporateActions": {
@@ -15577,9 +15586,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }

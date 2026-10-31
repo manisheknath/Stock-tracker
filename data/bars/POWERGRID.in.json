@@ -3,7 +3,7 @@
   "name": "Power Grid",
   "market": "IN",
   "yahooSymbol": "POWERGRID.NS",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15216,6 +15216,24 @@
       "close": 251.39999389648438,
       "adjClose": 251.39999389648438,
       "volume": 5742064
+    },
+    {
+      "date": "2026-10-29",
+      "open": 250.8000030517578,
+      "high": 262.5,
+      "low": 250.8000030517578,
+      "close": 260,
+      "adjClose": 260,
+      "volume": 10526035
+    },
+    {
+      "date": "2026-10-30",
+      "open": 260.04998779296875,
+      "high": 267.29998779296875,
+      "low": 259.25,
+      "close": 265,
+      "adjClose": 265,
+      "volume": 13684488
     }
   ],
   "corporateActions": {
@@ -15317,9 +15335,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1690,
+    "barsAvailable": 1692,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-28",
+    "lastDate": "2026-10-30",
     "gaps": 91
   }
 }

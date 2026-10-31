@@ -3,7 +3,7 @@
   "name": "Vivmark Residential",
   "market": "US",
   "yahooSymbol": "VMRK",
-  "asOf": "2026-10-30",
+  "asOf": "2026-10-31",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15450,6 +15450,15 @@
       "close": 61.75,
       "adjClose": 61.75,
       "volume": 3668600
+    },
+    {
+      "date": "2026-10-30",
+      "open": 62.290000915527344,
+      "high": 62.52000045776367,
+      "low": 61.310001373291016,
+      "close": 61.900001525878906,
+      "adjClose": 61.900001525878906,
+      "volume": 5265700
     }
   ],
   "corporateActions": {
@@ -15570,9 +15579,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1716,
+    "barsAvailable": 1717,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-29",
+    "lastDate": "2026-10-30",
     "gaps": 65
   }
 }
