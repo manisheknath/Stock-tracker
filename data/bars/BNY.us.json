@@ -3,7 +3,7 @@
   "name": "BNY Mellon",
   "market": "US",
   "yahooSymbol": "BNY",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15459,6 +15459,15 @@
       "close": 147.11000061035156,
       "adjClose": 147.11000061035156,
       "volume": 2851100
+    },
+    {
+      "date": "2026-11-02",
+      "open": 148.02999877929688,
+      "high": 149.02999877929688,
+      "low": 147.41000366210938,
+      "close": 147.77999877929688,
+      "adjClose": 147.77999877929688,
+      "volume": 3218800
     }
   ],
   "corporateActions": {
@@ -15587,9 +15596,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1717,
+    "barsAvailable": 1718,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-30",
+    "lastDate": "2026-11-02",
     "gaps": 65
   }
 }
