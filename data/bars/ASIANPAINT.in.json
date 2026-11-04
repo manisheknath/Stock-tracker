@@ -3,7 +3,7 @@
   "name": "Asian Paints",
   "market": "IN",
   "yahooSymbol": "ASIANPAINT.NS",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15234,6 +15234,15 @@
       "close": 2320,
       "adjClose": 2320,
       "volume": 1315150
+    },
+    {
+      "date": "2026-11-02",
+      "open": 2323.199951171875,
+      "high": 2372.10009765625,
+      "low": 2323.199951171875,
+      "close": 2344.300048828125,
+      "adjClose": 2344.300048828125,
+      "volume": 789896
     }
   ],
   "corporateActions": {
@@ -15294,13 +15303,17 @@
       {
         "date": "2026-06-23",
         "amount": 23
+      },
+      {
+        "date": "2026-11-04",
+        "amount": 5.75
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1692,
+    "barsAvailable": 1693,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-10-30",
+    "lastDate": "2026-11-02",
     "gaps": 91
   }
 }

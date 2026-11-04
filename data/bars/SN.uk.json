@@ -3,7 +3,7 @@
   "name": "Smith & Nephew",
   "market": "UK",
   "yahooSymbol": "SN.L",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15531,6 +15531,15 @@
       "close": 1107.5,
       "adjClose": 1107.5,
       "volume": 4298890
+    },
+    {
+      "date": "2026-11-02",
+      "open": 1094.5,
+      "high": 1111,
+      "low": 1092.60400390625,
+      "close": 1105,
+      "adjClose": 1105,
+      "volume": 4471631
     }
   ],
   "corporateActions": {
@@ -15595,9 +15604,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1726,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-10-30",
+    "lastDate": "2026-11-02",
     "gaps": 57
   }
 }
