@@ -3,7 +3,7 @@
   "name": "Euronext",
   "market": "FR",
   "yahooSymbol": "ENX.PA",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15774,6 +15774,15 @@
       "close": 171.39999389648438,
       "adjClose": 171.39999389648438,
       "volume": 339365
+    },
+    {
+      "date": "2026-11-03",
+      "open": 168.5,
+      "high": 171.5,
+      "low": 167.39999389648438,
+      "close": 169.5,
+      "adjClose": 169.5,
+      "volume": 521435
     }
   ],
   "corporateActions": {
@@ -15810,9 +15819,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1752,
+    "barsAvailable": 1753,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-02",
+    "lastDate": "2026-11-03",
     "gaps": 31
   }
 }

@@ -3,7 +3,7 @@
   "name": "NatWest Group",
   "market": "UK",
   "yahooSymbol": "NWG.L",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15549,6 +15549,15 @@
       "close": 592.2000122070312,
       "adjClose": 592.2000122070312,
       "volume": 24262835
+    },
+    {
+      "date": "2026-11-03",
+      "open": 582.7999877929688,
+      "high": 592.7999877929688,
+      "low": 578.3099975585938,
+      "close": 580,
+      "adjClose": 580,
+      "volume": 18905877
     }
   ],
   "corporateActions": {
@@ -15616,9 +15625,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1727,
+    "barsAvailable": 1728,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-02",
+    "lastDate": "2026-11-03",
     "gaps": 56
   }
 }
