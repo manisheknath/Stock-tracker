@@ -3,7 +3,7 @@
   "name": "IBM",
   "market": "US",
   "yahooSymbol": "IBM",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15477,6 +15477,15 @@
       "close": 250.0399932861328,
       "adjClose": 250.0399932861328,
       "volume": 3451200
+    },
+    {
+      "date": "2026-11-04",
+      "open": 255,
+      "high": 258.5899963378906,
+      "low": 253.50999450683594,
+      "close": 254.32000732421875,
+      "adjClose": 254.32000732421875,
+      "volume": 3761100
     }
   ],
   "corporateActions": {
@@ -15600,9 +15609,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1719,
+    "barsAvailable": 1720,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-03",
+    "lastDate": "2026-11-04",
     "gaps": 65
   }
 }

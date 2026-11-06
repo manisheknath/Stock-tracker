@@ -3,7 +3,7 @@
   "name": "Invesco",
   "market": "US",
   "yahooSymbol": "IVZ",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-06",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15477,6 +15477,15 @@
       "close": 28.260000228881836,
       "adjClose": 28.260000228881836,
       "volume": 4452300
+    },
+    {
+      "date": "2026-11-04",
+      "open": 28.90999984741211,
+      "high": 29.469999313354492,
+      "low": 28.469999313354492,
+      "close": 29.440000534057617,
+      "adjClose": 29.440000534057617,
+      "volume": 4970000
     }
   ],
   "corporateActions": {
@@ -15593,9 +15602,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1719,
+    "barsAvailable": 1720,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-03",
+    "lastDate": "2026-11-04",
     "gaps": 65
   }
 }
