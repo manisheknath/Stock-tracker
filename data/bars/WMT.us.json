@@ -3,7 +3,7 @@
   "name": "Walmart",
   "market": "US",
   "yahooSymbol": "WMT",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15486,6 +15486,24 @@
       "close": 129.1699981689453,
       "adjClose": 129.1699981689453,
       "volume": 29284900
+    },
+    {
+      "date": "2026-11-05",
+      "open": 130.89999389648438,
+      "high": 131.82000732421875,
+      "low": 127.38999938964844,
+      "close": 127.72000122070312,
+      "adjClose": 127.72000122070312,
+      "volume": 42074700
+    },
+    {
+      "date": "2026-11-06",
+      "open": 124,
+      "high": 126.63999938964844,
+      "low": 123.02999877929688,
+      "close": 125.5199966430664,
+      "adjClose": 125.5199966430664,
+      "volume": 24822500
     }
   ],
   "corporateActions": {
@@ -15609,9 +15627,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1722,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-06",
     "gaps": 65
   }
 }

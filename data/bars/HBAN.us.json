@@ -3,7 +3,7 @@
   "name": "Huntington Bancshares",
   "market": "US",
   "yahooSymbol": "HBAN",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15486,6 +15486,24 @@
       "close": 16.059999465942383,
       "adjClose": 16.059999465942383,
       "volume": 26069100
+    },
+    {
+      "date": "2026-11-05",
+      "open": 16.290000915527344,
+      "high": 16.479999542236328,
+      "low": 15.5,
+      "close": 15.609999656677246,
+      "adjClose": 15.609999656677246,
+      "volume": 26233100
+    },
+    {
+      "date": "2026-11-06",
+      "open": 15.5,
+      "high": 15.729999542236328,
+      "low": 15.449999809265137,
+      "close": 15.470000267028809,
+      "adjClose": 15.470000267028809,
+      "volume": 16743400
     }
   ],
   "corporateActions": {
@@ -15602,9 +15620,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1722,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-06",
     "gaps": 65
   }
 }

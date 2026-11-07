@@ -3,7 +3,7 @@
   "name": "Charles Schwab Corporation",
   "market": "US",
   "yahooSymbol": "SCHW",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15486,6 +15486,24 @@
       "close": 93.37000274658203,
       "adjClose": 93.37000274658203,
       "volume": 11324800
+    },
+    {
+      "date": "2026-11-05",
+      "open": 95.11000061035156,
+      "high": 95.27999877929688,
+      "low": 91.12999725341797,
+      "close": 92.58000183105469,
+      "adjClose": 92.58000183105469,
+      "volume": 13262600
+    },
+    {
+      "date": "2026-11-06",
+      "open": 91.30000305175781,
+      "high": 92.94000244140625,
+      "low": 91.19999694824219,
+      "close": 91.48999786376953,
+      "adjClose": 91.48999786376953,
+      "volume": 7578000
     }
   ],
   "corporateActions": {
@@ -15602,9 +15620,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1722,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-06",
     "gaps": 65
   }
 }

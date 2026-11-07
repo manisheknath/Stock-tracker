@@ -3,7 +3,7 @@
   "name": "Ameren",
   "market": "US",
   "yahooSymbol": "AEE",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15486,6 +15486,24 @@
       "close": 113.08000183105469,
       "adjClose": 113.08000183105469,
       "volume": 2857700
+    },
+    {
+      "date": "2026-11-05",
+      "open": 114.5,
+      "high": 115.30999755859375,
+      "low": 112.16999816894531,
+      "close": 112.80999755859375,
+      "adjClose": 112.80999755859375,
+      "volume": 3014700
+    },
+    {
+      "date": "2026-11-06",
+      "open": 112.13999938964844,
+      "high": 114.37999725341797,
+      "low": 111.41999816894531,
+      "close": 112.8499984741211,
+      "adjClose": 112.8499984741211,
+      "volume": 3122100
     }
   ],
   "corporateActions": {
@@ -15602,9 +15620,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1722,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-06",
     "gaps": 65
   }
 }

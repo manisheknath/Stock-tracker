@@ -3,7 +3,7 @@
   "name": "Exelon",
   "market": "US",
   "yahooSymbol": "EXC",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15486,6 +15486,24 @@
       "close": 46.2400016784668,
       "adjClose": 46.2400016784668,
       "volume": 12750000
+    },
+    {
+      "date": "2026-11-05",
+      "open": 46.97999954223633,
+      "high": 47.04999923706055,
+      "low": 45.97999954223633,
+      "close": 46.529998779296875,
+      "adjClose": 46.529998779296875,
+      "volume": 12507800
+    },
+    {
+      "date": "2026-11-06",
+      "open": 45.650001525878906,
+      "high": 46.09000015258789,
+      "low": 45.29999923706055,
+      "close": 45.619998931884766,
+      "adjClose": 45.619998931884766,
+      "volume": 8858800
     }
   ],
   "corporateActions": {
@@ -15609,9 +15627,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1720,
+    "barsAvailable": 1722,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-04",
+    "lastDate": "2026-11-06",
     "gaps": 65
   }
 }
