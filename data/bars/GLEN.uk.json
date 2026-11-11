@@ -3,7 +3,7 @@
   "name": "Glencore",
   "market": "UK",
   "yahooSymbol": "GLEN.L",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15558,6 +15558,15 @@
       "close": 495.1499938964844,
       "adjClose": 495.1499938964844,
       "volume": 37122926
+    },
+    {
+      "date": "2026-11-09",
+      "open": 500,
+      "high": 517.6500244140625,
+      "low": 498.75,
+      "close": 515.4000244140625,
+      "adjClose": 515.4000244140625,
+      "volume": 23083880
     }
   ],
   "corporateActions": {
@@ -15614,9 +15623,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-09",
     "gaps": 59
   }
 }

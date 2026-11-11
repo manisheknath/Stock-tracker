@@ -3,7 +3,7 @@
   "name": "Allstate",
   "market": "US",
   "yahooSymbol": "ALL",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15513,6 +15513,15 @@
       "close": 253.7899932861328,
       "adjClose": 253.7899932861328,
       "volume": 1585100
+    },
+    {
+      "date": "2026-11-10",
+      "open": 254.88999938964844,
+      "high": 261.82000732421875,
+      "low": 254.88999938964844,
+      "close": 261.1199951171875,
+      "adjClose": 261.1199951171875,
+      "volume": 1304400
     }
   ],
   "corporateActions": {
@@ -15629,9 +15638,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1723,
+    "barsAvailable": 1724,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-09",
+    "lastDate": "2026-11-10",
     "gaps": 65
   }
 }

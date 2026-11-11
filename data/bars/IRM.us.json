@@ -3,7 +3,7 @@
   "name": "Iron Mountain",
   "market": "US",
   "yahooSymbol": "IRM",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15513,6 +15513,15 @@
       "close": 110.8499984741211,
       "adjClose": 110.8499984741211,
       "volume": 2110800
+    },
+    {
+      "date": "2026-11-10",
+      "open": 108.8499984741211,
+      "high": 112.25,
+      "low": 108.37999725341797,
+      "close": 110.77999877929688,
+      "adjClose": 110.77999877929688,
+      "volume": 1474000
     }
   ],
   "corporateActions": {
@@ -15629,9 +15638,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1723,
+    "barsAvailable": 1724,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-09",
+    "lastDate": "2026-11-10",
     "gaps": 65
   }
 }

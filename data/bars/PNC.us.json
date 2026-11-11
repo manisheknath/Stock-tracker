@@ -3,7 +3,7 @@
   "name": "PNC Financial Services",
   "market": "US",
   "yahooSymbol": "PNC",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15513,6 +15513,15 @@
       "close": 231.3000030517578,
       "adjClose": 231.3000030517578,
       "volume": 1940400
+    },
+    {
+      "date": "2026-11-10",
+      "open": 232.24000549316406,
+      "high": 234.9499969482422,
+      "low": 229.1999969482422,
+      "close": 231.3000030517578,
+      "adjClose": 231.3000030517578,
+      "volume": 1793000
     }
   ],
   "corporateActions": {
@@ -15633,9 +15642,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1723,
+    "barsAvailable": 1724,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-09",
+    "lastDate": "2026-11-10",
     "gaps": 65
   }
 }

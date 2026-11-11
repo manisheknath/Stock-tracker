@@ -3,7 +3,7 @@
   "name": "Société Générale",
   "market": "FR",
   "yahooSymbol": "GLE.PA",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15810,6 +15810,15 @@
       "close": 64.41000366210938,
       "adjClose": 64.41000366210938,
       "volume": 1685105
+    },
+    {
+      "date": "2026-11-09",
+      "open": 64.5,
+      "high": 66.16000366210938,
+      "low": 64.22000122070312,
+      "close": 65.86000061035156,
+      "adjClose": 65.86000061035156,
+      "volume": 1511178
     }
   ],
   "corporateActions": {
@@ -15850,9 +15859,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1756,
+    "barsAvailable": 1757,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-09",
     "gaps": 31
   }
 }

@@ -3,7 +3,7 @@
   "name": "DSM Firmenich AG",
   "market": "NL",
   "yahooSymbol": "DSFIR.AS",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -8196,6 +8196,15 @@
       "close": 109.80000305175781,
       "adjClose": 109.80000305175781,
       "volume": 761693
+    },
+    {
+      "date": "2026-11-09",
+      "open": 108.75,
+      "high": 109.25,
+      "low": 106.3499984741211,
+      "close": 107.0999984741211,
+      "adjClose": 107.0999984741211,
+      "volume": 692883
     }
   ],
   "corporateActions": {
@@ -8220,9 +8229,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 910,
+    "barsAvailable": 911,
     "firstDate": "2023-04-18",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-09",
     "gaps": 19
   }
 }

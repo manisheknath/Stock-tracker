@@ -3,7 +3,7 @@
   "name": "Sainsbury's",
   "market": "UK",
   "yahooSymbol": "SBRY.L",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-11",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 354.70001220703125,
       "adjClose": 354.70001220703125,
       "volume": 8501352
+    },
+    {
+      "date": "2026-11-09",
+      "open": 354,
+      "high": 357.29998779296875,
+      "low": 350.20001220703125,
+      "close": 352.3999938964844,
+      "adjClose": 352.3999938964844,
+      "volume": 8349589
     }
   ],
   "corporateActions": {
@@ -15641,9 +15650,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-06",
+    "lastDate": "2026-11-09",
     "gaps": 56
   }
 }
