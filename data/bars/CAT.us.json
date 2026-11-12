@@ -3,7 +3,7 @@
   "name": "Caterpillar Inc.",
   "market": "US",
   "yahooSymbol": "CAT",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15522,6 +15522,15 @@
       "close": 584.5700073242188,
       "adjClose": 584.5700073242188,
       "volume": 4110000
+    },
+    {
+      "date": "2026-11-11",
+      "open": 600.7000122070312,
+      "high": 610.5,
+      "low": 588.5,
+      "close": 601.6099853515625,
+      "adjClose": 601.6099853515625,
+      "volume": 3673000
     }
   ],
   "corporateActions": {
@@ -15642,9 +15651,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }

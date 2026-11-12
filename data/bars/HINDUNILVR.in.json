@@ -3,7 +3,7 @@
   "name": "Hindustan Unilever",
   "market": "IN",
   "yahooSymbol": "HINDUNILVR.NS",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15259,7 +15259,7 @@
       "high": 1982,
       "low": 1941.0999755859375,
       "close": 1977.0999755859375,
-      "adjClose": 1977.0999755859375,
+      "adjClose": 1958.525634765625,
       "volume": 1770643
     },
     {
@@ -15268,7 +15268,7 @@
       "high": 2016,
       "low": 1977,
       "close": 1982,
-      "adjClose": 1982,
+      "adjClose": 1963.3795166015625,
       "volume": 1221871
     },
     {
@@ -15277,7 +15277,7 @@
       "high": 1998.4000244140625,
       "low": 1953.5,
       "close": 1998.4000244140625,
-      "adjClose": 1998.4000244140625,
+      "adjClose": 1979.62548828125,
       "volume": 1058803
     },
     {
@@ -15295,8 +15295,17 @@
       "high": 2006.5,
       "low": 1980,
       "close": 1990.300048828125,
-      "adjClose": 1990.300048828125,
+      "adjClose": 1971.6016845703125,
       "volume": 1457165
+    },
+    {
+      "date": "2026-11-11",
+      "open": 2020,
+      "high": 2027,
+      "low": 2001,
+      "close": 2022.4000244140625,
+      "adjClose": 2003.4000244140625,
+      "volume": 1701295
     }
   ],
   "corporateActions": {
@@ -15357,13 +15366,17 @@
       {
         "date": "2026-06-23",
         "amount": 22
+      },
+      {
+        "date": "2026-11-12",
+        "amount": 19
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1699,
+    "barsAvailable": 1700,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-09",
-    "gaps": 90
+    "lastDate": "2026-11-11",
+    "gaps": 91
   }
 }

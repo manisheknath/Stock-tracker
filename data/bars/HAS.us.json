@@ -3,7 +3,7 @@
   "name": "Hasbro",
   "market": "US",
   "yahooSymbol": "HAS",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15522,6 +15522,15 @@
       "close": 121.81999969482422,
       "adjClose": 121.81999969482422,
       "volume": 2551400
+    },
+    {
+      "date": "2026-11-11",
+      "open": 121.80999755859375,
+      "high": 124.62000274658203,
+      "low": 121.01000213623047,
+      "close": 124.0199966430664,
+      "adjClose": 124.0199966430664,
+      "volume": 1580800
     }
   ],
   "corporateActions": {
@@ -15638,9 +15647,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }

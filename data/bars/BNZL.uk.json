@@ -3,7 +3,7 @@
   "name": "Bunzl",
   "market": "UK",
   "yahooSymbol": "BNZL.L",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15594,6 +15594,15 @@
       "close": 2842,
       "adjClose": 2842,
       "volume": 409374
+    },
+    {
+      "date": "2026-11-10",
+      "open": 2856,
+      "high": 2863.923095703125,
+      "low": 2826,
+      "close": 2856,
+      "adjClose": 2856,
+      "volume": 807139
     }
   ],
   "corporateActions": {
@@ -15650,13 +15659,17 @@
       {
         "date": "2026-05-21",
         "amount": 53.899998
+      },
+      {
+        "date": "2026-11-12",
+        "amount": 20.800001
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1732,
+    "barsAvailable": 1733,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-09",
+    "lastDate": "2026-11-10",
     "gaps": 56
   }
 }

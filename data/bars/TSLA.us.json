@@ -3,7 +3,7 @@
   "name": "Tesla, Inc.",
   "market": "US",
   "yahooSymbol": "TSLA",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15521,7 +15521,16 @@
       "low": 370.3999938964844,
       "close": 379.7799987792969,
       "adjClose": 379.7799987792969,
-      "volume": 23871400
+      "volume": 23999800
+    },
+    {
+      "date": "2026-11-11",
+      "open": 386.5799865722656,
+      "high": 395.42999267578125,
+      "low": 386.3500061035156,
+      "close": 390.8399963378906,
+      "adjClose": 390.8399963378906,
+      "volume": 27735900
     }
   ],
   "corporateActions": {
@@ -15542,9 +15551,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }

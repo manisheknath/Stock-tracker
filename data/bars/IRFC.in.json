@@ -3,7 +3,7 @@
   "name": "IRFC",
   "market": "IN",
   "yahooSymbol": "IRFC.NS",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -12867,6 +12867,15 @@
       "close": 83.5,
       "adjClose": 83.5,
       "volume": 20614974
+    },
+    {
+      "date": "2026-11-11",
+      "open": 83.73999786376953,
+      "high": 89.93000030517578,
+      "low": 83.69999694824219,
+      "close": 86.69999694824219,
+      "adjClose": 86.69999694824219,
+      "volume": 79124490
     }
   ],
   "corporateActions": {
@@ -12923,9 +12932,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1429,
+    "barsAvailable": 1430,
     "firstDate": "2021-01-29",
-    "lastDate": "2026-11-09",
-    "gaps": 78
+    "lastDate": "2026-11-11",
+    "gaps": 79
   }
 }

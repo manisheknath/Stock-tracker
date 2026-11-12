@@ -3,7 +3,7 @@
   "name": "Shell plc",
   "market": "UK",
   "yahooSymbol": "SHEL.L",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15594,6 +15594,15 @@
       "close": 3701,
       "adjClose": 3701,
       "volume": 5456701
+    },
+    {
+      "date": "2026-11-10",
+      "open": 3665.5,
+      "high": 3673,
+      "low": 3585,
+      "close": 3624.5,
+      "adjClose": 3624.5,
+      "volume": 15572291
     }
   ],
   "corporateActions": {
@@ -15706,13 +15715,17 @@
       {
         "date": "2026-08-13",
         "amount": 28.92
+      },
+      {
+        "date": "2026-11-12",
+        "amount": 29.456709
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1732,
+    "barsAvailable": 1733,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-09",
+    "lastDate": "2026-11-10",
     "gaps": 56
   }
 }

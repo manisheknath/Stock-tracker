@@ -3,7 +3,7 @@
   "name": "TKO Group Holdings",
   "market": "US",
   "yahooSymbol": "TKO",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15522,6 +15522,15 @@
       "close": 199.22000122070312,
       "adjClose": 199.22000122070312,
       "volume": 1307100
+    },
+    {
+      "date": "2026-11-11",
+      "open": 197.74000549316406,
+      "high": 201.97999572753906,
+      "low": 197.07000732421875,
+      "close": 199.5,
+      "adjClose": 199.5,
+      "volume": 1061600
     }
   ],
   "corporateActions": {
@@ -15618,9 +15627,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }

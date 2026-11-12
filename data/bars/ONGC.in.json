@@ -3,7 +3,7 @@
   "name": "Oil and Natural Gas Corporation",
   "market": "IN",
   "yahooSymbol": "ONGC.NS",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15259,7 +15259,7 @@
       "high": 235,
       "low": 230,
       "close": 235,
-      "adjClose": 235,
+      "adjClose": 226.99317932128906,
       "volume": 7680779
     },
     {
@@ -15268,7 +15268,7 @@
       "high": 233.38999938964844,
       "low": 228.64999389648438,
       "close": 230,
-      "adjClose": 230,
+      "adjClose": 222.16354370117188,
       "volume": 17235457
     },
     {
@@ -15277,7 +15277,7 @@
       "high": 232.11000061035156,
       "low": 225.3000030517578,
       "close": 231.75999450683594,
-      "adjClose": 231.75999450683594,
+      "adjClose": 223.8635711669922,
       "volume": 27519580
     },
     {
@@ -15295,8 +15295,17 @@
       "high": 236.77999877929688,
       "low": 233,
       "close": 233.5,
-      "adjClose": 233.5,
+      "adjClose": 225.54429626464844,
       "volume": 19692705
+    },
+    {
+      "date": "2026-11-11",
+      "open": 235,
+      "high": 236,
+      "low": 233.8000030517578,
+      "close": 234.8000030517578,
+      "adjClose": 226.8000030517578,
+      "volume": 26359073
     }
   ],
   "corporateActions": {
@@ -15373,13 +15382,17 @@
       {
         "date": "2026-09-04",
         "amount": 1
+      },
+      {
+        "date": "2026-11-12",
+        "amount": 8
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1699,
+    "barsAvailable": 1700,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-09",
-    "gaps": 90
+    "lastDate": "2026-11-11",
+    "gaps": 91
   }
 }

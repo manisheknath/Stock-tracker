@@ -3,7 +3,7 @@
   "name": "ResMed",
   "market": "US",
   "yahooSymbol": "RMD",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15521,7 +15521,16 @@
       "low": 231.1300048828125,
       "close": 234.11000061035156,
       "adjClose": 234.11000061035156,
-      "volume": 1163800
+      "volume": 1197100
+    },
+    {
+      "date": "2026-11-11",
+      "open": 230.6300048828125,
+      "high": 238.60000610351562,
+      "low": 230,
+      "close": 238.52999877929688,
+      "adjClose": 238.52999877929688,
+      "volume": 940200
     }
   ],
   "corporateActions": {
@@ -15638,9 +15647,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }

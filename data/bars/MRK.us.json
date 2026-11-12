@@ -3,7 +3,7 @@
   "name": "Merck & Co.",
   "market": "US",
   "yahooSymbol": "MRK",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15522,6 +15522,15 @@
       "close": 148.0500030517578,
       "adjClose": 148.0500030517578,
       "volume": 5509900
+    },
+    {
+      "date": "2026-11-11",
+      "open": 146.61000061035156,
+      "high": 147.6199951171875,
+      "low": 145.3000030517578,
+      "close": 147.17999267578125,
+      "adjClose": 147.17999267578125,
+      "volume": 6411300
     }
   ],
   "corporateActions": {
@@ -15645,9 +15654,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1724,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }

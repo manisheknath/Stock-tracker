@@ -3,7 +3,7 @@
   "name": "Alphabet Inc. (Class C)",
   "market": "US",
   "yahooSymbol": "GOOG",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15513,6 +15513,24 @@
       "close": 286.010009765625,
       "adjClose": 286.010009765625,
       "volume": 24040000
+    },
+    {
+      "date": "2026-11-10",
+      "open": 287.1449890136719,
+      "high": 289.5,
+      "low": 283.3699951171875,
+      "close": 284.9200134277344,
+      "adjClose": 284.9200134277344,
+      "volume": 15135600
+    },
+    {
+      "date": "2026-11-11",
+      "open": 287.56500244140625,
+      "high": 292.9700012207031,
+      "low": 286.8999938964844,
+      "close": 290.6300048828125,
+      "adjClose": 290.6300048828125,
+      "volume": 18159500
     }
   ],
   "corporateActions": {
@@ -15568,9 +15586,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1723,
+    "barsAvailable": 1725,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-09",
+    "lastDate": "2026-11-11",
     "gaps": 65
   }
 }
