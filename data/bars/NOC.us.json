@@ -3,7 +3,7 @@
   "name": "Northrop Grumman",
   "market": "US",
   "yahooSymbol": "NOC",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,15 @@
       "close": 550.9600219726562,
       "adjClose": 550.9600219726562,
       "volume": 640400
+    },
+    {
+      "date": "2026-11-12",
+      "open": 555.1099853515625,
+      "high": 558,
+      "low": 543.8599853515625,
+      "close": 549.1300048828125,
+      "adjClose": 549.1300048828125,
+      "volume": 724100
     }
   ],
   "corporateActions": {
@@ -15647,9 +15656,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1726,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 65
   }
 }

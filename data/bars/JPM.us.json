@@ -3,7 +3,7 @@
   "name": "JPMorgan Chase",
   "market": "US",
   "yahooSymbol": "JPM",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,15 @@
       "close": 343.3900146484375,
       "adjClose": 343.3900146484375,
       "volume": 4431400
+    },
+    {
+      "date": "2026-11-12",
+      "open": 346.0199890136719,
+      "high": 347.20001220703125,
+      "low": 342.3599853515625,
+      "close": 342.82000732421875,
+      "adjClose": 342.82000732421875,
+      "volume": 4150300
     }
   ],
   "corporateActions": {
@@ -15651,9 +15660,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1726,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 65
   }
 }

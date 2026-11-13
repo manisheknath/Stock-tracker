@@ -3,7 +3,7 @@
   "name": "PayPal",
   "market": "US",
   "yahooSymbol": "PYPL",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15530,7 +15530,16 @@
       "low": 57.849998474121094,
       "close": 59.47999954223633,
       "adjClose": 59.47999954223633,
-      "volume": 6260200
+      "volume": 6279200
+    },
+    {
+      "date": "2026-11-12",
+      "open": 59.20000076293945,
+      "high": 59.349998474121094,
+      "low": 58.27000045776367,
+      "close": 58.29999923706055,
+      "adjClose": 58.29999923706055,
+      "volume": 6150300
     }
   ],
   "corporateActions": {
@@ -15555,9 +15564,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1726,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 65
   }
 }

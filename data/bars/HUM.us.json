@@ -3,7 +3,7 @@
   "name": "Humana",
   "market": "US",
   "yahooSymbol": "HUM",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,15 @@
       "close": 446.30999755859375,
       "adjClose": 446.30999755859375,
       "volume": 2500200
+    },
+    {
+      "date": "2026-11-12",
+      "open": 450,
+      "high": 450,
+      "low": 434.0899963378906,
+      "close": 443.67999267578125,
+      "adjClose": 443.67999267578125,
+      "volume": 1936000
     }
   ],
   "corporateActions": {
@@ -15647,9 +15656,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1726,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 65
   }
 }

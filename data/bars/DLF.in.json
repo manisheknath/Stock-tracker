@@ -3,7 +3,7 @@
   "name": "DLF",
   "market": "IN",
   "yahooSymbol": "DLF.NS",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15306,6 +15306,15 @@
       "close": 742.6500244140625,
       "adjClose": 742.6500244140625,
       "volume": 4897648
+    },
+    {
+      "date": "2026-11-12",
+      "open": 740,
+      "high": 770.4500122070312,
+      "low": 740,
+      "close": 769.2999877929688,
+      "adjClose": 769.2999877929688,
+      "volume": 4656145
     }
   ],
   "corporateActions": {
@@ -15346,9 +15355,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1700,
+    "barsAvailable": 1701,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 91
   }
 }

@@ -3,7 +3,7 @@
   "name": "Erie Indemnity",
   "market": "US",
   "yahooSymbol": "ERIE",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15531,6 +15531,15 @@
       "close": 272.17999267578125,
       "adjClose": 272.17999267578125,
       "volume": 135000
+    },
+    {
+      "date": "2026-11-12",
+      "open": 278,
+      "high": 278,
+      "low": 267.9200134277344,
+      "close": 270,
+      "adjClose": 270,
+      "volume": 161100
     }
   ],
   "corporateActions": {
@@ -15655,9 +15664,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1726,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 65
   }
 }

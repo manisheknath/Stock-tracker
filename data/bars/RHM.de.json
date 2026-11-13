@@ -3,7 +3,7 @@
   "name": "Rheinmetall",
   "market": "DE",
   "yahooSymbol": "RHM.DE",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15738,6 +15738,15 @@
       "close": 853.2999877929688,
       "adjClose": 853.2999877929688,
       "volume": 282824
+    },
+    {
+      "date": "2026-11-11",
+      "open": 860,
+      "high": 865,
+      "low": 794,
+      "close": 794.0999755859375,
+      "adjClose": 794.0999755859375,
+      "volume": 412306
     }
   ],
   "corporateActions": {
@@ -15774,9 +15783,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1748,
+    "barsAvailable": 1749,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 41
   }
 }

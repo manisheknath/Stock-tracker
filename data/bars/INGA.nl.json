@@ -3,7 +3,7 @@
   "name": "ING Group",
   "market": "NL",
   "yahooSymbol": "INGA.AS",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15828,6 +15828,15 @@
       "close": 29.795000076293945,
       "adjClose": 29.795000076293945,
       "volume": 7262600
+    },
+    {
+      "date": "2026-11-11",
+      "open": 30.18000030517578,
+      "high": 30.209999084472656,
+      "low": 29.760000228881836,
+      "close": 30.15999984741211,
+      "adjClose": 30.15999984741211,
+      "volume": 5053657
     }
   ],
   "corporateActions": {
@@ -15900,9 +15909,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1758,
+    "barsAvailable": 1759,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 31
   }
 }

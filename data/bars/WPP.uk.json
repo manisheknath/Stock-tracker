@@ -3,7 +3,7 @@
   "name": "WPP",
   "market": "UK",
   "yahooSymbol": "WPP.L",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-13",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15594,6 +15594,15 @@
       "close": 415.20001220703125,
       "adjClose": 415.20001220703125,
       "volume": 3193948
+    },
+    {
+      "date": "2026-11-11",
+      "open": 419.8999938964844,
+      "high": 425.79998779296875,
+      "low": 410.1000061035156,
+      "close": 420.5,
+      "adjClose": 420.5,
+      "volume": 5041854
     }
   ],
   "corporateActions": {
@@ -15654,9 +15663,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1732,
+    "barsAvailable": 1733,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-10",
+    "lastDate": "2026-11-11",
     "gaps": 57
   }
 }
