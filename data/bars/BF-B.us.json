@@ -3,7 +3,7 @@
   "name": "Brown–Forman",
   "market": "US",
   "yahooSymbol": "BF-B",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,24 @@
       "close": 30.100000381469727,
       "adjClose": 30.100000381469727,
       "volume": 2637300
+    },
+    {
+      "date": "2026-11-12",
+      "open": 30.25,
+      "high": 30.350000381469727,
+      "low": 29.850000381469727,
+      "close": 30.040000915527344,
+      "adjClose": 30.040000915527344,
+      "volume": 2028900
+    },
+    {
+      "date": "2026-11-13",
+      "open": 30.139999389648438,
+      "high": 30.93000030517578,
+      "low": 30.100000381469727,
+      "close": 30.649999618530273,
+      "adjClose": 30.649999618530273,
+      "volume": 1940400
     }
   ],
   "corporateActions": {
@@ -15651,9 +15669,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-13",
     "gaps": 65
   }
 }

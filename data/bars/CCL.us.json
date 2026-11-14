@@ -3,7 +3,7 @@
   "name": "Carnival Corporation",
   "market": "US",
   "yahooSymbol": "CCL",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,24 @@
       "close": 30.68000030517578,
       "adjClose": 30.68000030517578,
       "volume": 9990400
+    },
+    {
+      "date": "2026-11-12",
+      "open": 30.34000015258789,
+      "high": 30.34000015258789,
+      "low": 29.290000915527344,
+      "close": 29.34000015258789,
+      "adjClose": 29.34000015258789,
+      "volume": 15144000
+    },
+    {
+      "date": "2026-11-13",
+      "open": 29.440000534057617,
+      "high": 29.579999923706055,
+      "low": 28.829999923706055,
+      "close": 29.229999542236328,
+      "adjClose": 29.229999542236328,
+      "volume": 10987700
     }
   ],
   "corporateActions": {
@@ -15559,9 +15577,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-13",
     "gaps": 65
   }
 }

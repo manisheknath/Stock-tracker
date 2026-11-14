@@ -3,7 +3,7 @@
   "name": "Ball Corporation",
   "market": "US",
   "yahooSymbol": "BALL",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,24 @@
       "close": 65.80999755859375,
       "adjClose": 65.80999755859375,
       "volume": 2054000
+    },
+    {
+      "date": "2026-11-12",
+      "open": 66.4800033569336,
+      "high": 66.7300033569336,
+      "low": 64.81999969482422,
+      "close": 64.91000366210938,
+      "adjClose": 64.91000366210938,
+      "volume": 1401400
+    },
+    {
+      "date": "2026-11-13",
+      "open": 65.16999816894531,
+      "high": 65.72000122070312,
+      "low": 64.97000122070312,
+      "close": 65.47000122070312,
+      "adjClose": 65.47000122070312,
+      "volume": 1191100
     }
   ],
   "corporateActions": {
@@ -15647,9 +15665,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-13",
     "gaps": 65
   }
 }

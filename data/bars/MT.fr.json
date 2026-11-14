@@ -3,7 +3,7 @@
   "name": "ArcelorMittal",
   "market": "FR",
   "yahooSymbol": "MT.AS",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "EUR",
   "exchange": "Amsterdam",
   "bars": [
@@ -15837,6 +15837,15 @@
       "close": 59.540000915527344,
       "adjClose": 59.38999938964844,
       "volume": 1834473
+    },
+    {
+      "date": "2026-11-12",
+      "open": 59.5,
+      "high": 60.02000045776367,
+      "low": 58.58000183105469,
+      "close": 58.79999923706055,
+      "adjClose": 58.79999923706055,
+      "volume": 1289820
     }
   ],
   "corporateActions": {
@@ -15888,14 +15897,14 @@
       },
       {
         "date": "2026-11-12",
-        "amount": 0.1356
+        "amount": 0.13602
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1759,
+    "barsAvailable": 1760,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 31
   }
 }

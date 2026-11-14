@@ -3,7 +3,7 @@
   "name": "Amazon",
   "market": "US",
   "yahooSymbol": "AMZN",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15531,6 +15531,24 @@
       "close": 266.1700134277344,
       "adjClose": 266.1700134277344,
       "volume": 37943300
+    },
+    {
+      "date": "2026-11-12",
+      "open": 267.9200134277344,
+      "high": 273.6000061035156,
+      "low": 267.20001220703125,
+      "close": 267.44000244140625,
+      "adjClose": 267.44000244140625,
+      "volume": 34501500
+    },
+    {
+      "date": "2026-11-13",
+      "open": 269.55999755859375,
+      "high": 270.04998779296875,
+      "low": 263.9100036621094,
+      "close": 266.6600036621094,
+      "adjClose": 266.6600036621094,
+      "volume": 31076200
     }
   ],
   "corporateActions": {
@@ -15545,9 +15563,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-13",
     "gaps": 65
   }
 }

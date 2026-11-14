@@ -3,7 +3,7 @@
   "name": "Intel",
   "market": "US",
   "yahooSymbol": "INTC",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15539,7 +15539,16 @@
       "low": 59.40999984741211,
       "close": 61.20000076293945,
       "adjClose": 61.20000076293945,
-      "volume": 79987700
+      "volume": 80687500
+    },
+    {
+      "date": "2026-11-13",
+      "open": 60.65999984741211,
+      "high": 61.34000015258789,
+      "low": 57,
+      "close": 59.65999984741211,
+      "adjClose": 59.65999984741211,
+      "volume": 102322800
     }
   ],
   "corporateActions": {
@@ -15624,9 +15633,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1726,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-12",
+    "lastDate": "2026-11-13",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Aberdeen Group",
   "market": "UK",
   "yahooSymbol": "ABDN.L",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15612,6 +15612,15 @@
       "close": 231.39999389648438,
       "adjClose": 231.39999389648438,
       "volume": 6752122
+    },
+    {
+      "date": "2026-11-12",
+      "open": 232,
+      "high": 234.60000610351562,
+      "low": 228,
+      "close": 229.60000610351562,
+      "adjClose": 229.60000610351562,
+      "volume": 8306773
     }
   ],
   "corporateActions": {
@@ -15676,9 +15685,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1734,
+    "barsAvailable": 1735,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-12",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Cigna",
   "market": "US",
   "yahooSymbol": "CI",
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-14",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15531,6 +15531,24 @@
       "close": 301.45001220703125,
       "adjClose": 301.45001220703125,
       "volume": 1471000
+    },
+    {
+      "date": "2026-11-12",
+      "open": 303.55999755859375,
+      "high": 304.1300048828125,
+      "low": 294.8999938964844,
+      "close": 296.2699890136719,
+      "adjClose": 296.2699890136719,
+      "volume": 1622200
+    },
+    {
+      "date": "2026-11-13",
+      "open": 298.79998779296875,
+      "high": 298.79998779296875,
+      "low": 292.2799987792969,
+      "close": 297,
+      "adjClose": 297,
+      "volume": 1442200
     }
   ],
   "corporateActions": {
@@ -15635,9 +15653,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1725,
+    "barsAvailable": 1727,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-11",
+    "lastDate": "2026-11-13",
     "gaps": 65
   }
 }
