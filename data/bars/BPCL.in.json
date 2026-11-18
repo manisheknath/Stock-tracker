@@ -3,7 +3,7 @@
   "name": "Bharat Petroleum",
   "market": "IN",
   "yahooSymbol": "BPCL.NS",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15317,13 +15317,22 @@
       "volume": 4413031
     },
     {
+      "date": "2026-11-16",
+      "open": 304,
+      "high": 305.95001220703125,
+      "low": 301.1499938964844,
+      "close": 305.29998779296875,
+      "adjClose": 305.29998779296875,
+      "volume": 3080210
+    },
+    {
       "date": "2026-11-17",
       "open": 306.79998779296875,
       "high": 309.25,
-      "low": 306.5,
-      "close": 307.8999938964844,
-      "adjClose": 307.8999938964844,
-      "volume": 1046167
+      "low": 304.20001220703125,
+      "close": 305.79998779296875,
+      "adjClose": 305.79998779296875,
+      "volume": 3762847
     }
   ],
   "corporateActions": {
@@ -15395,9 +15404,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1703,
     "firstDate": "2020-01-01",
     "lastDate": "2026-11-17",
-    "gaps": 93
+    "gaps": 92
   }
 }

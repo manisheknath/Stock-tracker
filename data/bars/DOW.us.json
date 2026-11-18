@@ -3,7 +3,7 @@
   "name": "Dow Inc.",
   "market": "US",
   "yahooSymbol": "DOW",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15557,7 +15557,16 @@
       "low": 31.670000076293945,
       "close": 31.959999084472656,
       "adjClose": 31.959999084472656,
-      "volume": 7666300
+      "volume": 9191400
+    },
+    {
+      "date": "2026-11-17",
+      "open": 32.040000915527344,
+      "high": 32.150001525878906,
+      "low": 31.290000915527344,
+      "close": 31.3700008392334,
+      "adjClose": 31.3700008392334,
+      "volume": 5282500
     }
   ],
   "corporateActions": {
@@ -15674,9 +15683,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1728,
+    "barsAvailable": 1729,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-16",
+    "lastDate": "2026-11-17",
     "gaps": 65
   }
 }

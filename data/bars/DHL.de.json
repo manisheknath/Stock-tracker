@@ -3,7 +3,7 @@
   "name": "Deutsche Post",
   "market": "DE",
   "yahooSymbol": "DHL.DE",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15765,6 +15765,15 @@
       "close": 60.900001525878906,
       "adjClose": 60.900001525878906,
       "volume": 1562169
+    },
+    {
+      "date": "2026-11-16",
+      "open": 60.900001525878906,
+      "high": 61.63999938964844,
+      "low": 60.880001068115234,
+      "close": 61,
+      "adjClose": 61,
+      "volume": 1351213
     }
   ],
   "corporateActions": {
@@ -15801,9 +15810,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1751,
+    "barsAvailable": 1752,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-13",
+    "lastDate": "2026-11-16",
     "gaps": 41
   }
 }

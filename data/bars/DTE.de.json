@@ -3,7 +3,7 @@
   "name": "Deutsche Telekom",
   "market": "DE",
   "yahooSymbol": "DTE.DE",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "currency": "EUR",
   "exchange": "XETRA",
   "bars": [
@@ -15765,6 +15765,15 @@
       "close": 26.600000381469727,
       "adjClose": 26.600000381469727,
       "volume": 7327824
+    },
+    {
+      "date": "2026-11-16",
+      "open": 26.899999618530273,
+      "high": 27.1200008392334,
+      "low": 26.809999465942383,
+      "close": 27,
+      "adjClose": 27,
+      "volume": 5653666
     }
   ],
   "corporateActions": {
@@ -15801,9 +15810,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1751,
+    "barsAvailable": 1752,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-13",
+    "lastDate": "2026-11-16",
     "gaps": 41
   }
 }

@@ -3,7 +3,7 @@
   "name": "Titan Company",
   "market": "IN",
   "yahooSymbol": "TITAN.NS",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15317,13 +15317,31 @@
       "volume": 624040
     },
     {
+      "date": "2026-11-16",
+      "open": 4857,
+      "high": 4919.5,
+      "low": 4850,
+      "close": 4910,
+      "adjClose": 4910,
+      "volume": 912474
+    },
+    {
       "date": "2026-11-17",
       "open": 4885.10009765625,
       "high": 4939,
       "low": 4885.10009765625,
-      "close": 4923.5,
-      "adjClose": 4923.5,
-      "volume": 80233
+      "close": 4908,
+      "adjClose": 4908,
+      "volume": 438916
+    },
+    {
+      "date": "2026-11-18",
+      "open": 4881,
+      "high": 4881,
+      "low": 4881,
+      "close": 4908,
+      "adjClose": 4908,
+      "volume": 438926
     }
   ],
   "corporateActions": {
@@ -15360,9 +15378,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-17",
-    "gaps": 93
+    "lastDate": "2026-11-18",
+    "gaps": 92
   }
 }

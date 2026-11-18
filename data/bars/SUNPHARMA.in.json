@@ -3,7 +3,7 @@
   "name": "Sun Pharma",
   "market": "IN",
   "yahooSymbol": "SUNPHARMA.NS",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15317,13 +15317,31 @@
       "volume": 2037762
     },
     {
+      "date": "2026-11-16",
+      "open": 1885,
+      "high": 1899.800048828125,
+      "low": 1856.800048828125,
+      "close": 1867.5,
+      "adjClose": 1867.5,
+      "volume": 1301410
+    },
+    {
       "date": "2026-11-17",
       "open": 1865.199951171875,
-      "high": 1876.699951171875,
+      "high": 1888,
       "low": 1860.5999755859375,
-      "close": 1875,
-      "adjClose": 1875,
-      "volume": 102900
+      "close": 1870,
+      "adjClose": 1870,
+      "volume": 1438065
+    },
+    {
+      "date": "2026-11-18",
+      "open": 1869.0999755859375,
+      "high": 1869.0999755859375,
+      "low": 1869.0999755859375,
+      "close": 1870,
+      "adjClose": 1870,
+      "volume": 1438196
     }
   ],
   "corporateActions": {
@@ -15388,9 +15406,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1702,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-17",
-    "gaps": 93
+    "lastDate": "2026-11-18",
+    "gaps": 92
   }
 }
