@@ -3,7 +3,7 @@
   "name": "American Electric Power",
   "market": "US",
   "yahooSymbol": "AEP",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15567,6 +15567,15 @@
       "close": 125.97000122070312,
       "adjClose": 125.97000122070312,
       "volume": 4532900
+    },
+    {
+      "date": "2026-11-18",
+      "open": 125.5,
+      "high": 127.26000213623047,
+      "low": 125.41999816894531,
+      "close": 126.5,
+      "adjClose": 126.5,
+      "volume": 4866400
     }
   ],
   "corporateActions": {
@@ -15687,9 +15696,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1729,
+    "barsAvailable": 1730,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-17",
+    "lastDate": "2026-11-18",
     "gaps": 65
   }
 }

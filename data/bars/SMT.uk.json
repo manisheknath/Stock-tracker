@@ -3,7 +3,7 @@
   "name": "Scottish Mortgage Investment Trust",
   "market": "UK",
   "yahooSymbol": "SMT.L",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15639,6 +15639,15 @@
       "close": 1464.5,
       "adjClose": 1464.5,
       "volume": 1796580
+    },
+    {
+      "date": "2026-11-17",
+      "open": 1463,
+      "high": 1463,
+      "low": 1427.5,
+      "close": 1434,
+      "adjClose": 1434,
+      "volume": 1541099
     }
   ],
   "corporateActions": {
@@ -15695,13 +15704,17 @@
       {
         "date": "2026-06-11",
         "amount": 2.97
+      },
+      {
+        "date": "2026-11-19",
+        "amount": 1.8
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1737,
+    "barsAvailable": 1738,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-16",
+    "lastDate": "2026-11-17",
     "gaps": 56
   }
 }

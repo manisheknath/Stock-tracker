@@ -3,7 +3,7 @@
   "name": "Cintas",
   "market": "US",
   "yahooSymbol": "CTAS",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15567,6 +15567,15 @@
       "close": 222.1999969482422,
       "adjClose": 222.1999969482422,
       "volume": 1042900
+    },
+    {
+      "date": "2026-11-18",
+      "open": 220.92999267578125,
+      "high": 225.30999755859375,
+      "low": 220.11000061035156,
+      "close": 222,
+      "adjClose": 222,
+      "volume": 1699600
     }
   ],
   "corporateActions": {
@@ -15682,9 +15691,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1729,
+    "barsAvailable": 1730,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-17",
+    "lastDate": "2026-11-18",
     "gaps": 65
   }
 }

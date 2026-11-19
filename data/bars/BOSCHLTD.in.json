@@ -3,7 +3,7 @@
   "name": "Bosch",
   "market": "IN",
   "yahooSymbol": "BOSCHLTD.NS",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15328,11 +15328,20 @@
     {
       "date": "2026-11-17",
       "open": 48795,
-      "high": 49350,
+      "high": 49400,
       "low": 48700,
-      "close": 49350,
-      "adjClose": 49350,
-      "volume": 3868
+      "close": 49085,
+      "adjClose": 49085,
+      "volume": 19143
+    },
+    {
+      "date": "2026-11-18",
+      "open": 49070,
+      "high": 49215,
+      "low": 48660,
+      "close": 49170,
+      "adjClose": 49170,
+      "volume": 15380
     }
   ],
   "corporateActions": {
@@ -15377,9 +15386,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1703,
+    "barsAvailable": 1704,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-17",
+    "lastDate": "2026-11-18",
     "gaps": 92
   }
 }

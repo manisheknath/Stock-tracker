@@ -3,7 +3,7 @@
   "name": "Vodafone Group",
   "market": "UK",
   "yahooSymbol": "VOD.L",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15630,6 +15630,15 @@
       "close": 117.69999694824219,
       "adjClose": 117.69999694824219,
       "volume": 40405873
+    },
+    {
+      "date": "2026-11-17",
+      "open": 116.9000015258789,
+      "high": 117.94999694824219,
+      "low": 115.5,
+      "close": 116.25,
+      "adjClose": 116.25,
+      "volume": 65655246
     }
   ],
   "corporateActions": {
@@ -15686,13 +15695,17 @@
       {
         "date": "2026-06-04",
         "amount": 1.9709629
+      },
+      {
+        "date": "2026-11-19",
+        "amount": 1.9254408
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1736,
+    "barsAvailable": 1737,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-16",
+    "lastDate": "2026-11-17",
     "gaps": 57
   }
 }

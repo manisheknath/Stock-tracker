@@ -3,7 +3,7 @@
   "name": "Equifax",
   "market": "US",
   "yahooSymbol": "EFX",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15567,6 +15567,15 @@
       "close": 180.3000030517578,
       "adjClose": 180.3000030517578,
       "volume": 1420700
+    },
+    {
+      "date": "2026-11-18",
+      "open": 181.1199951171875,
+      "high": 182.4499969482422,
+      "low": 177.27000427246094,
+      "close": 179.66000366210938,
+      "adjClose": 179.66000366210938,
+      "volume": 1188400
     }
   ],
   "corporateActions": {
@@ -15683,9 +15692,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1729,
+    "barsAvailable": 1730,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-17",
+    "lastDate": "2026-11-18",
     "gaps": 65
   }
 }

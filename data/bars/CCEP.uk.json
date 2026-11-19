@@ -3,7 +3,7 @@
   "name": "Coca-Cola Europacific Partners",
   "market": "UK",
   "yahooSymbol": "CCEP.L",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15639,6 +15639,15 @@
       "close": 9065,
       "adjClose": 9065,
       "volume": 188165
+    },
+    {
+      "date": "2026-11-17",
+      "open": 9040,
+      "high": 9055,
+      "low": 8925,
+      "close": 8935,
+      "adjClose": 8935,
+      "volume": 152639
     }
   ],
   "corporateActions": {
@@ -15687,13 +15696,17 @@
       {
         "date": "2026-05-14",
         "amount": 68.41014
+      },
+      {
+        "date": "2026-11-19",
+        "amount": 118.54585
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1737,
+    "barsAvailable": 1738,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-16",
+    "lastDate": "2026-11-17",
     "gaps": 56
   }
 }

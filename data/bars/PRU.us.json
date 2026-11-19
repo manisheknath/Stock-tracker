@@ -3,7 +3,7 @@
   "name": "Prudential Financial",
   "market": "US",
   "yahooSymbol": "PRU",
-  "asOf": "2026-11-18",
+  "asOf": "2026-11-19",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15567,6 +15567,15 @@
       "close": 122.33999633789062,
       "adjClose": 122.33999633789062,
       "volume": 1748400
+    },
+    {
+      "date": "2026-11-18",
+      "open": 121.94999694824219,
+      "high": 123.08999633789062,
+      "low": 121.44000244140625,
+      "close": 121.54000091552734,
+      "adjClose": 121.54000091552734,
+      "volume": 1380400
     }
   ],
   "corporateActions": {
@@ -15683,9 +15692,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1729,
+    "barsAvailable": 1730,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-17",
+    "lastDate": "2026-11-18",
     "gaps": 65
   }
 }
