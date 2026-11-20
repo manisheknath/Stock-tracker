@@ -3,7 +3,7 @@
   "name": "Kroger",
   "market": "US",
   "yahooSymbol": "KR",
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15576,6 +15576,15 @@
       "close": 69.05000305175781,
       "adjClose": 69.05000305175781,
       "volume": 8475500
+    },
+    {
+      "date": "2026-11-19",
+      "open": 68.58000183105469,
+      "high": 68.5999984741211,
+      "low": 66.45999908447266,
+      "close": 67.94000244140625,
+      "adjClose": 67.94000244140625,
+      "volume": 6962200
     }
   ],
   "corporateActions": {
@@ -15696,9 +15705,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1730,
+    "barsAvailable": 1731,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-18",
+    "lastDate": "2026-11-19",
     "gaps": 65
   }
 }

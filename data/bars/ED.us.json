@@ -3,7 +3,7 @@
   "name": "Consolidated Edison",
   "market": "US",
   "yahooSymbol": "ED",
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15576,6 +15576,15 @@
       "close": 119.2699966430664,
       "adjClose": 119.2699966430664,
       "volume": 3751600
+    },
+    {
+      "date": "2026-11-19",
+      "open": 118.12000274658203,
+      "high": 119.33999633789062,
+      "low": 117.19000244140625,
+      "close": 119.08999633789062,
+      "adjClose": 119.08999633789062,
+      "volume": 3154200
     }
   ],
   "corporateActions": {
@@ -15696,9 +15705,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1730,
+    "barsAvailable": 1731,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-18",
+    "lastDate": "2026-11-19",
     "gaps": 65
   }
 }
