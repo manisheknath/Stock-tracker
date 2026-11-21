@@ -3,7 +3,7 @@
   "name": "Procter & Gamble",
   "market": "US",
   "yahooSymbol": "PG",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 167.85000610351562,
       "adjClose": 167.85000610351562,
       "volume": 9091600
+    },
+    {
+      "date": "2026-11-20",
+      "open": 171,
+      "high": 171.61000061035156,
+      "low": 169.0500030517578,
+      "close": 169.3699951171875,
+      "adjClose": 169.3699951171875,
+      "volume": 11952900
     }
   ],
   "corporateActions": {
@@ -15705,9 +15714,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

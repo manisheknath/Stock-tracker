@@ -3,7 +3,7 @@
   "name": "Pinnacle West Capital",
   "market": "US",
   "yahooSymbol": "PNW",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 102.0199966430664,
       "adjClose": 102.0199966430664,
       "volume": 1722000
+    },
+    {
+      "date": "2026-11-20",
+      "open": 102.5199966430664,
+      "high": 103.25,
+      "low": 101.05000305175781,
+      "close": 101.27999877929688,
+      "adjClose": 101.27999877929688,
+      "volume": 1647300
     }
   ],
   "corporateActions": {
@@ -15705,9 +15714,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

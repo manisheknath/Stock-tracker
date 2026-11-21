@@ -3,7 +3,7 @@
   "name": "CoStar Group",
   "market": "US",
   "yahooSymbol": "CSGP",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 28.700000762939453,
       "adjClose": 28.700000762939453,
       "volume": 4212600
+    },
+    {
+      "date": "2026-11-20",
+      "open": 28.93000030517578,
+      "high": 30.200000762939453,
+      "low": 28.639999389648438,
+      "close": 29.610000610351562,
+      "adjClose": 29.610000610351562,
+      "volume": 7831800
     }
   ],
   "corporateActions": {
@@ -15599,9 +15608,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

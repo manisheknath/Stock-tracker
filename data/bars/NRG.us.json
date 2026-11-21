@@ -3,7 +3,7 @@
   "name": "NRG Energy",
   "market": "US",
   "yahooSymbol": "NRG",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 93.8499984741211,
       "adjClose": 93.8499984741211,
       "volume": 2612300
+    },
+    {
+      "date": "2026-11-20",
+      "open": 92,
+      "high": 93.98999786376953,
+      "low": 87.2300033569336,
+      "close": 87.80000305175781,
+      "adjClose": 87.80000305175781,
+      "volume": 4955300
     }
   ],
   "corporateActions": {
@@ -15705,9 +15714,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Intercontinental Exchange",
   "market": "US",
   "yahooSymbol": "ICE",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 170.8800048828125,
       "adjClose": 170.8800048828125,
       "volume": 2687200
+    },
+    {
+      "date": "2026-11-20",
+      "open": 172.38999938964844,
+      "high": 174.30999755859375,
+      "low": 169.75,
+      "close": 170,
+      "adjClose": 170,
+      "volume": 4573500
     }
   ],
   "corporateActions": {
@@ -15701,9 +15710,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

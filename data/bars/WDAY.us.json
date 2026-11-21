@@ -3,7 +3,7 @@
   "name": "Workday, Inc.",
   "market": "US",
   "yahooSymbol": "WDAY",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15576,6 +15576,24 @@
       "close": 177.4499969482422,
       "adjClose": 177.4499969482422,
       "volume": 1761900
+    },
+    {
+      "date": "2026-11-19",
+      "open": 176.77999877929688,
+      "high": 179.07000732421875,
+      "low": 172.6300048828125,
+      "close": 173.36000061035156,
+      "adjClose": 173.36000061035156,
+      "volume": 1789600
+    },
+    {
+      "date": "2026-11-20",
+      "open": 173.4499969482422,
+      "high": 181.94000244140625,
+      "low": 173.36000061035156,
+      "close": 174.52000427246094,
+      "adjClose": 174.52000427246094,
+      "volume": 2585900
     }
   ],
   "corporateActions": {
@@ -15583,9 +15601,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1730,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-18",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

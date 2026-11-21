@@ -3,7 +3,7 @@
   "name": "Regency Centers",
   "market": "US",
   "yahooSymbol": "REG",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 74.04000091552734,
       "adjClose": 74.04000091552734,
       "volume": 1417000
+    },
+    {
+      "date": "2026-11-20",
+      "open": 74.5,
+      "high": 75.06999969482422,
+      "low": 73.48999786376953,
+      "close": 73.63999938964844,
+      "adjClose": 73.63999938964844,
+      "volume": 2334700
     }
   ],
   "corporateActions": {
@@ -15701,9 +15710,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

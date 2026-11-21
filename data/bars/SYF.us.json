@@ -3,7 +3,7 @@
   "name": "Synchrony Financial",
   "market": "US",
   "yahooSymbol": "SYF",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15576,6 +15576,24 @@
       "close": 70.16000366210938,
       "adjClose": 70.16000366210938,
       "volume": 4015500
+    },
+    {
+      "date": "2026-11-19",
+      "open": 70.56999969482422,
+      "high": 70.68000030517578,
+      "low": 67.98999786376953,
+      "close": 68.94000244140625,
+      "adjClose": 68.94000244140625,
+      "volume": 4036900
+    },
+    {
+      "date": "2026-11-20",
+      "open": 68.88999938964844,
+      "high": 69.83999633789062,
+      "low": 67.44999694824219,
+      "close": 67.76000213623047,
+      "adjClose": 67.76000213623047,
+      "volume": 4469000
     }
   ],
   "corporateActions": {
@@ -15696,9 +15714,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1730,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-18",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

@@ -3,7 +3,7 @@
   "name": "Ross Stores",
   "market": "US",
   "yahooSymbol": "ROST",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15585,6 +15585,15 @@
       "close": 219.8800048828125,
       "adjClose": 219.8800048828125,
       "volume": 3035000
+    },
+    {
+      "date": "2026-11-20",
+      "open": 212.42999267578125,
+      "high": 219.44000244140625,
+      "low": 208.22000122070312,
+      "close": 213.4600067138672,
+      "adjClose": 213.4600067138672,
+      "volume": 5994200
     }
   ],
   "corporateActions": {
@@ -15689,9 +15698,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1731,
+    "barsAvailable": 1732,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-19",
+    "lastDate": "2026-11-20",
     "gaps": 65
   }
 }

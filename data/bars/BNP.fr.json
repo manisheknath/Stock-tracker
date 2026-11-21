@@ -3,7 +3,7 @@
   "name": "BNP Paribas",
   "market": "FR",
   "yahooSymbol": "BNP.PA",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "currency": "EUR",
   "exchange": "Paris",
   "bars": [
@@ -15882,6 +15882,15 @@
       "close": 92,
       "adjClose": 92,
       "volume": 2453274
+    },
+    {
+      "date": "2026-11-19",
+      "open": 92.75,
+      "high": 93.47000122070312,
+      "low": 92.04000091552734,
+      "close": 92.05000305175781,
+      "adjClose": 92.05000305175781,
+      "volume": 1901495
     }
   ],
   "corporateActions": {
@@ -15926,9 +15935,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1764,
+    "barsAvailable": 1765,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-18",
+    "lastDate": "2026-11-19",
     "gaps": 31
   }
 }
