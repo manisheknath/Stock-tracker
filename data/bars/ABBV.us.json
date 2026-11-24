@@ -3,7 +3,7 @@
   "name": "AbbVie",
   "market": "US",
   "yahooSymbol": "ABBV",
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15593,7 +15593,16 @@
       "low": 284.8500061035156,
       "close": 286.20001220703125,
       "adjClose": 286.20001220703125,
-      "volume": 8756400
+      "volume": 8769800
+    },
+    {
+      "date": "2026-11-23",
+      "open": 285.70001220703125,
+      "high": 291.07000732421875,
+      "low": 284.45001220703125,
+      "close": 288.45001220703125,
+      "adjClose": 288.45001220703125,
+      "volume": 6740600
     }
   ],
   "corporateActions": {
@@ -15714,9 +15723,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1732,
+    "barsAvailable": 1733,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-20",
+    "lastDate": "2026-11-23",
     "gaps": 65
   }
 }

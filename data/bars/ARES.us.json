@@ -3,7 +3,7 @@
   "name": "Ares Management",
   "market": "US",
   "yahooSymbol": "ARES",
-  "asOf": "2026-11-23",
+  "asOf": "2026-11-24",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15594,6 +15594,15 @@
       "close": 123.30000305175781,
       "adjClose": 123.30000305175781,
       "volume": 3339700
+    },
+    {
+      "date": "2026-11-23",
+      "open": 128.4199981689453,
+      "high": 131.86000061035156,
+      "low": 124.87999725341797,
+      "close": 129.88999938964844,
+      "adjClose": 129.88999938964844,
+      "volume": 2464600
     }
   ],
   "corporateActions": {
@@ -15710,9 +15719,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1732,
+    "barsAvailable": 1733,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-20",
+    "lastDate": "2026-11-23",
     "gaps": 65
   }
 }
