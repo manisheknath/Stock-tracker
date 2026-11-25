@@ -3,7 +3,7 @@
   "name": "State Street Corporation",
   "market": "US",
   "yahooSymbol": "STT",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15603,6 +15603,15 @@
       "close": 161.25,
       "adjClose": 161.25,
       "volume": 1602400
+    },
+    {
+      "date": "2026-11-24",
+      "open": 160,
+      "high": 162.3000030517578,
+      "low": 158.74000549316406,
+      "close": 160.85000610351562,
+      "adjClose": 160.85000610351562,
+      "volume": 1567100
     }
   ],
   "corporateActions": {
@@ -15723,9 +15732,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1733,
+    "barsAvailable": 1734,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 65
   }
 }

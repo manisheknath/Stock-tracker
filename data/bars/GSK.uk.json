@@ -3,7 +3,7 @@
   "name": "GSK plc",
   "market": "UK",
   "yahooSymbol": "GSK.L",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15675,6 +15675,15 @@
       "close": 1842.5,
       "adjClose": 1842.5,
       "volume": 5285411
+    },
+    {
+      "date": "2026-11-23",
+      "open": 1833,
+      "high": 1856.8709716796875,
+      "low": 1825,
+      "close": 1853.5,
+      "adjClose": 1853.5,
+      "volume": 3256517
     }
   ],
   "corporateActions": {
@@ -15802,9 +15811,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1741,
+    "barsAvailable": 1742,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-20",
+    "lastDate": "2026-11-23",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "HSBC",
   "market": "UK",
   "yahooSymbol": "HSBA.L",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15666,6 +15666,15 @@
       "close": 1234,
       "adjClose": 1234,
       "volume": 23101857
+    },
+    {
+      "date": "2026-11-23",
+      "open": 1250.800048828125,
+      "high": 1279.199951171875,
+      "low": 1246.4000244140625,
+      "close": 1274,
+      "adjClose": 1274,
+      "volume": 41630766
     }
   ],
   "corporateActions": {
@@ -15754,9 +15763,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1740,
+    "barsAvailable": 1741,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-20",
+    "lastDate": "2026-11-23",
     "gaps": 57
   }
 }

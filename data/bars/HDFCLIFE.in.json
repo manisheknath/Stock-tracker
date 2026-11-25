@@ -3,7 +3,7 @@
   "name": "HDFC Life",
   "market": "IN",
   "yahooSymbol": "HDFCLIFE.NS",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15360,6 +15360,24 @@
       "close": 588.6500244140625,
       "adjClose": 588.6500244140625,
       "volume": 4510623
+    },
+    {
+      "date": "2026-11-23",
+      "open": 589,
+      "high": 594.25,
+      "low": 574.2999877929688,
+      "close": 574.9500122070312,
+      "adjClose": 574.9500122070312,
+      "volume": 2219518
+    },
+    {
+      "date": "2026-11-25",
+      "open": 583.6500244140625,
+      "high": 609.0999755859375,
+      "low": 582.2999877929688,
+      "close": 606.2999877929688,
+      "adjClose": 606.2999877929688,
+      "volume": 3104137
     }
   ],
   "corporateActions": {
@@ -15392,9 +15410,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1706,
+    "barsAvailable": 1708,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-20",
-    "gaps": 92
+    "lastDate": "2026-11-25",
+    "gaps": 93
   }
 }

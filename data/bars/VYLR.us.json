@@ -3,7 +3,7 @@
   "name": "Vylor",
   "market": "US",
   "yahooSymbol": "VYLR",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-25",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -348,6 +348,15 @@
       "close": 68,
       "adjClose": 68,
       "volume": 4786800
+    },
+    {
+      "date": "2026-11-24",
+      "open": 68.13999938964844,
+      "high": 70.33000183105469,
+      "low": 68.05000305175781,
+      "close": 68.56999969482422,
+      "adjClose": 68.56999969482422,
+      "volume": 3825900
     }
   ],
   "corporateActions": {
@@ -355,9 +364,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 38,
+    "barsAvailable": 39,
     "firstDate": "2026-10-01",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 0
   }
 }
