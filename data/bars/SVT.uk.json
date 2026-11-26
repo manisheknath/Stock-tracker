@@ -3,7 +3,7 @@
   "name": "Severn Trent",
   "market": "UK",
   "yahooSymbol": "SVT.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15684,6 +15684,15 @@
       "close": 3222,
       "adjClose": 3222,
       "volume": 427168
+    },
+    {
+      "date": "2026-11-24",
+      "open": 3224,
+      "high": 3294,
+      "low": 3198,
+      "close": 3294,
+      "adjClose": 3294,
+      "volume": 598164
     }
   ],
   "corporateActions": {
@@ -15740,13 +15749,17 @@
       {
         "date": "2026-05-28",
         "amount": 75.62
+      },
+      {
+        "date": "2026-11-26",
+        "amount": 52.2
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1742,
+    "barsAvailable": 1743,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Alliance Witan",
   "market": "UK",
   "yahooSymbol": "ALW.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15684,6 +15684,15 @@
       "close": 1334,
       "adjClose": 1334,
       "volume": 1447025
+    },
+    {
+      "date": "2026-11-24",
+      "open": 1334,
+      "high": 1334,
+      "low": 1305,
+      "close": 1312,
+      "adjClose": 1312,
+      "volume": 1215854
     }
   ],
   "corporateActions": {
@@ -15796,13 +15805,17 @@
       {
         "date": "2026-08-27",
         "amount": 7.3299994
+      },
+      {
+        "date": "2026-11-26",
+        "amount": 7.3299994
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1742,
+    "barsAvailable": 1743,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 56
   }
 }

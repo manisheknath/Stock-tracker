@@ -3,7 +3,7 @@
   "name": "Eternal",
   "market": "IN",
   "yahooSymbol": "ETERNAL.NS",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -11881,11 +11881,20 @@
     {
       "date": "2026-11-25",
       "open": 368.54998779296875,
-      "high": 371.6499938964844,
+      "high": 376.5,
       "low": 364.1499938964844,
-      "close": 369.6000061035156,
-      "adjClose": 369.6000061035156,
-      "volume": 10969783
+      "close": 371.70001220703125,
+      "adjClose": 371.70001220703125,
+      "volume": 29694684
+    },
+    {
+      "date": "2026-11-26",
+      "open": 372,
+      "high": 375.6000061035156,
+      "low": 368.6000061035156,
+      "close": 368.6499938964844,
+      "adjClose": 368.6499938964844,
+      "volume": 3619203
     }
   ],
   "corporateActions": {
@@ -11893,9 +11902,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1320,
+    "barsAvailable": 1321,
     "firstDate": "2021-07-23",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "gaps": 74
   }
 }

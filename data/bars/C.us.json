@@ -3,7 +3,7 @@
   "name": "Citigroup",
   "market": "US",
   "yahooSymbol": "C",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15612,6 +15612,15 @@
       "close": 113.8499984741211,
       "adjClose": 113.8499984741211,
       "volume": 9682200
+    },
+    {
+      "date": "2026-11-25",
+      "open": 111,
+      "high": 113.97000122070312,
+      "low": 109.98999786376953,
+      "close": 113.33000183105469,
+      "adjClose": 113.33000183105469,
+      "volume": 11764900
     }
   ],
   "corporateActions": {
@@ -15732,9 +15741,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1734,
+    "barsAvailable": 1735,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-24",
+    "lastDate": "2026-11-25",
     "gaps": 65
   }
 }

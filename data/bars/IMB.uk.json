@@ -3,7 +3,7 @@
   "name": "Imperial Brands",
   "market": "UK",
   "yahooSymbol": "IMB.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15675,6 +15675,15 @@
       "close": 2805,
       "adjClose": 2805,
       "volume": 3906546
+    },
+    {
+      "date": "2026-11-24",
+      "open": 2807,
+      "high": 2869,
+      "low": 2791,
+      "close": 2856,
+      "adjClose": 2856,
+      "volume": 3914229
     }
   ],
   "corporateActions": {
@@ -15787,13 +15796,17 @@
       {
         "date": "2026-08-20",
         "amount": 41.68
+      },
+      {
+        "date": "2026-11-26",
+        "amount": 41.68
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1741,
+    "barsAvailable": 1742,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 57
   }
 }

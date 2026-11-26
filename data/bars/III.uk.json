@@ -3,7 +3,7 @@
   "name": "3i",
   "market": "UK",
   "yahooSymbol": "III.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15684,6 +15684,15 @@
       "close": 2585,
       "adjClose": 2585,
       "volume": 2150751
+    },
+    {
+      "date": "2026-11-24",
+      "open": 2604,
+      "high": 2677,
+      "low": 2580,
+      "close": 2650,
+      "adjClose": 2650,
+      "volume": 2720959
     }
   ],
   "corporateActions": {
@@ -15740,13 +15749,17 @@
       {
         "date": "2026-06-18",
         "amount": 48
+      },
+      {
+        "date": "2026-11-26",
+        "amount": 42.25
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1742,
+    "barsAvailable": 1743,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Investec",
   "market": "UK",
   "yahooSymbol": "INVP.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15684,6 +15684,15 @@
       "close": 554.5,
       "adjClose": 554.5,
       "volume": 1729519
+    },
+    {
+      "date": "2026-11-24",
+      "open": 559.5,
+      "high": 568.5,
+      "low": 556.5,
+      "close": 562,
+      "adjClose": 562,
+      "volume": 2230999
     }
   ],
   "corporateActions": {
@@ -15740,9 +15749,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1742,
+    "barsAvailable": 1743,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 56
   }
 }

@@ -3,7 +3,7 @@
   "name": "Larsen & Toubro",
   "market": "IN",
   "yahooSymbol": "LT.NS",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15373,11 +15373,20 @@
     {
       "date": "2026-11-25",
       "open": 4169.7998046875,
-      "high": 4169.7998046875,
+      "high": 4189,
       "low": 4127.2998046875,
-      "close": 4144.7001953125,
-      "adjClose": 4144.7001953125,
-      "volume": 284849
+      "close": 4156,
+      "adjClose": 4156,
+      "volume": 1313101
+    },
+    {
+      "date": "2026-11-26",
+      "open": 4156,
+      "high": 4156,
+      "low": 4108,
+      "close": 4118.10009765625,
+      "adjClose": 4118.10009765625,
+      "volume": 139128
     }
   ],
   "corporateActions": {
@@ -15422,9 +15431,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "gaps": 93
   }
 }

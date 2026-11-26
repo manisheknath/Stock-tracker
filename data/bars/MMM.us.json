@@ -3,7 +3,7 @@
   "name": "3M",
   "market": "US",
   "yahooSymbol": "MMM",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15612,6 +15612,15 @@
       "close": 187.13999938964844,
       "adjClose": 187.13999938964844,
       "volume": 3811800
+    },
+    {
+      "date": "2026-11-25",
+      "open": 185.7100067138672,
+      "high": 190.8800048828125,
+      "low": 182,
+      "close": 189.8300018310547,
+      "adjClose": 189.8300018310547,
+      "volume": 4482900
     }
   ],
   "corporateActions": {
@@ -15739,9 +15748,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1734,
+    "barsAvailable": 1735,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-24",
+    "lastDate": "2026-11-25",
     "gaps": 65
   }
 }

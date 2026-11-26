@@ -3,7 +3,7 @@
   "name": "Marks & Spencer",
   "market": "UK",
   "yahooSymbol": "MKS.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15684,6 +15684,15 @@
       "close": 459.1000061035156,
       "adjClose": 459.1000061035156,
       "volume": 8420740
+    },
+    {
+      "date": "2026-11-24",
+      "open": 460.1000061035156,
+      "high": 460.29998779296875,
+      "low": 450.1000061035156,
+      "close": 452.29998779296875,
+      "adjClose": 452.29998779296875,
+      "volume": 7259176
     }
   ],
   "corporateActions": {
@@ -15712,13 +15721,17 @@
       {
         "date": "2026-06-04",
         "amount": 3
+      },
+      {
+        "date": "2026-11-26",
+        "amount": 1.4000001
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1742,
+    "barsAvailable": 1743,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 56
   }
 }

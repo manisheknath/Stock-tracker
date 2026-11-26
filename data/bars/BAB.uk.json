@@ -3,7 +3,7 @@
   "name": "Babcock International",
   "market": "UK",
   "yahooSymbol": "BAB.L",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "GBp",
   "exchange": "LSE",
   "bars": [
@@ -15684,6 +15684,15 @@
       "close": 1042,
       "adjClose": 1042,
       "volume": 1701633
+    },
+    {
+      "date": "2026-11-24",
+      "open": 1059.5,
+      "high": 1073,
+      "low": 1026,
+      "close": 1031,
+      "adjClose": 1031,
+      "volume": 1246161
     }
   ],
   "corporateActions": {
@@ -15712,13 +15721,17 @@
       {
         "date": "2026-08-13",
         "amount": 5
+      },
+      {
+        "date": "2026-11-26",
+        "amount": 2.8000002
       }
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1742,
+    "barsAvailable": 1743,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-23",
+    "lastDate": "2026-11-24",
     "gaps": 56
   }
 }

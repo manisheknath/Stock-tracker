@@ -3,7 +3,7 @@
   "name": "BSE",
   "market": "IN",
   "yahooSymbol": "BSE.NS",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15373,11 +15373,20 @@
     {
       "date": "2026-11-25",
       "open": 3787,
-      "high": 3811,
+      "high": 3837.60009765625,
       "low": 3754.10009765625,
-      "close": 3780.800048828125,
-      "adjClose": 3780.800048828125,
-      "volume": 680263
+      "close": 3775.199951171875,
+      "adjClose": 3775.199951171875,
+      "volume": 2472804
+    },
+    {
+      "date": "2026-11-26",
+      "open": 3812,
+      "high": 3898,
+      "low": 3808.89990234375,
+      "close": 3890,
+      "adjClose": 3890,
+      "volume": 1098339
     }
   ],
   "corporateActions": {
@@ -15427,9 +15436,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "gaps": 93
   }
 }

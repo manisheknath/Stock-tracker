@@ -3,7 +3,7 @@
   "name": "Lodha",
   "market": "IN",
   "yahooSymbol": "LODHA.NS",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -12476,10 +12476,19 @@
       "date": "2026-11-25",
       "open": 1224.4000244140625,
       "high": 1234.9000244140625,
-      "low": 1202.300048828125,
-      "close": 1206.300048828125,
-      "adjClose": 1206.300048828125,
-      "volume": 643521
+      "low": 1178,
+      "close": 1202,
+      "adjClose": 1202,
+      "volume": 1922564
+    },
+    {
+      "date": "2026-11-26",
+      "open": 1212,
+      "high": 1221.9000244140625,
+      "low": 1198.9000244140625,
+      "close": 1221.0999755859375,
+      "adjClose": 1221.0999755859375,
+      "volume": 150332
     }
   ],
   "corporateActions": {
@@ -12511,9 +12520,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1386,
+    "barsAvailable": 1387,
     "firstDate": "2021-04-19",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "gaps": 77
   }
 }

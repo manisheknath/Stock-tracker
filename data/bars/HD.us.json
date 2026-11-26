@@ -3,7 +3,7 @@
   "name": "Home Depot (The)",
   "market": "US",
   "yahooSymbol": "HD",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15612,6 +15612,15 @@
       "close": 353.69000244140625,
       "adjClose": 353.69000244140625,
       "volume": 4841500
+    },
+    {
+      "date": "2026-11-25",
+      "open": 355,
+      "high": 363.6499938964844,
+      "low": 350.70001220703125,
+      "close": 361.260009765625,
+      "adjClose": 361.260009765625,
+      "volume": 7228700
     }
   ],
   "corporateActions": {
@@ -15728,9 +15737,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1734,
+    "barsAvailable": 1735,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-24",
+    "lastDate": "2026-11-25",
     "gaps": 65
   }
 }

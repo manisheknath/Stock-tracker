@@ -3,7 +3,7 @@
   "name": "United Rentals",
   "market": "US",
   "yahooSymbol": "URI",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15612,6 +15612,15 @@
       "close": 1029.6800537109375,
       "adjClose": 1029.6800537109375,
       "volume": 585300
+    },
+    {
+      "date": "2026-11-25",
+      "open": 990,
+      "high": 1024.52001953125,
+      "low": 966.0999755859375,
+      "close": 1015.719970703125,
+      "adjClose": 1015.719970703125,
+      "volume": 673100
     }
   ],
   "corporateActions": {
@@ -15684,9 +15693,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1734,
+    "barsAvailable": 1735,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-24",
+    "lastDate": "2026-11-25",
     "gaps": 65
   }
 }

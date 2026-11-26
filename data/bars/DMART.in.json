@@ -3,7 +3,7 @@
   "name": "DMart",
   "market": "IN",
   "yahooSymbol": "DMART.NS",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15373,11 +15373,20 @@
     {
       "date": "2026-11-25",
       "open": 3500,
-      "high": 3509.800048828125,
+      "high": 3592,
       "low": 3426,
-      "close": 3449.699951171875,
-      "adjClose": 3449.699951171875,
-      "volume": 221604
+      "close": 3592,
+      "adjClose": 3592,
+      "volume": 1137553
+    },
+    {
+      "date": "2026-11-26",
+      "open": 3601,
+      "high": 3604.10009765625,
+      "low": 3545.10009765625,
+      "close": 3545.10009765625,
+      "adjClose": 3545.10009765625,
+      "volume": 61919
     }
   ],
   "corporateActions": {
@@ -15385,9 +15394,9 @@
     "dividends": []
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "gaps": 93
   }
 }

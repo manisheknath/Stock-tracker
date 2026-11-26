@@ -3,7 +3,7 @@
   "name": "ICICI Bank",
   "market": "IN",
   "yahooSymbol": "ICICIBANK.NS",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15373,11 +15373,20 @@
     {
       "date": "2026-11-25",
       "open": 1617,
-      "high": 1647.4000244140625,
+      "high": 1650,
       "low": 1617,
-      "close": 1642.699951171875,
-      "adjClose": 1642.699951171875,
-      "volume": 6619601
+      "close": 1640,
+      "adjClose": 1640,
+      "volume": 18982380
+    },
+    {
+      "date": "2026-11-26",
+      "open": 1650.0999755859375,
+      "high": 1652,
+      "low": 1626.9000244140625,
+      "close": 1631.5999755859375,
+      "adjClose": 1631.5999755859375,
+      "volume": 1181750
     }
   ],
   "corporateActions": {
@@ -15410,9 +15419,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1708,
+    "barsAvailable": 1709,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-25",
+    "lastDate": "2026-11-26",
     "gaps": 93
   }
 }
