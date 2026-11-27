@@ -3,7 +3,7 @@
   "name": "Punjab National Bank",
   "market": "IN",
   "yahooSymbol": "PNB.NS",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15384,9 +15384,18 @@
       "open": 148.35000610351562,
       "high": 150.42999267578125,
       "low": 147.10000610351562,
-      "close": 149.74000549316406,
-      "adjClose": 149.74000549316406,
-      "volume": 4308789
+      "close": 147.5,
+      "adjClose": 147.5,
+      "volume": 14658297
+    },
+    {
+      "date": "2026-11-27",
+      "open": 147.35000610351562,
+      "high": 148.27000427246094,
+      "low": 145.25,
+      "close": 147.83999633789062,
+      "adjClose": 147.83999633789062,
+      "volume": 3892200
     }
   ],
   "corporateActions": {
@@ -15415,9 +15424,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-26",
+    "lastDate": "2026-11-27",
     "gaps": 93
   }
 }

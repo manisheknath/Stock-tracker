@@ -3,7 +3,7 @@
   "name": "REC",
   "market": "IN",
   "yahooSymbol": "RECLTD.NS",
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-27",
   "currency": "INR",
   "exchange": "NSE",
   "bars": [
@@ -15382,11 +15382,20 @@
     {
       "date": "2026-11-26",
       "open": 299,
-      "high": 299.45001220703125,
-      "low": 296.70001220703125,
-      "close": 297.75,
-      "adjClose": 297.75,
-      "volume": 276039
+      "high": 301,
+      "low": 296.20001220703125,
+      "close": 297.29998779296875,
+      "adjClose": 297.29998779296875,
+      "volume": 1945567
+    },
+    {
+      "date": "2026-11-27",
+      "open": 297.29998779296875,
+      "high": 299.3500061035156,
+      "low": 297,
+      "close": 297.70001220703125,
+      "adjClose": 297.70001220703125,
+      "volume": 143704
     }
   ],
   "corporateActions": {
@@ -15510,9 +15519,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1709,
+    "barsAvailable": 1710,
     "firstDate": "2020-01-01",
-    "lastDate": "2026-11-26",
+    "lastDate": "2026-11-27",
     "gaps": 93
   }
 }
