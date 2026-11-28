@@ -3,7 +3,7 @@
   "name": "Northern Trust",
   "market": "US",
   "yahooSymbol": "NTRS",
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-28",
   "currency": "USD",
   "exchange": "NasdaqGS",
   "bars": [
@@ -15621,6 +15621,15 @@
       "close": 168.00999450683594,
       "adjClose": 168.00999450683594,
       "volume": 918900
+    },
+    {
+      "date": "2026-11-27",
+      "open": 169.42999267578125,
+      "high": 170.52999877929688,
+      "low": 168.5,
+      "close": 169.35000610351562,
+      "adjClose": 169.35000610351562,
+      "volume": 319100
     }
   ],
   "corporateActions": {
@@ -15737,9 +15746,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1735,
+    "barsAvailable": 1736,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-25",
-    "gaps": 65
+    "lastDate": "2026-11-27",
+    "gaps": 66
   }
 }

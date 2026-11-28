@@ -3,7 +3,7 @@
   "name": "Accenture",
   "market": "US",
   "yahooSymbol": "ACN",
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15621,6 +15621,15 @@
       "close": 240.49000549316406,
       "adjClose": 240.49000549316406,
       "volume": 4133300
+    },
+    {
+      "date": "2026-11-27",
+      "open": 240,
+      "high": 243.86000061035156,
+      "low": 239.1999969482422,
+      "close": 241.83999633789062,
+      "adjClose": 241.83999633789062,
+      "volume": 1658000
     }
   ],
   "corporateActions": {
@@ -15733,9 +15742,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1735,
+    "barsAvailable": 1736,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-25",
-    "gaps": 65
+    "lastDate": "2026-11-27",
+    "gaps": 66
   }
 }

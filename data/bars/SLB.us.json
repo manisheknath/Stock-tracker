@@ -3,7 +3,7 @@
   "name": "Schlumberger",
   "market": "US",
   "yahooSymbol": "SLB",
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15621,6 +15621,15 @@
       "close": 48.52000045776367,
       "adjClose": 48.52000045776367,
       "volume": 9714200
+    },
+    {
+      "date": "2026-11-27",
+      "open": 49.5,
+      "high": 49.95000076293945,
+      "low": 49.34000015258789,
+      "close": 49.619998931884766,
+      "adjClose": 49.619998931884766,
+      "volume": 3978900
     }
   ],
   "corporateActions": {
@@ -15737,9 +15746,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1735,
+    "barsAvailable": 1736,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-25",
-    "gaps": 65
+    "lastDate": "2026-11-27",
+    "gaps": 66
   }
 }

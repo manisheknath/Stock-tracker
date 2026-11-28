@@ -3,7 +3,7 @@
   "name": "Mastercard",
   "market": "US",
   "yahooSymbol": "MA",
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15621,6 +15621,15 @@
       "close": 659.969970703125,
       "adjClose": 659.969970703125,
       "volume": 3544000
+    },
+    {
+      "date": "2026-11-27",
+      "open": 660,
+      "high": 669.260009765625,
+      "low": 660,
+      "close": 666.9600219726562,
+      "adjClose": 666.9600219726562,
+      "volume": 1668400
     }
   ],
   "corporateActions": {
@@ -15741,9 +15750,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1735,
+    "barsAvailable": 1736,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-25",
-    "gaps": 65
+    "lastDate": "2026-11-27",
+    "gaps": 66
   }
 }

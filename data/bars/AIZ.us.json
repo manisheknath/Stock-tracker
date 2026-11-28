@@ -3,7 +3,7 @@
   "name": "Assurant",
   "market": "US",
   "yahooSymbol": "AIZ",
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15621,6 +15621,15 @@
       "close": 325.7300109863281,
       "adjClose": 325.7300109863281,
       "volume": 349100
+    },
+    {
+      "date": "2026-11-27",
+      "open": 326,
+      "high": 329,
+      "low": 325.7300109863281,
+      "close": 328.17999267578125,
+      "adjClose": 328.17999267578125,
+      "volume": 145700
     }
   ],
   "corporateActions": {
@@ -15737,9 +15746,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1735,
+    "barsAvailable": 1736,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-25",
-    "gaps": 65
+    "lastDate": "2026-11-27",
+    "gaps": 66
   }
 }

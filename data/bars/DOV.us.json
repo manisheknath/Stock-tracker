@@ -3,7 +3,7 @@
   "name": "Dover Corporation",
   "market": "US",
   "yahooSymbol": "DOV",
-  "asOf": "2026-11-27",
+  "asOf": "2026-11-28",
   "currency": "USD",
   "exchange": "NYSE",
   "bars": [
@@ -15621,6 +15621,15 @@
       "close": 205.35000610351562,
       "adjClose": 205.35000610351562,
       "volume": 816300
+    },
+    {
+      "date": "2026-11-27",
+      "open": 207.5399932861328,
+      "high": 209.0399932861328,
+      "low": 205.8800048828125,
+      "close": 206.9199981689453,
+      "adjClose": 206.9199981689453,
+      "volume": 711100
     }
   ],
   "corporateActions": {
@@ -15737,9 +15746,9 @@
     ]
   },
   "dataQuality": {
-    "barsAvailable": 1735,
+    "barsAvailable": 1736,
     "firstDate": "2020-01-02",
-    "lastDate": "2026-11-25",
-    "gaps": 65
+    "lastDate": "2026-11-27",
+    "gaps": 66
   }
 }
